@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ui/palettes/claude/chrome.res" id="1_8ef4x"]
+
+[resource]
+resource_name = "BLANK"
+atlas = ExtResource("1_8ef4x")
+region = Rect2(45, 0, 1, 1)
+filter_clip = true

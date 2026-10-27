@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ui/palettes/claude/menu_button.res" id="1_uxd63"]
+
+[resource]
+resource_name = "MENU_JOURNAL_ICON"
+atlas = ExtResource("1_uxd63")
+region = Rect2(31, 0, 11, 6)
+filter_clip = true

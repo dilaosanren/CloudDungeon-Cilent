@@ -1,0 +1,443 @@
+{
+  "pools": {
+    "WEP_T1": {
+      "weights": [
+        2.0,
+        0.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "types": [
+        "WornShortsword",
+        "MagesStaff",
+        "Dagger",
+        "Gloves",
+        "Rapier",
+        "Cudgel"
+      ]
+    },
+    "WEP_T2": {
+      "weights": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        0.0
+      ],
+      "types": [
+        "Shortsword",
+        "HandAxe",
+        "Spear",
+        "Quarterstaff",
+        "Dirk",
+        "Sickle",
+        "Pickaxe"
+      ]
+    },
+    "WEP_T3": {
+      "weights": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "types": [
+        "Sword",
+        "Mace",
+        "Scimitar",
+        "RoundShield",
+        "Sai",
+        "Whip"
+      ]
+    },
+    "WEP_T4": {
+      "weights": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "types": [
+        "Longsword",
+        "BattleAxe",
+        "Flail",
+        "RunicBlade",
+        "AssassinsBlade",
+        "Crossbow",
+        "Katana"
+      ]
+    },
+    "WEP_T5": {
+      "weights": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "types": [
+        "Greatsword",
+        "WarHammer",
+        "Glaive",
+        "Greataxe",
+        "Greatshield",
+        "Gauntlet",
+        "WarScythe"
+      ]
+    },
+    "MIS_T1": {
+      "weights": [
+        3.0,
+        3.0,
+        3.0,
+        0.0
+      ],
+      "types": [
+        "ThrowingStone",
+        "ThrowingKnife",
+        "ThrowingSpike",
+        "Dart"
+      ]
+    },
+    "MIS_T2": {
+      "weights": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "types": [
+        "FishingSpear",
+        "ThrowingClub",
+        "Shuriken"
+      ]
+    },
+    "MIS_T3": {
+      "weights": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "types": [
+        "ThrowingSpear",
+        "Kunai",
+        "Bolas"
+      ]
+    },
+    "MIS_T4": {
+      "weights": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "types": [
+        "Javelin",
+        "Tomahawk",
+        "HeavyBoomerang"
+      ]
+    },
+    "MIS_T5": {
+      "weights": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "types": [
+        "Trident",
+        "ThrowingHammer",
+        "ForceCube"
+      ]
+    },
+    "WAND": {
+      "weights": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0
+      ],
+      "types": [
+        "WandOfMagicMissile",
+        "WandOfLightning",
+        "WandOfDisintegration",
+        "WandOfFireblast",
+        "WandOfCorrosion",
+        "WandOfBlastWave",
+        "WandOfLivingEarth",
+        "WandOfFrost",
+        "WandOfPrismaticLight",
+        "WandOfWarding",
+        "WandOfTransfusion",
+        "WandOfCorruption",
+        "WandOfRegrowth"
+      ]
+    },
+    "RING": {
+      "weights": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0
+      ],
+      "types": [
+        "RingOfAccuracy",
+        "RingOfArcana",
+        "RingOfElements",
+        "RingOfEnergy",
+        "RingOfEvasion",
+        "RingOfForce",
+        "RingOfFuror",
+        "RingOfHaste",
+        "RingOfMight",
+        "RingOfSharpshooting",
+        "RingOfTenacity",
+        "RingOfWealth"
+      ]
+    },
+    "ARTIFACT": {
+      "weights": [
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "types": [
+        "AlchemistsToolkit",
+        "ChaliceOfBlood",
+        "CloakOfShadows",
+        "DriedRose",
+        "EtherealChains",
+        "HolyTome",
+        "HornOfPlenty",
+        "MasterThievesArmband",
+        "SandalsOfNature",
+        "SkeletonKey",
+        "TalismanOfForesight",
+        "TimekeepersHourglass",
+        "UnstableSpellbook"
+      ]
+    },
+    "TRINKET": {
+      "weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "types": [
+        "RatSkull",
+        "ParchmentScrap",
+        "PetrifiedSeed",
+        "ExoticCrystals",
+        "MossyClump",
+        "DimensionalSundial",
+        "ThirteenLeafClover",
+        "TrapMechanism",
+        "MimicTooth",
+        "WondrousResin",
+        "EyeOfNewt",
+        "SaltCube",
+        "VialOfBlood",
+        "ShardOfOblivion",
+        "ChaoticCenser",
+        "FerretTuft",
+        "CrackedSpyglass"
+      ]
+    },
+    "SEED": {
+      "weights": [
+        0.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0
+      ],
+      "types": [
+        "SEED_ROTBERRY",
+        "SEED_SUNGRASS",
+        "SEED_FADELEAF",
+        "SEED_ICECAP",
+        "SEED_FIREBLOOM",
+        "SEED_SORROWMOSS",
+        "SEED_SWIFTTHISTLE",
+        "SEED_BLINDWEED",
+        "SEED_STORMVINE",
+        "SEED_EARTHROOT",
+        "SEED_MAGEROYAL",
+        "SEED_STARFLOWER"
+      ]
+    },
+    "STONE": {
+      "weights": [
+        0.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        0.0
+      ],
+      "types": [
+        "StoneOfEnchantment",
+        "StoneOfIntuition",
+        "StoneOfDetectMagic",
+        "StoneOfFlock",
+        "StoneOfShock",
+        "StoneOfBlink",
+        "StoneOfDeepSleep",
+        "StoneOfClairvoyance",
+        "StoneOfAggression",
+        "StoneOfBlast",
+        "StoneOfFear",
+        "StoneOfAugmentation"
+      ]
+    }
+  },
+  "durations": {
+    "Drowsy": 5.0,
+    "Terror": 20.0,
+    "Recharging": 30.0,
+    "Blindness": 10.0,
+    "Weakness": 20.0
+  },
+  "missile_quantities": {
+    "MissileWeapon": 3,
+    "Dart": 2
+  },
+  "hashes": {
+    "sounds/read.mp3": "EB328CF478DEDFBF78E1A1081A3512228A3EAADFEE683DD36B239D82B9C4DBF1",
+    "sounds/lullaby.mp3": "61F878A4DF64A61EC34660052455B196D43A5A9C196C7F78BB5F4A3727F47D56",
+    "sounds/challenge.mp3": "1FEAB2786E93C82DFDEC1395C19AC68E245D858490176E78B27BC9BE4453D98D",
+    "sounds/chargeup.mp3": "27FCD28AAA3EDAA628BED710FB10E6B4878153E6D4255ECEDA191DF28A8EC560",
+    "sounds/blast.mp3": "B468515B20B0E499E89FB7027A69BEB786E62EAE47FFE79F94744DCF9861A510",
+    "sounds/teleport.mp3": "7E84366C820D4492C425B04583EDCDBD91505A3147CB9A69EFE381AAD2971EE9",
+    "sounds/secret.mp3": "A50DE3FCED8AA62419988903D0CADEDAE9452876F8B1E524A80FCA6808EAC9B2",
+    "items/scrolls/InventoryScroll.java": "B3092D2337D555A0EFD973414D966090480BC3F81BE8CFB5AC4E326C96331442",
+    "items/scrolls/Scroll.java": "E5B96BB38A0CCD1067A057656DFB7025CF0117C3F42DF2731C1327DEC8CA7956",
+    "items/scrolls/ScrollOfIdentify.java": "F535AD61FA6C9D8D4249679344C1AC34866B27F11F22996DCC272B93B44364B3",
+    "items/scrolls/ScrollOfLullaby.java": "2329A2EBD4B260AF5DC86642C8692481B084632596AD754CF4B3E52E15AF60CB",
+    "items/scrolls/ScrollOfMagicMapping.java": "6342BA7C8861D78863D2BE33D13BBFD05C1B63647874953EA548F62C8AB7C97E",
+    "items/scrolls/ScrollOfMirrorImage.java": "4B41BFFE2D11B168588D0CC912D4AAFA1E03B7F69B812F69A4618E3828B03866",
+    "items/scrolls/ScrollOfRage.java": "7C7C73B658FD8FD182023967643F5B48761D8D5D8B98FB55B6BB72D55DDED390",
+    "items/scrolls/ScrollOfRecharging.java": "7352D19397647DE112DFB7AF49C8C1DCF41EE7C29834996ABD4138493B568E3D",
+    "items/scrolls/ScrollOfRemoveCurse.java": "B9B5E7C32698700CBD85812C502A7B49059B95054B144FC8AA60BE4B6B2F908D",
+    "items/scrolls/ScrollOfRetribution.java": "4736C674CF2A566D8A8ADDD1772F3AA11269B222B66BBBDF4177FC651EA184D7",
+    "items/scrolls/ScrollOfTeleportation.java": "6546595398B4CD142FE4448BF98D98F04E0E0CC7624CC7ACF873A8A4EE0EBD48",
+    "items/scrolls/ScrollOfTerror.java": "023B6C98E39DB6ED162DFBED67A339035B27BC5F4758E9B2BE6D3480433EB6E1",
+    "items/scrolls/ScrollOfTransmutation.java": "9D708BD3EC0030A455C1409428B65206A5ED02E79DF9B88BE6E43709468598E2",
+    "items/scrolls/ScrollOfUpgrade.java": "1ED7B3C5DD5C1E7A8258BA6185D993D277CB71952E4968886CA23770603C4D5C",
+    "effects/Speck.java": "22B043CEE2F37B6F30BDD30C6B569FC60D958B669C96E866AC9333E4584E1B0A",
+    "effects/Identification.java": "8B4E4BA2E0BFA257E567B4F45B69AA34FCB1D9FD99DA692A8ACA765A2EA7F080",
+    "effects/Transmuting.java": "0B8B03ED3D69C7801BA0985C6ED71501650007EDE486E0216BF1C4A2C7964FA5",
+    "effects/Flare.java": "9100B68A8CD08CED874350F2E3D9FCB0F535098D701A4F4FF7CB5FCAFF4B7BE2",
+    "effects/particles/EnergyParticle.java": "75D5C0DCF5C768F7A167CD6F60EE46C1847272F4D327536D7D5985CE39418AAB",
+    "effects/particles/ShadowParticle.java": "7474FD0CA5A8FA9AE3C844A96440CE05C51B548B76A708A13CAD5A67EC3424DD",
+    "sprites/HeroSprite.java": "326083A1FB4881809EBFC5F3EA5643B04D2E4D5B4235A5307CC92254666BB0D2",
+    "sprites/MirrorSprite.java": "536FDC0B989B102143ECD91486C61BF773394F28F32CD5BA32AB94F99B543BAC",
+    "actors/mobs/npcs/MirrorImage.java": "E8DFB84F6DBC187B2B38292A49B70D9D8DE7C324C4EC02448EE6BB63BBF3BD18",
+    "actors/buffs/Drowsy.java": "347969EAFCD72D136E30F90E8769705A5C04F1AA3D027D36AB6C844322150EA2",
+    "actors/buffs/MagicalSleep.java": "8A16D306100B9512AB471E9866DB9BD055586DEA3949A5B3C669D78E0B3D2D73",
+    "actors/buffs/Terror.java": "531955C67C6B720C8C88E3D4D13F20F09C52967928BF38376BCB4B8249681370",
+    "actors/buffs/Recharging.java": "E54280596E0AB3F1540141A6F9E8E43823678363330D681EF379E2052C42C841",
+    "actors/buffs/Weakness.java": "3E361302AD87732151E076B29600EA3250522FBAEA3F65374942D19C953099FF",
+    "actors/buffs/Blindness.java": "F823E69ECA61E259BD724C374E23980042F08F8C70B64CAB38DF5058A22851A2",
+    "items/Generator.java": "F57A7737CEF8FE0E598011C420C2012BC05EAFC415CF5D43DC6061F56C901EDC",
+    "windows/WndUpgrade.java": "F8AB755B75257A4C21FC2A2B5390D4A936F4CBDBEFA7E138352CA3FF7BC2B74F",
+    "scenes/PixelScene.java": "1252F358E2C8B97FE80E6CF03677EB25F8B3BFC116872F94B3AFD59237C07BC6",
+    "scenes/GameScene.java": "31FF66F5791CD869E80B2C0CCEF58415EA54008D75126550CD1F47BC1403F117",
+    "items/weapon/Weapon.java": "24D34977E9CEE42C0F65508E221F7909C9DCAEDD4DF9390BD0C6E9C1B4099B27",
+    "items/armor/Armor.java": "017235FDFF9D8073FE3A3C056905F9D9822795B306D68688AA0A8B3EBEF0AA4F",
+    "items/rings/Ring.java": "8D1CEC88AAF1C57C69A687FA675702771C2363039155E36A2A88F0FAB01BAFC3",
+    "items/weapon/missiles/MissileWeapon.java": "856479885F40D19122089A11C6CA103F1B73FDC9199DE2B1ED3E4D3231B6D7D5",
+    "items/scrolls/exotic/ExoticScroll.java": "BCA5F405F7166DD353051BC44638A04648432872F5988FAF0732CDC70905F42C",
+    "items/potions/exotic/ExoticPotion.java": "977C6F9E32B3FA7920A47F3181757EF6F2BFC0A877BA80D56065BA5A2773AFFE"
+  },
+  "version": "4.0.2",
+  "exotic_pairs": {
+    "ScrollOfUpgrade": "ScrollOfEnchantment",
+    "ScrollOfIdentify": "ScrollOfDivination",
+    "ScrollOfRemoveCurse": "ScrollOfAntiMagic",
+    "ScrollOfMirrorImage": "ScrollOfPrismaticImage",
+    "ScrollOfRecharging": "ScrollOfMysticalEnergy",
+    "ScrollOfTeleportation": "ScrollOfPassage",
+    "ScrollOfLullaby": "ScrollOfSirensSong",
+    "ScrollOfMagicMapping": "ScrollOfForesight",
+    "ScrollOfRage": "ScrollOfChallenge",
+    "ScrollOfRetribution": "ScrollOfPsionicBlast",
+    "ScrollOfTerror": "ScrollOfDread",
+    "ScrollOfTransmutation": "ScrollOfMetamorphosis",
+    "PotionOfStrength": "PotionOfMastery",
+    "PotionOfHealing": "PotionOfShielding",
+    "PotionOfMindVision": "PotionOfMagicalSight",
+    "PotionOfFrost": "PotionOfSnapFreeze",
+    "PotionOfLiquidFlame": "PotionOfDragonsBreath",
+    "PotionOfToxicGas": "PotionOfCorrosiveGas",
+    "PotionOfHaste": "PotionOfStamina",
+    "PotionOfInvisibility": "PotionOfShroudingFog",
+    "PotionOfLevitation": "PotionOfStormClouds",
+    "PotionOfParalyticGas": "PotionOfEarthenArmor",
+    "PotionOfPurity": "PotionOfCleansing",
+    "PotionOfExperience": "PotionOfDivineInspiration"
+  },
+  "license": "GPL-3.0-or-later"
+}

@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ui/palettes/claude/chrome.res" id="1_ml6k5"]
+
+[resource]
+resource_name = "ORANGE_BUTTON"
+atlas = ExtResource("1_ml6k5")
+region = Rect2(38, 0, 6, 6)
+filter_clip = true

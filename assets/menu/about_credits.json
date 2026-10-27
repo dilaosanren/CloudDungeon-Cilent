@@ -1,0 +1,211 @@
+{
+  "source": "Shattered Pixel Dungeon 4.0.2 / AboutScene.java",
+  "source_sha256": "b01f14b1b57ee91c500219b1ad75f5dd547f35de9cf91094c319bd7c673d35bb",
+  "icons_sha256": "42f93c2f8b627b4cd69094e4c385dbc8292b3054a09b068f59096a34ecea09e5",
+  "icons": {
+    "EXIT": [
+      0,
+      16,
+      15,
+      11
+    ],
+    "SHPX": [
+      119,
+      0,
+      16,
+      16
+    ],
+    "ALEKS": [
+      16,
+      96,
+      16,
+      13
+    ],
+    "LUMINE": [
+      64,
+      96,
+      32,
+      32
+    ],
+    "PUMPKINVOLT": [
+      17,
+      112,
+      14,
+      15
+    ],
+    "CELESTI": [
+      32,
+      96,
+      32,
+      32
+    ],
+    "ALASTAIR": [
+      192,
+      96,
+      32,
+      32
+    ],
+    "WATA": [
+      0,
+      112,
+      17,
+      12
+    ],
+    "CUBE_CODE": [
+      160,
+      96,
+      27,
+      30
+    ],
+    "LIBGDX": [
+      0,
+      96,
+      16,
+      13
+    ],
+    "ARCNOR": [
+      96,
+      96,
+      32,
+      32
+    ],
+    "PURIGRO": [
+      128,
+      96,
+      32,
+      32
+    ]
+  },
+  "blocks": [
+    {
+      "id": "shpx",
+      "large": true,
+      "color": "33bb33",
+      "title": "Shattered Pixel Dungeon",
+      "icon": "SHPX",
+      "body": "Developed by: _Evan Debenham_\nBased on Pixel Dungeon's open source",
+      "link_text": "ShatteredPixel.com",
+      "link_url": "https://ShatteredPixel.com"
+    },
+    {
+      "id": "aleks",
+      "large": false,
+      "color": "33bb33",
+      "title": "Splash & Dungeon Art:",
+      "icon": "ALEKS",
+      "body": "Aleksandar Komitov",
+      "link_text": "alekskomitov.com",
+      "link_url": "https://www.alekskomitov.com/"
+    },
+    {
+      "id": "lumine",
+      "large": false,
+      "color": "33bb33",
+      "title": "Composer:",
+      "icon": "LUMINE",
+      "body": "Lumine Haaristo",
+      "link_text": "youtube.com/@Lumine...",
+      "link_url": "https://www.youtube.com/@LumineThomasHaaristo"
+    },
+    {
+      "id": "pumpkin",
+      "large": false,
+      "color": "33bb33",
+      "title": "Item Pixel Art:",
+      "icon": "PUMPKINVOLT",
+      "body": "PumpkinVolt",
+      "link_text": "",
+      "link_url": ""
+    },
+    {
+      "id": "celesti",
+      "large": false,
+      "color": "33bb33",
+      "title": "Sound Effects:",
+      "icon": "CELESTI",
+      "body": "Celesti",
+      "link_text": "celesti-whispers.itch.io",
+      "link_url": "https://celesti-whispers.itch.io/"
+    },
+    {
+      "id": "alastair",
+      "large": false,
+      "color": "33bb33",
+      "title": "Additional Pixel Art:",
+      "icon": "ALASTAIR",
+      "body": "Alastair Braun",
+      "link_text": "",
+      "link_url": ""
+    },
+    {
+      "id": "wata",
+      "large": true,
+      "color": "55aaff",
+      "title": "Pixel Dungeon",
+      "icon": "WATA",
+      "body": "Developed by: _Watabou_\nInspired by Brian Walker's Brogue",
+      "link_text": "watabou.itch.io",
+      "link_url": "https://watabou.itch.io/"
+    },
+    {
+      "id": "cube",
+      "large": false,
+      "color": "55aaff",
+      "title": "Music:",
+      "icon": "CUBE_CODE",
+      "body": "Cube Code",
+      "link_text": "",
+      "link_url": ""
+    },
+    {
+      "id": "gdx",
+      "large": true,
+      "color": "e44d3c",
+      "title": "libGDX",
+      "icon": "LIBGDX",
+      "body": "ShatteredPD is powered by _libGDX_!",
+      "link_text": "libgdx.com",
+      "link_url": "https://libgdx.com/"
+    },
+    {
+      "id": "arcnor",
+      "large": false,
+      "color": "e44d3c",
+      "title": "Pixel Dungeon GDX:",
+      "icon": "ARCNOR",
+      "body": "Edu García",
+      "link_text": "gamedev.place/@arcnor",
+      "link_url": "https://mastodon.gamedev.place/@arcnor"
+    },
+    {
+      "id": "purigro",
+      "large": false,
+      "color": "e44d3c",
+      "title": "Shattered GDX Help:",
+      "icon": "PURIGRO",
+      "body": "Kevin MacMartin",
+      "link_text": "github.com/prurigro",
+      "link_url": "https://github.com/prurigro/"
+    },
+    {
+      "id": "transifex",
+      "large": true,
+      "color": "ffff44",
+      "title": "",
+      "icon": "",
+      "body": "ShatteredPD is community-translated via _Transifex_! Thank you so much to all of Shattered's volunteer translators!",
+      "link_text": "transifex.com/shattered-pixel/...",
+      "link_url": "https://explore.transifex.com/shattered-pixel/shattered-pixel-dungeon/"
+    },
+    {
+      "id": "freesound",
+      "large": true,
+      "color": "ffff44",
+      "title": "",
+      "icon": "",
+      "body": "Shattered Pixel Dungeon uses the following sound samples from _freesound.org_:\n\nCreative Commons Attribution License:\n_SFX ATTACK SWORD 001.wav_ by _JoelAudio_\n_Pack: Slingshots and Longbows_ by _saturdaysoundguy_\n_Cracking/Crunching, A.wav_ by _InspectorJ_\n_Extracting a sword.mp3_ by _Taira Komori_\n_Pack: Uni Sound Library_ by _timmy h123_\n\nCreative Commons Zero License:\n_Pack: Movie Foley: Swords_ by _Black Snow_\n_machine gun shot 2.flac_ by _qubodup_\n_m240h machine gun burst 4.flac_ by _qubodup_\n_Pack: Onomatopoeia_ by _Adam N_\n_Pack: Watermelon_ by _lolamadeus_\n_metal chain_ by _Mediapaja2009_\n_Pack: Sword Clashes Pack_ by _JohnBuhr_\n_Pack: Metal Clangs and Pings_ by _wilhellboy_\n_Pack: Stabbing Stomachs & Crushing Skulls_ by _TheFilmLook_\n_Sheep bleating_ by _zachrau_\n_Lemon,Juicy,Squeeze,Fruit.wav_ by _Filipe Chagas_\n_Lemon,Squeeze,Squishy,Fruit.wav_ by _Filipe Chagas_",
+      "link_text": "freesound.org",
+      "link_url": "https://www.freesound.org"
+    }
+  ]
+}

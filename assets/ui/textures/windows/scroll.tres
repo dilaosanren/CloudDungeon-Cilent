@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ui/palettes/claude/chrome.res" id="1_rh7hs"]
+
+[resource]
+resource_name = "SCROLL"
+atlas = ExtResource("1_rh7hs")
+region = Rect2(32, 32, 32, 32)
+filter_clip = true

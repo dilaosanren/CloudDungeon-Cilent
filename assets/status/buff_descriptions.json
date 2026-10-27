@@ -1,0 +1,941 @@
+{
+  "source": "Shattered Pixel Dungeon 4.0.2",
+  "definitions": {
+    "aggression": {
+      "name": "众矢之的",
+      "description": "支配魔法正使附近所有敌人优先攻击该单位。\n\n剩余回合数：%s",
+      "icon": "TARGETED",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 20,
+      "counter": true,
+      "fade": true,
+      "source_class": "items/stones/StoneOfAggression.java#Aggression"
+    },
+    "block_shield": {
+      "name": "招架",
+      "description": "你的武器的招架附魔短时间内增强了你的防御能力！\n\n护盾剩余：%d\n\n剩余时间：%s",
+      "icon": "ARMOR",
+      "tint": [
+        0.5,
+        1,
+        2
+      ],
+      "kind": 1,
+      "duration": 0,
+      "counter": true,
+      "fade": true,
+      "source_class": "items/weapon/enchantments/Blocking.java#BlockBuff"
+    },
+    "conserved_damage": {
+      "name": "伤害储存",
+      "description": "你的武器储存了上个杀敌一击的过剩能量，用来加强你的下次攻击以造成额外伤害。这份能量会慢慢随时间减弱。\n\n储存伤害：%d",
+      "icon": "WEAPON",
+      "tint": [
+        1,
+        0,
+        0
+      ],
+      "kind": 1,
+      "duration": 0,
+      "counter": true,
+      "fade": false,
+      "source_class": "items/weapon/enchantments/Kinetic.java#ConservedDamage"
+    },
+    "deferred_damage": {
+      "name": "延缓伤害",
+      "description": "瞬时的伤害被延缓，随着时间慢慢释放。\n\n剩余的延迟伤害：%d",
+      "icon": "DEFERRED",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 0,
+      "counter": true,
+      "fade": false,
+      "source_class": "items/armor/glyphs/Viscosity.java#DeferedDamage"
+    },
+    "cleanse": {
+      "name": "全面净化",
+      "description": "这个角色暂时免疫所有的负面状态效果！\n\n剩余时长：%s",
+      "icon": "IMMUNITY",
+      "tint": [
+        1,
+        0,
+        2
+      ],
+      "kind": 1,
+      "duration": 5,
+      "counter": true,
+      "fade": true,
+      "source_class": "items/potions/exotic/PotionOfCleansing.java#Cleanse"
+    },
+    "lightning_charge": {
+      "name": "起电",
+      "description": "战斗法师现已被充能，获得了对其雷霆魔杖的伤害免疫并扩大了其电弧的连锁范围。\n\n剩余回合数：%s",
+      "icon": "IMBUE",
+      "tint": [
+        1,
+        1,
+        0
+      ],
+      "kind": 1,
+      "duration": 10,
+      "counter": true,
+      "fade": false,
+      "source_class": "items/wands/WandOfLightning.java#LightningCharge"
+    },
+    "magic_charge": {
+      "name": "魔力强化",
+      "description": "你的魔弹法杖向其他法杖回馈了一股能量，提升着下一次施法的有效等级。\n\n其他法杖被强化至：+%d\n\n剩余的魔力强化时长：%s回合",
+      "icon": "UPGRADE",
+      "tint": [
+        0.2,
+        0.6,
+        1
+      ],
+      "kind": 1,
+      "duration": 4,
+      "counter": true,
+      "fade": true,
+      "source_class": "items/wands/WandOfMagicMissile.java#MagicCharge"
+    },
+    "rock_armor": {
+      "name": "灵壤护甲",
+      "description": "魔法泥石环绕在你身边，当你被攻击时泥石会尽其所能进行格挡，从而为你抵消50%%所受伤害。不过，抵消伤害会消除一定量的泥石。\n\n剩余护甲量：%1$d\n\n当积攒的泥石达到一定程度时，下一次发动灵壤法杖会使泥石成型为一尊灵壤守卫为你而战。\n\n守卫成型所需护甲量：%2$d",
+      "icon": "ARMOR",
+      "tint": [
+        1.8,
+        1.8,
+        0.6
+      ],
+      "kind": 1,
+      "duration": 0,
+      "counter": true,
+      "fade": true,
+      "source_class": "items/wands/WandOfLivingEarth.java#RockArmor"
+    },
+    "earthroot_armor": {
+      "name": "植被护甲",
+      "description": "这是一种由层层树皮和藤蔓盘结而成的，不可移动的天然护甲。\n\n每当你受到物理攻击时，植被护甲都会吸收%d点伤害，直到其耐久被耗尽并瓦解。\n\n该护甲是不可移动的，所以一旦你离开原位护甲便会被破坏，消失不见。\n\n剩余护甲量：%d点",
+      "icon": "ARMOR",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": 1,
+      "duration": 0,
+      "counter": true,
+      "fade": true,
+      "source_class": "plants/Earthroot.java#Armor"
+    },
+    "sungrass_heal": {
+      "name": "草药疗养",
+      "description": "阳春草拥有优秀的治疗能力，尽管治疗速率比治疗药剂慢很多。\n\n脱离植株将会打断治疗效果。\n\n剩余治疗量：%d",
+      "icon": "HERB_HEALING",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": 1,
+      "duration": 0,
+      "counter": true,
+      "fade": true,
+      "source_class": "plants/Sungrass.java#Health"
+    },
+    "time_bubble": {
+      "name": "时间气泡",
+      "description": "这是一个加速时间运行的气泡。\n\n你可以在气泡中瞬间进行多次行动，但是攻击或施法都会打断这个效果。\n\n剩余时长：%s回合",
+      "icon": "TIME",
+      "tint": [
+        1,
+        1,
+        0
+      ],
+      "kind": 1,
+      "duration": 0,
+      "counter": true,
+      "fade": true,
+      "source_class": "plants/Swiftthistle.java#TimeBubble"
+    },
+    "shuriken_cooldown": {
+      "name": "手里剑冷却",
+      "description": "你近期不消耗回合地投掷了一个手里剑，必须等待冷却结束才能再次瞬间投掷手里剑。在此期间，手里剑仅能以武器攻速投掷。\n\n剩余回合数：%s",
+      "icon": "THROWN_WEP",
+      "tint": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "kind": 0,
+      "duration": 20,
+      "counter": true,
+      "fade": true,
+      "source_class": "items/weapon/missiles/Shuriken.java#ShurikenInstantTracker"
+    },
+    "adrenaline": {
+      "name": "激素涌动",
+      "description": "由肾上腺素带来的纯粹的潜能爆发，激素涌动能够增强一名角色的移动和攻击速度。\n\n激素涌动允许角色拥有2倍的移动速度和1.5倍的攻击速度。\n\n激素涌动持续时间：%s回合",
+      "icon": "UPGRADE",
+      "tint": [
+        1,
+        0,
+        0
+      ],
+      "kind": 1,
+      "duration": 10,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Adrenaline.java#Adrenaline"
+    },
+    "amok": {
+      "name": "狂乱",
+      "description": "狂乱会导致目标陷入极度愤怒和混乱的状态。\n\n狂乱的生物会不分敌我地攻击任何靠近它们的人。\n\n狂乱效果的剩余时长：%s回合",
+      "icon": "AMOK",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 0,
+      "counter": true,
+      "fade": false,
+      "source_class": "actors/buffs/Amok.java#Amok"
+    },
+    "bleeding": {
+      "name": "流血",
+      "description": "伤口正在令人不安地涌出大量血液。\n\n流血每回合都会造成伤害。每回合这个伤害数值都会随机减少，直到出血最终停止。\n\n当前流血伤害：%d",
+      "icon": "BLEEDING",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 0,
+      "counter": true,
+      "fade": false,
+      "source_class": "actors/buffs/Bleeding.java#Bleeding"
+    },
+    "bless": {
+      "name": "赐福",
+      "description": "你的集中力正在喷薄而出，有人说这是神赐的礼物。\n\n赐福状态能够提高自己25%%的精准与闪避属性，使被赐福者在战斗中势如破竹。\n\n赐福效果剩余时长：%s回合",
+      "icon": "BLESS",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": 1,
+      "duration": 30,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Bless.java#Bless"
+    },
+    "blindness": {
+      "name": "失明",
+      "description": "失明使周遭的一切陷入黑暗。\n\n失明时，单位的视距被减少至一格，致使远程攻击难堪大用，并使其很容易失去对远处敌人的追踪。此外，失明的英雄无法阅读卷轴或书籍。\n\n失明效果剩余时长：%s回合",
+      "icon": "BLINDNESS",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 10,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Blindness.java#Blindness"
+    },
+    "blob_immunity": {
+      "name": "净化屏障",
+      "description": "一种奇怪的能量环绕在你的周围，为你阻挡有害的环境效果。\n\n在净化屏障的持续时间内，你将免疫所有负面环境效果。\n\n免疫效果剩余时长：%s回合",
+      "icon": "IMMUNITY",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": 1,
+      "duration": 20,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/BlobImmunity.java#BlobImmunity"
+    },
+    "burning": {
+      "name": "燃烧",
+      "description": "没什么比被火焰吞没更痛苦了。\n\n火焰每回合都会造成伤害，直到它被液体扑灭或者自行消散。火会在你进入水中时熄灭，打碎药瓶产生的水花也具有同样的效果。\n\n此外，火焰还会点燃所有接触到的可燃地形与可燃物。\n\n燃烧效果剩余时长：%s回合",
+      "icon": "FIRE",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 8,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Burning.java#Burning"
+    },
+    "charm": {
+      "name": "魅惑",
+      "description": "魅惑是一种能让一对夙敌暂时陷入互相倾慕的控制类魔法。\n\n被魅惑的单位将无法对魅惑施行者进行直接攻击，但依然可以攻击其他敌人。伤痛会激醒被魅惑单位，减少魅惑状态的持续时间。\n\n魅惑效果剩余时间：%s回合",
+      "icon": "HEART",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 10,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Charm.java#Charm"
+    },
+    "chill": {
+      "name": "冻伤",
+      "description": "还没有完全冻住，不过已经非常冷了。\n\n冻伤的目标所有行动都会更加缓慢，减速程度取决于剩余的冻伤效果时间。最严重的冻伤情况等同于迟缓效果。\n\n冻伤效果剩余时长：%1$s回合\n当前减少的速度：%2$s%%",
+      "icon": "FROST",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 10,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Chill.java#Chill"
+    },
+    "corrosion": {
+      "name": "酸蚀",
+      "description": "强酸能以惊人的速度腐蚀掉血肉、金属和骨头。\n\n目标被腐蚀的时间越长，酸蚀伤害越高。\n\n酸蚀效果剩余时长：%1$s回合\n当前酸蚀伤害：%2$d",
+      "icon": "POISON",
+      "tint": [
+        1,
+        0.5,
+        0
+      ],
+      "kind": -1,
+      "duration": 0,
+      "counter": true,
+      "fade": false,
+      "source_class": "actors/buffs/Corrosion.java#Corrosion"
+    },
+    "corruption": {
+      "name": "腐化",
+      "description": "腐化魔法会侵入生物体的生命本质，扭转他们原有的天性。\n\n被腐化的生物会攻击他们的盟友，还会忽视其原先的敌人。腐化效果同时也是有伤害性的，会导致其目标缓慢走向死亡。\n\n腐化是永久性的，死后才能解脱。",
+      "icon": "CORRUPT",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 0,
+      "counter": false,
+      "fade": false,
+      "source_class": "actors/buffs/Corruption.java#Corruption"
+    },
+    "cripple": {
+      "name": "残废",
+      "description": "你很确定自己的腿不该折成那样。\n\n残废会减半移动速度，移动一格会消耗二回合而不是正常情况下的一回合。\n\n残废效果剩余时长：%s回合",
+      "icon": "CRIPPLE",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 10,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Cripple.java#Cripple"
+    },
+    "daze": {
+      "name": "恍惚",
+      "description": "耳畔嗡鸣，视野模糊，战斗因此变得十分困难。\n\n在恍惚状态下，精准和闪避都会减少50%%，使得命中和躲避都变得更加困难。\n\n剩余回合数：%s",
+      "icon": "DAZE",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 5,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Daze.java#Daze"
+    },
+    "degrade": {
+      "name": "降级",
+      "description": "强大的黑暗魔法正在吞噬升级卷轴注入你装备的魔力！\n\n降级状态下的装备会被视作比起原有等级更低的状态。_超过3级的每次升级都会遭受愈加严重的反噬。_物品的描述也会根据降级的影响而改变。\n\n不过，降级不会影响法杖充能、投掷武器耐久以及神器。\n\n降级效果剩余时长：%s回合\n\n使用一张升级卷轴或祛邪卷轴可以立即驱散这种黑暗魔法。",
+      "icon": "DEGRADE",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 30,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Degrade.java#Degrade"
+    },
+    "doom": {
+      "name": "定命",
+      "description": "当整个宇宙都看起来想置你于死地时，继续斗争还有什么意义呢？\n\n被定命的角色受到的任何伤害都会提升67%。\n\n定命是永久性的，死后才能解脱。",
+      "icon": "CORRUPT",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 0,
+      "counter": false,
+      "fade": false,
+      "source_class": "actors/buffs/Doom.java#Doom"
+    },
+    "dread": {
+      "name": "魂飞魄散",
+      "description": "令人魂飞魄散的恐慌正在驱使目标尝试逃出这座地牢！\n\n魂飞魄散状态下的生物将快速逃离它们的敌人，并且会在脱离敌人视野后立即消失在整座地牢中。逃离的敌人不会掉落道具，只会给予玩家减半的经验值奖励。伤害所造成的痛楚将促使其镇定下来。\n\n魂飞魄散效果剩余时长：%d回合",
+      "icon": "TERROR",
+      "tint": [
+        1,
+        0,
+        0
+      ],
+      "kind": -1,
+      "duration": 20,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Dread.java#Dread"
+    },
+    "drowsy": {
+      "name": "催眠",
+      "description": "一股魔法力量使目标很难保持清醒，几个回合后，目标将会深陷魔法睡眠。\n\n对于英雄，若在本应睡着的那一回合为满生命值或在这个过程中受到了伤害，魔法睡眠则不会生效。\n\n入睡所需回合数：%s回合",
+      "icon": "DROWSY",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": 0,
+      "duration": 5,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Drowsy.java#Drowsy"
+    },
+    "enhanced_rings": {
+      "name": "戒指强化",
+      "description": "盗贼在使用神器时强化了他的戒指，使它们获得+1升级。\n\n剩余回合数：%s",
+      "icon": "UPGRADE",
+      "tint": [
+        0,
+        1,
+        0
+      ],
+      "kind": 1,
+      "duration": 0,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/EnhancedRings.java#EnhancedRings"
+    },
+    "frost": {
+      "name": "冻结",
+      "description": "不要与冻成冰雕混淆，这种温和的冰冻只是把目标包裹在冰里。\n\n冻结效果类似于麻痹，使目标不能行动。与麻痹不同的是，冻结效果会在目标受到伤害时立即消失，因为冰会碎。\n\n剩余的冻结效果时长：%s回合",
+      "icon": "FROST",
+      "tint": [
+        0,
+        0.75,
+        1
+      ],
+      "kind": -1,
+      "duration": 10,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Frost.java#Frost"
+    },
+    "haste": {
+      "name": "极速",
+      "description": "强大的能量灌入到你的双腿肌肉上，允许你以不可思议的速度移动！\n\n在极速状态下，你将拥有3倍的移动速度，但是其他行动速度仍然和原来一样。\n\n极速效果剩余时长：%s回合",
+      "icon": "HASTE",
+      "tint": [
+        1,
+        0.8,
+        0
+      ],
+      "kind": 1,
+      "duration": 10,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Haste.java#Haste"
+    },
+    "healing": {
+      "name": "治疗",
+      "description": "每回合恢复2点生命，持续20回合。受到攻击命中或有效伤害时立即结束；再次饮用治疗药剂会刷新持续时间。\n\n剩余治疗时长：%s回合",
+      "icon": "HEALING",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": 1,
+      "duration": 20,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Healing.java#Healing",
+      "legacy_description": "一股治愈魔力让你的伤口开始愈合。\n\n你的生命将逐回合稳定回复，直到治疗效果终止。治疗量将随着时间逐渐减少。\n\n下一回合治疗量：%d\n\n剩余治疗量：%d。"
+    },
+    "hex": {
+      "name": "幻惑",
+      "description": "干扰集中力的黑暗魔法，使目标无法准确地判断方位。\n\n幻惑状态会降低目标20%%的精准与闪避属性，使其在战斗中更容易处于下风。\n\n幻惑效果剩余时长：%s回合",
+      "icon": "HEX",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 30,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Hex.java#Hex"
+    },
+    "invisibility": {
+      "name": "隐形",
+      "description": "你和周围的地形完全融为一体，使你不可能被看到。\n\n当你在隐形时敌人无法追踪或攻击你。大部分物理攻击和魔法(比如卷轴和法杖)会立即解除隐形效果。\n\n隐形效果剩余时长：%s回合\n\n隐形不会阻止对所在格的盲射或范围伤害。",
+      "icon": "INVISIBLE",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": 1,
+      "duration": 10,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Invisibility.java#Invisibility"
+    },
+    "invulnerable": {
+      "name": "无敌",
+      "description": "这个单位充满了金刚不坏之力，获得了短暂的无敌效果！\n\n剩余回合数：%s回合",
+      "icon": "ANKH",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": 1,
+      "duration": 3,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Invulnerability.java#Invulnerability"
+    },
+    "levitation": {
+      "name": "飘浮",
+      "description": "一股魔力把你从地面托起，让你觉得自己身轻如燕。\n\n飘浮中的角色能够悄无声息地移动，并会无视所有以地面为基础的效果。陷阱不会被触发、火焰不会被水扑灭、植物不会被踩踏、根系无法缠绕你、并且深渊能被跨越。小心，在效果结束时上述效果都会失效！\n\n飘浮效果剩余时长：%s回合",
+      "icon": "LEVITATION",
+      "tint": [
+        1,
+        2.1,
+        2.5
+      ],
+      "kind": 1,
+      "duration": 20,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Levitation.java#Levitation"
+    },
+    "light": {
+      "name": "发光",
+      "description": "即使是在最黑暗的地牢中，身边有一个稳定的光源也总是令人欣慰。 \n\n光照能驱散黑暗，使你能够无视周遭的黑暗环境并拥有一个合理的视野范围。 \n\n发光效果剩余时长：%s回合",
+      "icon": "LIGHT",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": 1,
+      "duration": 250,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Light.java#Light"
+    },
+    "magical_sleep": {
+      "name": "魔法睡眠",
+      "description": "目标已深深陷入了魔法睡眠，不会自然醒来。\n\n魔法睡眠与一般的睡眠基本一样，但只有受伤会致使目标醒来。\n\n对于英雄和他们的盟友，魔法睡眠有一些恢复性的效果，使他们能够在睡眠中迅速愈合伤口。",
+      "icon": "MAGIC_SLEEP",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": 0,
+      "duration": 0,
+      "counter": false,
+      "fade": false,
+      "source_class": "actors/buffs/MagicalSleep.java#MagicalSleep"
+    },
+    "magic_immune": {
+      "name": "魔法免疫",
+      "description": "任何魔法都奈何不了你，你对魔法完全免疫。\n\n在魔法免疫状态下，所有魔法效果无论益害都无法影响你，包括但不限于诅咒、附魔、刻印、法杖、卷轴、戒指、神器等。但英雄护甲的能力足够强大，能够不受这种效果影响，正常发挥作用。\n\n魔法免疫剩余时长：%s回合",
+      "icon": "COMBO",
+      "tint": [
+        0,
+        1,
+        0
+      ],
+      "kind": 1,
+      "duration": 20,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/MagicImmune.java#MagicImmune"
+    },
+    "mind_vision": {
+      "name": "灵视",
+      "description": "你可以在脑海中以某种方式看到这一层的所有生物。这种感觉非常奇异。\n\n只要灵视效果依然存在，这层的所有生物都会在你的视野当中。通过灵视看到的生物同样算作视野中的目标，可以被很多魔法效果影响。\n\n灵视效果剩余时长：%s回合",
+      "icon": "MIND_VISION",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": 1,
+      "duration": 5,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/MindVision.java#MindVision"
+    },
+    "ooze": {
+      "name": "腐蚀淤泥",
+      "description": "这种粘稠的酸性淤泥正在紧贴你的骨肉，并缓慢地将它们腐蚀融化。\n\n腐蚀淤泥会对受害者持续造成伤害，不过能够立刻在水中洗掉。\n\n腐蚀淤泥剩余时长：%s回合",
+      "icon": "OOZE",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 20,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Ooze.java#Ooze"
+    },
+    "paralysis": {
+      "name": "麻痹",
+      "description": "麻痹使目标无法行动。每次受到有效伤害时，剩余麻痹时长减少5回合；零伤害不减少时长。\n\n麻痹结束后，获得3回合麻痹抗性，期间免疫麻痹。\n\n麻痹效果剩余时长：%s回合",
+      "icon": "PARALYSIS",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 10,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Paralysis.java#Paralysis"
+    },
+    "poison": {
+      "name": "中毒",
+      "description": "毒素传遍全身，缓慢地损伤着各个脏器。\n\n毒素每回合造成的伤害与其剩余的回合数成正比。\n\n中毒效果剩余时长：%s回合",
+      "icon": "POISON",
+      "tint": [
+        0.6,
+        0.2,
+        0.6
+      ],
+      "kind": -1,
+      "duration": 0,
+      "counter": true,
+      "fade": false,
+      "source_class": "actors/buffs/Poison.java#Poison"
+    },
+    "recharging": {
+      "name": "充能",
+      "description": "魔力在你体内奔腾而过，提高你的法杖与魔杖的充能速率。\n\n此效果将会在正常充能速率的基础上每回合为你额外回复0.25点法杖充能。\n\n充能效果剩余时长：%s回合",
+      "icon": "RECHARGING",
+      "tint": [
+        1,
+        1,
+        0
+      ],
+      "kind": 1,
+      "duration": 30,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Recharging.java#Recharging"
+    },
+    "roots": {
+      "name": "缠绕",
+      "description": "一些根系(不论是自然或魔法产生)缠到了脚上，牢牢将其缚在地面。\n\n根系会让目标被困在当前区域，使其不能移动或使用大部分移动技能。其他行动不受干扰，包括传送效果。\n\n缠绕效果剩余时长：%s回合",
+      "icon": "ROOTS",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 5,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Roots.java#Roots"
+    },
+    "slow": {
+      "name": "迟缓",
+      "description": "减速魔法影响了目标的时间流速，在目标眼中所有的事物都移动得飞快。\n\n迟缓下的角色执行所有行动花费的时间是正常状态下的两倍。\n\n迟缓效果剩余时长：%s回合",
+      "icon": "TIME",
+      "tint": [
+        1,
+        0.33,
+        0.2
+      ],
+      "kind": -1,
+      "duration": 10,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Slow.java#Slow"
+    },
+    "soul_mark": {
+      "name": "灵魂标记",
+      "description": "术士已经击穿了目标的灵魂。其在受到物理伤害时将会恢复术士的生命。\n\n灵魂标记剩余时长：%s回合",
+      "icon": "INVERT_MARK",
+      "tint": [
+        0.5,
+        0.2,
+        1
+      ],
+      "kind": -1,
+      "duration": 10,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/SoulMark.java#SoulMark"
+    },
+    "terror": {
+      "name": "恐惧",
+      "description": "恐惧是使敌人陷入不可控制的恐慌的操纵性魔法。\n\n恐惧中的角色会远离自己的敌人，试图和敌人隔开尽可能多的门或墙。然而疼痛的刺激会减少恐惧的持续时间。\n\n恐惧效果剩余时长：%s",
+      "icon": "TERROR",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 20,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Terror.java#Terror"
+    },
+    "vertigo": {
+      "name": "眩晕",
+      "description": "如果整个世界都在旋转的话，想走直线会变得十分困难。 \n\n眩晕效果持续时，目标的移动将会向一个随机区域进行，而不是目标原本想到达的地方。\n\n眩晕效果剩余时长：%s回合",
+      "icon": "VERTIGO",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 10,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Vertigo.java#Vertigo"
+    },
+    "vulnerable": {
+      "name": "易伤",
+      "description": "易伤魔法会使得目标受到所有被护甲减免过的物理伤害增加33%%。\n\n易伤效果剩余时长：%s回合",
+      "icon": "VULNERABLE",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 20,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Vulnerable.java#Vulnerable"
+    },
+    "weakness": {
+      "name": "虚弱",
+      "description": "你感觉自己的装备突然变得沉重起来。\n\n虚弱魔法会减弱角色的肉体力量，使其造成的伤害减少33%%。\n\n虚弱效果剩余时长：%s回合",
+      "icon": "WEAKNESS",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": -1,
+      "duration": 20,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Weakness.java#Weakness"
+    },
+    "barrier": {
+      "name": "奥术屏障",
+      "description": "一团可以抵挡全部伤害的能量屏障。\n\n只要奥术屏障的能量仍然存在，它将完全抵挡单位所受到的任何伤害。同时这种能量会随时间逐渐衰减。\n\n护盾能量剩余：%d",
+      "icon": "ARMOR",
+      "tint": [
+        0.5,
+        1,
+        2
+      ],
+      "kind": 1,
+      "duration": 0,
+      "counter": true,
+      "fade": false,
+      "source_class": "actors/buffs/Barrier.java#Barrier"
+    },
+    "stamina": {
+      "name": "体力充沛",
+      "description": "你感受到了体内无尽的精力，让你可以以更快的速度移动！\n\n当你处于体力充沛状态下你的移动速度将提升50%%，但是此效果不影响其他行动的耗时。\n\n体力充沛剩余时长：%s回合",
+      "icon": "HASTE",
+      "tint": [
+        0.5,
+        1,
+        0.5
+      ],
+      "kind": 1,
+      "duration": 20,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Stamina.java#Stamina"
+    },
+    "barkskin": {
+      "name": "树肤",
+      "description": "树肤为你额外固定抵挡_%1$d点物理攻击伤害_，与装备护甲共同生效，不抵挡魔法或持续伤害。每3回合抵挡值衰减1点。\n\n距离下次衰减：%2$s回合",
+      "icon": "BARKSKIN",
+      "tint": [
+        1,
+        1,
+        1
+      ],
+      "kind": 1,
+      "duration": 24,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/Barkskin.java#Barkskin"
+    },
+    "paralysis_resist": {
+      "name": "麻痹抗性",
+      "description": "免疫麻痹，无法被再次施加或延长麻痹效果。\n\n麻痹抗性剩余时长：%s回合",
+      "icon": "IMMUNITY",
+      "tint": [
+        0.7,
+        0.85,
+        1
+      ],
+      "kind": 1,
+      "duration": 3,
+      "counter": true,
+      "fade": true,
+      "source_class": "CloudDungeon#ParalysisResist"
+    },
+    "opening_protection": {
+      "name": "开局保护",
+      "description": "开局获得相当于最大生命33%的临时护盾（向上取整）。先手持续2回合，后手持续3回合；按游戏时间计时，期间不会自然衰减。受到伤害时优先消耗这层护盾，到期移除剩余部分。\n\n剩余护盾：%1$d点\n剩余时长：%2$s回合",
+      "icon": "ARMOR",
+      "tint": [
+        0.7,
+        0.85,
+        1
+      ],
+      "kind": 1,
+      "duration": 3,
+      "counter": true,
+      "fade": true,
+      "source_class": "CloudDungeon#OpeningProtection"
+    },
+    "magical_sight": {
+      "name": "魔能透视",
+      "description": "你能看穿6格范围内的墙壁和地形，洞察墙后的事物，并解除、免疫致盲。\n\n魔能透视剩余时长：%s回合",
+      "icon": "MIND_VISION",
+      "tint": [
+        1,
+        1.67,
+        1
+      ],
+      "kind": 1,
+      "duration": 10,
+      "counter": true,
+      "fade": true,
+      "source_class": "actors/buffs/MagicalSight.java#MagicalSight"
+    }
+  },
+  "hashes": {
+    "core/src/main/assets/messages/actors/actors_zh.properties": "2ff9e8ac3345a9951d39185a9b73782f05a3e745e8366ee21611d77a422ffc10",
+    "core/src/main/assets/messages/items/items_zh.properties": "4ac74732c2d08adfde450e22822841235a9736a1e0fbc188118fa944f6371c02",
+    "core/src/main/assets/messages/plants/plants_zh.properties": "b7c0a8a32993d4fcc9134329765a51dd40ec8992d6514f743764598ca0c7af5e",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfAggression.java": "c1543b9f80acaae0ede1af337394ad0935846eec7c140e4acc6ca244b3534fab",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/FlavourBuff.java": "7a5fc4c261468123ddba5b95901e45349232137b2ab8450a3a57e7497033cde6",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Blocking.java": "4d3835cd9fcf1a80ca0d12b002ee1c0c850729f24f15f2d113b3f7a64ccbba8a",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Kinetic.java": "96703a018cab0d40f0987a24e94554d9d280993362c3812e5d30e9af82a2a04f",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Viscosity.java": "8d664a6b1ab6f546e7afe3e0ab763ffb6713bb5874a320ffceca147b061dd4a1",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/potions/exotic/PotionOfCleansing.java": "8e0ce0c76d2576a19b3be15dfdf0564c2a93af249d67e3af0c63e0fabfd63aa8",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfLightning.java": "ba454f18cc5a128c4f968419ab346b3ccd14e60d13ebed9ccd6f2ce6cf54e5ab",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfMagicMissile.java": "0fe4bd0fd62002dc94d976760c278db5a4856d6499dc891950b37a8695150dfd",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfLivingEarth.java": "d7408a8c22c767e96f98133721529ec6d203360527c27d328f69be80ccf715f1",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/plants/Earthroot.java": "20e3cfbd273e921a7b1a3bb19158d9c379191d85bd067a181f72bafd8264887b",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/plants/Sungrass.java": "68727c771d7705fbcbf7bd6781d4375c6ae490d8bc88603a68a35f7283b00eab",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/plants/Swiftthistle.java": "174f38d3159b3e03d84f2d1c3fcd1aabcac8cdc43bedc2d6dc24b5d580b38c7d",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/Shuriken.java": "8ca821e00f7d6821f6331d93dfaf1807be41c2990bb25b33f5a37707bb712bac",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Adrenaline.java": "7e715e1e130862a716b321d923a4b4a81a814bab789f211cc7fc1961b667a77c",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Amok.java": "aa82b3bade28cdc0bb2b84a8f9685dd05fffdc99e44953782f9327b561ff9a52",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Awareness.java": "452f98bace4c34cb3ac15c831a33b324facd689e0ee6675802b0133cb99566dc",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Bleeding.java": "31e1078bf6e1ecb37ffb325904c1b5b01cb9533fe0b937914a55b6d8c0a70a24",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Bless.java": "068a75baba5c5b7db6d76cdd6ebf0819d70ed8455fa0e79b473dc7e57cd59cbf",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Blindness.java": "f823e69eca61e259bd724c374e23980042f08f8c70b64cab38df5058a22851a2",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/BlobImmunity.java": "b8ca4664e3683183350c4b7925c8856dc0f7c63c2ecdbdb372792e05174bbf79",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Burning.java": "37d5a6c198f37bd97aa8e18d7d79898c796f441fb2382b0476a8a59681be266f",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Charm.java": "f2d88333856f1cb565f9f52785a8e4628ea0b458a7e2131fb13a348d442b6ddb",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Chill.java": "0d891433a51a47cbaea5a4abe7805b1be07077b37d60bd06cf7a37ebd832db9b",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Corrosion.java": "d1f003ece22fb26e583498184513af6d94dd3105ee8dd919f5afe3d3d9b22efd",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Corruption.java": "161fe6b598675f1c2661c48fcc410541dbba07824c080e9de6cc5b52ea6d239a",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/AllyBuff.java": "c2e1fb5ee50682c9aada64cdccdaa076843ffe768ee309b429816238a9530e27",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Cripple.java": "e87b0322f1bbc1880d558fb1f0ef2ff6e9cd6b26a55140e64c5e5635e52c9131",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Daze.java": "211117d44bc099cbb94554dc41ce5ba1740c1aac7701eb2e3f3dff5dd082afa5",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Degrade.java": "bc11ed28067c0f15a1f9ca83a380a0bbd7a7df0df93d10b8251ad1b44d89388d",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Doom.java": "3b640f2c2050c6fbc176f6f8e87176b94ca6f96d56eaeb535aa5568bbc38e4ed",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Dread.java": "d80ea5e84680deabf996bbaf4bc9f4e47fb4ccaaa965324a8eb7a712a8766475",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Drowsy.java": "347969eafcd72d136e30f90e8769705a5c04f1aa3d027d36ab6c844322150ea2",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/EnhancedRings.java": "c81f6c90dce087a4f8ad71178e501d1d0f2232e7c2b35b260045be1edac290dc",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Frost.java": "d64b4ed868a3a4393e7a8bdf5ac011156e112da6d2587bfefb5b96e8329a7052",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Haste.java": "8f11b118b7dd6dd031f208e254d010013341f10a9ab61099b9cfe349a5a4e89c",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Healing.java": "19c941e8bb77b0d96103d66d5b611b40a189562b33352c29694e60cb71203729",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Hex.java": "1c4befda631ffbfa9ae64a9a9c9c10b1adf7b001f38c3bf207699f39080c92e2",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Invisibility.java": "eb02eaa9fcbe7cfb405911b32dec6f24f4af1a0c934e11c613707e0a4fb42551",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Invulnerability.java": "fb76b0c11da9528fde312afdf5faaf6daf59405b3631b784d58a3d8d2178cf12",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Levitation.java": "eaeda5ee4db98f6b5e05f89f080929b793b9746657639c732d8266bceab462a4",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Light.java": "c35466d55bf20a890496227ca039bc9ca807b984710f070671ec3b8fefd8fd27",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/MagicalSleep.java": "8a16d306100b9512ab471e9866db9bd055586dea3949a5b3c669d78e0b3d2d73",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/MagicImmune.java": "f1dc9b01316628e957d36b1aaf5cd9ea93861968c9af81adb0dd3308a3b21b73",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/MindVision.java": "3b7ed75b895d848d53946bc1c95e64d6445fa7c25f6a16cc03706364fed9da14",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Ooze.java": "cde2796edc4b17ecac4a7f7c7a7c25307903e09c148672914a03cf586325fe42",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Paralysis.java": "0009030d3090a0cb372485dbab4f755226c4c510b9f275d61dc7e192408efc72",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Poison.java": "4f436a4610c3a3f0dbee4cf67c48e3ac5ec3427a27cd22aa1ff431eac7226683",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Recharging.java": "e54280596e0ab3f1540141a6f9e8e43823678363330d681ef379e2052c42c841",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Roots.java": "5aa0d069b7ada980b38f53a1a08decfcc0a5572ec0cb8d1a0e099c3eec8eba5d",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Slow.java": "7ef8cc8b98a636dab1b24f4bd5a7d91e6083c546d805c2f7ab92559e257f14b2",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/SoulMark.java": "bfe03e11c76aa5abfb9a259269165b24664b23f6a7f493e7dc85c555f704dabd",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Speed.java": "601d44cdba2c74d7aadf8e0ed76e0aade252cebf4110be3ded0e7c3a2ef6ceca",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Terror.java": "531955c67c6b720c8c88e3d4d13f20f09c52967928bf38376bcb4b8249681370",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Vertigo.java": "7a23179fb7c056743a5c8ee0a6cbde8f66e18dec9eeedbb6f4729a6c144fb6b8",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Vulnerable.java": "51d74ac19ba18bc894140806ad5da2750fe6f7d66ac65e2ec06f2444a6a6d577",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Weakness.java": "3e361302ad87732151e076b29600ea3250522fbaea3f65374942d19c953099ff",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Barrier.java": "4005f69130398078977243d12fa6ea1f0b094a5ac10d62c04a7babdc5dee0e3c",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Stamina.java": "dafc08719705adaf6829da868609f8e02aa33234c7aa01354fec68cd876e542d",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/Barkskin.java": "6012e23482529d7ae17a3ded077d376c437b79807314093b90e56ab1e383851f",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/buffs/MagicalSight.java": "f16c84cab3dca29c042ac1a1b763fc54d2b64f9d71c4f07808ce7de8df6636c0"
+  }
+}

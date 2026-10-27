@@ -1,0 +1,773 @@
+{
+  "source": "Shattered Pixel Dungeon 4.0.2",
+  "profiles": {
+    "AssassinsBlade": {
+      "tier": 4,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "ASSASSINS_BLADE",
+      "sound": "hit_stab",
+      "pitch": 0.9,
+      "min_base": 4,
+      "min_scale": 1,
+      "max_base": 20,
+      "max_scale": 5,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "BattleAxe": {
+      "tier": 4,
+      "accuracy": 1.24,
+      "delay": 1,
+      "reach": 1,
+      "visual": "BATTLE_AXE",
+      "sound": "hit_slash",
+      "pitch": 0.9,
+      "min_base": 4,
+      "min_scale": 1,
+      "max_base": 20,
+      "max_scale": 5,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Crossbow": {
+      "tier": 4,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "CROSSBOW",
+      "sound": "hit",
+      "pitch": 1,
+      "min_base": 4,
+      "min_scale": 1,
+      "max_base": 20,
+      "max_scale": 4,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Cudgel": {
+      "tier": 1,
+      "accuracy": 1.4,
+      "delay": 1,
+      "reach": 1,
+      "visual": "CUDGEL",
+      "sound": "hit_crush",
+      "pitch": 1.2,
+      "min_base": 1,
+      "min_scale": 1,
+      "max_base": 8,
+      "max_scale": 2,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Dagger": {
+      "tier": 1,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "DAGGER",
+      "sound": "hit_stab",
+      "pitch": 1.1,
+      "min_base": 1,
+      "min_scale": 1,
+      "max_base": 8,
+      "max_scale": 2,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Dirk": {
+      "tier": 2,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "DIRK",
+      "sound": "hit_stab",
+      "pitch": 1,
+      "min_base": 2,
+      "min_scale": 1,
+      "max_base": 12,
+      "max_scale": 3,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Flail": {
+      "tier": 4,
+      "accuracy": 0.8,
+      "delay": 1,
+      "reach": 1,
+      "visual": "FLAIL",
+      "sound": "hit_crush",
+      "pitch": 0.8,
+      "min_base": 4,
+      "min_scale": 1,
+      "max_base": 35,
+      "max_scale": 8,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Gauntlet": {
+      "tier": 5,
+      "accuracy": 1,
+      "delay": 0.5,
+      "reach": 1,
+      "visual": "GAUNTLETS",
+      "sound": "hit_crush",
+      "pitch": 1.2,
+      "min_base": 5,
+      "min_scale": 1,
+      "max_base": 15,
+      "max_scale": 3,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Glaive": {
+      "tier": 5,
+      "accuracy": 1,
+      "delay": 1.5,
+      "reach": 2,
+      "visual": "GLAIVE",
+      "sound": "hit_slash",
+      "pitch": 0.8,
+      "min_base": 5,
+      "min_scale": 1,
+      "max_base": 40,
+      "max_scale": 8,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Gloves": {
+      "tier": 1,
+      "accuracy": 1,
+      "delay": 0.5,
+      "reach": 1,
+      "visual": "GLOVES",
+      "sound": "hit",
+      "pitch": 1.3,
+      "min_base": 1,
+      "min_scale": 1,
+      "max_base": 5,
+      "max_scale": 1,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Greataxe": {
+      "tier": 5,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "GREATAXE",
+      "sound": "hit_slash",
+      "pitch": 1,
+      "min_base": 5,
+      "min_scale": 1,
+      "max_base": 45,
+      "max_scale": 6,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Greatshield": {
+      "tier": 5,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "GREATSHIELD",
+      "sound": "hit",
+      "pitch": 1,
+      "min_base": 5,
+      "min_scale": 1,
+      "max_base": 18,
+      "max_scale": 4,
+      "defense_base": 6,
+      "defense_scale": 2
+    },
+    "Greatsword": {
+      "tier": 5,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "GREATSWORD",
+      "sound": "hit_slash",
+      "pitch": 1,
+      "min_base": 5,
+      "min_scale": 1,
+      "max_base": 30,
+      "max_scale": 6,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "HandAxe": {
+      "tier": 2,
+      "accuracy": 1.32,
+      "delay": 1,
+      "reach": 1,
+      "visual": "HAND_AXE",
+      "sound": "hit_slash",
+      "pitch": 1,
+      "min_base": 2,
+      "min_scale": 1,
+      "max_base": 12,
+      "max_scale": 3,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Katana": {
+      "tier": 4,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "KATANA",
+      "sound": "hit_slash",
+      "pitch": 1.1,
+      "min_base": 4,
+      "min_scale": 1,
+      "max_base": 20,
+      "max_scale": 5,
+      "defense_base": 3,
+      "defense_scale": 0
+    },
+    "Longsword": {
+      "tier": 4,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "LONGSWORD",
+      "sound": "hit_slash",
+      "pitch": 1,
+      "min_base": 4,
+      "min_scale": 1,
+      "max_base": 25,
+      "max_scale": 5,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Mace": {
+      "tier": 3,
+      "accuracy": 1.28,
+      "delay": 1,
+      "reach": 1,
+      "visual": "MACE",
+      "sound": "hit_crush",
+      "pitch": 1,
+      "min_base": 3,
+      "min_scale": 1,
+      "max_base": 16,
+      "max_scale": 4,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "MagesStaff": {
+      "tier": 1,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "MAGES_STAFF",
+      "sound": "hit",
+      "pitch": 1.1,
+      "min_base": 1,
+      "min_scale": 1,
+      "max_base": 6,
+      "max_scale": 2,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Quarterstaff": {
+      "tier": 2,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "QUARTERSTAFF",
+      "sound": "hit_crush",
+      "pitch": 1,
+      "min_base": 2,
+      "min_scale": 1,
+      "max_base": 12,
+      "max_scale": 3,
+      "defense_base": 2,
+      "defense_scale": 0
+    },
+    "Rapier": {
+      "tier": 1,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "RAPIER",
+      "sound": "hit_slash",
+      "pitch": 1.3,
+      "min_base": 1,
+      "min_scale": 1,
+      "max_base": 8,
+      "max_scale": 2,
+      "defense_base": 1,
+      "defense_scale": 0
+    },
+    "RoundShield": {
+      "tier": 3,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "ROUND_SHIELD",
+      "sound": "hit",
+      "pitch": 1,
+      "min_base": 3,
+      "min_scale": 1,
+      "max_base": 12,
+      "max_scale": 2,
+      "defense_base": 4,
+      "defense_scale": 1
+    },
+    "RunicBlade": {
+      "tier": 4,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "RUNIC_BLADE",
+      "sound": "hit_slash",
+      "pitch": 1,
+      "min_base": 4,
+      "min_scale": 1,
+      "max_base": 20,
+      "max_scale": 6,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Sai": {
+      "tier": 3,
+      "accuracy": 1,
+      "delay": 0.5,
+      "reach": 1,
+      "visual": "SAI",
+      "sound": "hit_stab",
+      "pitch": 1.3,
+      "min_base": 3,
+      "min_scale": 1,
+      "max_base": 10,
+      "max_scale": 2,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Scimitar": {
+      "tier": 3,
+      "accuracy": 1,
+      "delay": 0.8,
+      "reach": 1,
+      "visual": "SCIMITAR",
+      "sound": "hit_slash",
+      "pitch": 1.2,
+      "min_base": 3,
+      "min_scale": 1,
+      "max_base": 16,
+      "max_scale": 4,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Shortsword": {
+      "tier": 2,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "SHORTSWORD",
+      "sound": "hit_slash",
+      "pitch": 1.1,
+      "min_base": 2,
+      "min_scale": 1,
+      "max_base": 15,
+      "max_scale": 3,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Sickle": {
+      "tier": 2,
+      "accuracy": 0.68,
+      "delay": 1,
+      "reach": 1,
+      "visual": "SICKLE",
+      "sound": "hit_slash",
+      "pitch": 1,
+      "min_base": 2,
+      "min_scale": 1,
+      "max_base": 20,
+      "max_scale": 3,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Spear": {
+      "tier": 2,
+      "accuracy": 1,
+      "delay": 1.5,
+      "reach": 2,
+      "visual": "SPEAR",
+      "sound": "hit_stab",
+      "pitch": 0.9,
+      "min_base": 2,
+      "min_scale": 1,
+      "max_base": 20,
+      "max_scale": 4,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Sword": {
+      "tier": 3,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "SWORD",
+      "sound": "hit_slash",
+      "pitch": 1,
+      "min_base": 3,
+      "min_scale": 1,
+      "max_base": 20,
+      "max_scale": 4,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "WarHammer": {
+      "tier": 5,
+      "accuracy": 1.2,
+      "delay": 1,
+      "reach": 1,
+      "visual": "WAR_HAMMER",
+      "sound": "hit_crush",
+      "pitch": 1,
+      "min_base": 5,
+      "min_scale": 1,
+      "max_base": 24,
+      "max_scale": 6,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "WarScythe": {
+      "tier": 5,
+      "accuracy": 0.8,
+      "delay": 1,
+      "reach": 1,
+      "visual": "WAR_SCYTHE",
+      "sound": "hit_slash",
+      "pitch": 0.9,
+      "min_base": 5,
+      "min_scale": 1,
+      "max_base": 40,
+      "max_scale": 6,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Whip": {
+      "tier": 3,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 3,
+      "visual": "WHIP",
+      "sound": "hit",
+      "pitch": 1.1,
+      "min_base": 3,
+      "min_scale": 1,
+      "max_base": 15,
+      "max_scale": 3,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "WornShortsword": {
+      "tier": 1,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "WORN_SHORTSWORD",
+      "sound": "hit_slash",
+      "pitch": 1.1,
+      "min_base": 1,
+      "min_scale": 1,
+      "max_base": 10,
+      "max_scale": 2,
+      "defense_base": 0,
+      "defense_scale": 0
+    },
+    "Pickaxe": {
+      "tier": 2,
+      "accuracy": 1,
+      "delay": 1,
+      "reach": 1,
+      "visual": "PICKAXE",
+      "sound": "hit",
+      "pitch": 1,
+      "min_base": 2,
+      "min_scale": 1,
+      "max_base": 15,
+      "max_scale": 3,
+      "defense_base": 0,
+      "defense_scale": 0
+    }
+  },
+  "messages": {
+    "ceremonialcandle": {
+      "name": "仪式蜡烛",
+      "desc": "一套配套的蜡烛，在使用中融化在了一起。\r\n\r\n单独看来它们毫无价值，但与其它蜡烛按特定排布共用时却能为召唤仪式聚集能量。"
+    },
+    "corpsedust": {
+      "name": "尸尘",
+      "desc": "在外观上这团尸尘和普通灰尘差不多。而你却能够感受到其中潜伏着一股充满恶意的魔力。\r\n\r\n尽快脱手为好。"
+    },
+    "darkgold": {
+      "name": "暗金矿",
+      "desc": "这种金属名中的暗并非源于其色泽(它看起来和普通黄金一样)，而是因为它会在阳光下熔化，令其在地表上毫无用处。"
+    },
+    "dwarftoken": {
+      "name": "矮人徽记",
+      "desc": "一块形状奇特的金属片，被宝库中的矮人守卫随身携带。或许这徽记也是将守卫禁锢于这座宝库的魔法的一部分？最好先带着它，或许还会有用。"
+    },
+    "embers": {
+      "name": "元素余烬",
+      "desc": "只能从新生火焰元素身上采集到的特殊余烬.。它们散发着温暖的能量。"
+    },
+    "escapecrystal": {
+      "name": "逃脱棱晶",
+      "desc": "一块似乎内含着传送魔法的细长棱晶。你随时都可以使用这块棱晶离开宝库，但若是提早离开的话可别想拿到最好的报酬！"
+    },
+    "gooblob": {
+      "name": "粘咕球",
+      "desc": "一团晃动着的黏糊糊球体，是从粘咕尸体上崩解下的一部分。看起来像是一个大果冻球，不过大概不能食用。\r\n\r\n该物品自身并没有什么实际用途，不过它在与特定药剂或炸弹共炼后可能有妙用。再不济，它也能提供相当的炼金能量。"
+    },
+    "impstatue": {
+      "name": "黑曜石雕像",
+      "desc": "一块小小的漆黑雕塑，由黑曜石雕成。它的外表与委托你进入宝库的那位小恶魔神似，连那闪亮的绿眼睛也颇为相像。雕像的底座上用你没有见过的语言刻着一串铭文。"
+    },
+    "vaultbeacon": {
+      "name": "宝库信标",
+      "desc": "这个信标内含的魔法似乎能带你回到一个特定的位置，目的地很可能就是你找到它的那个房间。\r\n\r\n你可以用它节省一点探索的时间，若是身处险境也可以用它逃出生天。"
+    },
+    "metalshard": {
+      "name": "邪能碎片",
+      "desc": "一块被诅咒的金属锈片，它是DM-300的装甲外壳被击碎时分离出来的。你能感受到某种尚未激活的恶毒魔力潜藏其中。\r\n\r\n该物品自身并没有什么实际用途，不过它在与特定卷轴或炸弹共炼时可能有妙用。再不济，它也能提供相当的炼金能量。"
+    },
+    "pickaxe": {
+      "name": "镐子",
+      "desc": "这是一件笨重但十分耐用的凿岩工具。不需要装备上就能作为挖掘工具使用，但在紧要关头也能作为武器装备。"
+    },
+    "assassinsblade": {
+      "name": "暗杀之刃",
+      "desc": "黑曜石制的波浪形短刃，虽轻便但不易用，如果能击中要害足以致命。"
+    },
+    "battleaxe": {
+      "name": "战斧",
+      "desc": "这把有着硕大钢制头部的战斧能将庞大的力量倾注在每次挥舞之中。"
+    },
+    "crossbow": {
+      "name": "十字弩",
+      "desc": "这是一件看起来相当精密复杂的装置，能够将飞镖一样的小型箭矢以极高的速度射出。这把十字弩掂在手里沉甸甸的，比想象中结实很多，虽然完全违背了设计初衷，不过也能够在肉搏战中起到作用。"
+    },
+    "cudgel": {
+      "name": "权杖",
+      "desc": "一把小型黄铜锤，更多的作为贵族们的自卫工具而非冒险用武器使用。"
+    },
+    "dagger": {
+      "name": "匕首",
+      "desc": "木柄被磨损的简易铁质匕首。"
+    },
+    "dirk": {
+      "name": "长匕首",
+      "desc": "一个长一些的刺击型匕首，可以往敌人身体里捅得更深一点。"
+    },
+    "flail": {
+      "name": "链枷",
+      "desc": "铁链上附着的一个带刺的钢球。笨重难用，能命中的话威力极强。"
+    },
+    "gauntlet": {
+      "name": "魔岩拳套",
+      "desc": "这个巨大的拳套由一匹红布和层层覆盖在布上的魔法岩石交织而成。戴上后，布料紧紧裹住你的整个前臂，让厚重的岩板变得像一层坚硬的皮肤。要有足够的力量才能将如此沉重的武器自如挥舞，但正是这种力量和重量的结合让这件武器发挥出可怕的威力。"
+    },
+    "glaive": {
+      "name": "关刀",
+      "desc": "一支在末端装有剑刃的重型长柄武器。"
+    },
+    "gloves": {
+      "name": "镶钉手套",
+      "desc": "这双镶钉手套没有多少防护作用，但能在勉强当作武器使用的同时腾出双手。"
+    },
+    "greataxe": {
+      "name": "巨斧",
+      "desc": "这个巨型的战斧无坚不摧，重如泰山，举过肩才有空间挥舞。"
+    },
+    "greatshield": {
+      "name": "巨型方盾",
+      "desc": "与其说它是一面盾，不如说它是一堵能移动的墙。这一大块金属对于防御十分有效，但没有在攻击方面留下多少余地。"
+    },
+    "greatsword": {
+      "name": "巨剑",
+      "desc": "这把大剑进行的每次沉重挥舞都能造成大量伤害。"
+    },
+    "handaxe": {
+      "name": "手斧",
+      "desc": "一把轻斧头，通常用来砍树。当然，它的宽刃对敌人来说同样有效。"
+    },
+    "katana": {
+      "name": "武士刀",
+      "desc": "一把在握柄上方带有巨大金属护手的修长刀刃。"
+    },
+    "longsword": {
+      "name": "长剑",
+      "desc": "这柄剑的厚长利刃闪烁着令人宽心的寒光，不过这长度也确实让它非常沉重。"
+    },
+    "mace": {
+      "name": "硬头锤",
+      "desc": "这把武器前端的大型铁头能够造成可观的伤害。"
+    },
+    "magesstaff": {
+      "name": "法师魔杖",
+      "desc": "这根魔杖是件独一无二的魔法武器，由法师亲自雕琢而成，能注入其它法杖的魔力以获取新的力量。"
+    },
+    "meleeweapon": {},
+    "shortsword": {
+      "name": "短剑",
+      "desc": "它确实相当短，只比一把匕首长出几厘米。"
+    },
+    "quarterstaff": {
+      "name": "铁头棍",
+      "desc": "这是两端以铁包覆的硬木棍。"
+    },
+    "rapier": {
+      "name": "刺剑",
+      "desc": "一柄修长而笔直的利器，牺牲了部分劈砍能力而获得一定的保护效果。"
+    },
+    "roundshield": {
+      "name": "圆盾",
+      "desc": "这个大盾可以有效格挡攻击，在危机时刻也可以作为不错的武器使用。"
+    },
+    "runicblade": {
+      "name": "符文之刃",
+      "desc": "来自失落之地的神秘武器，有着明亮的蓝色刀刃。"
+    },
+    "sai": {
+      "name": "双钗",
+      "desc": "一对轻薄的铁刃，刚好一手一把。在快速斩击方面十分出色。"
+    },
+    "scimitar": {
+      "name": "弯刀",
+      "desc": "一把厚重的弯刀。它的形状能让它进行更快但不甚强力的攻击。"
+    },
+    "sickle": {
+      "name": "短柄镰",
+      "desc": "一种手持农具，也可被用作一把强大但笨重的武器。"
+    },
+    "spear": {
+      "name": "长矛",
+      "desc": "这是一根装着锋锐铁刺的细长木杆。"
+    },
+    "sword": {
+      "name": "单手剑",
+      "desc": "平衡性良好的剑。不算太大，但是依然比短剑长上不少。"
+    },
+    "warhammer": {
+      "name": "战锤",
+      "desc": "很少有生物能抵挡这铅铁巨块的辗压，但也只有最强壮的冒险家才能有效使用它。"
+    },
+    "warscythe": {
+      "name": "战镰",
+      "desc": "这件巨大又笨重的农具被加固了。现在比起收割庄稼，它更适宜于收割敌人。"
+    },
+    "whip": {
+      "name": "长鞭",
+      "desc": "虽然这把武器另一端带倒刺的绳子伤害不高，但它的攻击范围是数一数二的。"
+    },
+    "wornshortsword": {
+      "name": "破旧的短剑",
+      "desc": "一把十分短的剑，在大量使用后有一定的磨损。它比正常情况的短剑更轻，也更弱。"
+    }
+  },
+  "wand_messages": {
+    "wandofblastwave": {
+      "staff_name": "冲击波魔杖",
+      "bmage_desc": "当_战斗法师_以冲击波魔杖近战攻击已经被麻痹的目标时，将消耗目标身上剩余的麻痹回合数造成大量魔法伤害。此效果对每个目标均有短暂的冷却。"
+    },
+    "wandofcorrosion": {
+      "staff_name": "酸蚀魔杖",
+      "bmage_desc": "当_战斗法师_以酸蚀魔杖近战攻击目标时，有概率使其沾染腐蚀淤泥。"
+    },
+    "wandofcorruption": {
+      "staff_name": "腐化魔杖",
+      "bmage_desc": "当_战斗法师_以腐化魔杖近战攻击目标时，有概率使其陷入狂乱。"
+    },
+    "wandofdisintegration": {
+      "staff_name": "解离魔杖",
+      "bmage_desc": "当_战斗法师_以解离魔杖作为近战武器时，魔杖会像索敌附魔一样获得额外的攻击距离。"
+    },
+    "wandoffireblast": {
+      "staff_name": "焰浪魔杖",
+      "bmage_desc": "当_战斗法师_以焰浪魔杖近战攻击目标时，有概率吸收所有邻近的火焰并制造出一场爆炸！与敌人相邻的火焰越多，触发该效果的概率越高。"
+    },
+    "wandoffrost": {
+      "staff_name": "冰霜魔杖",
+      "bmage_desc": "当_战斗法师_以冰霜魔杖近战攻击目标时，有概率将其直接冻结。目标冻伤越严重，被冻结的概率就越高。"
+    },
+    "wandoflightning": {
+      "staff_name": "雷霆魔杖",
+      "bmage_desc": "当_战斗法师_以雷霆魔杖近战攻击目标时，有概率获得10回合起电效果。起电状态下的战斗法师免疫雷电伤害，电弧的连锁范围也更广。"
+    },
+    "wandoflivingearth": {
+      "staff_name": "灵壤魔杖",
+      "bmage_desc": "当_战斗法师_以灵壤魔杖近战攻击目标时，能将部分近战伤害转化为灵壤护甲。"
+    },
+    "wandofmagicmissile": {
+      "staff_name": "魔弹魔杖",
+      "bmage_desc": "当_战斗法师_以魔弹魔杖近战攻击目标时，魔杖外的所有的法杖都会恢复一定的充能。"
+    },
+    "wandofprismaticlight": {
+      "staff_name": "棱光魔杖",
+      "bmage_desc": "当_战斗法师_以棱光魔杖近战攻击目标时，能使目标陷入随魔杖等级提升而延长的残废效果。"
+    },
+    "wandofregrowth": {
+      "staff_name": "再生魔杖",
+      "bmage_desc": "当_战斗法师_以再生魔杖近战攻击目标时，如果一方站在草地上，则战斗法师能获取伤害的一定比例的草药疗养。"
+    },
+    "wandoftransfusion": {
+      "staff_name": "注魂魔杖",
+      "bmage_desc": "当_战斗法师_以注魂魔杖近战攻击被魅惑的目标时，能获取一定的护盾且下次释放不消耗生命。"
+    },
+    "wandofwarding": {
+      "staff_name": "哨卫魔杖",
+      "bmage_desc": "当_战斗法师_以哨卫魔杖近战攻击目标时，有概率为所有哨卫元素和哨卫结晶恢复一定生命值。"
+    }
+  },
+  "hashes": {
+    "items/weapon/melee/AssassinsBlade.java": "22FFAFF4B0D98251FDD8BA49FDD0E925E6B687FEF01343CB1E7A591EA56639BC",
+    "items/weapon/melee/BattleAxe.java": "6C887EAD83893391D419D4F866CA4DEF27266DA8284D91FEF5D8995BC9F487E5",
+    "items/weapon/melee/Crossbow.java": "DA6A84AFE8E48B056000590A090BADD151F158BBD89AC9F24C1B7C7B8CD11D49",
+    "items/weapon/melee/Cudgel.java": "24FF9FF9481FDC959009EB6BA9CD82757F0969F150BF89132C2465ECA0664905",
+    "items/weapon/melee/Dagger.java": "BAE342C90B940C591AD6E313F44DED3D071408A4E1B7AE6C885265B6271DCBA2",
+    "items/weapon/melee/Dirk.java": "7322A1C39911DE09C8F8D87E8BE48F7DA628BC98EC576728E68610CBBD11E514",
+    "items/weapon/melee/Flail.java": "751B49BDC236E05FAC2605BF768E57B5E5D3E289FBDEF11A98D828BE4DEA1203",
+    "items/weapon/melee/Gauntlet.java": "A5FF922BC2AB6BF87B0E970A2384528C03F67FEEBCE823E3989D750DFFB72D86",
+    "items/weapon/melee/Glaive.java": "AE9D40C3A5B6852348186AB73F733A79AC63B79A47978F23EC45592CB94BAF1B",
+    "items/weapon/melee/Gloves.java": "6EE8B9F5AEADC9974DA74A2BAD76113FB6B6B6FE96FDC605771E01A176D28E03",
+    "items/weapon/melee/Greataxe.java": "EA6E05CFC8D2BBBB96C76739B14CA94F871F5C3DEB36332E5D4047FF226F392E",
+    "items/weapon/melee/Greatshield.java": "7B3327C901A6927F9E96059FAB2B35BC2FEF43077800771F2E9401EE938163C8",
+    "items/weapon/melee/Greatsword.java": "81BFB03402AE57AE2C551FCB6F60F54CFDE5373C9034AE1180269ED7ED3A7B19",
+    "items/weapon/melee/HandAxe.java": "F323257FE5E71A8271B1E520C88A3C6B4F0A57C685014B96FE653B999CAB6D0C",
+    "items/weapon/melee/Katana.java": "F9DF6FB746029CB80A36CF93019EC6CF8C906AF4C6280AB2ACDA63178E575649",
+    "items/weapon/melee/Longsword.java": "44B2142F2DBF27AFD49D7E85DB6B8DB319FEC72F05D5E9B868DCF9D9BF43C782",
+    "items/weapon/melee/Mace.java": "A0FC1C2D37A50E874FCEB54B0C72CD7EC9397F13E3EC8EB6C61AEDED5E13D5CF",
+    "items/weapon/melee/MagesStaff.java": "C535ECB3CCBD3B8933E519E4E6A2FE4D2D370B7962B826357A44CBD991CB6672",
+    "items/weapon/melee/Quarterstaff.java": "93A64A718A31160642A1C47387A9807B6CC1F2FC082E99EF23B18CE26F6F2410",
+    "items/weapon/melee/Rapier.java": "C30623EF07C000779ABDF3B4257EEC858600E99B28E452D176A3EEB1F8051F24",
+    "items/weapon/melee/RoundShield.java": "64D4F46846B4245735429CE2E6752F51BE18D0994A17B18EB41D7843257961A2",
+    "items/weapon/melee/RunicBlade.java": "54C054F2ABDF892B6B301047BF17E5E2D9889EBD497959BF890F5B65802B6B0F",
+    "items/weapon/melee/Sai.java": "78E1310D11EF01353105DEFE8D0507B0EC3ED1ACD03176E4E98D42700DCBC9AC",
+    "items/weapon/melee/Scimitar.java": "AA3E221E4CB424455D2854C2EB58AD1B348E591D89D1D06333EFDA373AB79003",
+    "items/weapon/melee/Shortsword.java": "D29A865DEAD16B2CB005AA94FD87595926FAD2CD6FF960BEA2AD065CBDED1E80",
+    "items/weapon/melee/Sickle.java": "33C4B595BE516C46EE6916E1E25806931337936880DA176DFF6C465BC8C060BB",
+    "items/weapon/melee/Spear.java": "F447124B52ABFA7DD50718766FBD4A526F3B64F5BDB8034834F75D4D27CCA6DF",
+    "items/weapon/melee/Sword.java": "DF03E2D724C3113571A30D8CABC58568E5297D39C071FBF8824F9FCA9416999C",
+    "items/weapon/melee/WarHammer.java": "194C26D22B7334DE0F1101CB6ECC428312A3739EC7A6449775613226C60FBA58",
+    "items/weapon/melee/WarScythe.java": "CD521F5207066E6BD5788FFB5AC93CDE9EE04799D22E881DB4731B9029A858AF",
+    "items/weapon/melee/Whip.java": "B78B703C3DCAA0FD387FCB37D4B5C1B4C66BCBF15F79E09B9029CE2D76343291",
+    "items/weapon/melee/WornShortsword.java": "31C3370169CE48ACD50CEB2676664D6E88D756B71285DBA9A2AA71D7F1B0F31F",
+    "items/quest/Pickaxe.java": "D9AB07C54EEE76EA9BB93CD4CF4FCC943518C898736457B540411DB4634AADC2",
+    "items/weapon/Weapon.java": "24D34977E9CEE42C0F65508E221F7909C9DCAEDD4DF9390BD0C6E9C1B4099B27",
+    "items/weapon/melee/MeleeWeapon.java": "5718FC3AEF2D308139D639C22B5C6D1B6326AADC7EFF61A9D062ED73F5D576F5",
+    "items/KindOfWeapon.java": "C71ABBABB2FC4F0297055D82F0E3047B941F792158F22C7903CF58F2345BE639",
+    "actors/hero/Hero.java": "8F47729126521E886C9A01FF60BF1922A45E5C01E779318BCF5A0B322193BBE4",
+    "actors/Char.java": "8D372E8ECDD2188900479456FFEAFE5090CFF9C79D181A46D8ECBF7D7B8C8139",
+    "sounds/hit_strong.mp3": "D360B7E2C82F94426C597E0B6A0714D885EB9186365A85F4A2CBD581192E3AA1",
+    "sounds/chains.mp3": "8AF271B767C4D08D9C2E84FA930274A2B6E1B1A0CE41514057ECA9BBAB2CD061",
+    "sounds/puff.mp3": "2905535D892D1E7C8D89701EA77F78E2EB3144E869C9AB5FE48F82F8CAC82E40",
+    "sounds/hit_parry.mp3": "3A4A400FD96A91DA329CE4224810CE46D2965CAB774346252E07C52547A90B42"
+  }
+}

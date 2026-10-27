@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/items/source/item_icons.png" id="1_hbwux"]
+
+[resource]
+atlas = ExtResource("1_hbwux")
+region = Rect2(24, 48, 7, 7)
+filter_clip = true

@@ -1,0 +1,1234 @@
+{
+	"raw": [
+		{
+			"file": "arcs1.png",
+			"name": "ARCS1",
+			"sha256": "3de841290872405fdfcb70b9b3a998af0e582c2169a0fb3ea215cd1d33dbe01d",
+			"size": [
+				32,
+				32
+			]
+		},
+		{
+			"file": "arcs2.png",
+			"name": "ARCS2",
+			"sha256": "994415d9c67a5cc1a0b4319109b1f17bc3a71df6c8ad4622e8895a2465a59f8e",
+			"size": [
+				64,
+				64
+			]
+		},
+		{
+			"file": "badges.png",
+			"name": "BADGES",
+			"sha256": "f83721c75a37d8d8e788e00e81845d3019f6644be71cde25d9b7f32273201df3",
+			"size": [
+				128,
+				256
+			]
+		},
+		{
+			"file": "banners.png",
+			"name": "BANNERS",
+			"sha256": "e78742506245cf96170f3c1405a87b00aa966679a26c90d3f35dfe661d3b13d7",
+			"size": [
+				512,
+				256
+			]
+		},
+		{
+			"file": "boss_hp.png",
+			"name": "BOSS_HP",
+			"sha256": "e49dbbaf068a7bb211e5559b37255a9fc6021db9321345915feb4f7b62f1ede6",
+			"size": [
+				128,
+				64
+			]
+		},
+		{
+			"file": "buffs.png",
+			"name": "BUFFS",
+			"sha256": "11d49af66f384d24ec1fc0fec100b9ba9a12cb599f1bd1c6476ba87dfbdfd875",
+			"size": [
+				128,
+				64
+			]
+		},
+		{
+			"file": "change_icons.png",
+			"name": "CHANGE_ICONS",
+			"sha256": "dda7555be99d521dd6d084762c3c293994b0025cc00eeac263809a21bd7d0231",
+			"size": [
+				128,
+				1024
+			]
+		},
+		{
+			"file": "chrome.png",
+			"name": "CHROME",
+			"sha256": "e439b6a6539d61e5a1f3fc61f0c0f7642be6e5f5fcccdd9ee111830f57f38cf1",
+			"size": [
+				128,
+				64
+			]
+		},
+		{
+			"file": "hero_icons.png",
+			"name": "HERO_ICONS",
+			"sha256": "8af678fbb03726683c9e6695f6c1c58d231bd4dcc569e23c465410245a1aed19",
+			"size": [
+				128,
+				256
+			]
+		},
+		{
+			"file": "icons.png",
+			"name": "ICONS",
+			"sha256": "592ba061fde6ebba4c6c912604f4e2846c956a473d6e89b53ffc05339e0f49d8",
+			"size": [
+				256,
+				128
+			]
+		},
+		{
+			"file": "large_buffs.png",
+			"name": "LARGE_BUFFS",
+			"sha256": "5dd1947598f59b2bb818c4cc358342529094e876c294095888892b5835ae7cdc",
+			"size": [
+				256,
+				128
+			]
+		},
+		{
+			"file": "locked_badge.png",
+			"name": "LOCKED_BADGE",
+			"sha256": "48bc29673dce30ab4a9410b3d61905dc032082f417ab03e95213f9aff6653b47",
+			"size": [
+				16,
+				16
+			]
+		},
+		{
+			"file": "menu_button.png",
+			"name": "MENU_BUTTON",
+			"sha256": "78784368b05f9fddfa629ecabf904c0b5ad484ec554c84d2d4f0b1254ed57d47",
+			"size": [
+				64,
+				16
+			]
+		},
+		{
+			"file": "menu_pane.png",
+			"name": "MENU_PANE",
+			"sha256": "a7ddb1a71b098a9091488c1b3d70c56dbdfb2fe016e16d11985d3b78724d8a78",
+			"size": [
+				32,
+				32
+			]
+		},
+		{
+			"file": "radial_menu.png",
+			"name": "RADIAL_MENU",
+			"sha256": "a8dec64df33b0c6035887cc128f4faef194c9ce48604a1d014fdf2f7f1d06868",
+			"size": [
+				512,
+				256
+			]
+		},
+		{
+			"file": "shadow.png",
+			"name": "SHADOW",
+			"sha256": "e89b2b0d6db86147d859ebc91b66e03045b69dd0285de4d1596632d5a6eca9d9",
+			"size": [
+				4,
+				4
+			]
+		},
+		{
+			"file": "status_pane.png",
+			"name": "STATUS_PANE",
+			"sha256": "c81d605c5f663a3bb587e9288d1e28e30c5f9e17f0dc5e651cdf044131cf31bd",
+			"size": [
+				128,
+				128
+			]
+		},
+		{
+			"file": "surface.png",
+			"name": "SURFACE",
+			"sha256": "ded7f25689d4fcf861086bbf8d33147fdfe9e09935c3951a28dd3ceafb88b3a9",
+			"size": [
+				256,
+				128
+			]
+		},
+		{
+			"file": "talent_button.png",
+			"name": "TALENT_BUTTON",
+			"sha256": "e9ec3eaa68524988b51aaa72bba60453b83dbb556adcd3b9dfc4e1b60ea160c7",
+			"size": [
+				128,
+				32
+			]
+		},
+		{
+			"file": "talent_icons.png",
+			"name": "TALENT_ICONS",
+			"sha256": "37c3566b33a0f72eec2d1de54601860c406a40c36fe1f9239629bf74cc362884",
+			"size": [
+				512,
+				128
+			]
+		},
+		{
+			"file": "toolbar.png",
+			"name": "TOOLBAR",
+			"sha256": "e84714c9e78b6e2c2ef102d859be34bb629069412f007f240488308918a5ea4c",
+			"size": [
+				256,
+				32
+			]
+		}
+	],
+	"styles": [
+		{
+			"category": "panels",
+			"file": "chrome.png",
+			"margins": [
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"name": "TOAST",
+			"origin": "Chrome.java / TOAST",
+			"rect": [
+				20.0,
+				0.0,
+				9.0,
+				9.0
+			],
+			"resource": "res://assets/ui/styles/panels/toast.tres"
+		},
+		{
+			"category": "panels",
+			"file": "chrome.png",
+			"margins": [
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"name": "TOAST_TR",
+			"origin": "Chrome.java / TOAST_TR",
+			"rect": [
+				20.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"resource": "res://assets/ui/styles/panels/toast_tr.tres"
+		},
+		{
+			"category": "panels",
+			"file": "chrome.png",
+			"margins": [
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"name": "TOAST_TR_HEAVY",
+			"origin": "Chrome.java / TOAST_TR_HEAVY",
+			"rect": [
+				29.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"resource": "res://assets/ui/styles/panels/toast_tr_heavy.tres"
+		},
+		{
+			"category": "panels",
+			"file": "chrome.png",
+			"margins": [
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"name": "TOAST_WHITE",
+			"origin": "Chrome.java / TOAST_WHITE",
+			"rect": [
+				29.0,
+				0.0,
+				9.0,
+				9.0
+			],
+			"resource": "res://assets/ui/styles/panels/toast_white.tres"
+		},
+		{
+			"category": "windows",
+			"file": "chrome.png",
+			"margins": [
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"name": "WINDOW",
+			"origin": "Chrome.java / WINDOW",
+			"rect": [
+				0.0,
+				0.0,
+				20.0,
+				20.0
+			],
+			"resource": "res://assets/ui/styles/windows/window.tres"
+		},
+		{
+			"category": "windows",
+			"file": "chrome.png",
+			"margins": [
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"name": "WINDOW_SILVER",
+			"origin": "Chrome.java / WINDOW_SILVER",
+			"rect": [
+				86.0,
+				0.0,
+				22.0,
+				22.0
+			],
+			"resource": "res://assets/ui/styles/windows/window_silver.tres"
+		},
+		{
+			"category": "buttons",
+			"file": "chrome.png",
+			"margins": [
+				2.0,
+				2.0,
+				2.0,
+				2.0
+			],
+			"name": "ORANGE_BUTTON",
+			"origin": "Chrome.java / RED_BUTTON",
+			"rect": [
+				38.0,
+				0.0,
+				6.0,
+				6.0
+			],
+			"resource": "res://assets/ui/styles/buttons/orange_button.tres"
+		},
+		{
+			"category": "buttons",
+			"file": "chrome.png",
+			"margins": [
+				2.0,
+				2.0,
+				2.0,
+				2.0
+			],
+			"name": "GREY_BUTTON",
+			"origin": "Chrome.java / GREY_BUTTON",
+			"rect": [
+				38.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"resource": "res://assets/ui/styles/buttons/grey_button.tres"
+		},
+		{
+			"category": "buttons",
+			"file": "chrome.png",
+			"margins": [
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"name": "GREY_BUTTON_TR",
+			"origin": "Chrome.java / GREY_BUTTON_TR",
+			"rect": [
+				20.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"resource": "res://assets/ui/styles/buttons/grey_button_tr.tres"
+		},
+		{
+			"category": "panels",
+			"file": "chrome.png",
+			"margins": [
+				3.0,
+				3.0,
+				3.0,
+				3.0
+			],
+			"name": "TAG",
+			"origin": "Chrome.java / TAG",
+			"rect": [
+				22.0,
+				18.0,
+				16.0,
+				14.0
+			],
+			"resource": "res://assets/ui/styles/panels/tag.tres"
+		},
+		{
+			"category": "windows",
+			"file": "chrome.png",
+			"margins": [
+				13.0,
+				13.0,
+				13.0,
+				13.0
+			],
+			"name": "GEM",
+			"origin": "Chrome.java / GEM",
+			"rect": [
+				0.0,
+				32.0,
+				32.0,
+				32.0
+			],
+			"resource": "res://assets/ui/styles/windows/gem.tres"
+		},
+		{
+			"category": "windows",
+			"file": "chrome.png",
+			"margins": [
+				5.0,
+				11.0,
+				5.0,
+				11.0
+			],
+			"name": "SCROLL",
+			"origin": "Chrome.java / SCROLL",
+			"rect": [
+				32.0,
+				32.0,
+				32.0,
+				32.0
+			],
+			"resource": "res://assets/ui/styles/windows/scroll.tres"
+		},
+		{
+			"category": "tabs",
+			"file": "chrome.png",
+			"margins": [
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"name": "TAB_SET",
+			"origin": "Chrome.java / TAB_SET",
+			"rect": [
+				64.0,
+				0.0,
+				20.0,
+				20.0
+			],
+			"resource": "res://assets/ui/styles/tabs/tab_set.tres"
+		},
+		{
+			"category": "tabs",
+			"file": "chrome.png",
+			"margins": [
+				3.0,
+				7.0,
+				3.0,
+				5.0
+			],
+			"name": "TAB_SELECTED",
+			"origin": "Chrome.java / TAB_SELECTED",
+			"rect": [
+				65.0,
+				22.0,
+				8.0,
+				13.0
+			],
+			"resource": "res://assets/ui/styles/tabs/tab_selected.tres"
+		},
+		{
+			"category": "tabs",
+			"file": "chrome.png",
+			"margins": [
+				3.0,
+				7.0,
+				3.0,
+				5.0
+			],
+			"name": "TAB_UNSELECTED",
+			"origin": "Chrome.java / TAB_UNSELECTED",
+			"rect": [
+				75.0,
+				22.0,
+				8.0,
+				13.0
+			],
+			"resource": "res://assets/ui/styles/tabs/tab_unselected.tres"
+		},
+		{
+			"category": "panels",
+			"file": "chrome.png",
+			"margins": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"name": "BLANK",
+			"origin": "Chrome.java / BLANK",
+			"rect": [
+				45.0,
+				0.0,
+				1.0,
+				1.0
+			],
+			"resource": "res://assets/ui/styles/panels/blank.tres"
+		},
+		{
+			"category": "hud",
+			"file": "status_pane.png",
+			"margins": [
+				32,
+				0,
+				5,
+				0
+			],
+			"name": "STATUS_PANE_SMALL",
+			"origin": "ui/StatusPane.java",
+			"rect": [
+				0,
+				0,
+				82,
+				38
+			],
+			"resource": "res://assets/ui/styles/hud/status_pane_small.tres"
+		},
+		{
+			"category": "hud",
+			"file": "status_pane.png",
+			"margins": [
+				33,
+				0,
+				4,
+				0
+			],
+			"name": "STATUS_PANE_LARGE",
+			"origin": "ui/StatusPane.java",
+			"rect": [
+				0,
+				64,
+				41,
+				39
+			],
+			"resource": "res://assets/ui/styles/hud/status_pane_large.tres"
+		},
+		{
+			"category": "hud",
+			"file": "status_pane.png",
+			"margins": [
+				4,
+				0,
+				0,
+				0
+			],
+			"name": "HERO_PANE_CUTOUT",
+			"origin": "ui/StatusPane.java",
+			"rect": [
+				0,
+				0,
+				5,
+				36
+			],
+			"resource": "res://assets/ui/styles/hud/hero_pane_cutout.tres"
+		},
+		{
+			"category": "hud",
+			"file": "menu_pane.png",
+			"margins": [
+				3,
+				0,
+				2,
+				0
+			],
+			"name": "MENU_VERSION_OVERFLOW",
+			"origin": "ui/MenuPane.java",
+			"rect": [
+				1,
+				22,
+				6,
+				8
+			],
+			"resource": "res://assets/ui/styles/hud/menu_version_overflow.tres"
+		}
+	],
+	"textures": [
+		{
+			"category": "panels",
+			"file": "chrome.png",
+			"margins": [
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"name": "TOAST",
+			"origin": "Chrome.java / TOAST",
+			"rect": [
+				20.0,
+				0.0,
+				9.0,
+				9.0
+			],
+			"resource": "res://assets/ui/textures/panels/toast.tres"
+		},
+		{
+			"category": "panels",
+			"file": "chrome.png",
+			"margins": [
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"name": "TOAST_TR",
+			"origin": "Chrome.java / TOAST_TR",
+			"rect": [
+				20.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"resource": "res://assets/ui/textures/panels/toast_tr.tres"
+		},
+		{
+			"category": "panels",
+			"file": "chrome.png",
+			"margins": [
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"name": "TOAST_TR_HEAVY",
+			"origin": "Chrome.java / TOAST_TR_HEAVY",
+			"rect": [
+				29.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"resource": "res://assets/ui/textures/panels/toast_tr_heavy.tres"
+		},
+		{
+			"category": "panels",
+			"file": "chrome.png",
+			"margins": [
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"name": "TOAST_WHITE",
+			"origin": "Chrome.java / TOAST_WHITE",
+			"rect": [
+				29.0,
+				0.0,
+				9.0,
+				9.0
+			],
+			"resource": "res://assets/ui/textures/panels/toast_white.tres"
+		},
+		{
+			"category": "windows",
+			"file": "chrome.png",
+			"margins": [
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"name": "WINDOW",
+			"origin": "Chrome.java / WINDOW",
+			"rect": [
+				0.0,
+				0.0,
+				20.0,
+				20.0
+			],
+			"resource": "res://assets/ui/textures/windows/window.tres"
+		},
+		{
+			"category": "windows",
+			"file": "chrome.png",
+			"margins": [
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"name": "WINDOW_SILVER",
+			"origin": "Chrome.java / WINDOW_SILVER",
+			"rect": [
+				86.0,
+				0.0,
+				22.0,
+				22.0
+			],
+			"resource": "res://assets/ui/textures/windows/window_silver.tres"
+		},
+		{
+			"category": "buttons",
+			"file": "chrome.png",
+			"margins": [
+				2.0,
+				2.0,
+				2.0,
+				2.0
+			],
+			"name": "ORANGE_BUTTON",
+			"origin": "Chrome.java / RED_BUTTON",
+			"rect": [
+				38.0,
+				0.0,
+				6.0,
+				6.0
+			],
+			"resource": "res://assets/ui/textures/buttons/orange_button.tres"
+		},
+		{
+			"category": "buttons",
+			"file": "chrome.png",
+			"margins": [
+				2.0,
+				2.0,
+				2.0,
+				2.0
+			],
+			"name": "GREY_BUTTON",
+			"origin": "Chrome.java / GREY_BUTTON",
+			"rect": [
+				38.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"resource": "res://assets/ui/textures/buttons/grey_button.tres"
+		},
+		{
+			"category": "buttons",
+			"file": "chrome.png",
+			"margins": [
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"name": "GREY_BUTTON_TR",
+			"origin": "Chrome.java / GREY_BUTTON_TR",
+			"rect": [
+				20.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"resource": "res://assets/ui/textures/buttons/grey_button_tr.tres"
+		},
+		{
+			"category": "panels",
+			"file": "chrome.png",
+			"margins": [
+				3.0,
+				3.0,
+				3.0,
+				3.0
+			],
+			"name": "TAG",
+			"origin": "Chrome.java / TAG",
+			"rect": [
+				22.0,
+				18.0,
+				16.0,
+				14.0
+			],
+			"resource": "res://assets/ui/textures/panels/tag.tres"
+		},
+		{
+			"category": "windows",
+			"file": "chrome.png",
+			"margins": [
+				13.0,
+				13.0,
+				13.0,
+				13.0
+			],
+			"name": "GEM",
+			"origin": "Chrome.java / GEM",
+			"rect": [
+				0.0,
+				32.0,
+				32.0,
+				32.0
+			],
+			"resource": "res://assets/ui/textures/windows/gem.tres"
+		},
+		{
+			"category": "windows",
+			"file": "chrome.png",
+			"margins": [
+				5.0,
+				11.0,
+				5.0,
+				11.0
+			],
+			"name": "SCROLL",
+			"origin": "Chrome.java / SCROLL",
+			"rect": [
+				32.0,
+				32.0,
+				32.0,
+				32.0
+			],
+			"resource": "res://assets/ui/textures/windows/scroll.tres"
+		},
+		{
+			"category": "tabs",
+			"file": "chrome.png",
+			"margins": [
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"name": "TAB_SET",
+			"origin": "Chrome.java / TAB_SET",
+			"rect": [
+				64.0,
+				0.0,
+				20.0,
+				20.0
+			],
+			"resource": "res://assets/ui/textures/tabs/tab_set.tres"
+		},
+		{
+			"category": "tabs",
+			"file": "chrome.png",
+			"margins": [
+				3.0,
+				7.0,
+				3.0,
+				5.0
+			],
+			"name": "TAB_SELECTED",
+			"origin": "Chrome.java / TAB_SELECTED",
+			"rect": [
+				65.0,
+				22.0,
+				8.0,
+				13.0
+			],
+			"resource": "res://assets/ui/textures/tabs/tab_selected.tres"
+		},
+		{
+			"category": "tabs",
+			"file": "chrome.png",
+			"margins": [
+				3.0,
+				7.0,
+				3.0,
+				5.0
+			],
+			"name": "TAB_UNSELECTED",
+			"origin": "Chrome.java / TAB_UNSELECTED",
+			"rect": [
+				75.0,
+				22.0,
+				8.0,
+				13.0
+			],
+			"resource": "res://assets/ui/textures/tabs/tab_unselected.tres"
+		},
+		{
+			"category": "panels",
+			"file": "chrome.png",
+			"margins": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"name": "BLANK",
+			"origin": "Chrome.java / BLANK",
+			"rect": [
+				45.0,
+				0.0,
+				1.0,
+				1.0
+			],
+			"resource": "res://assets/ui/textures/panels/blank.tres"
+		},
+		{
+			"category": "hud",
+			"file": "status_pane.png",
+			"margins": [
+				32,
+				0,
+				5,
+				0
+			],
+			"name": "STATUS_PANE_SMALL",
+			"origin": "ui/StatusPane.java",
+			"rect": [
+				0,
+				0,
+				82,
+				38
+			],
+			"resource": "res://assets/ui/textures/hud/status_pane_small.tres"
+		},
+		{
+			"category": "hud",
+			"file": "status_pane.png",
+			"margins": [
+				33,
+				0,
+				4,
+				0
+			],
+			"name": "STATUS_PANE_LARGE",
+			"origin": "ui/StatusPane.java",
+			"rect": [
+				0,
+				64,
+				41,
+				39
+			],
+			"resource": "res://assets/ui/textures/hud/status_pane_large.tres"
+		},
+		{
+			"category": "hud",
+			"file": "status_pane.png",
+			"margins": [
+				4,
+				0,
+				0,
+				0
+			],
+			"name": "HERO_PANE_CUTOUT",
+			"origin": "ui/StatusPane.java",
+			"rect": [
+				0,
+				0,
+				5,
+				36
+			],
+			"resource": "res://assets/ui/textures/hud/hero_pane_cutout.tres"
+		},
+		{
+			"category": "hud",
+			"file": "menu_pane.png",
+			"margins": [
+				3,
+				0,
+				2,
+				0
+			],
+			"name": "MENU_VERSION_OVERFLOW",
+			"origin": "ui/MenuPane.java",
+			"rect": [
+				1,
+				22,
+				6,
+				8
+			],
+			"resource": "res://assets/ui/textures/hud/menu_version_overflow.tres"
+		},
+		{
+			"category": "hud",
+			"file": "menu_pane.png",
+			"name": "MENU_PANE_BACKGROUND",
+			"rect": [
+				1,
+				0,
+				31,
+				21
+			],
+			"resource": "res://assets/ui/textures/hud/menu_pane_background.tres"
+		},
+		{
+			"category": "buttons",
+			"file": "menu_button.png",
+			"name": "MENU_JOURNAL_BUTTON",
+			"rect": [
+				2,
+				2,
+				13,
+				11
+			],
+			"resource": "res://assets/ui/textures/buttons/menu_journal_button.tres"
+		},
+		{
+			"category": "buttons",
+			"file": "menu_button.png",
+			"name": "MENU_SETTINGS_BUTTON",
+			"rect": [
+				17,
+				2,
+				12,
+				11
+			],
+			"resource": "res://assets/ui/textures/buttons/menu_settings_button.tres"
+		},
+		{
+			"category": "hud",
+			"file": "menu_button.png",
+			"name": "MENU_JOURNAL_ICON",
+			"rect": [
+				31,
+				0,
+				11,
+				6
+			],
+			"resource": "res://assets/ui/textures/hud/menu_journal_icon.tres"
+		},
+		{
+			"category": "hud",
+			"file": "status_pane.png",
+			"name": "HP_SMALL",
+			"rect": [
+				0,
+				40,
+				50,
+				4
+			],
+			"resource": "res://assets/ui/textures/hud/hp_small.tres"
+		},
+		{
+			"category": "hud",
+			"file": "status_pane.png",
+			"name": "HP_LARGE",
+			"rect": [
+				0,
+				103,
+				128,
+				9
+			],
+			"resource": "res://assets/ui/textures/hud/hp_large.tres"
+		},
+		{
+			"category": "hud",
+			"file": "status_pane.png",
+			"name": "SHIELD_SMALL",
+			"rect": [
+				0,
+				44,
+				50,
+				4
+			],
+			"resource": "res://assets/ui/textures/hud/shield_small.tres"
+		},
+		{
+			"category": "hud",
+			"file": "status_pane.png",
+			"name": "SHIELD_LARGE",
+			"rect": [
+				0,
+				112,
+				128,
+				9
+			],
+			"resource": "res://assets/ui/textures/hud/shield_large.tres"
+		},
+		{
+			"category": "hud",
+			"file": "status_pane.png",
+			"name": "EXP_SMALL",
+			"rect": [
+				0,
+				48,
+				17,
+				4
+			],
+			"resource": "res://assets/ui/textures/hud/exp_small.tres"
+		},
+		{
+			"category": "hud",
+			"file": "status_pane.png",
+			"name": "EXP_LARGE",
+			"rect": [
+				0,
+				121,
+				128,
+				7
+			],
+			"resource": "res://assets/ui/textures/hud/exp_large.tres"
+		},
+		{
+			"category": "hud",
+			"file": "boss_hp.png",
+			"name": "BOSS_BAR_SMALL",
+			"rect": [
+				0,
+				0,
+				64,
+				16
+			],
+			"resource": "res://assets/ui/textures/hud/boss_bar_small.tres"
+		},
+		{
+			"category": "hud",
+			"file": "boss_hp.png",
+			"name": "BOSS_BAR_LARGE",
+			"rect": [
+				0,
+				16,
+				128,
+				30
+			],
+			"resource": "res://assets/ui/textures/hud/boss_bar_large.tres"
+		},
+		{
+			"category": "hud",
+			"file": "boss_hp.png",
+			"name": "BOSS_HP_SMALL",
+			"rect": [
+				71,
+				0,
+				47,
+				4
+			],
+			"resource": "res://assets/ui/textures/hud/boss_hp_small.tres"
+		},
+		{
+			"category": "hud",
+			"file": "boss_hp.png",
+			"name": "BOSS_HP_LARGE",
+			"rect": [
+				0,
+				46,
+				96,
+				9
+			],
+			"resource": "res://assets/ui/textures/hud/boss_hp_large.tres"
+		},
+		{
+			"category": "hud",
+			"file": "boss_hp.png",
+			"name": "BOSS_SHIELD_SMALL",
+			"rect": [
+				71,
+				5,
+				47,
+				4
+			],
+			"resource": "res://assets/ui/textures/hud/boss_shield_small.tres"
+		},
+		{
+			"category": "hud",
+			"file": "boss_hp.png",
+			"name": "BOSS_SHIELD_LARGE",
+			"rect": [
+				0,
+				55,
+				96,
+				9
+			],
+			"resource": "res://assets/ui/textures/hud/boss_shield_large.tres"
+		},
+		{
+			"category": "hud",
+			"file": "boss_hp.png",
+			"name": "BOSS_SKULL",
+			"rect": [
+				64,
+				0,
+				6,
+				6
+			],
+			"resource": "res://assets/ui/textures/hud/boss_skull.tres"
+		},
+		{
+			"category": "hud",
+			"file": "toolbar.png",
+			"name": "TOOLBAR_INVENTORY_ICON",
+			"rect": [
+				160,
+				0,
+				16,
+				16
+			],
+			"resource": "res://assets/ui/textures/hud/toolbar_inventory_icon.tres"
+		},
+		{
+			"category": "hud",
+			"file": "toolbar.png",
+			"name": "TOOLBAR_WAIT_ICON",
+			"rect": [
+				176,
+				0,
+				16,
+				16
+			],
+			"resource": "res://assets/ui/textures/hud/toolbar_wait_icon.tres"
+		},
+		{
+			"category": "hud",
+			"file": "toolbar.png",
+			"name": "TOOLBAR_SEARCH_ICON",
+			"rect": [
+				192,
+				0,
+				16,
+				16
+			],
+			"resource": "res://assets/ui/textures/hud/toolbar_search_icon.tres"
+		},
+		{
+			"category": "buttons",
+			"file": "toolbar.png",
+			"name": "QUICKSLOT_RIGHT",
+			"rect": [
+				106,
+				0,
+				19,
+				24
+			],
+			"resource": "res://assets/ui/textures/buttons/quickslot_right.tres"
+		},
+		{
+			"category": "buttons",
+			"file": "toolbar.png",
+			"name": "QUICKSLOT_LEFT",
+			"rect": [
+				86,
+				0,
+				20,
+				24
+			],
+			"resource": "res://assets/ui/textures/buttons/quickslot_left.tres"
+		},
+		{
+			"category": "buttons",
+			"file": "toolbar.png",
+			"name": "QUICKSLOT_MIDDLE",
+			"rect": [
+				88,
+				0,
+				18,
+				24
+			],
+			"resource": "res://assets/ui/textures/buttons/quickslot_middle.tres"
+		}
+	],
+	"upstream": "Shattered Pixel Dungeon 4.0.2"
+}

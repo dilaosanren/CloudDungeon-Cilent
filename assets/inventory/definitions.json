@@ -1,0 +1,6540 @@
+{
+  "source_sha256": "4AC74732C2D08ADFDE450E22822841235A9736A1E0FBC188118FA944F6371C02",
+  "version": "SPD 4.0.2",
+  "items": [
+    {
+      "extra_actions": [
+        "CLEAN",
+        "TIP"
+      ],
+      "default_action": "THROW",
+      "unknown_description": "这些飞镖上涂着一种由速行蓟制成的药物。当目标为友方时，其移动速度和攻击速度都会有所提升，若为敌方则会短暂降低其移动速度。这只飞镖仍能对敌人造成伤害，但不会伤及盟友。",
+      "title": "激素飞镖",
+      "description": "这些飞镖上涂着一种由速行蓟制成的药物。当目标为友方时，其移动速度和攻击速度都会有所提升，若为敌方则会短暂降低其移动速度。这只飞镖仍能对敌人造成伤害，但不会伤及盟友。",
+      "type_id": "AdrenalineDart",
+      "stackable": true,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/missiles/darts/AdrenalineDart.java",
+        "action_labels": {
+          "CLEAN": "清洗",
+          "TIP": "涂药"
+        }
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "ADRENALINE_DART",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "BREW",
+        "ENERGIZE"
+      ],
+      "default_action": "BREW",
+      "unknown_description": "这套工具箱内存放着各式各样的试剂，草药和一个小混合瓶，让使用者能够随时随地进行炼金实验。这个混合瓶里貌似装载着液态的炼金能量晶体。",
+      "title": "炼金工具箱",
+      "description": "这套工具箱内存放着各式各样的试剂，草药和一个小混合瓶，让使用者能够随时随地进行炼金实验。这个混合瓶里貌似装载着液态的炼金能量晶体。",
+      "type_id": "AlchemistsToolkit",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/artifacts/AlchemistsToolkit.java",
+        "action_labels": {
+          "ENERGIZE": "供能",
+          "BREW": "酿造"
+        }
+      },
+      "category": "artifact",
+      "icon": "",
+      "visual": "ARTIFACT_TOOLKIT",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CAST"
+      ],
+      "default_action": "CAST",
+      "unknown_description": "这个菱晶包含的转化能力与炼金釜类似。允许使用者将一件物品(或一堆物品)转化为金币或炼金能量。将药剂、卷轴炼化为能量甚至可以鉴定它们！\n\n你可以在商店中中买到少许炼金菱晶，但也可以通过炼金术用种子、符石与少量炼金能量合成更多的炼金菱晶。",
+      "title": "炼金菱晶",
+      "description": "这个菱晶包含的转化能力与炼金釜类似。允许使用者将一件物品(或一堆物品)转化为金币或炼金能量。将药剂、卷轴炼化为能量甚至可以鉴定它们！\n\n你可以在商店中中买到少许炼金菱晶，但也可以通过炼金术用种子、符石与少量炼金能量合成更多的炼金菱晶。",
+      "type_id": "Alchemize",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/spells/Alchemize.java",
+        "action_labels": {
+          "CAST": "施放"
+        }
+      },
+      "category": "spell",
+      "icon": "",
+      "visual": "ALCHEMIZE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "从一本炼金指南书上撕下来的一页。\n\n在远处你只能看到一行行密密麻麻的小字，不过你仍然可以看清书页上的标题\n\n_\"%s\"_",
+      "title": "被撕下的炼金指南书页",
+      "description": "从一本炼金指南书上撕下来的一页。\n\n在远处你只能看到一行行密密麻麻的小字，不过你仍然可以看清书页上的标题\n\n_\"%s\"_",
+      "type_id": "AlchemyPage",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/journal/AlchemyPage.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "ALCH_PAGE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "END"
+      ],
+      "default_action": "",
+      "unknown_description": "Yendor护符是人类与矮人所知的最强大的神器。其上镶嵌的晶石奇光辉映、气象非常，蕴含着不可思议的神奇力量。",
+      "title": "Yendor护符",
+      "description": "Yendor护符是人类与矮人所知的最强大的神器。其上镶嵌的晶石奇光辉映、气象非常，蕴含着不可思议的神奇力量。",
+      "type_id": "Amulet",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/Amulet.java",
+        "action_labels": {
+          "END": "结束游戏"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "AMULET",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "BLESS"
+      ],
+      "default_action": "",
+      "unknown_description": "这枚象征不朽的古老饰物能使人起死回生。不过大部分物品将会被遗落在死亡的地点，等待你去拾回。装满的水袋可用于对重生十字架进行赐福，赋予它更强的力量。",
+      "title": "重生十字架",
+      "description": "这枚象征不朽的古老饰物能使人起死回生。不过大部分物品将会被遗落在死亡的地点，等待你去拾回。装满的水袋可用于对重生十字架进行赐福，赋予它更强的力量。",
+      "type_id": "Ankh",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/Ankh.java",
+        "action_labels": {
+          "BLESS": "祝福"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "ANKH",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "水爆魔药",
+      "description": "当这瓶药剂破裂时，会在原地迸发高压水浪。水浪仅对火属性敌人造成有效伤害，但同时会让水流向附近的地形扩散，可浸湿陷阱使其失效、扑灭火焰，并击退水浪附近的角色。",
+      "type_id": "AquaBrew",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/brews/AquaBrew.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "",
+      "visual": "BREW_AQUA",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "LIGHTTHROW"
+      ],
+      "default_action": "LIGHTTHROW",
+      "unknown_description": "这枚炸弹里灌注了奥术能量，当其爆炸时会释放出类似于粘咕蓄力攻击的强力冲击，在2格范围内对所有单位造成_%1$d~%2$d点魔法伤害_。",
+      "title": "奥术炸弹",
+      "description": "这枚炸弹里灌注了奥术能量，当其爆炸时会释放出类似于粘咕蓄力攻击的强力冲击，在2格范围内对所有单位造成_%1$d~%2$d点魔法伤害_。",
+      "type_id": "ArcaneBomb",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/bombs/ArcaneBomb.java",
+        "action_labels": {
+          "LIGHTTHROW": "点燃并扔出"
+        }
+      },
+      "category": "bomb",
+      "icon": "",
+      "visual": "ARCANE_BOMB",
+      "targeting_actions": [
+        "THROW",
+        "LIGHTTHROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "APPLY"
+      ],
+      "default_action": "APPLY",
+      "unknown_description": "这团细腻的粉末闪烁着紫与白的微光。奥术树脂可用于增强法杖魔能，提升法杖等级！\n\n基于法杖初始等级，升级一根法杖分别需要消耗1、2、3个树脂。树脂最多可以升级法杖至+3。\n\n然而，树脂的升级效果不但会_被其他升级来源覆盖_(例如升级卷轴)，而且无法通过灌注法杖转移到法师的魔杖。",
+      "title": "奥术树脂",
+      "description": "这团细腻的粉末闪烁着紫与白的微光。奥术树脂可用于增强法杖魔能，提升法杖等级！\n\n基于法杖初始等级，升级一根法杖分别需要消耗1、2、3个树脂。树脂最多可以升级法杖至+3。\n\n然而，树脂的升级效果不但会_被其他升级来源覆盖_(例如升级卷轴)，而且无法通过灌注法杖转移到法师的魔杖。",
+      "type_id": "ArcaneResin",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/ArcaneResin.java",
+        "action_labels": {
+          "APPLY": "强化"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "ARCANE_RESIN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "黑曜石制的波浪形短刃，虽轻便但不易用，如果能击中要害足以致命。",
+      "title": "暗杀之刃",
+      "description": "黑曜石制的波浪形短刃，虽轻便但不易用，如果能击中要害足以致命。",
+      "type_id": "AssassinsBlade",
+      "stackable": false,
+      "metadata": {
+        "tier": 4,
+        "source": "items/weapon/melee/AssassinsBlade.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "ASSASSINS_BLADE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这把有着硕大钢制头部的战斧能将庞大的力量倾注在每次挥舞之中。",
+      "title": "战斧",
+      "description": "这把有着硕大钢制头部的战斧能将庞大的力量倾注在每次挥舞之中。",
+      "type_id": "BattleAxe",
+      "stackable": false,
+      "metadata": {
+        "tier": 4,
+        "source": "items/weapon/melee/BattleAxe.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "BATTLE_AXE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CAST"
+      ],
+      "default_action": "CAST",
+      "unknown_description": "这个复杂的晶柱给予了使用者无视距离返回到设定地点的能力。该晶柱只会在返回时消耗。你可以随时改变它的设定位置，但该晶柱只能记忆最近一次设置的位置。",
+      "title": "返回晶柱",
+      "description": "这个复杂的晶柱给予了使用者无视距离返回到设定地点的能力。该晶柱只会在返回时消耗。你可以随时改变它的设定位置，但该晶柱只能记忆最近一次设置的位置。",
+      "type_id": "BeaconOfReturning",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/spells/BeaconOfReturning.java",
+        "action_labels": {
+          "CAST": "施放"
+        }
+      },
+      "category": "spell",
+      "icon": "",
+      "visual": "RETURN_BEACON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "EAT"
+      ],
+      "default_action": "EAT",
+      "unknown_description": "这颗小浆果是女猎手在地牢的植被里找到的，它可以被快速食用以获得少量饱腹感，还可能有实用的种子包含其中！",
+      "title": "地牢浆果",
+      "description": "这颗小浆果是女猎手在地牢的植被里找到的，它可以被快速食用以获得少量饱腹感，还可能有实用的种子包含其中！",
+      "type_id": "Berry",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/food/Berry.java",
+        "action_labels": {
+          "EAT": "食用"
+        }
+      },
+      "category": "food",
+      "icon": "",
+      "visual": "BERRY",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "EAT"
+      ],
+      "default_action": "EAT",
+      "unknown_description": "干燥且脆弱，或许加点其他材料再煮能够增强它的效果。",
+      "title": "无味果",
+      "description": "干燥且脆弱，或许加点其他材料再煮能够增强它的效果。",
+      "type_id": "Blandfruit",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/food/Blandfruit.java",
+        "action_labels": {
+          "EAT": "食用"
+        }
+      },
+      "category": "food",
+      "icon": "",
+      "visual": "BLANDFRUIT",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CLEAN",
+        "TIP"
+      ],
+      "default_action": "THROW",
+      "unknown_description": "这些飞镖上涂着一种由致盲草制成的药物，能让目标失明一小段时间。药效比新鲜的致盲草弱，不会让目标迷失方向，所以目标会记住你之前在的位置。",
+      "title": "致盲飞镖",
+      "description": "这些飞镖上涂着一种由致盲草制成的药物，能让目标失明一小段时间。药效比新鲜的致盲草弱，不会让目标迷失方向，所以目标会记住你之前在的位置。",
+      "type_id": "BlindingDart",
+      "stackable": true,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/missiles/darts/BlindingDart.java",
+        "action_labels": {
+          "CLEAN": "清洗",
+          "TIP": "涂药"
+        }
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "BLINDING_DART",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "冰暴魔药",
+      "description": "当瓶子破裂时，这瓶魔药会释放出一阵像气体一样扩散的旋流冰暴。",
+      "type_id": "BlizzardBrew",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/brews/BlizzardBrew.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "",
+      "visual": "BREW_BLIZZARD",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这种造型特殊的远程武器造成的伤害不高，但能够有效迟滞目标的移动。",
+      "title": "流星索",
+      "description": "这种造型特殊的远程武器造成的伤害不高，但能够有效迟滞目标的移动。",
+      "type_id": "Bolas",
+      "stackable": true,
+      "metadata": {
+        "tier": 3,
+        "source": "items/weapon/missiles/Bolas.java",
+        "action_labels": {}
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "BOLAS",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "LIGHTTHROW"
+      ],
+      "default_action": "LIGHTTHROW",
+      "unknown_description": "一枚颇大的黑火药炸弹。爆炸时，这枚炸弹会对所有临近单位造成_%1$d~%2$d点伤害_并摧毁某些地形或物品。",
+      "title": "炸弹",
+      "description": "一枚颇大的黑火药炸弹。爆炸时，这枚炸弹会对所有临近单位造成_%1$d~%2$d点伤害_并摧毁某些地形或物品。",
+      "type_id": "Bomb",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/bombs/Bomb.java",
+        "action_labels": {
+          "LIGHTTHROW": "点燃并扔出"
+        }
+      },
+      "category": "bomb",
+      "icon": "",
+      "visual": "BOMB",
+      "targeting_actions": [
+        "THROW",
+        "LIGHTTHROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "USE"
+      ],
+      "default_action": "USE",
+      "unknown_description": "这块枯木曾经是一位殒落于此的女猎手所持灵能弓的一部分。你仍可以感受到枯木中残留的一点自然能量，你可以激发这最后的能量，令周身长出一片高草。但是当你这样做之后，这块枯木会由于自然能量耗尽而烟消云散。",
+      "title": "灵弓残件",
+      "description": "这块枯木曾经是一位殒落于此的女猎手所持灵能弓的一部分。你仍可以感受到枯木中残留的一点自然能量，你可以激发这最后的能量，令周身长出一片高草。但是当你这样做之后，这块枯木会由于自然能量耗尽而烟消云散。",
+      "type_id": "BowFragment",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/remains/BowFragment.java",
+        "action_labels": {
+          "USE": "使用"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "BOW_FRAGMENT",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "USE"
+      ],
+      "default_action": "USE",
+      "unknown_description": "这把断折剑柄曾经应是一名败于此地的决斗者随身武器。即使如今你仍可感受到剑柄其上残留的武道气息，你可以运起这股气息，在接下来使用近战武器两次命中时造成些许额外伤害。但这意味着剑柄会随着武者气息的流失而烟消云散。",
+      "title": "断折剑柄",
+      "description": "这把断折剑柄曾经应是一名败于此地的决斗者随身武器。即使如今你仍可感受到剑柄其上残留的武道气息，你可以运起这股气息，在接下来使用近战武器两次命中时造成些许额外伤害。但这意味着剑柄会随着武者气息的流失而烟消云散。",
+      "type_id": "BrokenHilt",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/remains/BrokenHilt.java",
+        "action_labels": {
+          "USE": "使用"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "BROKEN_HILT",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "AFFIX"
+      ],
+      "default_action": "INFO",
+      "unknown_description": "一枚蜡制纹章，作为勇气的象征而贴附在护甲之上。纹章上刻有磨损的防御符咒，并从中碎裂为两半。\n\n这是一件来自家乡的纪念物，在纹章的支持下战士会变得不屈不挠。佩戴着纹章，战士会在将要受伤至生命值半数以下时立即获得护盾。\n\n纹章可以被_贴附在护甲上_并能在护甲间转移。它能够携带一次升级，前提是升级时纹章需已贴附在护甲上。",
+      "title": "破损纹章",
+      "description": "一枚蜡制纹章，作为勇气的象征而贴附在护甲之上。纹章上刻有磨损的防御符咒，并从中碎裂为两半。\n\n这是一件来自家乡的纪念物，在纹章的支持下战士会变得不屈不挠。佩戴着纹章，战士会在将要受伤至生命值半数以下时立即获得护盾。\n\n纹章可以被_贴附在护甲上_并能在护甲间转移。它能够携带一次升级，前提是升级时纹章需已贴附在护甲上。",
+      "type_id": "BrokenSeal",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/BrokenSeal.java",
+        "action_labels": {
+          "AFFIX": "贴附"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "SEAL",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "USE"
+      ],
+      "default_action": "USE",
+      "unknown_description": "这把法师魔杖在其主死后也断做两截。你仍可以感受到魔杖中残余的魔力波动，你可以用它来给你的法杖提供一些充能。但是，这样也会使得魔杖随着魔力的流失而烟消云散。",
+      "title": "横断魔杖",
+      "description": "这把法师魔杖在其主死后也断做两截。你仍可以感受到魔杖中残余的魔力波动，你可以用它来给你的法杖提供一些充能。但是，这样也会使得魔杖随着魔力的流失而烟消云散。",
+      "type_id": "BrokenStaff",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/remains/BrokenStaff.java",
+        "action_labels": {
+          "USE": "使用"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "BROKEN_STAFF",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "EQUIP",
+      "unknown_description": "这些从DM-300崩解而出的金属碎片构成了一件坚硬的斗篷。它似乎能储存很多能量，也许它还残留有少量DM-300的能力？",
+      "title": "荆棘斗篷",
+      "description": "这些从DM-300崩解而出的金属碎片构成了一件坚硬的斗篷。它似乎能储存很多能量，也许它还残留有少量DM-300的能力？",
+      "type_id": "CapeOfThorns",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/artifacts/CapeOfThorns.java",
+        "action_labels": {}
+      },
+      "category": "artifact",
+      "icon": "",
+      "visual": "ARTIFACT_CAPE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "淤泥魔药",
+      "description": "这瓶魔药在打碎时会大范围地溅出腐蚀淤泥。被腐蚀淤泥影响的单位将会缓慢融化，除非他们能及时在水中冲洗掉淤泥。",
+      "type_id": "CausticBrew",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/brews/CausticBrew.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "",
+      "visual": "BREW_CAUSTIC",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "一套配套的蜡烛，在使用中融化在了一起。\n\n单独看来它们毫无价值，但与其它蜡烛按特定排布共用时却能为召唤仪式聚集能量。",
+      "title": "仪式蜡烛",
+      "description": "一套配套的蜡烛，在使用中融化在了一起。\n\n单独看来它们毫无价值，但与其它蜡烛按特定排布共用时却能为召唤仪式聚集能量。",
+      "type_id": "CeremonialCandle",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/quest/CeremonialCandle.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "CANDLE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "PRICK"
+      ],
+      "default_action": "EQUIP",
+      "unknown_description": "这个闪闪发光的银质圣杯在边沿突兀地装饰着几颗造型尖锐的宝石。",
+      "title": "蓄血圣杯",
+      "description": "这个闪闪发光的银质圣杯在边沿突兀地装饰着几颗造型尖锐的宝石。",
+      "type_id": "ChaliceOfBlood",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/artifacts/ChaliceOfBlood.java",
+        "action_labels": {
+          "PRICK": "血祭"
+        }
+      },
+      "category": "artifact",
+      "icon": "",
+      "visual": "ARTIFACT_CHALICE1",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "在炼金釜内炼制一段时间后，这只香炉竟开始自行生烟！这些气体会在炉内不断积聚，并间歇性随机地向敌人喷去。香炉似乎能产生各类气体，但在气体释放前你会得到片刻的预警。",
+      "title": "混沌香炉",
+      "description": "在炼金釜内炼制一段时间后，这只香炉竟开始自行生烟！这些气体会在炉内不断积聚，并间歇性随机地向敌人喷去。香炉似乎能产生各类气体，但在气体释放前你会得到片刻的预警。",
+      "type_id": "ChaoticCenser",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/ChaoticCenser.java",
+        "action_labels": {}
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "CHAOTIC_CENSER",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "EAT"
+      ],
+      "default_action": "EAT",
+      "unknown_description": "看起来像块好肉排。",
+      "title": "烤肉",
+      "description": "看起来像块好肉排。",
+      "type_id": "ChargrilledMeat",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/food/ChargrilledMeat.java",
+        "action_labels": {
+          "EAT": "食用"
+        }
+      },
+      "category": "food",
+      "icon": "",
+      "visual": "STEAK",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CLEAN",
+        "TIP"
+      ],
+      "default_action": "THROW",
+      "unknown_description": "这些飞镖上涂着一种由冰冠花制成的药物，能显著地冻伤目标。",
+      "title": "寒霜飞镖",
+      "description": "这些飞镖上涂着一种由冰冠花制成的药物，能显著地冻伤目标。",
+      "type_id": "ChillingDart",
+      "stackable": true,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/missiles/darts/ChillingDart.java",
+        "action_labels": {
+          "CLEAN": "清洗",
+          "TIP": "涂药"
+        }
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "CHILLING_DART",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CLEAN",
+        "TIP"
+      ],
+      "default_action": "THROW",
+      "unknown_description": "这些飞镖上涂着一种由魔皇草制成的药物，能使友军暂时对所有负面效果免疫，也可以清除敌人身上的增益效果。敌人甚至会暂时忘记它正在攻击或逃离你。这只飞镖仍能对敌人造成伤害，但不会伤及盟友。",
+      "title": "净化飞镖",
+      "description": "这些飞镖上涂着一种由魔皇草制成的药物，能使友军暂时对所有负面效果免疫，也可以清除敌人身上的增益效果。敌人甚至会暂时忘记它正在攻击或逃离你。这只飞镖仍能对敌人造成伤害，但不会伤及盟友。",
+      "type_id": "CleansingDart",
+      "stackable": true,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/missiles/darts/CleansingDart.java",
+        "action_labels": {
+          "CLEAN": "清洗",
+          "TIP": "涂药"
+        }
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "CLEANSING_DART",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "TRANSFER",
+        "DETACH"
+      ],
+      "default_action": "",
+      "unknown_description": "穿着这套内着重甲的祭服时，牧师能够施展一项特殊技能。",
+      "title": "英雄祭服",
+      "description": "穿着这套内着重甲的祭服时，牧师能够施展一项特殊技能。",
+      "type_id": "ClericArmor",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/armor/ClericArmor.java",
+        "action_labels": {
+          "DETACH": "拆卸",
+          "TRANSFER": "转移"
+        }
+      },
+      "category": "armor",
+      "icon": "",
+      "visual": "ARMOR_CLERIC",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "STEALTH"
+      ],
+      "default_action": "STEALTH",
+      "unknown_description": "这是盗贼多年前从皇家军械库窃取的一件无价的魔法斗篷。穿上时，可令穿戴者在短时间完全隐形。\n\n斗篷的使用次数越多，力量就会变得越强，使盗贼更频繁地隐形，且持续时间更长。",
+      "title": "暗影斗篷",
+      "description": "这是盗贼多年前从皇家军械库窃取的一件无价的魔法斗篷。穿上时，可令穿戴者在短时间完全隐形。\n\n斗篷的使用次数越多，力量就会变得越强，使盗贼更频繁地隐形，且持续时间更长。",
+      "type_id": "CloakOfShadows",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/artifacts/CloakOfShadows.java",
+        "action_labels": {
+          "STEALTH": "潜行"
+        }
+      },
+      "category": "artifact",
+      "icon": "",
+      "visual": "ARTIFACT_CLOAK",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "USE"
+      ],
+      "default_action": "USE",
+      "unknown_description": "这块半透明的织物残片似是源于一位盗贼同行的暗影斗篷。你可以感受到一丝神秘的能量仍残留其中，你可以用它来给你的神器提供一些充能。但是如此残片也会随着神秘能量耗尽而烟消云散。",
+      "title": "残破织物",
+      "description": "这块半透明的织物残片似是源于一位盗贼同行的暗影斗篷。你可以感受到一丝神秘的能量仍残留其中，你可以用它来给你的神器提供一些充能。但是如此残片也会随着神秘能量耗尽而烟消云散。",
+      "type_id": "CloakScrap",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/remains/CloakScrap.java",
+        "action_labels": {
+          "USE": "使用"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "CLOAK_SCRAP",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DETACH"
+      ],
+      "default_action": "",
+      "unknown_description": "这件轻便的护甲能提供最基本的防御。",
+      "title": "布甲",
+      "description": "这件轻便的护甲能提供最基本的防御。",
+      "type_id": "ClothArmor",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/armor/ClothArmor.java",
+        "action_labels": {
+          "DETACH": "拆卸"
+        }
+      },
+      "category": "armor",
+      "icon": "",
+      "visual": "ARMOR_CLOTH",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "在外观上这团尸尘和普通灰尘差不多。而你却能够感受到其中潜伏着一股充满恶意的魔力。\n\n尽快脱手为好。",
+      "title": "尸尘",
+      "description": "在外观上这团尸尘和普通灰尘差不多。而你却能够感受到其中潜伏着一股充满恶意的魔力。\n\n尽快脱手为好。",
+      "type_id": "CorpseDust",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/quest/CorpseDust.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "DUST",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "若是其前镜头完好无损，则这柄手持式望远镜可称得上一件能工巧匠的伟大之作了。望远镜似乎在为你揭示地牢中的新物品，但由于其本身的缺陷，这些被揭示的物品并不容易被看清。",
+      "title": "幻象裂镜",
+      "description": "若是其前镜头完好无损，则这柄手持式望远镜可称得上一件能工巧匠的伟大之作了。望远镜似乎在为你揭示地牢中的新物品，但由于其本身的缺陷，这些被揭示的物品并不容易被看清。",
+      "type_id": "CrackedSpyglass",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/CrackedSpyglass.java",
+        "action_labels": {}
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "SPYGLASS",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这是一件看起来相当精密复杂的装置，能够将飞镖一样的小型箭矢以极高的速度射出。这把十字弩掂在手里沉甸甸的，比想象中结实很多，虽然完全违背了设计初衷，不过也能够在肉搏战中起到作用。",
+      "title": "十字弩",
+      "description": "这是一件看起来相当精密复杂的装置，能够将飞镖一样的小型箭矢以极高的速度射出。这把十字弩掂在手里沉甸甸的，比想象中结实很多，虽然完全违背了设计初衷，不过也能够在肉搏战中起到作用。",
+      "type_id": "Crossbow",
+      "stackable": false,
+      "metadata": {
+        "tier": 4,
+        "source": "items/weapon/melee/Crossbow.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "CROSSBOW",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这把水晶钥匙在黑暗中反射着光芒。或许可以用它来打开某样水晶制品？",
+      "title": "水晶钥匙",
+      "description": "这把水晶钥匙在黑暗中反射着光芒。或许可以用它来打开某样水晶制品？",
+      "type_id": "CrystalKey",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/keys/CrystalKey.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "CRYSTAL_KEY",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一把小型黄铜锤，更多的作为贵族们的自卫工具而非冒险用武器使用。",
+      "title": "权杖",
+      "description": "一把小型黄铜锤，更多的作为贵族们的自卫工具而非冒险用武器使用。",
+      "type_id": "Cudgel",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/weapon/melee/Cudgel.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "CUDGEL",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CAST"
+      ],
+      "default_action": "CAST",
+      "unknown_description": "这个菱晶可以向一件装备注入和DM-300内部相同的的邪恶魔法。目标物品会立刻被诅咒，且原有的附魔与刻印会被覆盖。\n\n对武器、护甲和法杖使用时，诅咒菱晶在诅咒的基础上还会升级目标物品。诅咒菱晶造成的升级不会叠加，而且去除诅咒后升级也随之消失。\n\n对武器护甲的重复诅咒可以更换其上的诅咒种类。",
+      "title": "诅咒菱晶",
+      "description": "这个菱晶可以向一件装备注入和DM-300内部相同的的邪恶魔法。目标物品会立刻被诅咒，且原有的附魔与刻印会被覆盖。\n\n对武器、护甲和法杖使用时，诅咒菱晶在诅咒的基础上还会升级目标物品。诅咒菱晶造成的升级不会叠加，而且去除诅咒后升级也随之消失。\n\n对武器护甲的重复诅咒可以更换其上的诅咒种类。",
+      "type_id": "CurseInfusion",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/spells/CurseInfusion.java",
+        "action_labels": {
+          "CAST": "施放"
+        }
+      },
+      "category": "spell",
+      "icon": "",
+      "visual": "CURSE_INFUSE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "木柄被磨损的简易铁质匕首。",
+      "title": "匕首",
+      "description": "木柄被磨损的简易铁质匕首。",
+      "type_id": "Dagger",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/weapon/melee/Dagger.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "DAGGER",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这种金属名中的暗并非源于其色泽(它看起来和普通黄金一样)，而是因为它会在阳光下熔化，令其在地表上毫无用处。",
+      "title": "暗金矿",
+      "description": "这种金属名中的暗并非源于其色泽(它看起来和普通黄金一样)，而是因为它会在阳光下熔化，令其在地表上毫无用处。",
+      "type_id": "DarkGold",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/quest/DarkGold.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "ORE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "TIP"
+      ],
+      "default_action": "THROW",
+      "unknown_description": "由短木杆和金属尖头简易制成，手腕轻抖就会精准地飞向目标。使用种子可以为飞镖涂药，使其对目标造成额外效果。",
+      "title": "飞镖",
+      "description": "由短木杆和金属尖头简易制成，手腕轻抖就会精准地飞向目标。使用种子可以为飞镖涂药，使其对目标造成额外效果。",
+      "type_id": "Dart",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/weapon/missiles/darts/Dart.java",
+        "action_labels": {
+          "TIP": "涂药"
+        }
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "DART",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一颗晶莹剔透的露珠。\n\n受这片区域的魔力影响，净水有着少量的治疗效果。",
+      "title": "露珠",
+      "description": "一颗晶莹剔透的露珠。\n\n受这片区域的魔力影响，净水有着少量的治疗效果。",
+      "type_id": "Dewdrop",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/Dewdrop.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "DEWDROP",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "不知为何，这块小型手持式日晷能在地牢深处显影，甚至你不将其摆正也是如此。更奇怪的是，晷影的方位似乎与这个世界的太阳无关。当晷影不再显现时，日晷似乎会招致危险。",
+      "title": "位面日晷",
+      "description": "不知为何，这块小型手持式日晷能在地牢深处显影，甚至你不将其摆正也是如此。更奇怪的是，晷影的方位似乎与这个世界的太阳无关。当晷影不再显现时，日晷似乎会招致危险。",
+      "type_id": "DimensionalSundial",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/DimensionalSundial.java",
+        "action_labels": {}
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "SUNDIAL",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一个长一些的刺击型匕首，可以往敌人身体里捅得更深一点。",
+      "title": "长匕首",
+      "description": "一个长一些的刺击型匕首，可以往敌人身体里捅得更深一点。",
+      "type_id": "Dirk",
+      "stackable": false,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/melee/Dirk.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "DIRK",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CLEAN",
+        "TIP"
+      ],
+      "default_action": "THROW",
+      "unknown_description": "这些飞镖上涂着一种由消逝草制成的药物，能把目标传送走一小段距离。",
+      "title": "传送飞镖",
+      "description": "这些飞镖上涂着一种由消逝草制成的药物，能把目标传送走一小段距离。",
+      "type_id": "DisplacingDart",
+      "stackable": true,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/missiles/darts/DisplacingDart.java",
+        "action_labels": {
+          "CLEAN": "清洗",
+          "TIP": "涂药"
+        }
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "DISPLACING_DART",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "SUMMON",
+        "DIRECT",
+        "OUTFIT"
+      ],
+      "default_action": "SUMMON",
+      "unknown_description": "这就是那朵在幽灵消失前被提及的玫瑰吗？它似乎拥有某种精神力量，也许能以此为媒介触及这位陨落战士的能量。",
+      "title": "干枯玫瑰",
+      "description": "这就是那朵在幽灵消失前被提及的玫瑰吗？它似乎拥有某种精神力量，也许能以此为媒介触及这位陨落战士的能量。",
+      "type_id": "DriedRose",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/artifacts/DriedRose.java",
+        "action_labels": {
+          "DIRECT": "指引",
+          "OUTFIT": "配装",
+          "SUMMON": "召唤"
+        }
+      },
+      "category": "artifact",
+      "icon": "",
+      "visual": "ARTIFACT_ROSE1",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "TRANSFER",
+        "DETACH"
+      ],
+      "default_action": "",
+      "unknown_description": "装备这套护胸甲与披风时，决斗家能够施展一项特殊技能。",
+      "title": "英雄胸铠",
+      "description": "装备这套护胸甲与披风时，决斗家能够施展一项特殊技能。",
+      "type_id": "DuelistArmor",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/armor/DuelistArmor.java",
+        "action_labels": {
+          "DETACH": "拆卸",
+          "TRANSFER": "转移"
+        }
+      },
+      "category": "armor",
+      "icon": "",
+      "visual": "ARMOR_DUELIST",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一块形状奇特的金属片，被宝库中的矮人守卫随身携带。或许这徽记也是将守卫禁锢于这座宝库的魔法的一部分？最好先带着它，或许还会有用。",
+      "title": "矮人徽记",
+      "description": "一块形状奇特的金属片，被宝库中的矮人守卫随身携带。或许这徽记也是将守卫禁锢于这座宝库的魔法的一部分？最好先带着它，或许还会有用。",
+      "type_id": "DwarfToken",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/quest/DwarfToken.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "TOKEN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "水灵秘药",
+      "description": "这瓶秘药中包含着被粘咕力量强化的治疗液体。它不会为你提供立即的治疗效果，而会当你站在水中时逐渐为你恢复总量更大的生命值。",
+      "type_id": "ElixirOfAquaticRejuvenation",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/elixirs/ElixirOfAquaticRejuvenation.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "",
+      "visual": "ELIXIR_AQUA",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "抗魔秘药",
+      "description": "这瓶秘药会赋予饮用者持续时间很长的魔法抗性。",
+      "type_id": "ElixirOfArcaneArmor",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/elixirs/ElixirOfArcaneArmor.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "",
+      "visual": "ELIXIR_ARCANE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "龙血秘药",
+      "description": "饮用后，这瓶秘药会使饮用者的血管里充斥着烈焰的力量。这个效果能让饮用者对火焰完全免疫，并且还能通过物理攻击点燃敌人。",
+      "type_id": "ElixirOfDragonsBlood",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/elixirs/ElixirOfDragonsBlood.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "",
+      "visual": "ELIXIR_DRAGON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "羽落秘药",
+      "description": "这瓶秘药可为你提供更弱但更可控的悬浮效果，在短时间内使你身轻如燕，即便跳下悬崖深渊也能毫发无损。饮用这瓶秘药可以为你提供短时间内免除坠落伤害的效果。",
+      "type_id": "ElixirOfFeatherFall",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/elixirs/ElixirOfFeatherFall.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "",
+      "visual": "ELIXIR_FEATHER",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "圣愈蜜药",
+      "description": "这瓶秘药不仅有着治愈效果，还混杂了蜂蜜的甜香。饮用后，它会触发与治疗药剂一样的效果并回复少量饥饿，它也能被丢出去用来治疗盟友。\n\n对喜爱蜂蜜的生物使用此物也可能安抚住它们。",
+      "type_id": "ElixirOfHoneyedHealing",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/elixirs/ElixirOfHoneyedHealing.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "",
+      "visual": "ELIXIR_HONEY",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "晶触秘药",
+      "description": "饮用后，这瓶秘药会使饮用者获得从敌人身上抽取热量的能力。这样的效果让使用者能够在药效持续期间免疫冻伤，同时他的物理攻击也能对敌人造成冻伤效果。",
+      "type_id": "ElixirOfIcyTouch",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/elixirs/ElixirOfIcyTouch.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "",
+      "visual": "ELIXIR_ICY",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "根骨秘药",
+      "description": "这种强力的液体会冲刷你的根骨，永久性增加1点力量值并在一段时间内增加%d点生命上限。增强的生命上限值取决于你当前的最大生命值，不过增强值会随着等级提升而逐渐消失。",
+      "type_id": "ElixirOfMight",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/elixirs/ElixirOfMight.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "",
+      "visual": "ELIXIR_MIGHT",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "毒粹秘药",
+      "description": "这瓶秘药能够向使用者注入强大的毒素之力，饮用者在持续时间内将会在周身不断释放出致命的毒雾，此外还会在更长的一段时间内免疫毒气和毒素。",
+      "type_id": "ElixirOfToxicEssence",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/elixirs/ElixirOfToxicEssence.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "",
+      "visual": "ELIXIR_TOXIC",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "只能从新生火焰元素身上采集到的特殊余烬.。它们散发着温暖的能量。",
+      "title": "元素余烬",
+      "description": "只能从新生火焰元素身上采集到的特殊余烬.。它们散发着温暖的能量。",
+      "type_id": "Embers",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/quest/Embers.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "EMBER",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一些小巧玲珑的能量晶体，充盈着炼金能量。\n\n这些晶体是炼金配方中最常见的原料，可借助炼金釜从消耗品中提炼获得。",
+      "title": "能量晶体",
+      "description": "一些小巧玲珑的能量晶体，充盈着炼金能量。\n\n这些晶体是炼金配方中最常见的原料，可借助炼金釜从消耗品中提炼获得。",
+      "type_id": "EnergyCrystal",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/EnergyCrystal.java",
+        "action_labels": {}
+      },
+      "category": "energy",
+      "icon": "",
+      "visual": "ENERGY",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "USE"
+      ],
+      "default_action": "USE",
+      "unknown_description": "一块似乎内含着传送魔法的细长棱晶。你随时都可以使用这块棱晶离开宝库，但若是提早离开的话可别想拿到最好的报酬！",
+      "title": "逃脱棱晶",
+      "description": "一块似乎内含着传送魔法的细长棱晶。你随时都可以使用这块棱晶离开宝库，但若是提早离开的话可别想拿到最好的报酬！",
+      "type_id": "EscapeCrystal",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/quest/EscapeCrystal.java",
+        "action_labels": {
+          "USE": "使用"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "ESCAPE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CAST"
+      ],
+      "default_action": "CAST",
+      "unknown_description": "这些巨大但轻盈的锁链散发着灵魂能量。它们可以用来把你拉向一些地形，或将敌人拉向你。无实体的天然特质甚至可以允许其穿透墙壁！",
+      "title": "虚空锁链",
+      "description": "这些巨大但轻盈的锁链散发着灵魂能量。它们可以用来把你拉向一些地形，或将敌人拉向你。无实体的天然特质甚至可以允许其穿透墙壁！",
+      "type_id": "EtherealChains",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/artifacts/EtherealChains.java",
+        "action_labels": {
+          "CAST": "施放"
+        }
+      },
+      "category": "artifact",
+      "icon": "",
+      "visual": "ARTIFACT_CHAINS",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这些小型粉色晶体有着和炼金能量晶体一样的几何外形。尽管它们不能直接为炼金实验供能，但不知为何似乎能影响你找到的药剂和卷轴。",
+      "title": "奇异能晶",
+      "description": "这些小型粉色晶体有着和炼金能量晶体一样的几何外形。尽管它们不能直接为炼金实验供能，但不知为何似乎能影响你找到的药剂和卷轴。",
+      "type_id": "ExoticCrystals",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/ExoticCrystals.java",
+        "action_labels": {}
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "EXOTIC_CRYSTALS",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这颗黑金色的蝾螈之眼是一种常见的炼金原料，而现在已被附魔强化为一件饰物。魔眼似乎降低了你的视力，以为你换取其他形式的视觉。",
+      "title": "蝾螈魔眼",
+      "description": "这颗黑金色的蝾螈之眼是一种常见的炼金原料，而现在已被附魔强化为一件饰物。魔眼似乎降低了你的视力，以为你换取其他形式的视觉。",
+      "type_id": "EyeOfNewt",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/EyeOfNewt.java",
+        "action_labels": {}
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "EYE_OF_NEWT",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一簇银白色的雪貂丝绒，以黄绿色的蝴蝶结捆为一束。雪貂因其敏捷、顽皮与狡黠而闻名。这种力量似乎从这件饰物散发而出，加强了附近任何单位的闪避能力。",
+      "title": "雪貂绒束",
+      "description": "一簇银白色的雪貂丝绒，以黄绿色的蝴蝶结捆为一束。雪貂因其敏捷、顽皮与狡黠而闻名。这种力量似乎从这件饰物散发而出，加强了附近任何单位的闪避能力。",
+      "type_id": "FerretTuft",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/FerretTuft.java",
+        "action_labels": {}
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "FERRET_TUFT",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "LIGHTTHROW"
+      ],
+      "default_action": "LIGHTTHROW",
+      "unknown_description": "这枚改造过的炸弹的爆炸范围更大，在2格范围内造成_%1$d~%2$d点伤害_并释放出持续燃烧的烈火。",
+      "title": "燃烧弹",
+      "description": "这枚改造过的炸弹的爆炸范围更大，在2格范围内造成_%1$d~%2$d点伤害_并释放出持续燃烧的烈火。",
+      "type_id": "Firebomb",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/bombs/Firebomb.java",
+        "action_labels": {
+          "LIGHTTHROW": "点燃并扔出"
+        }
+      },
+      "category": "bomb",
+      "icon": "",
+      "visual": "FIRE_BOMB",
+      "targeting_actions": [
+        "THROW",
+        "LIGHTTHROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "本用于捕鱼，但作为武器也相当趁手的短投矛。",
+      "title": "捕鱼矛",
+      "description": "本用于捕鱼，但作为武器也相当趁手的短投矛。",
+      "type_id": "FishingSpear",
+      "stackable": true,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/missiles/FishingSpear.java",
+        "action_labels": {}
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "FISHING_SPEAR",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "铁链上附着的一个带刺的钢球。笨重难用，能命中的话威力极强。",
+      "title": "链枷",
+      "description": "铁链上附着的一个带刺的钢球。笨重难用，能命中的话威力极强。",
+      "type_id": "Flail",
+      "stackable": false,
+      "metadata": {
+        "tier": 4,
+        "source": "items/weapon/melee/Flail.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "FLAIL",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "LIGHTTHROW"
+      ],
+      "default_action": "LIGHTTHROW",
+      "unknown_description": "这枚改造过的炸弹在爆炸时会爆发出一阵电闪雷鸣。在2格范围内的所有单位不仅会受到爆炸的_%1$d~%2$d点伤害_和电击的额外25%%伤害，还会被麻痹10回合。",
+      "title": "闪光弹",
+      "description": "这枚改造过的炸弹在爆炸时会爆发出一阵电闪雷鸣。在2格范围内的所有单位不仅会受到爆炸的_%1$d~%2$d点伤害_和电击的额外25%%伤害，还会被麻痹10回合。",
+      "type_id": "FlashBangBomb",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/bombs/FlashBangBomb.java",
+        "action_labels": {
+          "LIGHTTHROW": "点燃并扔出"
+        }
+      },
+      "category": "bomb",
+      "icon": "",
+      "visual": "FLASHBANG",
+      "targeting_actions": [
+        "THROW",
+        "LIGHTTHROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "EAT"
+      ],
+      "default_action": "EAT",
+      "unknown_description": "里面都是些寻常玩意：一片肉干，几块饼干——诸如此类。",
+      "title": "口粮",
+      "description": "里面都是些寻常玩意：一片肉干，几块饼干——诸如此类。",
+      "type_id": "Food",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/food/Food.java",
+        "action_labels": {
+          "EAT": "食用"
+        }
+      },
+      "category": "food",
+      "icon": "",
+      "visual": "RATION",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这些奇形怪状的魔力方块小到可以握在你的手里，但出乎意料地非常重。",
+      "title": "震爆方石",
+      "description": "这些奇形怪状的魔力方块小到可以握在你的手里，但出乎意料地非常重。",
+      "type_id": "ForceCube",
+      "stackable": true,
+      "metadata": {
+        "tier": 5,
+        "source": "items/weapon/missiles/ForceCube.java",
+        "action_labels": {}
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "FORCE_CUBE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "LIGHTTHROW"
+      ],
+      "default_action": "LIGHTTHROW",
+      "unknown_description": "这枚改造过的炸弹的爆炸范围更大，在2格范围内造成_%1$d~%2$d点伤害_并释放出持续冻结的冰霜。",
+      "title": "冰霜炸弹",
+      "description": "这枚改造过的炸弹的爆炸范围更大，在2格范围内造成_%1$d~%2$d点伤害_并释放出持续冻结的冰霜。",
+      "type_id": "FrostBomb",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/bombs/FrostBomb.java",
+        "action_labels": {
+          "LIGHTTHROW": "点燃并扔出"
+        }
+      },
+      "category": "bomb",
+      "icon": "",
+      "visual": "FROST_BOMB",
+      "targeting_actions": [
+        "THROW",
+        "LIGHTTHROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "EAT"
+      ],
+      "default_action": "EAT",
+      "unknown_description": "这是份速冻生肉，只能切成薄片取食，而且意外的好吃。",
+      "title": "冷冻生肉片",
+      "description": "这是份速冻生肉，只能切成薄片取食，而且意外的好吃。",
+      "type_id": "FrozenCarpaccio",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/food/FrozenCarpaccio.java",
+        "action_labels": {
+          "EAT": "食用"
+        }
+      },
+      "category": "food",
+      "icon": "",
+      "visual": "CARPACCIO",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这个巨大的拳套由一匹红布和层层覆盖在布上的魔法岩石交织而成。戴上后，布料紧紧裹住你的整个前臂，让厚重的岩板变得像一层坚硬的皮肤。要有足够的力量才能将如此沉重的武器自如挥舞，但正是这种力量和重量的结合让这件武器发挥出可怕的威力。",
+      "title": "魔岩拳套",
+      "description": "这个巨大的拳套由一匹红布和层层覆盖在布上的魔法岩石交织而成。戴上后，布料紧紧裹住你的整个前臂，让厚重的岩板变得像一层坚硬的皮肤。要有足够的力量才能将如此沉重的武器自如挥舞，但正是这种力量和重量的结合让这件武器发挥出可怕的威力。",
+      "type_id": "Gauntlet",
+      "stackable": false,
+      "metadata": {
+        "tier": 5,
+        "source": "items/weapon/melee/Gauntlet.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "GAUNTLETS",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一支在末端装有剑刃的重型长柄武器。",
+      "title": "关刀",
+      "description": "一支在末端装有剑刃的重型长柄武器。",
+      "type_id": "Glaive",
+      "stackable": false,
+      "metadata": {
+        "tier": 5,
+        "source": "items/weapon/melee/Glaive.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "GLAIVE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这双镶钉手套没有多少防护作用，但能在勉强当作武器使用的同时腾出双手。",
+      "title": "镶钉手套",
+      "description": "这双镶钉手套没有多少防护作用，但能在勉强当作武器使用的同时腾出双手。",
+      "type_id": "Gloves",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/weapon/melee/Gloves.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "GLOVES",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一堆金币。收集金币以在随后的商店中消费。",
+      "title": "金币",
+      "description": "一堆金币。收集金币以在随后的商店中消费。",
+      "type_id": "Gold",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/Gold.java",
+        "action_labels": {}
+      },
+      "category": "gold",
+      "icon": "",
+      "visual": "GOLD",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这把黄金钥匙的齿纹精妙而复杂。或许可以用它来打开某个上锁的宝箱？",
+      "title": "金钥匙",
+      "description": "这把黄金钥匙的齿纹精妙而复杂。或许可以用它来打开某个上锁的宝箱？",
+      "type_id": "GoldenKey",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/keys/GoldenKey.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "GOLDEN_KEY",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一团晃动着的黏糊糊球体，是从粘咕尸体上崩解下的一部分。看起来像是一个大果冻球，不过大概不能食用。\n\n该物品自身并没有什么实际用途，不过它在与特定药剂或炸弹共炼后可能有妙用。再不济，它也能提供相当的炼金能量。",
+      "title": "粘咕球",
+      "description": "一团晃动着的黏糊糊球体，是从粘咕尸体上崩解下的一部分。看起来像是一个大果冻球，不过大概不能食用。\n\n该物品自身并没有什么实际用途，不过它在与特定药剂或炸弹共炼后可能有妙用。再不济，它也能提供相当的炼金能量。",
+      "type_id": "GooBlob",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/quest/GooBlob.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "BLOB",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这个巨型的战斧无坚不摧，重如泰山，举过肩才有空间挥舞。",
+      "title": "巨斧",
+      "description": "这个巨型的战斧无坚不摧，重如泰山，举过肩才有空间挥舞。",
+      "type_id": "Greataxe",
+      "stackable": false,
+      "metadata": {
+        "tier": 5,
+        "source": "items/weapon/melee/Greataxe.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "GREATAXE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "与其说它是一面盾，不如说它是一堵能移动的墙。这一大块金属对于防御十分有效，但没有在攻击方面留下多少余地。",
+      "title": "巨型方盾",
+      "description": "与其说它是一面盾，不如说它是一堵能移动的墙。这一大块金属对于防御十分有效，但没有在攻击方面留下多少余地。",
+      "type_id": "Greatshield",
+      "stackable": false,
+      "metadata": {
+        "tier": 5,
+        "source": "items/weapon/melee/Greatshield.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "GREATSHIELD",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这把大剑进行的每次沉重挥舞都能造成大量伤害。",
+      "title": "巨剑",
+      "description": "这把大剑进行的每次沉重挥舞都能造成大量伤害。",
+      "type_id": "Greatsword",
+      "stackable": false,
+      "metadata": {
+        "tier": 5,
+        "source": "items/weapon/melee/Greatsword.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "GREATSWORD",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一本静静躺在地上的地牢探索指南，不知被谁遗弃在此。看来冒险不是很适合它的旧主人！\n\n这本精致而独特的书附有魔法，会在需要的时候主动提醒冒险家去翻阅它。\n\n除去强大的功能，这本书走红的原因还有一点：它的封面上用友好而亲切的大字写着“不 要 恐 慌 ！”",
+      "title": "地牢探索指南",
+      "description": "一本静静躺在地上的地牢探索指南，不知被谁遗弃在此。看来冒险不是很适合它的旧主人！\n\n这本精致而独特的书附有魔法，会在需要的时候主动提醒冒险家去翻阅它。\n\n除去强大的功能，这本书走红的原因还有一点：它的封面上用友好而亲切的大字写着“不 要 恐 慌 ！”",
+      "type_id": "Guidebook",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/journal/Guidebook.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "MASTERY",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "从一本冒险指南书上撕下来的一页。\n\n在远处你只能看见一行行密密麻麻的小字，不过你可以看清书页上的标题：\n\n_\"%s\"_",
+      "title": "被撕下的指南书页",
+      "description": "从一本冒险指南书上撕下来的一页。\n\n在远处你只能看见一行行密密麻麻的小字，不过你可以看清书页上的标题：\n\n_\"%s\"_",
+      "type_id": "GuidePage",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/journal/GuidePage.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "GUIDE_PAGE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一把轻斧头，通常用来砍树。当然，它的宽刃对敌人来说同样有效。",
+      "title": "手斧",
+      "description": "一把轻斧头，通常用来砍树。当然，它的宽刃对敌人来说同样有效。",
+      "type_id": "HandAxe",
+      "stackable": false,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/melee/HandAxe.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "HAND_AXE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CLEAN",
+        "TIP"
+      ],
+      "default_action": "THROW",
+      "unknown_description": "这些飞镖上涂着一种由阳春草制成的药物，能强效治疗目标的伤势。这只飞镖仍能对敌人造成伤害，但不会伤及盟友 。",
+      "title": "治疗飞镖",
+      "description": "这些飞镖上涂着一种由阳春草制成的药物，能强效治疗目标的伤势。这只飞镖仍能对敌人造成伤害，但不会伤及盟友 。",
+      "type_id": "HealingDart",
+      "stackable": true,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/missiles/darts/HealingDart.java",
+        "action_labels": {
+          "CLEAN": "清洗",
+          "TIP": "涂药"
+        }
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "HEALING_DART",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这把大号回旋镖笨重难用，但能造成可观的伤害。",
+      "title": "重型回旋镖",
+      "description": "这把大号回旋镖笨重难用，但能造成可观的伤害。",
+      "type_id": "HeavyBoomerang",
+      "stackable": true,
+      "metadata": {
+        "tier": 4,
+        "source": "items/weapon/missiles/HeavyBoomerang.java",
+        "action_labels": {}
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "BOOMERANG",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "LIGHTTHROW"
+      ],
+      "default_action": "LIGHTTHROW",
+      "unknown_description": "这枚改造过的炸弹会在爆炸时在大范围内闪耀出圣光。在2格范围内的所有单位会受到爆炸的_%1$d~%2$d点伤害_，并且亡灵和恶魔敌人还会受到圣光的50%%额外伤害。",
+      "title": "神圣炸弹",
+      "description": "这枚改造过的炸弹会在爆炸时在大范围内闪耀出圣光。在2格范围内的所有单位会受到爆炸的_%1$d~%2$d点伤害_，并且亡灵和恶魔敌人还会受到圣光的50%%额外伤害。",
+      "type_id": "HolyBomb",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/bombs/HolyBomb.java",
+        "action_labels": {
+          "LIGHTTHROW": "点燃并扔出"
+        }
+      },
+      "category": "bomb",
+      "icon": "",
+      "visual": "HOLY_BOMB",
+      "targeting_actions": [
+        "THROW",
+        "LIGHTTHROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CLEAN",
+        "TIP"
+      ],
+      "default_action": "THROW",
+      "unknown_description": "这些飞镖上涂着一种由星陨花制成的药物，能向目标体内注入神圣能量。友方或常规敌人将因此进入赐福状态，而亡灵或恶魔类敌人则会受到大量伤害。这只飞镖仍能对敌人造成伤害，但不会伤及盟友。",
+      "title": "神圣飞镖",
+      "description": "这些飞镖上涂着一种由星陨花制成的药物，能向目标体内注入神圣能量。友方或常规敌人将因此进入赐福状态，而亡灵或恶魔类敌人则会受到大量伤害。这只飞镖仍能对敌人造成伤害，但不会伤及盟友。",
+      "type_id": "HolyDart",
+      "stackable": true,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/missiles/darts/HolyDart.java",
+        "action_labels": {
+          "CLEAN": "清洗",
+          "TIP": "涂药"
+        }
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "HOLY_DART",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CAST"
+      ],
+      "default_action": "CAST",
+      "unknown_description": "这本圣典能够帮助牧师引导、聚焦自身的神圣魔法，从而使牧师能够施放一系列的法术。\n\n圣典会随着牧师的使用逐步变强，给予牧师更高的最大充能数并略微提升充能速度。",
+      "title": "神圣法典",
+      "description": "这本圣典能够帮助牧师引导、聚焦自身的神圣魔法，从而使牧师能够施放一系列的法术。\n\n圣典会随着牧师的使用逐步变强，给予牧师更高的最大充能数并略微提升充能速度。",
+      "type_id": "HolyTome",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/artifacts/HolyTome.java",
+        "action_labels": {
+          "CAST": "施放"
+        }
+      },
+      "category": "artifact",
+      "icon": "",
+      "visual": "ARTIFACT_TOME",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "SHATTER"
+      ],
+      "default_action": "THROW",
+      "unknown_description": "这个巨型蜜罐只是薄薄地涂了一圈蜂蜜，作为替代里头住着一只巨型蜜蜂！这种大型蜜蜂一般只待在蜂巢里，也许罐子本身就是某种特殊陷阱屋？蜜蜂看起来对罐子很满意，当你看向它时它非常警惕地对你回以嗡鸣。",
+      "title": "蜂蜜罐",
+      "description": "这个巨型蜜罐只是薄薄地涂了一圈蜂蜜，作为替代里头住着一只巨型蜜蜂！这种大型蜜蜂一般只待在蜂巢里，也许罐子本身就是某种特殊陷阱屋？蜜蜂看起来对罐子很满意，当你看向它时它非常警惕地对你回以嗡鸣。",
+      "type_id": "Honeypot",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/Honeypot.java",
+        "action_labels": {
+          "SHATTER": "击碎"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "HONEYPOT",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "SNACK",
+        "EAT",
+        "STORE"
+      ],
+      "default_action": "SNACK",
+      "unknown_description": "这个号角不能用于吹奏，不过会随着你深入地牢获得经验而逐渐填充食物。你可以一点点慢慢吃，也可以直接大快朵颐地吃到饱。",
+      "title": "丰饶之角",
+      "description": "这个号角不能用于吹奏，不过会随着你深入地牢获得经验而逐渐填充食物。你可以一点点慢慢吃，也可以直接大快朵颐地吃到饱。",
+      "type_id": "HornOfPlenty",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/artifacts/HornOfPlenty.java",
+        "action_labels": {
+          "STORE": "贮存",
+          "SNACK": "小吃一口",
+          "EAT": "食用"
+        }
+      },
+      "category": "artifact",
+      "icon": "",
+      "visual": "ARTIFACT_HORN1",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "TRANSFER",
+        "DETACH"
+      ],
+      "default_action": "",
+      "unknown_description": "披着这件朴实无华的披风，女猎手能够使出一个华丽的招式。",
+      "title": "英雄披风",
+      "description": "披着这件朴实无华的披风，女猎手能够使出一个华丽的招式。",
+      "type_id": "HuntressArmor",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/armor/HuntressArmor.java",
+        "action_labels": {
+          "DETACH": "拆卸",
+          "TRANSFER": "转移"
+        }
+      },
+      "category": "armor",
+      "icon": "",
+      "visual": "ARMOR_HUNTRESS",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一块小小的漆黑雕塑，由黑曜石雕成。它的外表与委托你进入宝库的那位小恶魔神似，连那闪亮的绿眼睛也颇为相像。雕像的底座上用你没有见过的语言刻着一串铭文。",
+      "title": "黑曜石雕像",
+      "description": "一块小小的漆黑雕塑，由黑曜石雕成。它的外表与委托你进入宝库的那位小恶魔神似，连那闪亮的绿眼睛也颇为相像。雕像的底座上用你没有见过的语言刻着一串铭文。",
+      "type_id": "ImpStatue",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/quest/ImpStatue.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "STATUE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CLEAN",
+        "TIP"
+      ],
+      "default_action": "THROW",
+      "unknown_description": "这些飞镖上涂着一种由烈焰花制成的药物，命中后会燃起烈焰。",
+      "title": "燃烧飞镖",
+      "description": "这些飞镖上涂着一种由烈焰花制成的药物，命中后会燃起烈焰。",
+      "type_id": "IncendiaryDart",
+      "stackable": true,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/missiles/darts/IncendiaryDart.java",
+        "action_labels": {
+          "CLEAN": "清洗",
+          "TIP": "涂药"
+        }
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "INCENDIARY_DART",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "炼狱魔药",
+      "description": "当瓶子破裂时，这瓶魔药会释放出一阵像气体一样扩散的狂暴炼狱。",
+      "type_id": "InfernalBrew",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/brews/InfernalBrew.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "",
+      "visual": "BREW_INFERNAL",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这个铁钥匙的匙齿已经严重磨损；皮制系带也久经年岁摧残。它对应的是哪扇门呢?",
+      "title": "铁钥匙",
+      "description": "这个铁钥匙的匙齿已经严重磨损；皮制系带也久经年岁摧残。它对应的是哪扇门呢?",
+      "type_id": "IronKey",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/keys/IronKey.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "IRON_KEY",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这些大号投掷用长枪上的配重保证它们会以尖端为首飞向目标。",
+      "title": "标枪",
+      "description": "这些大号投掷用长枪上的配重保证它们会以尖端为首飞向目标。",
+      "type_id": "Javelin",
+      "stackable": true,
+      "metadata": {
+        "tier": 4,
+        "source": "items/weapon/missiles/Javelin.java",
+        "action_labels": {}
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "JAVELIN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一把在握柄上方带有巨大金属护手的修长刀刃。",
+      "title": "武士刀",
+      "description": "一把在握柄上方带有巨大金属护手的修长刀刃。",
+      "type_id": "Katana",
+      "stackable": false,
+      "metadata": {
+        "tier": 4,
+        "source": "items/weapon/melee/Katana.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "KATANA",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "WEAR"
+      ],
+      "default_action": "WEAR",
+      "unknown_description": "末代矮人国王的皇冠，至强的魔法能量以光芒的形式从中辐射而出。\n\n如果你有决心将其戴上，皇冠的魔力会涌入你正在装备的护甲，将其改造为_拥有特殊技能的独特英雄护甲_。新的护甲会保留原护甲的所有属性与刻印。",
+      "title": "矮人国王的皇冠",
+      "description": "末代矮人国王的皇冠，至强的魔法能量以光芒的形式从中辐射而出。\n\n如果你有决心将其戴上，皇冠的魔力会涌入你正在装备的护甲，将其改造为_拥有特殊技能的独特英雄护甲_。新的护甲会保留原护甲的所有属性与刻印。",
+      "type_id": "KingsCrown",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/KingsCrown.java",
+        "action_labels": {
+          "WEAR": "加冕"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "CROWN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "技巧高深者能用这种小刀造成可观的伤害。",
+      "title": "苦无",
+      "description": "技巧高深者能用这种小刀造成可观的伤害。",
+      "type_id": "Kunai",
+      "stackable": true,
+      "metadata": {
+        "tier": 3,
+        "source": "items/weapon/missiles/Kunai.java",
+        "action_labels": {}
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "KUNAI",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DETACH"
+      ],
+      "default_action": "",
+      "unknown_description": "用鞣制的兽皮制成的护甲。没有布甲轻，但提供更好的防御。",
+      "title": "皮甲",
+      "description": "用鞣制的兽皮制成的护甲。没有布甲轻，但提供更好的防御。",
+      "type_id": "LeatherArmor",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/armor/LeatherArmor.java",
+        "action_labels": {
+          "DETACH": "拆卸"
+        }
+      },
+      "category": "armor",
+      "icon": "",
+      "visual": "ARMOR_LEATHER",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "APPLY"
+      ],
+      "default_action": "APPLY",
+      "unknown_description": "这种神奇的液体可以修补投掷武器的破损之处，使之焕然一新！若有一组武器完好无损但缺失其一，液金甚至可用于替换那件缺失的武器！\n\n完全修复一件1阶武器需要10瓶液金，而一件5阶武器需要30瓶液金。武器的每级升级还会增加35%的液金需求量。\n\n液金无法用于修复涂药飞镖的耐久度。",
+      "title": "液金",
+      "description": "这种神奇的液体可以修补投掷武器的破损之处，使之焕然一新！若有一组武器完好无损但缺失其一，液金甚至可用于替换那件缺失的武器！\n\n完全修复一件1阶武器需要10瓶液金，而一件5阶武器需要30瓶液金。武器的每级升级还会增加35%的液金需求量。\n\n液金无法用于修复涂药飞镖的耐久度。",
+      "type_id": "LiquidMetal",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/LiquidMetal.java",
+        "action_labels": {
+          "APPLY": "修复"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "LIQUID_METAL",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "ZAP",
+        "SET",
+        "RETURN"
+      ],
+      "default_action": "ZAP",
+      "unknown_description": "时空道标是一个赋予使用者控制传送魔法能力的复杂魔法装置。该信标可以用来返回一个预定地点，但其在装备时的充能也可以用来对指定目标发射随机传送魔法。这个魔法可以针对某个目标或使用者自身。",
+      "title": "时空道标",
+      "description": "时空道标是一个赋予使用者控制传送魔法能力的复杂魔法装置。该信标可以用来返回一个预定地点，但其在装备时的充能也可以用来对指定目标发射随机传送魔法。这个魔法可以针对某个目标或使用者自身。",
+      "type_id": "LloydsBeacon",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/artifacts/LloydsBeacon.java",
+        "action_labels": {
+          "ZAP": "释放",
+          "RETURN": "返回",
+          "SET": "设置"
+        }
+      },
+      "category": "artifact",
+      "icon": "",
+      "visual": "ARTIFACT_BEACON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这柄剑的厚长利刃闪烁着令人宽心的寒光，不过这长度也确实让它非常沉重。",
+      "title": "长剑",
+      "description": "这柄剑的厚长利刃闪烁着令人宽心的寒光，不过这长度也确实让它非常沉重。",
+      "type_id": "Longsword",
+      "stackable": false,
+      "metadata": {
+        "tier": 4,
+        "source": "items/weapon/melee/Longsword.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "LONGSWORD",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "你的遗物，包含你遗留在此的所有物品。快快重新拥有它们吧！",
+      "title": "遗物",
+      "description": "你的遗物，包含你遗留在此的所有物品。快快重新拥有它们吧！",
+      "type_id": "LostBackpack",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/LostBackpack.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "BACKPACK",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这把武器前端的大型铁头能够造成可观的伤害。",
+      "title": "硬头锤",
+      "description": "这把武器前端的大型铁头能够造成可观的伤害。",
+      "type_id": "Mace",
+      "stackable": false,
+      "metadata": {
+        "tier": 3,
+        "source": "items/weapon/melee/Mace.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "MACE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "TRANSFER",
+        "DETACH"
+      ],
+      "default_action": "",
+      "unknown_description": "穿着这件华贵的法袍时，法师可以释放一项特殊的技能。",
+      "title": "英雄法袍",
+      "description": "穿着这件华贵的法袍时，法师可以释放一项特殊的技能。",
+      "type_id": "MageArmor",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/armor/MageArmor.java",
+        "action_labels": {
+          "DETACH": "拆卸",
+          "TRANSFER": "转移"
+        }
+      },
+      "category": "armor",
+      "icon": "",
+      "visual": "ARMOR_MAGE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "IMBUE",
+        "ZAP"
+      ],
+      "default_action": "",
+      "unknown_description": "这根魔杖是件独一无二的魔法武器，由法师亲自雕琢而成，能注入其它法杖的魔力以获取新的力量。",
+      "title": "法师魔杖",
+      "description": "这根魔杖是件独一无二的魔法武器，由法师亲自雕琢而成，能注入其它法杖的魔力以获取新的力量。",
+      "type_id": "MagesStaff",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/weapon/melee/MagesStaff.java",
+        "action_labels": {
+          "ZAP": "释放",
+          "IMBUE": "灌注"
+        }
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "MAGES_STAFF",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CAST"
+      ],
+      "default_action": "CAST",
+      "unknown_description": "这个菱晶蕴含着和升级卷轴同样强大的魔力，不过这种魔力更为稳定。\n\n这个菱晶在升级物品的同时不会消除上面的附魔、刻印或诅咒。",
+      "title": "注魔菱晶",
+      "description": "这个菱晶蕴含着和升级卷轴同样强大的魔力，不过这种魔力更为稳定。\n\n这个菱晶在升级物品的同时不会消除上面的附魔、刻印或诅咒。",
+      "type_id": "MagicalInfusion",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/spells/MagicalInfusion.java",
+        "action_labels": {
+          "CAST": "施放"
+        }
+      },
+      "category": "spell",
+      "icon": "",
+      "visual": "MAGIC_INFUSE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DETACH"
+      ],
+      "default_action": "",
+      "unknown_description": "由金属链环环相扣制成的一套结实又不失灵活的护甲。",
+      "title": "链甲",
+      "description": "由金属链环环相扣制成的一套结实又不失灵活的护甲。",
+      "type_id": "MailArmor",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/armor/MailArmor.java",
+        "action_labels": {
+          "DETACH": "拆卸"
+        }
+      },
+      "category": "armor",
+      "icon": "",
+      "visual": "ARMOR_MAIL",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "STEAL"
+      ],
+      "default_action": "STEAL",
+      "unknown_description": "这个紫色的天鹅绒袖标是盗贼大师的标志。它不属于你，但它也不属于你拿到这个袖标时击败的人。",
+      "title": "神偷袖章",
+      "description": "这个紫色的天鹅绒袖标是盗贼大师的标志。它不属于你，但它也不属于你拿到这个袖标时击败的人。",
+      "type_id": "MasterThievesArmband",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/artifacts/MasterThievesArmband.java",
+        "action_labels": {
+          "STEAL": "窃取"
+        }
+      },
+      "category": "artifact",
+      "icon": "",
+      "visual": "ARTIFACT_ARMBAND",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "EAT"
+      ],
+      "default_action": "EAT",
+      "unknown_description": "一份填满了美味肉馅的诱人大饼。吃下它后你会获得远高于其他食物的饱足感。",
+      "title": "全肉大饼",
+      "description": "一份填满了美味肉馅的诱人大饼。吃下它后你会获得远高于其他食物的饱足感。",
+      "type_id": "MeatPie",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/food/MeatPie.java",
+        "action_labels": {
+          "EAT": "食用"
+        }
+      },
+      "category": "food",
+      "icon": "",
+      "visual": "MEAT_PIE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一块被诅咒的金属锈片，它是DM-300的装甲外壳被击碎时分离出来的。你能感受到某种尚未激活的恶毒魔力潜藏其中。\n\n该物品自身并没有什么实际用途，不过它在与特定卷轴或炸弹共炼时可能有妙用。再不济，它也能提供相当的炼金能量。",
+      "title": "邪能碎片",
+      "description": "一块被诅咒的金属锈片，它是DM-300的装甲外壳被击碎时分离出来的。你能感受到某种尚未激活的恶毒魔力潜藏其中。\n\n该物品自身并没有什么实际用途，不过它在与特定卷轴或炸弹共炼时可能有妙用。再不济，它也能提供相当的炼金能量。",
+      "type_id": "MetalShard",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/quest/MetalShard.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "SHARD",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这颗大尖牙肯定是强行从某个非常倒霉的宝箱怪口中拔下来的。它似乎能影响地牢中的宝箱怪，使它们更常见，也更危险。",
+      "title": "拟箱利齿",
+      "description": "这颗大尖牙肯定是强行从某个非常倒霉的宝箱怪口中拔下来的。它似乎能影响地牢中的宝箱怪，使它们更常见，也更危险。",
+      "type_id": "MimicTooth",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/MimicTooth.java",
+        "action_labels": {}
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "MIMIC_TOOTH",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "无论你如何用力挤压它，这团潮湿的苔藓似乎都能保持其水分。它似乎通过魔法与地牢本身形成链接，促使草木流水频繁出现。",
+      "title": "苔藓丛簇",
+      "description": "无论你如何用力挤压它，这团潮湿的苔藓似乎都能保持其水分。它似乎通过魔法与地牢本身形成链接，促使草木流水频繁出现。",
+      "type_id": "MossyClump",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/MossyClump.java",
+        "action_labels": {}
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "MOSSY_CLUMP",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "EAT"
+      ],
+      "default_action": "EAT",
+      "unknown_description": "想吃可以，后果自腹！",
+      "title": "神秘的肉",
+      "description": "想吃可以，后果自腹！",
+      "type_id": "MysteryMeat",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/food/MysteryMeat.java",
+        "action_labels": {
+          "EAT": "食用"
+        }
+      },
+      "category": "food",
+      "icon": "",
+      "visual": "MEAT",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "LIGHTTHROW"
+      ],
+      "default_action": "LIGHTTHROW",
+      "unknown_description": "这枚改造过的炸弹会周而复始地发出噪音，直到其引信燃烧殆尽。当有什么东西碰到炸弹时，炸弹会爆炸并在2格范围内对所有单位造成_%1$d~%2$d点伤害_！",
+      "title": "噪音地雷",
+      "description": "这枚改造过的炸弹会周而复始地发出噪音，直到其引信燃烧殆尽。当有什么东西碰到炸弹时，炸弹会爆炸并在2格范围内对所有单位造成_%1$d~%2$d点伤害_！",
+      "type_id": "Noisemaker",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/bombs/Noisemaker.java",
+        "action_labels": {
+          "LIGHTTHROW": "点燃并扔出"
+        }
+      },
+      "category": "bomb",
+      "icon": "",
+      "visual": "NOISEMAKER",
+      "targeting_actions": [
+        "THROW",
+        "LIGHTTHROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CLEAN",
+        "TIP"
+      ],
+      "default_action": "THROW",
+      "unknown_description": "这些飞镖上涂着一种由地缚根制成的药物，能让目标无助地麻痹一小段时间。",
+      "title": "麻痹飞镖",
+      "description": "这些飞镖上涂着一种由地缚根制成的药物，能让目标无助地麻痹一小段时间。",
+      "type_id": "ParalyticDart",
+      "stackable": true,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/missiles/darts/ParalyticDart.java",
+        "action_labels": {
+          "CLEAN": "清洗",
+          "TIP": "涂药"
+        }
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "PARALYTIC_DART",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这块小小的羊皮纸残片看起来来自一张卷轴。它仍附有一丝残存的魔力，并且似乎能影响在地牢中找到的武器和护甲。",
+      "title": "残魔余卷",
+      "description": "这块小小的羊皮纸残片看起来来自一张卷轴。它仍附有一丝残存的魔力，并且似乎能影响在地牢中找到的武器和护甲。",
+      "type_id": "ParchmentScrap",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/ParchmentScrap.java",
+        "action_labels": {}
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "PARCHMENT_SCRAP",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "EAT"
+      ],
+      "default_action": "EAT",
+      "unknown_description": "这是份正宗康郡肉馅饼，内含牛肉加土豆的传统馅料。美味十足！",
+      "title": "馅饼",
+      "description": "这是份正宗康郡肉馅饼，内含牛肉加土豆的传统馅料。美味十足！",
+      "type_id": "Pasty",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/food/Pasty.java",
+        "action_labels": {
+          "EAT": "食用"
+        }
+      },
+      "category": "food",
+      "icon": "",
+      "visual": "PASTY",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这粒种子在缓慢的地质作用或法术作用的影响下石化了。它似乎通过魔法影响着地牢的植物群系，时不时使种子转化为符石。",
+      "title": "石化种子",
+      "description": "这粒种子在缓慢的地质作用或法术作用的影响下石化了。它似乎通过魔法影响着地牢的植物群系，时不时使种子转化为符石。",
+      "type_id": "PetrifiedSeed",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/PetrifiedSeed.java",
+        "action_labels": {}
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "PETRIFIED_SEED",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "EAT"
+      ],
+      "default_action": "EAT",
+      "unknown_description": "这块从幻影食人鱼身上切下的大块鱼肉呈半透明状，闪烁着奇光。这块充满魔力的肉无须烹饪即可食用，不但能完全填饱你的肚子，而且能赋予多种防御性增益。食用后，它会为你提供隐形、树肤和少量治疗，并净化大部分有害效果。",
+      "title": "幻影鱼肉",
+      "description": "这块从幻影食人鱼身上切下的大块鱼肉呈半透明状，闪烁着奇光。这块充满魔力的肉无须烹饪即可食用，不但能完全填饱你的肚子，而且能赋予多种防御性增益。食用后，它会为你提供隐形、树肤和少量治疗，并净化大部分有害效果。",
+      "type_id": "PhantomMeat",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/food/PhantomMeat.java",
+        "action_labels": {
+          "EAT": "食用"
+        }
+      },
+      "category": "food",
+      "icon": "",
+      "visual": "PHANTOM_MEAT",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CAST"
+      ],
+      "default_action": "CAST",
+      "unknown_description": "这个充满混沌能量的结晶会将目标单位传送到本层随机位置。被传送的角色会被麻痹相当长的一段时间，而足够强大的敌人则可抵抗该效果。这个结晶可以对目标单位或施法者自身使用。",
+      "title": "转移结晶",
+      "description": "这个充满混沌能量的结晶会将目标单位传送到本层随机位置。被传送的角色会被麻痹相当长的一段时间，而足够强大的敌人则可抵抗该效果。这个结晶可以对目标单位或施法者自身使用。",
+      "type_id": "PhaseShift",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/spells/PhaseShift.java",
+        "action_labels": {
+          "CAST": "施放"
+        }
+      },
+      "category": "spell",
+      "icon": "",
+      "visual": "PHASE_SHIFT",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这是一件笨重但十分耐用的凿岩工具。不需要装备上就能作为挖掘工具使用，但在紧要关头也能作为武器装备。",
+      "title": "镐子",
+      "description": "这是一件笨重但十分耐用的凿岩工具。不需要装备上就能作为挖掘工具使用，但在紧要关头也能作为武器装备。",
+      "type_id": "Pickaxe",
+      "stackable": false,
+      "metadata": {
+        "tier": 2,
+        "source": "items/quest/Pickaxe.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "PICKAXE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DETACH"
+      ],
+      "default_action": "",
+      "unknown_description": "厚重的金属板拼接到一起，为能承受其骇人重量的冒险家提供无与伦比的防御。",
+      "title": "板甲",
+      "description": "厚重的金属板拼接到一起，为能承受其骇人重量的冒险家提供无与伦比的防御。",
+      "type_id": "PlateArmor",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/armor/PlateArmor.java",
+        "action_labels": {
+          "DETACH": "拆卸"
+        }
+      },
+      "category": "armor",
+      "icon": "",
+      "visual": "ARMOR_PLATE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CLEAN",
+        "TIP"
+      ],
+      "default_action": "THROW",
+      "unknown_description": "这些飞镖上涂着一种由断肠苔制成的药物，能使目标中毒。",
+      "title": "毒液飞镖",
+      "description": "这些飞镖上涂着一种由断肠苔制成的药物，能使目标中毒。",
+      "type_id": "PoisonDart",
+      "stackable": true,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/missiles/darts/PoisonDart.java",
+        "action_labels": {
+          "CLEAN": "清洗",
+          "TIP": "涂药"
+        }
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "POISON_DART",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "这口圆底瓶里装着些有沉淀物的彩色液体。它似乎并不属于这个世界，谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "全面净化合剂",
+      "description": "饮用后立即清除可净化的负面状态，并获得_5回合净化保护_，期间免疫可净化的负面状态。也可以投掷，为落点角色提供相同效果。不恢复生命、不移除装备诅咒，也不清除周围环境；腐化和遗失背包沿用原版特殊例外。",
+      "type_id": "PotionOfCleansing",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/exotic/PotionOfCleansing.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_CLEANSE",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "这口圆底瓶里装着些有沉淀物的彩色液体。它似乎并不属于这个世界，谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "腐蚀酸雾合剂",
+      "description": "打开或摔碎药瓶会释放扩散的腐蚀酸雾，施加_伤害逐回合增长的腐蚀效果_。酸雾也会影响投掷者，无法用护甲抵挡。",
+      "type_id": "PotionOfCorrosiveGas",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/exotic/PotionOfCorrosiveGas.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_CORROGAS",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "这口圆底瓶里装着些有沉淀物的彩色液体。它似乎并不属于这个世界，谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "神意启发合剂",
+      "description": "这股神圣的力量会化作液态，灌注进饮用者的身体，赋予其钟意的天赋两个额外天赋点。\n\n这种药剂对每一层天赋只能生效一次。",
+      "type_id": "PotionOfDivineInspiration",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/exotic/PotionOfDivineInspiration.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_DIVINE",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "这口圆底瓶里装着些有沉淀物的彩色液体。它似乎并不属于这个世界，谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "火龙吐息合剂",
+      "description": "饮用后选择方向，喷出最远_6格、60度_的火锥，点燃目标并施加_5回合残废_。不造成即时直接伤害；燃烧基础持续_8回合_，伤害沿用燃烧规则。火焰会打开门并引燃路径，紧邻自身的非可燃格不会直接起火。取消选取不消耗药剂；投掷仅产生普通泼洒。",
+      "type_id": "PotionOfDragonsBreath",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/exotic/PotionOfDragonsBreath.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_DRGBREATH",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW",
+        "DRINK"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "这口圆底瓶里装着些有沉淀物的彩色液体。它似乎并不属于这个世界，谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "大地护甲合剂",
+      "description": "饮用后获得树肤，初始额外_固定抵挡8点物理攻击伤害_，与装备护甲共同生效。每过_3回合_抵挡值衰减_1点_，降至0时消失。不抵挡魔法或持续伤害；再次饮用刷新至8点，不叠加。",
+      "type_id": "PotionOfEarthenArmor",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/exotic/PotionOfEarthenArmor.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_EARTHARMR",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "经验药剂",
+      "description": "众多战斗积累而来的经验被浓缩为液态，这种药剂能够瞬间提升你的等级。",
+      "type_id": "PotionOfExperience",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/PotionOfExperience.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_EXP",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "冰霜药剂",
+      "description": "一旦暴露在空气里，这种化学药剂会挥发成为一片冰冷的气雾。",
+      "type_id": "PotionOfFrost",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/PotionOfFrost.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_FROST",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "极速药剂",
+      "description": "喝下这甜到掉牙的奇怪液体后，体内会爆发一股巨大的能量，让你10回合内移动速度增加200%。",
+      "type_id": "PotionOfHaste",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/PotionOfHaste.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_HASTE",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "治疗药剂",
+      "description": "饮用后获得20回合治疗效果，每回合恢复2点生命。受到攻击命中或有效伤害时，治疗效果立即消失。\n\n饮用治疗药剂还能消除一些基础的负面状态。",
+      "type_id": "PotionOfHealing",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/PotionOfHealing.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_HEALING",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "隐形药剂",
+      "description": "饮用这种药剂会使你隐形10回合。隐形期间，敌人将无法看见你。使用物理攻击或魔法效果(例如使用卷轴或法杖)，会立即解除隐形效果。",
+      "type_id": "PotionOfInvisibility",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/PotionOfInvisibility.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_INVIS",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "浮空药剂",
+      "description": "饮用这种古怪的药剂能让你漂浮到空中，从而轻易地越过陷阱和深渊。扔出它会产生一片未被提纯的气体云雾，让其中的所有生物迷失方向。",
+      "type_id": "PotionOfLevitation",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/PotionOfLevitation.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_LEVITATE",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "液火药剂",
+      "description": "该药瓶里装着一种不稳定的化合物，一旦暴露在空气中就会猛烈地燃烧起来。",
+      "type_id": "PotionOfLiquidFlame",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/PotionOfLiquidFlame.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_LIQFLAME",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "这口圆底瓶里装着些有沉淀物的彩色液体。它似乎并不属于这个世界，谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "魔能透视合剂",
+      "description": "饮用后获得_10回合魔能透视_，能看穿_6格范围_内的墙壁与地形，洞察墙后的事物，并解除、免疫致盲。",
+      "type_id": "PotionOfMagicalSight",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/exotic/PotionOfMagicalSight.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_MAGISIGHT",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "这口圆底瓶里装着些有沉淀物的彩色液体。它似乎并不属于这个世界，谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "肌肉记忆合剂",
+      "description": "这个合剂不会直接增强你的力量，但却会为你建立使用特定物品的肌肉记忆。使你对其的运用更加得心应手，仿佛已经练习了千百遍。\n\n所选武器或护甲所需要的力量减少2点。此合剂在每个物品上只能使用一次。",
+      "type_id": "PotionOfMastery",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/exotic/PotionOfMastery.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_MASTERY",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "灵视药剂",
+      "description": "喝下这个，你的心智将与大范围内的生物精神同调，让你在5回合内能感受到围墙背后的生物所在。该药剂还能够让你的视野无视身边门墙的阻挡。",
+      "type_id": "PotionOfMindVision",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/PotionOfMindVision.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_MINDVIS",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "麻痹药剂",
+      "description": "暴露于空气时，烧瓶里的液体会气化成一片令人失去知觉的黄色云雾。任何吸入气体的生物会被立即麻痹5回合，直到气体消散后一段时间才能行动。可以把该物件扔到远处的敌群中，让气体覆盖影响它们。",
+      "type_id": "PotionOfParalyticGas",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/PotionOfParalyticGas.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_PARAGAS",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "净化药剂",
+      "description": "这种魔法试剂能迅速中和掉大范围内的各种有害环境。饮用它将使你在20回合内暂时免疫这种环境。",
+      "type_id": "PotionOfPurity",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/PotionOfPurity.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_PURITY",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "这口圆底瓶里装着些有沉淀物的彩色液体。它似乎并不属于这个世界，谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "奥术护盾合剂",
+      "description": "饮用后获得_20点奥术护盾_，抵挡受到的伤害，并按原版规则随时间逐渐衰减。再次饮用会将普通护盾补至至少20点，不叠加；已有更高护盾会保留。",
+      "type_id": "PotionOfShielding",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/exotic/PotionOfShielding.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_SHIELDING",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "这口圆底瓶里装着些有沉淀物的彩色液体。它似乎并不属于这个世界，谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "暗夜迷雾合剂",
+      "description": "投掷后释放一团持续扩散的浓雾，_遮挡双方视野_，投掷者也无法透过迷雾看见对手。迷雾不造成伤害，不阻挡移动或投射物，并随回合逐渐消散。灵视仍可感知迷雾中的角色。",
+      "type_id": "PotionOfShroudingFog",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/exotic/PotionOfShroudingFog.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_SHROUDFOG",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "这口圆底瓶里装着些有沉淀物的彩色液体。它似乎并不属于这个世界，谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "极速冰冻合剂",
+      "description": "一旦暴露在空气里，这种化学混合物会立即冻结并缠绕落点周围3×3范围内非墙格上的目标。地面冻结_5回合_，水中冻结_10回合_，缠绕_5回合_。",
+      "type_id": "PotionOfSnapFreeze",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/exotic/PotionOfSnapFreeze.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_SNAPFREEZ",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "这口圆底瓶里装着些有沉淀物的彩色液体。它似乎并不属于这个世界，谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "精力回复合剂",
+      "description": "饮用后获得_20回合体力充沛_，移动速度提升_50%_，不影响攻击或其他行动的耗时。再次饮用刷新持续时间，不叠加移动速度。",
+      "type_id": "PotionOfStamina",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/exotic/PotionOfStamina.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_STAMINA",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "这口圆底瓶里装着些有沉淀物的彩色液体。它似乎并不属于这个世界，谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "暴风骤雨合剂",
+      "description": "投掷后释放持续扩散的雨云。降雨会将可淹没地形变成水潭，熄灭火焰并淹毁陷阱。对_火属性目标_每回合造成_1＋楼层深度÷5（向下取整）_点基础伤害；普通目标不会直接受到雨云伤害。",
+      "type_id": "PotionOfStormClouds",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/exotic/PotionOfStormClouds.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_STRMCLOUD",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "力量药剂",
+      "description": "这种强力的液体会洗刷你的肌肉，永久性增加1点力量值。",
+      "type_id": "PotionOfStrength",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/PotionOfStrength.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_STRENGTH",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "毒气药剂",
+      "description": "打开或摔碎这个密封的药瓶将导致内容物爆发成一团剧毒的绿色云雾。你应该选择从远处将这瓶药剂扔向敌人，而不是手动开封。",
+      "type_id": "PotionOfToxicGas",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/PotionOfToxicGas.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "POTION_TOXICGAS",
+      "visual": "POTION_CRIMSON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这是两端以铁包覆的硬木棍。",
+      "title": "铁头棍",
+      "description": "这是两端以铁包覆的硬木棍。",
+      "type_id": "Quarterstaff",
+      "stackable": false,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/melee/Quarterstaff.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "QUARTERSTAFF",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一柄修长而笔直的利器，牺牲了部分劈砍能力而获得一定的保护效果。",
+      "title": "刺剑",
+      "description": "一柄修长而笔直的利器，牺牲了部分劈砍能力而获得一定的保护效果。",
+      "type_id": "Rapier",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/weapon/melee/Rapier.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "RAPIER",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这件可怕的饰物并不比正常老鼠的头骨大多少，但不知为何在这个地牢却很稀有。头骨的魔力似乎能吸引更多稀有的地牢住民，使它们更有可能出现。",
+      "title": "巨鼠头骨",
+      "description": "这件可怕的饰物并不比正常老鼠的头骨大多少，但不知为何在这个地牢却很稀有。头骨的魔力似乎能吸引更多稀有的地牢住民，使它们更有可能出现。",
+      "type_id": "RatSkull",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/RatSkull.java",
+        "action_labels": {}
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "RAT_SKULL",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CAST"
+      ],
+      "default_action": "CAST",
+      "unknown_description": "这个晶柱蕴含着DM-300残余的机械能量。当对一个未触发的陷阱使用时，陷阱的力量会附着在你身上，使你能再次使用晶柱以释放这股力量并在你指定的任何位置触发此陷阱的效果。\n\n不过，有的陷阱并不能在任何位置都生效，而且晶柱一次只能储存一个陷阱。",
+      "title": "陷阱晶柱",
+      "description": "这个晶柱蕴含着DM-300残余的机械能量。当对一个未触发的陷阱使用时，陷阱的力量会附着在你身上，使你能再次使用晶柱以释放这股力量并在你指定的任何位置触发此陷阱的效果。\n\n不过，有的陷阱并不能在任何位置都生效，而且晶柱一次只能储存一个陷阱。",
+      "type_id": "ReclaimTrap",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/spells/ReclaimTrap.java",
+        "action_labels": {
+          "CAST": "施放"
+        }
+      },
+      "category": "spell",
+      "icon": "",
+      "visual": "RECLAIM_TRAP",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CAST"
+      ],
+      "default_action": "CAST",
+      "unknown_description": "这个菱晶蕴含着弱化的嬗变魔力。虽然不能对装备使用，但它能将卷轴、药剂、种子、符石或涂药飞镖转换为一个随机的同类物品。",
+      "title": "转换菱晶",
+      "description": "这个菱晶蕴含着弱化的嬗变魔力。虽然不能对装备使用，但它能将卷轴、药剂、种子、符石或涂药飞镖转换为一个随机的同类物品。",
+      "type_id": "Recycle",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/spells/Recycle.java",
+        "action_labels": {
+          "CAST": "施放"
+        }
+      },
+      "category": "spell",
+      "icon": "",
+      "visual": "RECYCLE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "LIGHTTHROW"
+      ],
+      "default_action": "LIGHTTHROW",
+      "unknown_description": "这枚改造过的炸弹不会爆炸，而会在3格范围内四处溅射再生药液。被药液影响的区域会迅速生长出草木与植物，而你自己和爆炸范围内的所有盟友都会受到如同饮用治疗药剂般的治疗效果。",
+      "title": "再生炸弹",
+      "description": "这枚改造过的炸弹不会爆炸，而会在3格范围内四处溅射再生药液。被药液影响的区域会迅速生长出草木与植物，而你自己和爆炸范围内的所有盟友都会受到如同饮用治疗药剂般的治疗效果。",
+      "type_id": "RegrowthBomb",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/bombs/RegrowthBomb.java",
+        "action_labels": {
+          "LIGHTTHROW": "点燃并扔出"
+        }
+      },
+      "category": "bomb",
+      "icon": "",
+      "visual": "REGROWTH_BOMB",
+      "targeting_actions": [
+        "THROW",
+        "LIGHTTHROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这枚金属环镶嵌着一颗在黑暗中闪烁光芒的大块宝石。谁知道戴上后会有什么效果？",
+      "title": "精准之戒",
+      "description": "这枚戒指提高了你的专注力，使敌人难以躲闪你的攻击。被诅咒的戒指则会让你的攻击更易于被闪避。",
+      "type_id": "RingOfAccuracy",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/rings/RingOfAccuracy.java",
+        "action_labels": {}
+      },
+      "category": "ring",
+      "icon": "RING_ACCURACY",
+      "visual": "RING_GARNET",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这枚金属环镶嵌着一颗在黑暗中闪烁光芒的大块宝石。谁知道戴上后会有什么效果？",
+      "title": "奥术之戒",
+      "description": "这枚戒指增强了武器上的附魔和护甲上的刻印，也包括诅咒！戒指会先提高它们的触发概率，当触发概率达到100%时，会转而增加它们效果的强度。被诅咒的戒指则会反过来削弱附魔、刻印以及诅咒。",
+      "type_id": "RingOfArcana",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/rings/RingOfArcana.java",
+        "action_labels": {}
+      },
+      "category": "ring",
+      "icon": "RING_ARCANA",
+      "visual": "RING_GARNET",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这枚金属环镶嵌着一颗在黑暗中闪烁光芒的大块宝石。谁知道戴上后会有什么效果？",
+      "title": "元素之戒",
+      "description": "这枚戒指能为佩戴者提供抗性，降低大部分元素和魔法效果的伤害和持续时间。被诅咒的戒指自然会加重这些效果。",
+      "type_id": "RingOfElements",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/rings/RingOfElements.java",
+        "action_labels": {}
+      },
+      "category": "ring",
+      "icon": "RING_ELEMENTS",
+      "visual": "RING_GARNET",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这枚金属环镶嵌着一颗在黑暗中闪烁光芒的大块宝石。谁知道戴上后会有什么效果？",
+      "title": "能量之戒",
+      "description": "在戒指的奥术领域笼罩下，你持有的所有魔法装备充能速度都会得到提升。被诅咒的戒指反而会减慢充能速度。",
+      "type_id": "RingOfEnergy",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/rings/RingOfEnergy.java",
+        "action_labels": {}
+      },
+      "category": "ring",
+      "icon": "RING_ENERGY",
+      "visual": "RING_GARNET",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这枚金属环镶嵌着一颗在黑暗中闪烁光芒的大块宝石。谁知道戴上后会有什么效果？",
+      "title": "闪避之戒",
+      "description": "这枚戒指会加快佩戴者的反应速度，令其更难被敌人击中。被诅咒的戒指反而会让佩戴者更容易被击中。",
+      "type_id": "RingOfEvasion",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/rings/RingOfEvasion.java",
+        "action_labels": {}
+      },
+      "category": "ring",
+      "icon": "RING_EVASION",
+      "visual": "RING_GARNET",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这枚金属环镶嵌着一颗在黑暗中闪烁光芒的大块宝石。谁知道戴上后会有什么效果？",
+      "title": "武力之戒",
+      "description": "这枚戒指能够增强佩戴者的打击力度。这份额外的力量在挥舞武器时相当有限，而徒手攻击则会被大幅增强。被诅咒的戒指会导致佩戴者的攻击变得软弱无力。",
+      "type_id": "RingOfForce",
+      "stackable": false,
+      "metadata": {
+        "tier": 5,
+        "source": "items/rings/RingOfForce.java",
+        "action_labels": {}
+      },
+      "category": "ring",
+      "icon": "RING_FORCE",
+      "visual": "RING_GARNET",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这枚金属环镶嵌着一颗在黑暗中闪烁光芒的大块宝石。谁知道戴上后会有什么效果？",
+      "title": "狂怒之戒",
+      "description": "这枚戒指会激发佩戴者内心的怒火，使其能够更迅猛地攻击。被诅咒的戒指则会导致佩戴者攻击迟缓。",
+      "type_id": "RingOfFuror",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/rings/RingOfFuror.java",
+        "action_labels": {}
+      },
+      "category": "ring",
+      "icon": "RING_FUROR",
+      "visual": "RING_GARNET",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这枚金属环镶嵌着一颗在黑暗中闪烁光芒的大块宝石。谁知道戴上后会有什么效果？",
+      "title": "疾速之戒",
+      "description": "这枚戒指减轻了佩戴者在移动时的负担，使其能够飞速奔跑。被诅咒的戒指则会使佩戴者倍感沉重。",
+      "type_id": "RingOfHaste",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/rings/RingOfHaste.java",
+        "action_labels": {}
+      },
+      "category": "ring",
+      "icon": "RING_HASTE",
+      "visual": "RING_GARNET",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这枚金属环镶嵌着一颗在黑暗中闪烁光芒的大块宝石。谁知道戴上后会有什么效果？",
+      "title": "根骨之戒",
+      "description": "这枚戒指会增强佩戴者的体质，使其拥有更强的力量与体格。被诅咒的戒指则会使人虚弱。",
+      "type_id": "RingOfMight",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/rings/RingOfMight.java",
+        "action_labels": {}
+      },
+      "category": "ring",
+      "icon": "RING_MIGHT",
+      "visual": "RING_GARNET",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这枚金属环镶嵌着一颗在黑暗中闪烁光芒的大块宝石。谁知道戴上后会有什么效果？",
+      "title": "神射之戒",
+      "description": "这枚戒指会加强佩戴者的瞄准能力，使投掷武器变得更加致命且耐用。被诅咒的戒指则会起反作用。",
+      "type_id": "RingOfSharpshooting",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/rings/RingOfSharpshooting.java",
+        "action_labels": {}
+      },
+      "category": "ring",
+      "icon": "RING_SHARPSHOOT",
+      "visual": "RING_GARNET",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这枚金属环镶嵌着一颗在黑暗中闪烁光芒的大块宝石。谁知道戴上后会有什么效果？",
+      "title": "韧性之戒",
+      "description": "这枚戒指使佩戴者能够抵御本应致命的打击。佩戴者受伤越重，对伤害的抗性就越高。被诅咒的戒指则会让敌人更容易杀死佩戴者。",
+      "type_id": "RingOfTenacity",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/rings/RingOfTenacity.java",
+        "action_labels": {}
+      },
+      "category": "ring",
+      "icon": "RING_TENACITY",
+      "visual": "RING_GARNET",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这枚金属环镶嵌着一颗在黑暗中闪烁光芒的大块宝石。谁知道戴上后会有什么效果？",
+      "title": "财富之戒",
+      "description": "这枚戒指有如磁石般的招财功效，佩戴者有更大的机率从敌人身上或各类宝箱中取得较有价值的道具。被诅咒的戒指反而会降低发现宝物的可能性。",
+      "type_id": "RingOfWealth",
+      "stackable": false,
+      "metadata": {
+        "tier": 0,
+        "source": "items/rings/RingOfWealth.java",
+        "action_labels": {}
+      },
+      "category": "ring",
+      "icon": "RING_WEALTH",
+      "visual": "RING_GARNET",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "TRANSFER",
+        "DETACH"
+      ],
+      "default_action": "",
+      "unknown_description": "裹着这身与黑暗融为一体的斗篷时，盗贼能够施展一项特殊技能。",
+      "title": "英雄风衣",
+      "description": "裹着这身与黑暗融为一体的斗篷时，盗贼能够施展一项特殊技能。",
+      "type_id": "RogueArmor",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/armor/RogueArmor.java",
+        "action_labels": {
+          "DETACH": "拆卸",
+          "TRANSFER": "转移"
+        }
+      },
+      "category": "armor",
+      "icon": "",
+      "visual": "ARMOR_ROGUE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CLEAN",
+        "TIP"
+      ],
+      "default_action": "THROW",
+      "unknown_description": "这种恶毒的飞镖上涂着一种由腐莓制成的酸蚀毒膏，能够蚀穿飞镖触及的任何事物。其上的蚀毒异常强大，寻常敌人触之即死，但强敌可消去其大半功效。相较于其他涂药飞镖，这类飞镖上的涂药药效更加耐用，但其耐用度无法被外力进一步提升。",
+      "title": "腐莓飞镖",
+      "description": "这种恶毒的飞镖上涂着一种由腐莓制成的酸蚀毒膏，能够蚀穿飞镖触及的任何事物。其上的蚀毒异常强大，寻常敌人触之即死，但强敌可消去其大半功效。相较于其他涂药飞镖，这类飞镖上的涂药药效更加耐用，但其耐用度无法被外力进一步提升。",
+      "type_id": "RotDart",
+      "stackable": true,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/missiles/darts/RotDart.java",
+        "action_labels": {
+          "CLEAN": "清洗",
+          "TIP": "涂药"
+        }
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "ROT_DART",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这个大盾可以有效格挡攻击，在危机时刻也可以作为不错的武器使用。",
+      "title": "圆盾",
+      "description": "这个大盾可以有效格挡攻击，在危机时刻也可以作为不错的武器使用。",
+      "type_id": "RoundShield",
+      "stackable": false,
+      "metadata": {
+        "tier": 3,
+        "source": "items/weapon/melee/RoundShield.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "ROUND_SHIELD",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "来自失落之地的神秘武器，有着明亮的蓝色刀刃。",
+      "title": "符文之刃",
+      "description": "来自失落之地的神秘武器，有着明亮的蓝色刀刃。",
+      "type_id": "RunicBlade",
+      "stackable": false,
+      "metadata": {
+        "tier": 4,
+        "source": "items/weapon/melee/RunicBlade.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "RUNIC_BLADE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一对轻薄的铁刃，刚好一手一把。在快速斩击方面十分出色。",
+      "title": "双钗",
+      "description": "一对轻薄的铁刃，刚好一手一把。在快速斩击方面十分出色。",
+      "type_id": "Sai",
+      "stackable": false,
+      "metadata": {
+        "tier": 3,
+        "source": "items/weapon/melee/Sai.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "SAI",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这块巨大的盐晶被切割成近乎完美的立方体，而不知为何盐晶成功吸收了炼金釜中一半的水分而非溶解于其中。它似乎通过魔法脱水并保存了你所吃的食物，延长了你所得的饱腹感，但也减少了你不空腹时的生命回复。",
+      "title": "盐晶立方",
+      "description": "这块巨大的盐晶被切割成近乎完美的立方体，而不知为何盐晶成功吸收了炼金釜中一半的水分而非溶解于其中。它似乎通过魔法脱水并保存了你所吃的食物，延长了你所得的饱腹感，但也减少了你不空腹时的生命回复。",
+      "type_id": "SaltCube",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/SaltCube.java",
+        "action_labels": {}
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "SALT_CUBE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "FEED",
+        "ROOT"
+      ],
+      "default_action": "ROOT",
+      "unknown_description": null,
+      "title": "自然之履",
+      "description": null,
+      "type_id": "SandalsOfNature",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/artifacts/SandalsOfNature.java",
+        "action_labels": {
+          "FEED": "喂食",
+          "ROOT": "扎根"
+        }
+      },
+      "category": "artifact",
+      "icon": "",
+      "visual": "ARTIFACT_SANDALS",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DETACH"
+      ],
+      "default_action": "",
+      "unknown_description": "在厚实的皮背心中缝入金属鳞片，形成了灵活而高防御的护甲。",
+      "title": "鳞甲",
+      "description": "在厚实的皮背心中缝入金属鳞片，形成了灵活而高防御的护甲。",
+      "type_id": "ScaleArmor",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/armor/ScaleArmor.java",
+        "action_labels": {
+          "DETACH": "拆卸"
+        }
+      },
+      "category": "armor",
+      "icon": "",
+      "visual": "ARMOR_SCALE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一把厚重的弯刀。它的形状能让它进行更快但不甚强力的攻击。",
+      "title": "弯刀",
+      "description": "一把厚重的弯刀。它的形状能让它进行更快但不甚强力的攻击。",
+      "type_id": "Scimitar",
+      "stackable": false,
+      "metadata": {
+        "tier": 3,
+        "source": "items/weapon/melee/Scimitar.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "SCIMITAR",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张漆黑的羊皮纸上刻满了闪耀着魔力光芒的晦涩符文。看起来这不是这个世界的物品。大声念出来会发生什么？",
+      "title": "驱魔秘卷",
+      "description": "使用这张秘卷会让你被包裹在一个能够屏蔽所有魔法效果的魔力结界中，无论它是有利或是有害。屏蔽效果包括大多数魔法物品效果，例如法杖、卷轴、戒指、神器、附魔与诅咒。特别地，英雄护甲技能足够强大，因而能够不受该秘卷的限制。",
+      "type_id": "ScrollOfAntiMagic",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/exotic/ScrollOfAntiMagic.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_ANTIMAGIC",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张漆黑的羊皮纸上刻满了闪耀着魔力光芒的晦涩符文。看起来这不是这个世界的物品。大声念出来会发生什么？",
+      "title": "决斗秘卷",
+      "description": "大声诵读此卷轴时，它将发出巨大的吼声，将敌人吸引到诵读者身边，同时在它们周围创建一个小型的竞技场。\n\n只要使用者在这个竞技场里，就将获得33%的伤害减免(在其它所有伤害减免计算之前)，并且不会损失饱食度。\n\n竞技场的大小将随着诵读者所在区域的大小而改变。在一些Boss战区域，竞技场会格外的小。",
+      "type_id": "ScrollOfChallenge",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/exotic/ScrollOfChallenge.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_CHALLENGE",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张漆黑的羊皮纸上刻满了闪耀着魔力光芒的晦涩符文。看起来这不是这个世界的物品。大声念出来会发生什么？",
+      "title": "预知秘卷",
+      "description": "这张秘卷会随机鉴定四种你尚未明确的道具。它可能帮你鉴定出某药剂的颜色，某卷轴的符文，或是某戒指的宝石。不过被鉴定的道具未必是你包裹中有的。",
+      "type_id": "ScrollOfDivination",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/exotic/ScrollOfDivination.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_DIVINATE",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张漆黑的羊皮纸上刻满了闪耀着魔力光芒的晦涩符文。看起来这不是这个世界的物品。大声念出来会发生什么？",
+      "title": "梦魇秘卷",
+      "description": "诵读的时候，梦魇秘卷会爆射出一道极度可怖的红色闪光，其中的杀气仿佛已经凝成实体。这足以令你视野中所有的敌人吓得魂飞魄散，不顾一切地想要逃离这座地牢，永远也不回来了！\n\n与恐惧效果一样，逃命的敌人也会随着时间流逝逐渐冷静下来，来自外界的伤害更能加速这一过程。\n\n意志坚定的敌人，比如Boss们，将能抵抗逃命的冲动，但仍会感到恐惧。",
+      "type_id": "ScrollOfDread",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/exotic/ScrollOfDread.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_DREAD",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张漆黑的羊皮纸上刻满了闪耀着魔力光芒的晦涩符文。看起来这不是这个世界的物品。大声念出来会发生什么？",
+      "title": "注魔秘卷",
+      "description": "这张秘卷可以为武器或护甲注入强大的魔力。使用者甚至可以在一定程度上选择注入哪种魔力。",
+      "type_id": "ScrollOfEnchantment",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/exotic/ScrollOfEnchantment.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_ENCHANT",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张漆黑的羊皮纸上刻满了闪耀着魔力光芒的晦涩符文。看起来这不是这个世界的物品。大声念出来会发生什么？",
+      "title": "先见秘卷",
+      "description": "在阅读了这幅卷轴后，附近地形的细节将自发不断地映入阅读者的脑海。这种效果会持续相当长的一段时间，并且会揭示所有的隐藏门与陷阱，不再需要主动搜索。",
+      "type_id": "ScrollOfForesight",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/exotic/ScrollOfForesight.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_FORESIGHT",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张羊皮纸上写满了难以破译的魔法符文。大声念出来会发生什么？",
+      "title": "鉴定卷轴",
+      "description": "该卷轴能永久揭示一件物品的所有秘密。",
+      "type_id": "ScrollOfIdentify",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/ScrollOfIdentify.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_IDENTIFY",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张羊皮纸上写满了难以破译的魔法符文。大声念出来会发生什么？",
+      "title": "催眠卷轴",
+      "description": "阅读这张卷轴会释放出一段舒缓的旋律，让所有听到它的生物深陷魔法睡眠。进入魔法睡眠会使玩家和友方生物每回合额外恢复1点生命值。",
+      "type_id": "ScrollOfLullaby",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/ScrollOfLullaby.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_LULLABY",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张羊皮纸上写满了难以破译的魔法符文。大声念出来会发生什么？",
+      "title": "探地卷轴",
+      "description": "阅读这张卷轴时，一副明晰的景象会刻入你的记忆中，告知你整个楼层的精确布局并揭开所有隐藏的秘密。不过道具位置和生物分布依旧是未知状态。",
+      "type_id": "ScrollOfMagicMapping",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/ScrollOfMagicMapping.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_MAGICMAP",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张漆黑的羊皮纸上刻满了闪耀着魔力光芒的晦涩符文。看起来这不是这个世界的物品。大声念出来会发生什么？",
+      "title": "蜕变秘卷",
+      "description": "这张秘卷充满了嬗变的魔力，不过与一般的嬗变卷轴不同。这股魔力将作用于释放者本身而不是一个物品。秘卷的魔力将允许你蜕变一个自身的天赋，使其转化为来自其他英雄的五个同层天赋之一！\n\n这个效果只适用于英雄自身的天赋，对专精天赋与护甲天赋无效。那些你无法使用的天赋将不会出现在蜕变选项里。",
+      "type_id": "ScrollOfMetamorphosis",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/exotic/ScrollOfMetamorphosis.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_METAMORPH",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张羊皮纸上写满了难以破译的魔法符文。大声念出来会发生什么？",
+      "title": "镜像卷轴",
+      "description": "卷轴上的咒文会创造使用者的两个镜像。这些像使用者的弱化版克隆体的镜像会对敌人展开追杀。不过镜像非常脆弱，受到伤害就会瞬间消散。镜像会同步装备使用者的武器。",
+      "type_id": "ScrollOfMirrorImage",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/ScrollOfMirrorImage.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_MIRRORIMG",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张漆黑的羊皮纸上刻满了闪耀着魔力光芒的晦涩符文。看起来这不是这个世界的物品。大声念出来会发生什么？",
+      "title": "魔能秘卷",
+      "description": "奇异的魔法能量被禁锢在秘卷羊皮纸内，当这股能量被释放时会在短时间内持续为阅读者的所有神器充能。",
+      "type_id": "ScrollOfMysticalEnergy",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/exotic/ScrollOfMysticalEnergy.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_MYSTENRG",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张漆黑的羊皮纸上刻满了闪耀着魔力光芒的晦涩符文。看起来这不是这个世界的物品。大声念出来会发生什么？",
+      "title": "归返秘卷",
+      "description": "这张羊皮纸上的咒语能瞬间将读者传送到楼上与之距离最近的区域首层。想去商店的话，用这张秘卷会非常方便。",
+      "type_id": "ScrollOfPassage",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/exotic/ScrollOfPassage.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_PASSAGE",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张漆黑的羊皮纸上刻满了闪耀着魔力光芒的晦涩符文。看起来这不是这个世界的物品。大声念出来会发生什么？",
+      "title": "虹卫秘卷",
+      "description": "这张秘卷上的咒文会创造使用者的一个虹光守卫。这个像使用者的弱化版克隆体的幻像有着相同的防御，但生命值和造成的伤害更低。\n\n虹光守卫将吸引敌人的火力从而保护使用者。\n\n当虹光守卫存在时阅读这张秘卷将会为其恢复所有生命。",
+      "type_id": "ScrollOfPrismaticImage",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/exotic/ScrollOfPrismaticImage.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_PRISIMG",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张漆黑的羊皮纸上刻满了闪耀着魔力光芒的晦涩符文。看起来这不是这个世界的物品。大声念出来会发生什么？",
+      "title": "灵爆秘卷",
+      "description": "这张秘卷封存着惊人的毁灭性能量，一旦被释放出来可摧毁视野内所有生物的心智。\n\n然而，使用者也会遭受灵爆的严重反噬，使其身受重创，双目失明，力量虚弱。灵爆秘卷击中的目标越多，其对使用者造成的伤害越低。",
+      "type_id": "ScrollOfPsionicBlast",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/exotic/ScrollOfPsionicBlast.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_PSIBLAST",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张羊皮纸上写满了难以破译的魔法符文。大声念出来会发生什么？",
+      "title": "盛怒卷轴",
+      "description": "大声诵读内容时，卷轴将释放出一声轰响的咆哮，将所有敌人引向你并激怒附近的单位。",
+      "type_id": "ScrollOfRage",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/ScrollOfRage.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_RAGE",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张羊皮纸上写满了难以破译的魔法符文。大声念出来会发生什么？",
+      "title": "充能卷轴",
+      "description": "纯正的魔法能量被禁锢在羊皮纸内，当这股能量被释放时会在短时间内持续为阅读者的所有法杖充能。",
+      "type_id": "ScrollOfRecharging",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/ScrollOfRecharging.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_RECHARGE",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张羊皮纸上写满了难以破译的魔法符文。大声念出来会发生什么？",
+      "title": "祛邪卷轴",
+      "description": "卷轴上的咒语能够瞬间清除指定的一件武器、护甲、法杖、戒指或神器上的诅咒。",
+      "type_id": "ScrollOfRemoveCurse",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/ScrollOfRemoveCurse.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_REMCURSE",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张羊皮纸上写满了难以破译的魔法符文。大声念出来会发生什么？",
+      "title": "复仇卷轴",
+      "description": "阅读后，对视野内目标施加致盲和麻痹。两种效果的基础持续时间均为_10回合 × 已损失生命比例_，已损失生命比例为（最大生命－当前生命）÷最大生命。",
+      "type_id": "ScrollOfRetribution",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/ScrollOfRetribution.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_RETRIB",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张漆黑的羊皮纸上刻满了闪耀着魔力光芒的晦涩符文。看起来这不是这个世界的物品。大声念出来会发生什么？",
+      "title": "魅音秘卷",
+      "description": "阅读此卷轴将播放出摄人心魄的音律，令目标敌人沉沦于你，永久地变成盟友！听到这歌声的其它敌人则是暂时被魅惑。\n\n特别强大的敌人可以抵抗沉沦效果，但同样会被魅惑。",
+      "type_id": "ScrollOfSirensSong",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/exotic/ScrollOfSirensSong.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_SIREN",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张羊皮纸上写满了难以破译的魔法符文。大声念出来会发生什么？",
+      "title": "传送卷轴",
+      "description": "羊皮纸上的咒语能立刻让阅读者传送到本层的另一处。",
+      "type_id": "ScrollOfTeleportation",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/ScrollOfTeleportation.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_TELEPORT",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张羊皮纸上写满了难以破译的魔法符文。大声念出来会发生什么？",
+      "title": "恐惧卷轴",
+      "description": "阅读时释放可怖的红光，使视野内的对手将当前装备的武器掉落在其脚下。掉落的武器可被重新拾取；未装备武器的对手不受影响。",
+      "type_id": "ScrollOfTerror",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/ScrollOfTerror.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_TERROR",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张羊皮纸上写满了难以破译的魔法符文。大声念出来会发生什么？",
+      "title": "嬗变卷轴",
+      "description": "卷轴内存着强力的嬗变魔法，用在可行的物品上会将其转变成同类型的另一样物品。嬗变魔法还会保留原物品上的升级、附魔和刻印。卷轴或药剂将被转化为秘卷或合剂，反之亦然。",
+      "type_id": "ScrollOfTransmutation",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/ScrollOfTransmutation.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_TRANSMUTE",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这张羊皮纸上写满了难以破译的魔法符文。大声念出来会发生什么？",
+      "title": "升级卷轴",
+      "description": "这张卷轴可以升级一件物品或一组投掷武器。法杖可获得更高的效能与更多的充能，武器、投掷武器与护甲可获得更强的攻防属性，而戒指的效能可获得强化。",
+      "type_id": "ScrollOfUpgrade",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/scrolls/ScrollOfUpgrade.java",
+        "action_labels": {
+          "READ": "阅读"
+        }
+      },
+      "category": "scroll",
+      "icon": "SCROLL_UPGRADE",
+      "visual": "SCROLL_KAUNAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "USE"
+      ],
+      "default_action": "USE",
+      "unknown_description": "这些细碎的红色蜡块似是源于一名葬身于此战士的纹章。你可以感受到其上仍残留的一缕执念，你可以用它来给自己提供一些护盾。但是，伴随着这缕执念转化为护盾，这些蜡块也会烟消云散。",
+      "title": "纹章残蜡",
+      "description": "这些细碎的红色蜡块似是源于一名葬身于此战士的纹章。你可以感受到其上仍残留的一缕执念，你可以用它来给自己提供一些护盾。但是，伴随着这缕执念转化为护盾，这些蜡块也会烟消云散。",
+      "type_id": "SealShard",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/remains/SealShard.java",
+        "action_labels": {
+          "USE": "使用"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "SEAL_SHARD",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "IDENTIFY"
+      ],
+      "default_action": "",
+      "unknown_description": "经过炼金釜的烹煮，这一小块邪能碎片已经化为了...一片虚空？光线似乎在碎片边缘发生了弯曲，而只要你不握住它，它就会悬停在原地。碎片似乎通过魔法从你的无知中获得力量，所以对此最好不要想太多。",
+      "title": "遗忘碎片",
+      "description": "经过炼金釜的烹煮，这一小块邪能碎片已经化为了...一片虚空？光线似乎在碎片边缘发生了弯曲，而只要你不握住它，它就会悬停在原地。碎片似乎通过魔法从你的无知中获得力量，所以对此最好不要想太多。",
+      "type_id": "ShardOfOblivion",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/ShardOfOblivion.java",
+        "action_labels": {
+          "IDENTIFY": "鉴定"
+        }
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "OBLIVION_SHARD",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "雷鸣魔药",
+      "description": "当瓶子破裂时，这瓶魔药会向周围释放一阵闪电风暴。",
+      "type_id": "ShockingBrew",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/brews/ShockingBrew.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "",
+      "visual": "BREW_SHOCKING",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CLEAN",
+        "TIP"
+      ],
+      "default_action": "THROW",
+      "unknown_description": "这些飞镖上涂着一种由风暴藤制成的药物，能让目标受到强烈的电击。",
+      "title": "电击飞镖",
+      "description": "这些飞镖上涂着一种由风暴藤制成的药物，能让目标受到强烈的电击。",
+      "type_id": "ShockingDart",
+      "stackable": true,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/missiles/darts/ShockingDart.java",
+        "action_labels": {
+          "CLEAN": "清洗",
+          "TIP": "涂药"
+        }
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "SHOCKING_DART",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "它确实相当短，只比一把匕首长出几厘米。",
+      "title": "短剑",
+      "description": "它确实相当短，只比一把匕首长出几厘米。",
+      "type_id": "Shortsword",
+      "stackable": false,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/melee/Shortsword.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "SHORTSWORD",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "LIGHTTHROW"
+      ],
+      "default_action": "LIGHTTHROW",
+      "unknown_description": "这枚改造过的炸弹的外壳由DM-300的金属残骸制成，当其爆炸时外壳会碎裂为破片并向四周迸发，在炸弹周围的巨大范围内造成_%1$d~%2$d点伤害_。使用时你最好躲在某处掩体后面...",
+      "title": "破片炸弹",
+      "description": "这枚改造过的炸弹的外壳由DM-300的金属残骸制成，当其爆炸时外壳会碎裂为破片并向四周迸发，在炸弹周围的巨大范围内造成_%1$d~%2$d点伤害_。使用时你最好躲在某处掩体后面...",
+      "type_id": "ShrapnelBomb",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/bombs/ShrapnelBomb.java",
+        "action_labels": {
+          "LIGHTTHROW": "点燃并扔出"
+        }
+      },
+      "category": "bomb",
+      "icon": "",
+      "visual": "SHRAPNEL_BOMB",
+      "targeting_actions": [
+        "THROW",
+        "LIGHTTHROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "一些轻便到可以在移动时快速掷出的锋利星形金属刃片。",
+      "title": "手里剑",
+      "description": "一些轻便到可以在移动时快速掷出的锋利星形金属刃片。",
+      "type_id": "Shuriken",
+      "stackable": true,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/missiles/Shuriken.java",
+        "action_labels": {}
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "SHURIKEN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一种手持农具，也可被用作一把强大但笨重的武器。",
+      "title": "短柄镰",
+      "description": "一种手持农具，也可被用作一把强大但笨重的武器。",
+      "type_id": "Sickle",
+      "stackable": false,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/melee/Sickle.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "SICKLE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "INSERT"
+      ],
+      "default_action": "INSERT",
+      "unknown_description": "一把匙柄处塑有头骨，与众不同的钥匙。你每次观察匙齿时其外形似乎都有不同。",
+      "title": "骷髅钥匙",
+      "description": "一把匙柄处塑有头骨，与众不同的钥匙。你每次观察匙齿时其外形似乎都有不同。",
+      "type_id": "SkeletonKey",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/artifacts/SkeletonKey.java",
+        "action_labels": {
+          "INSERT": "插入"
+        }
+      },
+      "category": "artifact",
+      "icon": "",
+      "visual": "ARTIFACT_KEY",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "EAT"
+      ],
+      "default_action": "EAT",
+      "unknown_description": "它看起来和普通口粮一样，就是小了点。",
+      "title": "小包口粮",
+      "description": "它看起来和普通口粮一样，就是小了点。",
+      "type_id": "SmallRation",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/food/SmallRation.java",
+        "action_labels": {
+          "EAT": "食用"
+        }
+      },
+      "category": "food",
+      "icon": "",
+      "visual": "OVERPRICED",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "LIGHTTHROW"
+      ],
+      "default_action": "LIGHTTHROW",
+      "unknown_description": "这枚改造过的炸弹会在爆炸时释放出一阵浓厚的气体烟云。炸弹会在2格范围内造成_%1$d~%2$d点伤害_并释放暗夜迷雾。",
+      "title": "烟雾弹",
+      "description": "这枚改造过的炸弹会在爆炸时释放出一阵浓厚的气体烟云。炸弹会在2格范围内造成_%1$d~%2$d点伤害_并释放暗夜迷雾。",
+      "type_id": "SmokeBomb",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/bombs/SmokeBomb.java",
+        "action_labels": {
+          "LIGHTTHROW": "点燃并扔出"
+        }
+      },
+      "category": "bomb",
+      "icon": "",
+      "visual": "SMOKE_BOMB",
+      "targeting_actions": [
+        "THROW",
+        "LIGHTTHROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这是一根装着锋锐铁刺的细长木杆。",
+      "title": "长矛",
+      "description": "这是一根装着锋锐铁刺的细长木杆。",
+      "type_id": "Spear",
+      "stackable": false,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/melee/Spear.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "SPEAR",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "SHOOT"
+      ],
+      "default_action": "SHOOT",
+      "unknown_description": "一把由远古灵木制成的弓，弓弦和弓身的刻纹散发着苍蓝色的幽光。拉开弓弦时，一发魔法箭矢会生成在弓身一侧向目标飞去。",
+      "title": "灵能弓",
+      "description": "一把由远古灵木制成的弓，弓弦和弓身的刻纹散发着苍蓝色的幽光。拉开弓弦时，一发魔法箭矢会生成在弓身一侧向目标飞去。",
+      "type_id": "SpiritBow",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/weapon/SpiritBow.java",
+        "action_labels": {
+          "SHOOT": "射击"
+        }
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "SPIRIT_BOW",
+      "targeting_actions": [
+        "THROW",
+        "SHOOT"
+      ]
+    },
+    {
+      "extra_actions": [
+        "EAT"
+      ],
+      "default_action": "EAT",
+      "unknown_description": "烹煮的过程中杀死了肉上面可能携带的任何病菌或是寄生虫。现在应该可以安全的食用它了。",
+      "title": "炖肉",
+      "description": "烹煮的过程中杀死了肉上面可能携带的任何病菌或是寄生虫。现在应该可以安全的食用它了。",
+      "type_id": "StewedMeat",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/food/StewedMeat.java",
+        "action_labels": {
+          "EAT": "食用"
+        }
+      },
+      "category": "food",
+      "icon": "",
+      "visual": "STEWED",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "当把这颗符石丢向一个盟友或敌人时，附近所有敌人都会在短时间内优先攻击该单位。\n\n敌意符石无法直接以boss为目标，但可对其随从正常发挥效果。",
+      "title": "敌意符石",
+      "description": "当把这颗符石丢向一个盟友或敌人时，附近所有敌人都会在短时间内优先攻击该单位。\n\n敌意符石无法直接以boss为目标，但可对其随从正常发挥效果。",
+      "type_id": "StoneOfAggression",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfAggression.java",
+        "action_labels": {}
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_AGGRESSION",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "USE"
+      ],
+      "default_action": "USE",
+      "unknown_description": "这颗符石内的强力魔法可以用于强化装备的一种属性，代价是会减弱另一种属性。\n\n用于武器可以强化伤害或者速度。投掷武器的耐久度也会随着速度的增减而增减。\n\n用于护甲可以强化防御或者闪避。",
+      "title": "强化符石",
+      "description": "这颗符石内的强力魔法可以用于强化装备的一种属性，代价是会减弱另一种属性。\n\n用于武器可以强化伤害或者速度。投掷武器的耐久度也会随着速度的增减而增减。\n\n用于护甲可以强化防御或者闪避。",
+      "type_id": "StoneOfAugmentation",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfAugmentation.java",
+        "action_labels": {
+          "USE": "使用"
+        }
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_AUGMENTATION",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这颗符石被扔出后会在目的地立即爆炸。和炸弹一样，爆炸会对范围内的所有东西造成伤害。",
+      "title": "震爆符石",
+      "description": "投掷后在落点立即爆炸，对范围内生物造成_固定15点基础伤害_，不受楼层和伤害随机浮动影响。护甲、护盾及其他防护照常生效；爆炸仍会破坏范围内的可燃地形与物品堆。",
+      "type_id": "StoneOfBlast",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfBlast.java",
+        "action_labels": {}
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_BLAST",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这颗符石被扔出后会把使用者传送到目的地。",
+      "title": "闪现符石",
+      "description": "这颗符石被扔出后会把使用者传送到目的地。",
+      "type_id": "StoneOfBlink",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfBlink.java",
+        "action_labels": {}
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_BLINK",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这颗符石被扔出后会瞬间搜索以目的地为中心的巨大范围内的所有地格。该搜索能力甚至不受墙壁的阻隔。",
+      "title": "明示符石",
+      "description": "这颗符石被扔出后会瞬间搜索以目的地为中心的巨大范围内的所有地格。该搜索能力甚至不受墙壁的阻隔。",
+      "type_id": "StoneOfClairvoyance",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfClairvoyance.java",
+        "action_labels": {}
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_CLAIRVOYANCE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "当把这颗符石掷向一个敌人时，被命中的敌人会陷入魔法睡眠。陷入魔法睡眠的敌人会永远沉睡下去，除非受到外界打扰。",
+      "title": "沉睡符石",
+      "description": "当把这颗符石掷向一个敌人时，被命中的敌人会陷入魔法睡眠。陷入魔法睡眠的敌人会永远沉睡下去，除非受到外界打扰。",
+      "type_id": "StoneOfDeepSleep",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfDeepSleep.java",
+        "action_labels": {}
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_SLEEP",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "USE"
+      ],
+      "default_action": "USE",
+      "unknown_description": "这颗符石能够侦测物品上的魔咒。对一件未鉴定物品使用此符石，可探测其是否附有诅咒，以及是否具有附魔或升级。",
+      "title": "探魔符石",
+      "description": "这颗符石能够侦测物品上的魔咒。对一件未鉴定物品使用此符石，可探测其是否附有诅咒，以及是否具有附魔或升级。",
+      "type_id": "StoneOfDetectMagic",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfDetectMagic.java",
+        "action_labels": {
+          "USE": "使用"
+        }
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_DETECT",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "USE"
+      ],
+      "default_action": "USE",
+      "unknown_description": "这颗符石拥有施加附魔的能力。和升级卷轴不同，它不会直接加强一个道具的能力，但能给武器或者护甲施加附魔，使其拥有新的特性。",
+      "title": "附魔符石",
+      "description": "这颗符石拥有施加附魔的能力。和升级卷轴不同，它不会直接加强一个道具的能力，但能给武器或者护甲施加附魔，使其拥有新的特性。",
+      "type_id": "StoneOfEnchantment",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfEnchantment.java",
+        "action_labels": {
+          "USE": "使用"
+        }
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_ENCHANT",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "当把这颗符石掷向一个盟友或敌人时，被命中的角色会陷入深深的恐惧中，无法克制地逃离。攻击会刺激其从恐惧中更快恢复。",
+      "title": "恐惧符石",
+      "description": "当把这颗符石掷向一个盟友或敌人时，被命中的角色会陷入深深的恐惧中，无法克制地逃离。攻击会刺激其从恐惧中更快恢复。",
+      "type_id": "StoneOfFear",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfFear.java",
+        "action_labels": {}
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_FEAR",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这颗符石被扔出后会在目的地召唤一群魔法绵羊。",
+      "title": "羊群符石",
+      "description": "这颗符石被扔出后会在目的地召唤一群魔法绵羊。",
+      "type_id": "StoneOfFlock",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfFlock.java",
+        "action_labels": {}
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_FLOCK",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "USE"
+      ],
+      "default_action": "USE",
+      "unknown_description": "这块符石含有的魔法就像一个弱化版的鉴定卷轴。和鉴定卷轴那种直接识别物品的魔法不一样，它会加强你的直觉，让你通过猜测来试图鉴定一种药水、卷轴或者戒指的种类。",
+      "title": "感知符石",
+      "description": "这块符石含有的魔法就像一个弱化版的鉴定卷轴。和鉴定卷轴那种直接识别物品的魔法不一样，它会加强你的直觉，让你通过猜测来试图鉴定一种药水、卷轴或者戒指的种类。",
+      "type_id": "StoneOfIntuition",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfIntuition.java",
+        "action_labels": {
+          "USE": "使用"
+        }
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_INTUITION",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这颗符石被扔出后会爆出一阵电能量，短暂麻痹范围内所有目标并根据电到的目标数量恢复使用者的法杖充能。",
+      "title": "电击符石",
+      "description": "这颗符石被扔出后会爆出一阵电能量，短暂麻痹范围内所有目标并根据电到的目标数量恢复使用者的法杖充能。",
+      "type_id": "StoneOfShock",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfShock.java",
+        "action_labels": {}
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_SHOCK",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "INSCRIBE"
+      ],
+      "default_action": "INSCRIBE",
+      "unknown_description": "这支奥术刻笔由一种暗黑色的坚硬石料制成。你能用它在护甲上刻下魔法刻印，不过你无法自主选择，刻笔会替你做出决定。",
+      "title": "奥术刻笔",
+      "description": "这支奥术刻笔由一种暗黑色的坚硬石料制成。你能用它在护甲上刻下魔法刻印，不过你无法自主选择，刻笔会替你做出决定。",
+      "type_id": "Stylus",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/Stylus.java",
+        "action_labels": {
+          "INSCRIBE": "蚀刻"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "STYLUS",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CAST",
+        "IMBUE"
+      ],
+      "default_action": "CAST",
+      "unknown_description": "这个晶柱联系着用于制造它的元素余烬的能量，能够召唤出一个友好的元素助你战斗！同一时间只能召唤一个元素，但是重新释放该元素不需要消耗额外能量。",
+      "title": "唤魔晶柱",
+      "description": "这个晶柱联系着用于制造它的元素余烬的能量，能够召唤出一个友好的元素助你战斗！同一时间只能召唤一个元素，但是重新释放该元素不需要消耗额外能量。",
+      "type_id": "SummonElemental",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/spells/SummonElemental.java",
+        "action_labels": {
+          "CAST": "施放",
+          "IMBUE": "灌注"
+        }
+      },
+      "category": "spell",
+      "icon": "",
+      "visual": "SUMMON_ELE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "EAT"
+      ],
+      "default_action": "EAT",
+      "unknown_description": "这是一包由盗贼公会存放，供其成员取用的口粮。这包口粮专门被设计成可快速食用的样式，并且能为成员的隐秘行动提供诸多帮助。\n\n尽管不能像正常口粮一样填饱你，它却能被快速食用，恢复少量生命，并且回复盗贼的暗影斗篷一点神器充能。",
+      "title": "备用口粮",
+      "description": "这是一包由盗贼公会存放，供其成员取用的口粮。这包口粮专门被设计成可快速食用的样式，并且能为成员的隐秘行动提供诸多帮助。\n\n尽管不能像正常口粮一样填饱你，它却能被快速食用，恢复少量生命，并且回复盗贼的暗影斗篷一点神器充能。",
+      "type_id": "SupplyRation",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/food/SupplyRation.java",
+        "action_labels": {
+          "EAT": "食用"
+        }
+      },
+      "category": "food",
+      "icon": "",
+      "visual": "SUPPLY_RATION",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "平衡性良好的剑。不算太大，但是依然比短剑长上不少。",
+      "title": "单手剑",
+      "description": "平衡性良好的剑。不算太大，但是依然比短剑长上不少。",
+      "type_id": "Sword",
+      "stackable": false,
+      "metadata": {
+        "tier": 3,
+        "source": "items/weapon/melee/Sword.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "SWORD",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "SCRY"
+      ],
+      "default_action": "SCRY",
+      "unknown_description": "一块雕着奇怪刻纹的光滑石头。它好像是在观察着你周围的一切，留意任何不寻常的东西。",
+      "title": "先见护符",
+      "description": "一块雕着奇怪刻纹的光滑石头。它好像是在观察着你周围的一切，留意任何不寻常的东西。",
+      "type_id": "TalismanOfForesight",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/artifacts/TalismanOfForesight.java",
+        "action_labels": {
+          "SCRY": "探查"
+        }
+      },
+      "category": "artifact",
+      "icon": "",
+      "visual": "ARTIFACT_TALISMAN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CAST"
+      ],
+      "default_action": "CAST",
+      "unknown_description": "这个结晶允许使用者远程抓取一格所有的物体，或从敌人身上取回卡住的投掷武器！\n\n结晶无法用于抓取其他角色拥有的物品，也无法抓取诸如箱子这般的容器。",
+      "title": "念力结晶",
+      "description": "这个结晶允许使用者远程抓取一格所有的物体，或从敌人身上取回卡住的投掷武器！\n\n结晶无法用于抓取其他角色拥有的物品，也无法抓取诸如箱子这般的容器。",
+      "type_id": "TelekineticGrab",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/spells/TelekineticGrab.java",
+        "action_labels": {
+          "CAST": "施放"
+        }
+      },
+      "category": "spell",
+      "icon": "",
+      "visual": "TELE_GRAB",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "WEAR"
+      ],
+      "default_action": "WEAR",
+      "unknown_description": "天狗死时，这幅面具像褪皮般从他的脸上失落地滑下。你能感受它在波动着一股神妙的魔力，仿佛在极力劝你成为它的新主人。难道天狗戴上它时也是被其力量吸引？\n\n如果你有勇气将其戴上，面具的庞大力量会转嫁到你体内，供你为英雄_选择一种职业专精_。\n\n你会选择哪条道路？",
+      "title": "天狗的面具",
+      "description": "天狗死时，这幅面具像褪皮般从他的脸上失落地滑下。你能感受它在波动着一股神妙的魔力，仿佛在极力劝你成为它的新主人。难道天狗戴上它时也是被其力量吸引？\n\n如果你有勇气将其戴上，面具的庞大力量会转嫁到你体内，供你为英雄_选择一种职业专精_。\n\n你会选择哪条道路？",
+      "type_id": "TengusMask",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/TengusMask.java",
+        "action_labels": {
+          "WEAR": "佩戴"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "MASK",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "不知为何，在炼金釜中烹煮竟让这株三叶草长出了许多额外的叶子！目前尚不清楚这件饰物会带来好运还是厄运，或许它会让你的运气变得更加混沌无常？",
+      "title": "十三叶草",
+      "description": "不知为何，在炼金釜中烹煮竟让这株三叶草长出了许多额外的叶子！目前尚不清楚这件饰物会带来好运还是厄运，或许它会让你的运气变得更加混沌无常？",
+      "type_id": "ThirteenLeafClover",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/ThirteenLeafClover.java",
+        "action_labels": {}
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "CLOVER",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "简单粗暴但耐用的投掷武器，实际上就是一块插着根木棍的大石头。",
+      "title": "飞槌",
+      "description": "简单粗暴但耐用的投掷武器，实际上就是一块插着根木棍的大石头。",
+      "type_id": "ThrowingClub",
+      "stackable": true,
+      "metadata": {
+        "tier": 2,
+        "source": "items/weapon/missiles/ThrowingClub.java",
+        "action_labels": {}
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "THROWING_CLUB",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这些重锤是用来扔向敌人的。其光滑的全金属构造让它们非常耐用。",
+      "title": "投掷锤",
+      "description": "这些重锤是用来扔向敌人的。其光滑的全金属构造让它们非常耐用。",
+      "type_id": "ThrowingHammer",
+      "stackable": true,
+      "metadata": {
+        "tier": 5,
+        "source": "items/weapon/missiles/ThrowingHammer.java",
+        "action_labels": {}
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "THROWING_HAMMER",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这些轻便的小刀不同于普通的匕首，平衡的配重使其能在飞行后准确地刺穿目标。",
+      "title": "飞刀",
+      "description": "这些轻便的小刀不同于普通的匕首，平衡的配重使其能在飞行后准确地刺穿目标。",
+      "type_id": "ThrowingKnife",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/weapon/missiles/ThrowingKnife.java",
+        "action_labels": {}
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "THROWING_KNIFE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这些有着非常纤细的木杆的轻便短矛是一种投掷武器，不适合用于近战。",
+      "title": "投矛",
+      "description": "这些有着非常纤细的木杆的轻便短矛是一种投掷武器，不适合用于近战。",
+      "type_id": "ThrowingSpear",
+      "stackable": true,
+      "metadata": {
+        "tier": 3,
+        "source": "items/weapon/missiles/ThrowingSpear.java",
+        "action_labels": {}
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "THROWING_SPEAR",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这些尖尖的金属箭是用来扔向远处的敌人的。",
+      "title": "飞刺",
+      "description": "这些尖尖的金属箭是用来扔向远处的敌人的。",
+      "type_id": "ThrowingSpike",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/weapon/missiles/ThrowingSpike.java",
+        "action_labels": {}
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "THROWING_SPIKE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这些石头被人用砂纸打磨成趁手的形状，比普通石头更适合大力投向目标。",
+      "title": "投石",
+      "description": "这些石头被人用砂纸打磨成趁手的形状，比普通石头更适合大力投向目标。",
+      "type_id": "ThrowingStone",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/weapon/missiles/ThrowingStone.java",
+        "action_labels": {}
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "THROWING_STONE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "ACTIVATE"
+      ],
+      "default_action": "ACTIVATE",
+      "unknown_description": "这只大型的华贵沙漏看起来却并不怎么起眼，但你仍觉得它精雕细刻的框架内蕴含着某种强大的力量。在翻转沙漏、在看着沙子流下的同时，你能感受到一种魔法正在拉扯着你，使用这种魔法肯定能给你一些控制时间的方法。",
+      "title": "时光沙漏",
+      "description": "这只大型的华贵沙漏看起来却并不怎么起眼，但你仍觉得它精雕细刻的框架内蕴含着某种强大的力量。在翻转沙漏、在看着沙子流下的同时，你能感受到一种魔法正在拉扯着你，使用这种魔法肯定能给你一些控制时间的方法。",
+      "type_id": "TimekeepersHourglass",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/artifacts/TimekeepersHourglass.java",
+        "action_labels": {
+          "ACTIVATE": "激活"
+        }
+      },
+      "category": "artifact",
+      "icon": "",
+      "visual": "ARTIFACT_HOURGLASS",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这些飞斧的锯刃只要卡在敌人身上就能造成流血的撕裂伤口。",
+      "title": "飞斧",
+      "description": "这些飞斧的锯刃只要卡在敌人身上就能造成流血的撕裂伤口。",
+      "type_id": "Tomahawk",
+      "stackable": true,
+      "metadata": {
+        "tier": 4,
+        "source": "items/weapon/missiles/Tomahawk.java",
+        "action_labels": {}
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "TOMAHAWK",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "LIGHT"
+      ],
+      "default_action": "LIGHT",
+      "unknown_description": "冒险必备物品，每当地牢陷入黑暗之时，火把能让你走上正确的道路。",
+      "title": "火把",
+      "description": "冒险必备物品，每当地牢陷入黑暗之时，火把能让你走上正确的道路。",
+      "type_id": "Torch",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/Torch.java",
+        "action_labels": {
+          "LIGHT": "点燃"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "TORCH",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "USE"
+      ],
+      "default_action": "USE",
+      "unknown_description": "这片书页看起来是从一位已安息主怀的牧师的圣典上撕扯下来的。其上依旧残存有一丝神力，你可以使用它恢复少许生命值。但若如此书页也会随之烟消云散。",
+      "title": "圣典残页",
+      "description": "这片书页看起来是从一位已安息主怀的牧师的圣典上撕扯下来的。其上依旧残存有一丝神力，你可以使用它恢复少许生命值。但若如此书页也会随之烟消云散。",
+      "type_id": "TornPage",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/remains/TornPage.java",
+        "action_labels": {
+          "USE": "使用"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "TORN_PAGE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "地牢中某个塌方陷阱的核心元件，被小心地从地面中挖掘而出以便携带。它似乎通过魔法与地牢本身形成链接，促使险恶地形频繁出现，并增强了你对陷阱的探查能力。",
+      "title": "陷阱元件",
+      "description": "地牢中某个塌方陷阱的核心元件，被小心地从地面中挖掘而出以便携带。它似乎通过魔法与地牢本身形成链接，促使险恶地形频繁出现，并增强了你对陷阱的探查能力。",
+      "type_id": "TrapMechanism",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/TrapMechanism.java",
+        "action_labels": {}
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "TRAP_MECHANISM",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "一把尖端有着三根致命尖叉的特大号投掷用长枪。威力极大，但也很重。",
+      "title": "三叉戟",
+      "description": "一把尖端有着三根致命尖叉的特大号投掷用长枪。威力极大，但也很重。",
+      "type_id": "Trident",
+      "stackable": true,
+      "metadata": {
+        "tier": 5,
+        "source": "items/weapon/missiles/Trident.java",
+        "action_labels": {}
+      },
+      "category": "missile",
+      "icon": "",
+      "visual": "TRIDENT",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这团泛着微光的金色粉尘在暗无边际的地牢中熠熠生辉。魔能触媒可被置入炼金釜中，结合少许炼金能量制成一件独特饰物。\n\n饰物提供各种小幅改变地牢环境或其住民的效果。通过消耗更多炼金能量升级饰物可以进一步增幅对应效果，丢掉饰物也可以完全摆脱其施加的影响。",
+      "title": "魔能触媒",
+      "description": "这团泛着微光的金色粉尘在暗无边际的地牢中熠熠生辉。魔能触媒可被置入炼金釜中，结合少许炼金能量制成一件独特饰物。\n\n饰物提供各种小幅改变地牢环境或其住民的效果。通过消耗更多炼金能量升级饰物可以进一步增幅对应效果，丢掉饰物也可以完全摆脱其施加的影响。",
+      "type_id": "TrinketCatalyst",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/TrinketCatalyst.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "TRINKET_CATA",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "瓶子里装着些不断打旋的彩色液体。谁知道饮用或投掷它时会有什么效果呢？",
+      "title": "紊乱魔药",
+      "description": "这瓶魔药泛着不断流转变化的彩虹光芒。\n\n饮用它将随机获得一种有益的药剂效果，而将其投掷出去则必定释放一种有害的药剂效果。",
+      "type_id": "UnstableBrew",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/potions/brews/UnstableBrew.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "potion",
+      "icon": "",
+      "visual": "BREW_UNSTABLE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CAST"
+      ],
+      "default_action": "CAST",
+      "unknown_description": "这块黑色方形小水晶的每个面都浮动着变幻莫测的符文。\n\n激活时，它将随机触发一种卷轴效果，若视野内存在敌人，则必定触发战斗类卷轴效果，反之则必定触发非战斗类卷轴效果。",
+      "title": "无序结晶",
+      "description": "这块黑色方形小水晶的每个面都浮动着变幻莫测的符文。\n\n激活时，它将随机触发一种卷轴效果，若视野内存在敌人，则必定触发战斗类卷轴效果，反之则必定触发非战斗类卷轴效果。",
+      "type_id": "UnstableSpell",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/spells/UnstableSpell.java",
+        "action_labels": {
+          "CAST": "施放"
+        }
+      },
+      "category": "spell",
+      "icon": "",
+      "visual": "UNSTABLE_SPELL",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "READ",
+        "ADD"
+      ],
+      "default_action": "READ",
+      "unknown_description": "这本魔典就其年岁而言被保养得异常好。当你翻动页面时它不断地噼啪作响并发出嘶嘶声，涌动着不稳定的能量。一旦诵读这本书，没人能笃定你会释放出什么咒语。",
+      "title": "无序魔典",
+      "description": "这本魔典就其年岁而言被保养得异常好。当你翻动页面时它不断地噼啪作响并发出嘶嘶声，涌动着不稳定的能量。一旦诵读这本书，没人能笃定你会释放出什么咒语。",
+      "type_id": "UnstableSpellbook",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/artifacts/UnstableSpellbook.java",
+        "action_labels": {
+          "ADD": "加入",
+          "READ": "阅读"
+        }
+      },
+      "category": "artifact",
+      "icon": "",
+      "visual": "ARTIFACT_SPELLBOOK",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CAST"
+      ],
+      "default_action": "CAST",
+      "unknown_description": "这个信标内含的魔法似乎能带你回到一个特定的位置，目的地很可能就是你找到它的那个房间。\n\n你可以用它节省一点探索的时间，若是身处险境也可以用它逃出生天。",
+      "title": "宝库信标",
+      "description": "这个信标内含的魔法似乎能带你回到一个特定的位置，目的地很可能就是你找到它的那个房间。\n\n你可以用它节省一点探索的时间，若是身处险境也可以用它逃出生天。",
+      "type_id": "VaultBeacon",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/quest/VaultBeacon.java",
+        "action_labels": {
+          "CAST": "施放"
+        }
+      },
+      "category": "spell",
+      "icon": "",
+      "visual": "RETURN_BEACON",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这根细长的试管内装有一些地牢住民的血液，当你转动试管时其中的血液也会随之缓慢流动。它似乎通过魔法使治疗更为强效，但也更为缓效。",
+      "title": "凝血试管",
+      "description": "这根细长的试管内装有一些地牢住民的血液，当你转动试管时其中的血液也会随之缓慢流动。它似乎通过魔法使治疗更为强效，但也更为缓效。",
+      "type_id": "VialOfBlood",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/VialOfBlood.java",
+        "action_labels": {}
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "BLOOD_VIAL",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "ZAP"
+      ],
+      "default_action": "ZAP",
+      "unknown_description": "这根法杖由一种大理石石材制成，嵌有金饰并在顶部镶着一个浑圆的黑宝石。它在你手中的感觉非常沉重。",
+      "title": "冲击波法杖",
+      "description": "这根法杖由一种大理石石材制成，嵌有金饰并在顶部镶着一个浑圆的黑宝石。它在你手中的感觉非常沉重。",
+      "type_id": "WandOfBlastWave",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/wands/WandOfBlastWave.java",
+        "action_labels": {
+          "ZAP": "释放"
+        }
+      },
+      "category": "wand",
+      "icon": "",
+      "visual": "WAND_BLAST_WAVE",
+      "targeting_actions": [
+        "THROW",
+        "ZAP"
+      ]
+    },
+    {
+      "extra_actions": [
+        "ZAP"
+      ],
+      "default_action": "ZAP",
+      "unknown_description": "这根法杖的灰色主干顶端镶嵌着一颗明亮的橙色宝石。",
+      "title": "酸蚀法杖",
+      "description": "这根法杖的灰色主干顶端镶嵌着一颗明亮的橙色宝石。",
+      "type_id": "WandOfCorrosion",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/wands/WandOfCorrosion.java",
+        "action_labels": {
+          "ZAP": "释放"
+        }
+      },
+      "category": "wand",
+      "icon": "",
+      "visual": "WAND_CORROSION",
+      "targeting_actions": [
+        "THROW",
+        "ZAP"
+      ]
+    },
+    {
+      "extra_actions": [
+        "ZAP"
+      ],
+      "default_action": "ZAP",
+      "unknown_description": "这根法杖能发射混乱的黑暗能量，法杖尖端的那个小头骨装饰很是应景。",
+      "title": "腐化法杖",
+      "description": "这根法杖能发射混乱的黑暗能量，法杖尖端的那个小头骨装饰很是应景。",
+      "type_id": "WandOfCorruption",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/wands/WandOfCorruption.java",
+        "action_labels": {
+          "ZAP": "释放"
+        }
+      },
+      "category": "wand",
+      "icon": "",
+      "visual": "WAND_CORRUPTION",
+      "targeting_actions": [
+        "THROW",
+        "ZAP"
+      ]
+    },
+    {
+      "extra_actions": [
+        "ZAP"
+      ],
+      "default_action": "ZAP",
+      "unknown_description": "这根法杖由一整块光滑的黑曜石制成，深紫色的光自其边缘流向法杖顶端。它闪烁着破坏性能量，准备着向前迸射。",
+      "title": "解离法杖",
+      "description": "这根法杖由一整块光滑的黑曜石制成，深紫色的光自其边缘流向法杖顶端。它闪烁着破坏性能量，准备着向前迸射。",
+      "type_id": "WandOfDisintegration",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/wands/WandOfDisintegration.java",
+        "action_labels": {
+          "ZAP": "释放"
+        }
+      },
+      "category": "wand",
+      "icon": "",
+      "visual": "WAND_DISINTEGRATION",
+      "targeting_actions": [
+        "THROW",
+        "ZAP"
+      ]
+    },
+    {
+      "extra_actions": [
+        "ZAP"
+      ],
+      "default_action": "ZAP",
+      "unknown_description": "这根法杖由红漆木制成，饰以金叶，这使它看起来相当庄严。它的顶端噼啪作响嘶嘶而鸣，渴望着释放其强大的魔法。",
+      "title": "焰浪法杖",
+      "description": "这根法杖由红漆木制成，饰以金叶，这使它看起来相当庄严。它的顶端噼啪作响嘶嘶而鸣，渴望着释放其强大的魔法。",
+      "type_id": "WandOfFireblast",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/wands/WandOfFireblast.java",
+        "action_labels": {
+          "ZAP": "释放"
+        }
+      },
+      "category": "wand",
+      "icon": "",
+      "visual": "WAND_FIREBOLT",
+      "targeting_actions": [
+        "THROW",
+        "ZAP"
+      ]
+    },
+    {
+      "extra_actions": [
+        "ZAP"
+      ],
+      "default_action": "ZAP",
+      "unknown_description": "这根法杖似乎由某种魔法冰块制成。它的圆顶闪着亮光。握起来很冰，但不知为何你的手仍保持着温暖。",
+      "title": "冰霜法杖",
+      "description": "这根法杖似乎由某种魔法冰块制成。它的圆顶闪着亮光。握起来很冰，但不知为何你的手仍保持着温暖。",
+      "type_id": "WandOfFrost",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/wands/WandOfFrost.java",
+        "action_labels": {
+          "ZAP": "释放"
+        }
+      },
+      "category": "wand",
+      "icon": "",
+      "visual": "WAND_FROST",
+      "targeting_actions": [
+        "THROW",
+        "ZAP"
+      ]
+    },
+    {
+      "extra_actions": [
+        "ZAP"
+      ],
+      "default_action": "ZAP",
+      "unknown_description": "这根法杖由实心金属制成，这使它惊人地沉重。电弧在顶端两个内弯的叉齿间跳跃。",
+      "title": "雷霆法杖",
+      "description": "这根法杖由实心金属制成，这使它惊人地沉重。电弧在顶端两个内弯的叉齿间跳跃。",
+      "type_id": "WandOfLightning",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/wands/WandOfLightning.java",
+        "action_labels": {
+          "ZAP": "释放"
+        }
+      },
+      "category": "wand",
+      "icon": "",
+      "visual": "WAND_LIGHTNING",
+      "targeting_actions": [
+        "THROW",
+        "ZAP"
+      ]
+    },
+    {
+      "extra_actions": [
+        "ZAP"
+      ],
+      "default_action": "ZAP",
+      "unknown_description": "这根法杖由一种奇妙的石头组成，你能从几道微微发光的黄色条纹中感受到能量波动。握住法杖时石头好像会稍稍转动，仿佛在迎合你的手。",
+      "title": "灵壤法杖",
+      "description": "这根法杖由一种奇妙的石头组成，你能从几道微微发光的黄色条纹中感受到能量波动。握住法杖时石头好像会稍稍转动，仿佛在迎合你的手。",
+      "type_id": "WandOfLivingEarth",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/wands/WandOfLivingEarth.java",
+        "action_labels": {
+          "ZAP": "释放"
+        }
+      },
+      "category": "wand",
+      "icon": "",
+      "visual": "WAND_LIVING_EARTH",
+      "targeting_actions": [
+        "THROW",
+        "ZAP"
+      ]
+    },
+    {
+      "extra_actions": [
+        "ZAP"
+      ],
+      "default_action": "ZAP",
+      "unknown_description": "这根十分普通的法杖能发射由纯魔法能量构成的飞弹。尽管法杖本身没有什么花哨的特效，但它有更多的充能数，而且在被升级后能暂时强化其他法杖。",
+      "title": "魔弹法杖",
+      "description": "这根十分普通的法杖能发射由纯魔法能量构成的飞弹。尽管法杖本身没有什么花哨的特效，但它有更多的充能数，而且在被升级后能暂时强化其他法杖。",
+      "type_id": "WandOfMagicMissile",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/wands/WandOfMagicMissile.java",
+        "action_labels": {
+          "ZAP": "释放"
+        }
+      },
+      "category": "wand",
+      "icon": "",
+      "visual": "WAND_MAGIC_MISSILE",
+      "targeting_actions": [
+        "THROW",
+        "ZAP"
+      ]
+    },
+    {
+      "extra_actions": [
+        "ZAP"
+      ],
+      "default_action": "ZAP",
+      "unknown_description": "这根法杖由一块实心半透明水晶构成，就像一块厚长光滑的玻璃。一粒粒彩色的光点在法杖顶端跳跃，随时准备迸射而出。",
+      "title": "棱光法杖",
+      "description": "这根法杖由一块实心半透明水晶构成，就像一块厚长光滑的玻璃。一粒粒彩色的光点在法杖顶端跳跃，随时准备迸射而出。",
+      "type_id": "WandOfPrismaticLight",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/wands/WandOfPrismaticLight.java",
+        "action_labels": {
+          "ZAP": "释放"
+        }
+      },
+      "category": "wand",
+      "icon": "",
+      "visual": "WAND_PRISMATIC_LIGHT",
+      "targeting_actions": [
+        "THROW",
+        "ZAP"
+      ]
+    },
+    {
+      "extra_actions": [
+        "ZAP"
+      ],
+      "default_action": "ZAP",
+      "unknown_description": "这根法杖由一根细长木枝巧琢而成。不知为何，它还活着而且生机盎然，像一株树苗的嫩芽般艳绿。“春兰兮秋菊，长无绝兮终古！”",
+      "title": "再生法杖",
+      "description": "这根法杖由一根细长木枝巧琢而成。不知为何，它还活着而且生机盎然，像一株树苗的嫩芽般艳绿。“春兰兮秋菊，长无绝兮终古！”",
+      "type_id": "WandOfRegrowth",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/wands/WandOfRegrowth.java",
+        "action_labels": {
+          "ZAP": "释放"
+        }
+      },
+      "category": "wand",
+      "icon": "",
+      "visual": "WAND_REGROWTH",
+      "targeting_actions": [
+        "THROW",
+        "ZAP"
+      ]
+    },
+    {
+      "extra_actions": [
+        "ZAP"
+      ],
+      "default_action": "ZAP",
+      "unknown_description": "这根法杖形状很普通，是那暗红的色泽和镶在顶端的漆黑宝石让它显眼起来。",
+      "title": "注魂法杖",
+      "description": "这根法杖形状很普通，是那暗红的色泽和镶在顶端的漆黑宝石让它显眼起来。",
+      "type_id": "WandOfTransfusion",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/wands/WandOfTransfusion.java",
+        "action_labels": {
+          "ZAP": "释放"
+        }
+      },
+      "category": "wand",
+      "icon": "",
+      "visual": "WAND_TRANSFUSION",
+      "targeting_actions": [
+        "THROW",
+        "ZAP"
+      ]
+    },
+    {
+      "extra_actions": [
+        "ZAP"
+      ],
+      "default_action": "ZAP",
+      "unknown_description": "这根短小的金属法杖尖端上有一颗亮紫色宝石悬空浮动。",
+      "title": "哨卫法杖",
+      "description": "这根短小的金属法杖尖端上有一颗亮紫色宝石悬空浮动。",
+      "type_id": "WandOfWarding",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/wands/WandOfWarding.java",
+        "action_labels": {
+          "ZAP": "释放"
+        }
+      },
+      "category": "wand",
+      "icon": "",
+      "visual": "WAND_WARDING",
+      "targeting_actions": [
+        "THROW",
+        "ZAP"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "很少有生物能抵挡这铅铁巨块的辗压，但也只有最强壮的冒险家才能有效使用它。",
+      "title": "战锤",
+      "description": "很少有生物能抵挡这铅铁巨块的辗压，但也只有最强壮的冒险家才能有效使用它。",
+      "type_id": "WarHammer",
+      "stackable": false,
+      "metadata": {
+        "tier": 5,
+        "source": "items/weapon/melee/WarHammer.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "WAR_HAMMER",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "TRANSFER",
+        "DETACH"
+      ],
+      "default_action": "",
+      "unknown_description": "装备这套重型板甲时，战士能够施展一项特殊技能。",
+      "title": "英雄板甲",
+      "description": "装备这套重型板甲时，战士能够施展一项特殊技能。",
+      "type_id": "WarriorArmor",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/armor/WarriorArmor.java",
+        "action_labels": {
+          "DETACH": "拆卸",
+          "TRANSFER": "转移"
+        }
+      },
+      "category": "armor",
+      "icon": "",
+      "visual": "ARMOR_WARRIOR",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这件巨大又笨重的农具被加固了。现在比起收割庄稼，它更适宜于收割敌人。",
+      "title": "战镰",
+      "description": "这件巨大又笨重的农具被加固了。现在比起收割庄稼，它更适宜于收割敌人。",
+      "type_id": "WarScythe",
+      "stackable": false,
+      "metadata": {
+        "tier": 5,
+        "source": "items/weapon/melee/WarScythe.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "WAR_SCYTHE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "DRINK"
+      ],
+      "default_action": "DRINK",
+      "unknown_description": "牛皮缝制的液体容器，被软木塞牢牢密封着。在激烈的搏斗中也不会漏出一滴内容。",
+      "title": "水袋",
+      "description": "牛皮缝制的液体容器，被软木塞牢牢密封着。在激烈的搏斗中也不会漏出一滴内容。",
+      "type_id": "Waterskin",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/Waterskin.java",
+        "action_labels": {
+          "DRINK": "饮用"
+        }
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "WATERSKIN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "虽然这把武器另一端带倒刺的绳子伤害不高，但它的攻击范围是数一数二的。",
+      "title": "长鞭",
+      "description": "虽然这把武器另一端带倒刺的绳子伤害不高，但它的攻击范围是数一数二的。",
+      "type_id": "Whip",
+      "stackable": false,
+      "metadata": {
+        "tier": 3,
+        "source": "items/weapon/melee/Whip.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "WHIP",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "CAST"
+      ],
+      "default_action": "CAST",
+      "unknown_description": "这个结晶中含有部分驱动DM-300的诅咒之力。当施放时，它会为你的法杖与佩戴着的神器充能，但同时也会随机触发一种诅咒法杖效果。幸运的是你可以指定这种诅咒魔法的施放方向。",
+      "title": "强能结晶",
+      "description": "这个结晶中含有部分驱动DM-300的诅咒之力。当施放时，它会为你的法杖与佩戴着的神器充能，但同时也会随机触发一种诅咒法杖效果。幸运的是你可以指定这种诅咒魔法的施放方向。",
+      "type_id": "WildEnergy",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/spells/WildEnergy.java",
+        "action_labels": {
+          "CAST": "施放"
+        }
+      },
+      "category": "spell",
+      "icon": "",
+      "visual": "WILD_ENERGY",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这团泛着微光的蓝色树脂看起来附有某根诅咒法杖魔法的纯化精华。炼金釜中的魔力似乎在一定程度上稳定了树脂的诅咒魔法，而这种魔法现在正影响着你的法杖。",
+      "title": "奇迹树脂",
+      "description": "这团泛着微光的蓝色树脂看起来附有某根诅咒法杖魔法的纯化精华。炼金釜中的魔力似乎在一定程度上稳定了树脂的诅咒魔法，而这种魔法现在正影响着你的法杖。",
+      "type_id": "WondrousResin",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/trinkets/WondrousResin.java",
+        "action_labels": {}
+      },
+      "category": "trinket",
+      "icon": "",
+      "visual": "WONDROUS_RESIN",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "LIGHTTHROW"
+      ],
+      "default_action": "LIGHTTHROW",
+      "unknown_description": "这枚改造过的炸弹会在爆炸后创造出魔法羊群。爆炸会对2格范围内的所有单位造成_%1$d~%2$d点伤害_。羊群会阻挡单位的移动，并会存在相当长一段时间！然而，羊群无法在强敌面前存在太久，而且羊群也可以通过与之互动被人为地提前消除。",
+      "title": "绵绵炸弹",
+      "description": "这枚改造过的炸弹会在爆炸后创造出魔法羊群。爆炸会对2格范围内的所有单位造成_%1$d~%2$d点伤害_。羊群会阻挡单位的移动，并会存在相当长一段时间！然而，羊群无法在强敌面前存在太久，而且羊群也可以通过与之互动被人为地提前消除。",
+      "type_id": "WoollyBomb",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/bombs/WoollyBomb.java",
+        "action_labels": {
+          "LIGHTTHROW": "点燃并扔出"
+        }
+      },
+      "category": "bomb",
+      "icon": "",
+      "visual": "WOOLY_BOMB",
+      "targeting_actions": [
+        "THROW",
+        "LIGHTTHROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "这把磨损而褪色的钥匙看起来非同寻常。大概它可以打开附近某道非同寻常的门。",
+      "title": "磨损钥匙",
+      "description": "这把磨损而褪色的钥匙看起来非同寻常。大概它可以打开附近某道非同寻常的门。",
+      "type_id": "WornKey",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/keys/WornKey.java",
+        "action_labels": {}
+      },
+      "category": "misc",
+      "icon": "",
+      "visual": "WORN_KEY",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [],
+      "default_action": "",
+      "unknown_description": "一把十分短的剑，在大量使用后有一定的磨损。它比正常情况的短剑更轻，也更弱。",
+      "title": "破旧的短剑",
+      "description": "一把十分短的剑，在大量使用后有一定的磨损。它比正常情况的短剑更轻，也更弱。",
+      "type_id": "WornShortsword",
+      "stackable": false,
+      "metadata": {
+        "tier": 1,
+        "source": "items/weapon/melee/WornShortsword.java",
+        "action_labels": {}
+      },
+      "category": "weapon",
+      "icon": "",
+      "visual": "WORN_SHORTSWORD",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "腐莓之种",
+      "description": "未成熟的腐莓丛结出的莓果尝起来更像是甜蜜的死亡。经过成年累月的生长，这株腐莓丛终会成熟为另一棵腐莓核心。被踩踏后，这株未成熟的腐莓会释放少量毒气。",
+      "type_id": "SEED_ROTBERRY",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_ROTBERRY",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "烈焰花之种",
+      "description": "烈焰花被任何物品触碰到时，都会化为一团火焰。",
+      "type_id": "SEED_FIREBLOOM",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_FIREBLOOM",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "速行蓟之种",
+      "description": "被踩踏后，速行蓟会加速周围的时间流动，让踩踏者可以瞬间行动数次",
+      "type_id": "SEED_SWIFTTHISTLE",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_SWIFTTHISTLE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "阳春草之种",
+      "description": "阳春草因其汁液缓慢但显著的疗伤效果而家喻户晓。",
+      "type_id": "SEED_SUNGRASS",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_SUNGRASS",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "冰冠花之种",
+      "description": "冰冠花在被接触到时会喷射出一团能冻结周遭的花粉。冻结效果会在潮湿环境中大幅增强。",
+      "type_id": "SEED_ICECAP",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_ICECAP",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "风暴藤之种",
+      "description": "引力似乎并不能正常地作用在风暴藤上，它蓝色的藤蔓能够\"挂\"在空中。任何被风暴藤缠到的生物也被这种奇怪的引力影响，并失去方向感。",
+      "type_id": "SEED_STORMVINE",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_STORMVINE",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "断肠苔之种",
+      "description": "断肠苔（实为花卉而非苔藓）是一种花瓣利如刀片，表面覆有致命毒液的植物。",
+      "type_id": "SEED_SORROWMOSS",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_SORROWMOSS",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "魔皇草之种",
+      "description": "魔皇草的带刺花朵含有一种化学物质，因其强大的中和性质而闻名。任何踏入这株植物的东西将会被净化掉许多负面效果。",
+      "type_id": "SEED_MAGEROYAL",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_MAGEROYAL",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "地缚根之种",
+      "description": "碰到地缚根后，它的根系会在踩踏者周边形成某种无法移动的天然护甲。",
+      "type_id": "SEED_EARTHROOT",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_EARTHROOT",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "星陨花之种",
+      "description": "星陨花较为罕见，据说其能够为任何接触它的人赋予神圣之力。",
+      "type_id": "SEED_STARFLOWER",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_STARFLOWER",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "消逝草之种",
+      "description": "任何触碰到消逝草的生物都会被传送到当前层的一个随机地点。",
+      "type_id": "SEED_FADELEAF",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_FADELEAF",
+      "targeting_actions": [
+        "THROW"
+      ]
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "致盲草之种",
+      "description": "在被碰到后，致盲草会瞬间枯萎并释放一道强光。这道光足以刺伤受害者双眼，使其暂时失明。",
+      "type_id": "SEED_BLINDWEED",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_BLINDWEED",
+      "targeting_actions": [
+        "THROW"
+      ]
+    }
+  ],
+  "appearance_names": {
+    "SCROLL_BERKANAN": "BERKANAN卷轴",
+    "POTION_SILVER": "银灰药剂",
+    "RING_AGATE": "玛瑙戒指",
+    "POTION_CHARCOAL": "煤黑药剂",
+    "SCROLL_MANNAZ": "MANNAZ卷轴",
+    "POTION_AMBER": "琥珀药剂",
+    "SCROLL_GYFU": "GYFU卷轴",
+    "POTION_JADE": "碧绿药剂",
+    "POTION_IVORY": "乳白药剂",
+    "POTION_BISTRE": "深褐药剂",
+    "SCROLL_RAIDO": "RAIDO卷轴",
+    "SCROLL_TIWAZ": "TIWAZ卷轴",
+    "POTION_MAGENTA": "品红药剂",
+    "RING_RUBY": "红宝石戒指",
+    "SCROLL_ISAZ": "ISAZ卷轴",
+    "SCROLL_YNGVI": "YNGVI卷轴",
+    "SCROLL_KAUNAN": "KAUNAN卷轴",
+    "RING_ONYX": "黑曜石戒指",
+    "RING_SAPPHIRE": "蓝宝石戒指",
+    "RING_EMERALD": "绿宝石戒指",
+    "SCROLL_ODAL": "ODAL卷轴",
+    "RING_TOURMALINE": "碧玺戒指",
+    "RING_DIAMOND": "钻石戒指",
+    "POTION_AZURE": "湛蓝药剂",
+    "RING_TOPAZ": "黄玉戒指",
+    "POTION_TURQUOISE": "青绿药剂",
+    "POTION_CRIMSON": "猩红药剂",
+    "SCROLL_SOWILO": "SOWILO卷轴",
+    "SCROLL_LAGUZ": "LAGUZ卷轴",
+    "RING_AMETHYST": "紫水晶戒指",
+    "SCROLL_NAUDIZ": "NAUDIZ卷轴",
+    "RING_GARNET": "石榴石戒指",
+    "POTION_GOLDEN": "金黄药剂",
+    "RING_QUARTZ": "石英戒指",
+    "RING_OPAL": "蛋白石戒指",
+    "POTION_INDIGO": "靛紫药剂"
+  }
+}

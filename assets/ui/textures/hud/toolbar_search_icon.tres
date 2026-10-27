@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ui/source/toolbar.png" id="1_7ki51"]
+
+[resource]
+resource_name = "TOOLBAR_SEARCH_ICON"
+atlas = ExtResource("1_7ki51")
+region = Rect2(192, 0, 16, 16)
+filter_clip = true

@@ -1,0 +1,39 @@
+{
+  "weapons": {
+    "ThrowingStone": {"damage":4,"growth":1,"quantity":3,"price":8},
+    "ThrowingKnife": {"damage":4,"growth":1,"quantity":3,"price":15},
+    "ThrowingSpike": {"damage":4,"growth":1,"quantity":4,"price":15},
+    "FishingSpear": {"damage":7,"growth":1.5,"quantity":3,"price":30},
+    "Shuriken": {"damage":6,"growth":1.5,"quantity":3,"price":30},
+    "ThrowingClub": {"damage":6,"growth":1.5,"quantity":4,"price":30},
+    "ThrowingSpear": {"damage":10,"growth":2,"quantity":3,"price":45},
+    "Kunai": {"damage":10,"growth":2,"quantity":3,"price":45},
+    "Bolas": {"damage":7,"growth":2,"quantity":3,"price":45},
+    "Javelin": {"damage":14,"growth":2.5,"quantity":3,"price":60},
+    "HeavyBoomerang": {"damage":12,"growth":2.5,"quantity":3,"price":60},
+    "Tomahawk": {"damage":11,"growth":2.5,"quantity":3,"price":60},
+    "ThrowingHammer": {"damage":15,"growth":3,"quantity":4,"price":75},
+    "Trident": {"damage":17,"growth":3,"quantity":4,"price":75},
+    "ForceCube": {"damage":17,"growth":3,"quantity":3,"price":75}
+  },
+  "effects": {
+    "FishingSpear":{"zh":"对食人鱼造成的基础伤害至少为其当前生命的一半。","en":"Base damage against piranhas is at least half their current HP."},
+    "Shuriken":{"zh":"没有手里剑冷却时，投掷不消耗回合；之后进入冷却。","en":"Throwing costs no turn while Shuriken Cooldown is absent, then applies the cooldown."},
+    "Bolas":{"zh":"命中时施加5回合残废，目标抗性照常生效。","en":"Hits apply 5 turns of cripple, subject to target resistance."},
+    "Tomahawk":{"zh":"命中时施加流血，强度随升级等级增长。","en":"Hits cause bleeding whose strength increases with upgrade level."},
+    "HeavyBoomerang":{"zh":"命中或被闪避后，1回合后返回出手位置；使用者仍在那里就自动入包，原位置为空则落地，有其他生物则再次攻击后落地。","en":"Returns to the launch position after 1 turn following a hit or dodge. Collected if the owner is there, dropped if empty, or attacks another occupant before landing."},
+    "ForceCube":{"zh":"冲击落点周围3×3范围，对范围内生物分别判定命中并造成伤害，触发地面机关和植物。","en":"Strikes the 3×3 area around impact, rolling hits against each creature and triggering ground mechanisms and plants."},
+    "AdrenalineDart":{"zh":"友军获得10回合激素且不受物理伤害；敌人受到5回合残废。","en":"Allies gain 10 turns of adrenaline without physical damage; enemies receive 5 turns of cripple."},
+    "BlindingDart":{"zh":"命中时施加10回合致盲。","en":"Hits apply 10 turns of blindness."},
+    "ChillingDart":{"zh":"命中时施加冻伤，水中目标持续更久。","en":"Hits apply chill, lasting longer against targets in water."},
+    "CleansingDart":{"zh":"清除友军减益并给予10回合净化；移除敌人的正面状态和护盾。","en":"Clears allied debuffs and grants 10 turns of cleansing; removes enemy buffs and shields."},
+    "DisplacingDart":{"zh":"将可移动的目标传送到距投掷者8至10格的可达位置。","en":"Teleports movable targets to a reachable tile 8–10 steps from the thrower."},
+    "HealingDart":{"zh":"清除部分减益并给予持续治疗，友军不受物理伤害。","en":"Removes several debuffs and grants healing over time; allies take no physical damage."},
+    "HolyDart":{"zh":"友军获得30回合祝福且不受物理伤害；亡灵和恶魔受到额外神圣伤害。","en":"Allies gain 30 turns of blessing without physical damage; undead and demons take extra holy damage."},
+    "IncendiaryDart":{"zh":"命中时点燃目标；未命中落在可燃地形上时会引燃地面并消耗飞镖。","en":"Hits ignite targets; landing on flammable ground ignites the tile and consumes the dart."},
+    "ParalyticDart":{"zh":"命中时施加5回合麻痹，目标抗性与免疫照常生效。","en":"Hits apply 5 turns of paralysis, subject to target resistance and immunity."},
+    "PoisonDart":{"zh":"命中时施加中毒，持续时间受地图层数影响。","en":"Hits apply poison, with duration based on dungeon depth."},
+    "RotDart":{"zh":"命中时施加腐蚀，对首领和小首领的效果较弱。","en":"Hits apply corrosion, with a weaker effect against bosses and minibosses."},
+    "ShockingDart":{"zh":"命中时造成额外电击伤害。","en":"Hits deal extra electrical damage."}
+  }
+}

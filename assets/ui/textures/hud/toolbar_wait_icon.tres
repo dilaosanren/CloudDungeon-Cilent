@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ui/source/toolbar.png" id="1_met8t"]
+
+[resource]
+resource_name = "TOOLBAR_WAIT_ICON"
+atlas = ExtResource("1_met8t")
+region = Rect2(176, 0, 16, 16)
+filter_clip = true

@@ -1,0 +1,1949 @@
+{
+  "source": "Shattered Pixel Dungeon 4.0.2",
+  "item_keys": {
+    "AdrenalineDart": [
+      "items.weapon.missiles.darts.adrenalinedart",
+      "items.weapon.missiles.darts.tippeddart",
+      "items.weapon.missiles.darts.dart",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "AlchemistsToolkit": [
+      "items.artifacts.alchemiststoolkit",
+      "items.artifacts.artifact",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Alchemize": [
+      "items.spells.alchemize",
+      "items.spells.spell",
+      "items.item"
+    ],
+    "AlchemyPage": [
+      "items.journal.alchemypage",
+      "items.journal.documentpage",
+      "items.item"
+    ],
+    "Amulet": [
+      "items.amulet",
+      "items.item"
+    ],
+    "Ankh": [
+      "items.ankh",
+      "items.item"
+    ],
+    "AquaBrew": [
+      "items.potions.brews.aquabrew",
+      "items.potions.brews.brew",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "ArcaneBomb": [
+      "items.bombs.arcanebomb",
+      "items.bombs.bomb",
+      "items.item"
+    ],
+    "ArcaneResin": [
+      "items.arcaneresin",
+      "items.item"
+    ],
+    "AssassinsBlade": [
+      "items.weapon.melee.assassinsblade",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "BattleAxe": [
+      "items.weapon.melee.battleaxe",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "BeaconOfReturning": [
+      "items.spells.beaconofreturning",
+      "items.spells.spell",
+      "items.item"
+    ],
+    "Berry": [
+      "items.food.berry",
+      "items.food.food",
+      "items.item"
+    ],
+    "Blandfruit": [
+      "items.food.blandfruit",
+      "items.food.food",
+      "items.item"
+    ],
+    "BlindingDart": [
+      "items.weapon.missiles.darts.blindingdart",
+      "items.weapon.missiles.darts.tippeddart",
+      "items.weapon.missiles.darts.dart",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "BlizzardBrew": [
+      "items.potions.brews.blizzardbrew",
+      "items.potions.brews.brew",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "Bolas": [
+      "items.weapon.missiles.bolas",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Bomb": [
+      "items.bombs.bomb",
+      "items.item"
+    ],
+    "BowFragment": [
+      "items.remains.bowfragment",
+      "items.remains.remainsitem",
+      "items.item"
+    ],
+    "BrokenHilt": [
+      "items.remains.brokenhilt",
+      "items.remains.remainsitem",
+      "items.item"
+    ],
+    "BrokenSeal": [
+      "items.brokenseal",
+      "items.item"
+    ],
+    "BrokenStaff": [
+      "items.remains.brokenstaff",
+      "items.remains.remainsitem",
+      "items.item"
+    ],
+    "CapeOfThorns": [
+      "items.artifacts.capeofthorns",
+      "items.artifacts.artifact",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "CausticBrew": [
+      "items.potions.brews.causticbrew",
+      "items.potions.brews.brew",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "CeremonialCandle": [
+      "items.quest.ceremonialcandle",
+      "items.item"
+    ],
+    "ChaliceOfBlood": [
+      "items.artifacts.chaliceofblood",
+      "items.artifacts.artifact",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "ChaoticCenser": [
+      "items.trinkets.chaoticcenser",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "ChargrilledMeat": [
+      "items.food.chargrilledmeat",
+      "items.food.food",
+      "items.item"
+    ],
+    "ChillingDart": [
+      "items.weapon.missiles.darts.chillingdart",
+      "items.weapon.missiles.darts.tippeddart",
+      "items.weapon.missiles.darts.dart",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "CleansingDart": [
+      "items.weapon.missiles.darts.cleansingdart",
+      "items.weapon.missiles.darts.tippeddart",
+      "items.weapon.missiles.darts.dart",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "ClericArmor": [
+      "items.armor.clericarmor",
+      "items.armor.classarmor",
+      "items.armor.armor",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "CloakOfShadows": [
+      "items.artifacts.cloakofshadows",
+      "items.artifacts.artifact",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "CloakScrap": [
+      "items.remains.cloakscrap",
+      "items.remains.remainsitem",
+      "items.item"
+    ],
+    "ClothArmor": [
+      "items.armor.clotharmor",
+      "items.armor.armor",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "CorpseDust": [
+      "items.quest.corpsedust",
+      "items.item"
+    ],
+    "CrackedSpyglass": [
+      "items.trinkets.crackedspyglass",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "Crossbow": [
+      "items.weapon.melee.crossbow",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "CrystalKey": [
+      "items.keys.crystalkey",
+      "items.keys.key",
+      "items.item"
+    ],
+    "Cudgel": [
+      "items.weapon.melee.cudgel",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "CurseInfusion": [
+      "items.spells.curseinfusion",
+      "items.spells.inventoryspell",
+      "items.spells.spell",
+      "items.item"
+    ],
+    "Dagger": [
+      "items.weapon.melee.dagger",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "DarkGold": [
+      "items.quest.darkgold",
+      "items.item"
+    ],
+    "Dart": [
+      "items.weapon.missiles.darts.dart",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Dewdrop": [
+      "items.dewdrop",
+      "items.item"
+    ],
+    "DimensionalSundial": [
+      "items.trinkets.dimensionalsundial",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "Dirk": [
+      "items.weapon.melee.dirk",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "DisplacingDart": [
+      "items.weapon.missiles.darts.displacingdart",
+      "items.weapon.missiles.darts.tippeddart",
+      "items.weapon.missiles.darts.dart",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "DriedRose": [
+      "items.artifacts.driedrose",
+      "items.artifacts.artifact",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "DuelistArmor": [
+      "items.armor.duelistarmor",
+      "items.armor.classarmor",
+      "items.armor.armor",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "DwarfToken": [
+      "items.quest.dwarftoken",
+      "items.item"
+    ],
+    "ElixirOfAquaticRejuvenation": [
+      "items.potions.elixirs.elixirofaquaticrejuvenation",
+      "items.potions.elixirs.elixir",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "ElixirOfArcaneArmor": [
+      "items.potions.elixirs.elixirofarcanearmor",
+      "items.potions.elixirs.elixir",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "ElixirOfDragonsBlood": [
+      "items.potions.elixirs.elixirofdragonsblood",
+      "items.potions.elixirs.elixir",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "ElixirOfFeatherFall": [
+      "items.potions.elixirs.elixiroffeatherfall",
+      "items.potions.elixirs.elixir",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "ElixirOfHoneyedHealing": [
+      "items.potions.elixirs.elixirofhoneyedhealing",
+      "items.potions.elixirs.elixir",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "ElixirOfIcyTouch": [
+      "items.potions.elixirs.elixiroficytouch",
+      "items.potions.elixirs.elixir",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "ElixirOfMight": [
+      "items.potions.elixirs.elixirofmight",
+      "items.potions.elixirs.elixir",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "ElixirOfToxicEssence": [
+      "items.potions.elixirs.elixiroftoxicessence",
+      "items.potions.elixirs.elixir",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "Embers": [
+      "items.quest.embers",
+      "items.item"
+    ],
+    "EnergyCrystal": [
+      "items.energycrystal",
+      "items.item"
+    ],
+    "EscapeCrystal": [
+      "items.quest.escapecrystal",
+      "items.item"
+    ],
+    "EtherealChains": [
+      "items.artifacts.etherealchains",
+      "items.artifacts.artifact",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "ExoticCrystals": [
+      "items.trinkets.exoticcrystals",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "EyeOfNewt": [
+      "items.trinkets.eyeofnewt",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "FerretTuft": [
+      "items.trinkets.ferrettuft",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "Firebomb": [
+      "items.bombs.firebomb",
+      "items.bombs.bomb",
+      "items.item"
+    ],
+    "FishingSpear": [
+      "items.weapon.missiles.fishingspear",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Flail": [
+      "items.weapon.melee.flail",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "FlashBangBomb": [
+      "items.bombs.flashbangbomb",
+      "items.bombs.bomb",
+      "items.item"
+    ],
+    "Food": [
+      "items.food.food",
+      "items.item"
+    ],
+    "ForceCube": [
+      "items.weapon.missiles.forcecube",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "FrostBomb": [
+      "items.bombs.frostbomb",
+      "items.bombs.bomb",
+      "items.item"
+    ],
+    "FrozenCarpaccio": [
+      "items.food.frozencarpaccio",
+      "items.food.food",
+      "items.item"
+    ],
+    "Gauntlet": [
+      "items.weapon.melee.gauntlet",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Glaive": [
+      "items.weapon.melee.glaive",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Gloves": [
+      "items.weapon.melee.gloves",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Gold": [
+      "items.gold",
+      "items.item"
+    ],
+    "GoldenKey": [
+      "items.keys.goldenkey",
+      "items.keys.key",
+      "items.item"
+    ],
+    "GooBlob": [
+      "items.quest.gooblob",
+      "items.item"
+    ],
+    "Greataxe": [
+      "items.weapon.melee.greataxe",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Greatshield": [
+      "items.weapon.melee.greatshield",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Greatsword": [
+      "items.weapon.melee.greatsword",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Guidebook": [
+      "items.journal.guidebook",
+      "items.item"
+    ],
+    "GuidePage": [
+      "items.journal.guidepage",
+      "items.journal.documentpage",
+      "items.item"
+    ],
+    "HandAxe": [
+      "items.weapon.melee.handaxe",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "HealingDart": [
+      "items.weapon.missiles.darts.healingdart",
+      "items.weapon.missiles.darts.tippeddart",
+      "items.weapon.missiles.darts.dart",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "HeavyBoomerang": [
+      "items.weapon.missiles.heavyboomerang",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "HolyBomb": [
+      "items.bombs.holybomb",
+      "items.bombs.bomb",
+      "items.item"
+    ],
+    "HolyDart": [
+      "items.weapon.missiles.darts.holydart",
+      "items.weapon.missiles.darts.tippeddart",
+      "items.weapon.missiles.darts.dart",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "HolyTome": [
+      "items.artifacts.holytome",
+      "items.artifacts.artifact",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Honeypot": [
+      "items.honeypot",
+      "items.item"
+    ],
+    "HornOfPlenty": [
+      "items.artifacts.hornofplenty",
+      "items.artifacts.artifact",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "HuntressArmor": [
+      "items.armor.huntressarmor",
+      "items.armor.classarmor",
+      "items.armor.armor",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "ImpStatue": [
+      "items.quest.impstatue",
+      "items.item"
+    ],
+    "IncendiaryDart": [
+      "items.weapon.missiles.darts.incendiarydart",
+      "items.weapon.missiles.darts.tippeddart",
+      "items.weapon.missiles.darts.dart",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "InfernalBrew": [
+      "items.potions.brews.infernalbrew",
+      "items.potions.brews.brew",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "IronKey": [
+      "items.keys.ironkey",
+      "items.keys.key",
+      "items.item"
+    ],
+    "Javelin": [
+      "items.weapon.missiles.javelin",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Katana": [
+      "items.weapon.melee.katana",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "KingsCrown": [
+      "items.kingscrown",
+      "items.item"
+    ],
+    "Kunai": [
+      "items.weapon.missiles.kunai",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "LeatherArmor": [
+      "items.armor.leatherarmor",
+      "items.armor.armor",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "LiquidMetal": [
+      "items.liquidmetal",
+      "items.item"
+    ],
+    "LloydsBeacon": [
+      "items.artifacts.lloydsbeacon",
+      "items.artifacts.artifact",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Longsword": [
+      "items.weapon.melee.longsword",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "LostBackpack": [
+      "items.lostbackpack",
+      "items.item"
+    ],
+    "Mace": [
+      "items.weapon.melee.mace",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "MageArmor": [
+      "items.armor.magearmor",
+      "items.armor.classarmor",
+      "items.armor.armor",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "MagesStaff": [
+      "items.weapon.melee.magesstaff",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "MagicalInfusion": [
+      "items.spells.magicalinfusion",
+      "items.spells.inventoryspell",
+      "items.spells.spell",
+      "items.item"
+    ],
+    "MailArmor": [
+      "items.armor.mailarmor",
+      "items.armor.armor",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "MasterThievesArmband": [
+      "items.artifacts.masterthievesarmband",
+      "items.artifacts.artifact",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "MeatPie": [
+      "items.food.meatpie",
+      "items.food.food",
+      "items.item"
+    ],
+    "MetalShard": [
+      "items.quest.metalshard",
+      "items.item"
+    ],
+    "MimicTooth": [
+      "items.trinkets.mimictooth",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "MossyClump": [
+      "items.trinkets.mossyclump",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "MysteryMeat": [
+      "items.food.mysterymeat",
+      "items.food.food",
+      "items.item"
+    ],
+    "Noisemaker": [
+      "items.bombs.noisemaker",
+      "items.bombs.bomb",
+      "items.item"
+    ],
+    "ParalyticDart": [
+      "items.weapon.missiles.darts.paralyticdart",
+      "items.weapon.missiles.darts.tippeddart",
+      "items.weapon.missiles.darts.dart",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "ParchmentScrap": [
+      "items.trinkets.parchmentscrap",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "Pasty": [
+      "items.food.pasty",
+      "items.food.food",
+      "items.item"
+    ],
+    "PetrifiedSeed": [
+      "items.trinkets.petrifiedseed",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "PhantomMeat": [
+      "items.food.phantommeat",
+      "items.food.food",
+      "items.item"
+    ],
+    "PhaseShift": [
+      "items.spells.phaseshift",
+      "items.spells.targetedspell",
+      "items.spells.spell",
+      "items.item"
+    ],
+    "Pickaxe": [
+      "items.quest.pickaxe",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "PlateArmor": [
+      "items.armor.platearmor",
+      "items.armor.armor",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "PoisonDart": [
+      "items.weapon.missiles.darts.poisondart",
+      "items.weapon.missiles.darts.tippeddart",
+      "items.weapon.missiles.darts.dart",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "PotionOfCleansing": [
+      "items.potions.exotic.potionofcleansing",
+      "items.potions.exotic.exoticpotion",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfCorrosiveGas": [
+      "items.potions.exotic.potionofcorrosivegas",
+      "items.potions.exotic.exoticpotion",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfDivineInspiration": [
+      "items.potions.exotic.potionofdivineinspiration",
+      "items.potions.exotic.exoticpotion",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfDragonsBreath": [
+      "items.potions.exotic.potionofdragonsbreath",
+      "items.potions.exotic.exoticpotion",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfEarthenArmor": [
+      "items.potions.exotic.potionofearthenarmor",
+      "items.potions.exotic.exoticpotion",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfExperience": [
+      "items.potions.potionofexperience",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfFrost": [
+      "items.potions.potionoffrost",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfHaste": [
+      "items.potions.potionofhaste",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfHealing": [
+      "items.potions.potionofhealing",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfInvisibility": [
+      "items.potions.potionofinvisibility",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfLevitation": [
+      "items.potions.potionoflevitation",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfLiquidFlame": [
+      "items.potions.potionofliquidflame",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfMagicalSight": [
+      "items.potions.exotic.potionofmagicalsight",
+      "items.potions.exotic.exoticpotion",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfMastery": [
+      "items.potions.exotic.potionofmastery",
+      "items.potions.exotic.exoticpotion",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfMindVision": [
+      "items.potions.potionofmindvision",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfParalyticGas": [
+      "items.potions.potionofparalyticgas",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfPurity": [
+      "items.potions.potionofpurity",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfShielding": [
+      "items.potions.exotic.potionofshielding",
+      "items.potions.exotic.exoticpotion",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfShroudingFog": [
+      "items.potions.exotic.potionofshroudingfog",
+      "items.potions.exotic.exoticpotion",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfSnapFreeze": [
+      "items.potions.exotic.potionofsnapfreeze",
+      "items.potions.exotic.exoticpotion",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfStamina": [
+      "items.potions.exotic.potionofstamina",
+      "items.potions.exotic.exoticpotion",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfStormClouds": [
+      "items.potions.exotic.potionofstormclouds",
+      "items.potions.exotic.exoticpotion",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfStrength": [
+      "items.potions.potionofstrength",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "PotionOfToxicGas": [
+      "items.potions.potionoftoxicgas",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "Quarterstaff": [
+      "items.weapon.melee.quarterstaff",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Rapier": [
+      "items.weapon.melee.rapier",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "RatSkull": [
+      "items.trinkets.ratskull",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "ReclaimTrap": [
+      "items.spells.reclaimtrap",
+      "items.spells.targetedspell",
+      "items.spells.spell",
+      "items.item"
+    ],
+    "Recycle": [
+      "items.spells.recycle",
+      "items.spells.inventoryspell",
+      "items.spells.spell",
+      "items.item"
+    ],
+    "RegrowthBomb": [
+      "items.bombs.regrowthbomb",
+      "items.bombs.bomb",
+      "items.item"
+    ],
+    "RingOfAccuracy": [
+      "items.rings.ringofaccuracy",
+      "items.rings.ring",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "RingOfArcana": [
+      "items.rings.ringofarcana",
+      "items.rings.ring",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "RingOfElements": [
+      "items.rings.ringofelements",
+      "items.rings.ring",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "RingOfEnergy": [
+      "items.rings.ringofenergy",
+      "items.rings.ring",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "RingOfEvasion": [
+      "items.rings.ringofevasion",
+      "items.rings.ring",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "RingOfForce": [
+      "items.rings.ringofforce",
+      "items.rings.ring",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "RingOfFuror": [
+      "items.rings.ringoffuror",
+      "items.rings.ring",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "RingOfHaste": [
+      "items.rings.ringofhaste",
+      "items.rings.ring",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "RingOfMight": [
+      "items.rings.ringofmight",
+      "items.rings.ring",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "RingOfSharpshooting": [
+      "items.rings.ringofsharpshooting",
+      "items.rings.ring",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "RingOfTenacity": [
+      "items.rings.ringoftenacity",
+      "items.rings.ring",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "RingOfWealth": [
+      "items.rings.ringofwealth",
+      "items.rings.ring",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "RogueArmor": [
+      "items.armor.roguearmor",
+      "items.armor.classarmor",
+      "items.armor.armor",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "RotDart": [
+      "items.weapon.missiles.darts.rotdart",
+      "items.weapon.missiles.darts.tippeddart",
+      "items.weapon.missiles.darts.dart",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "RoundShield": [
+      "items.weapon.melee.roundshield",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "RunicBlade": [
+      "items.weapon.melee.runicblade",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Sai": [
+      "items.weapon.melee.sai",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "SaltCube": [
+      "items.trinkets.saltcube",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "SandalsOfNature": [
+      "items.artifacts.sandalsofnature",
+      "items.artifacts.artifact",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "ScaleArmor": [
+      "items.armor.scalearmor",
+      "items.armor.armor",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Scimitar": [
+      "items.weapon.melee.scimitar",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "ScrollOfAntiMagic": [
+      "items.scrolls.exotic.scrollofantimagic",
+      "items.scrolls.exotic.exoticscroll",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfChallenge": [
+      "items.scrolls.exotic.scrollofchallenge",
+      "items.scrolls.exotic.exoticscroll",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfDivination": [
+      "items.scrolls.exotic.scrollofdivination",
+      "items.scrolls.exotic.exoticscroll",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfDread": [
+      "items.scrolls.exotic.scrollofdread",
+      "items.scrolls.exotic.exoticscroll",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfEnchantment": [
+      "items.scrolls.exotic.scrollofenchantment",
+      "items.scrolls.exotic.exoticscroll",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfForesight": [
+      "items.scrolls.exotic.scrollofforesight",
+      "items.scrolls.exotic.exoticscroll",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfIdentify": [
+      "items.scrolls.scrollofidentify",
+      "items.scrolls.inventoryscroll",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfLullaby": [
+      "items.scrolls.scrolloflullaby",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfMagicMapping": [
+      "items.scrolls.scrollofmagicmapping",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfMetamorphosis": [
+      "items.scrolls.exotic.scrollofmetamorphosis",
+      "items.scrolls.exotic.exoticscroll",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfMirrorImage": [
+      "items.scrolls.scrollofmirrorimage",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfMysticalEnergy": [
+      "items.scrolls.exotic.scrollofmysticalenergy",
+      "items.scrolls.exotic.exoticscroll",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfPassage": [
+      "items.scrolls.exotic.scrollofpassage",
+      "items.scrolls.exotic.exoticscroll",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfPrismaticImage": [
+      "items.scrolls.exotic.scrollofprismaticimage",
+      "items.scrolls.exotic.exoticscroll",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfPsionicBlast": [
+      "items.scrolls.exotic.scrollofpsionicblast",
+      "items.scrolls.exotic.exoticscroll",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfRage": [
+      "items.scrolls.scrollofrage",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfRecharging": [
+      "items.scrolls.scrollofrecharging",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfRemoveCurse": [
+      "items.scrolls.scrollofremovecurse",
+      "items.scrolls.inventoryscroll",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfRetribution": [
+      "items.scrolls.scrollofretribution",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfSirensSong": [
+      "items.scrolls.exotic.scrollofsirenssong",
+      "items.scrolls.exotic.exoticscroll",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfTeleportation": [
+      "items.scrolls.scrollofteleportation",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfTerror": [
+      "items.scrolls.scrollofterror",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfTransmutation": [
+      "items.scrolls.scrolloftransmutation",
+      "items.scrolls.inventoryscroll",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "ScrollOfUpgrade": [
+      "items.scrolls.scrollofupgrade",
+      "items.scrolls.inventoryscroll",
+      "items.scrolls.scroll",
+      "items.item"
+    ],
+    "SealShard": [
+      "items.remains.sealshard",
+      "items.remains.remainsitem",
+      "items.item"
+    ],
+    "ShardOfOblivion": [
+      "items.trinkets.shardofoblivion",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "ShockingBrew": [
+      "items.potions.brews.shockingbrew",
+      "items.potions.brews.brew",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "ShockingDart": [
+      "items.weapon.missiles.darts.shockingdart",
+      "items.weapon.missiles.darts.tippeddart",
+      "items.weapon.missiles.darts.dart",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Shortsword": [
+      "items.weapon.melee.shortsword",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "ShrapnelBomb": [
+      "items.bombs.shrapnelbomb",
+      "items.bombs.bomb",
+      "items.item"
+    ],
+    "Shuriken": [
+      "items.weapon.missiles.shuriken",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Sickle": [
+      "items.weapon.melee.sickle",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "SkeletonKey": [
+      "items.artifacts.skeletonkey",
+      "items.artifacts.artifact",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "SmallRation": [
+      "items.food.smallration",
+      "items.food.food",
+      "items.item"
+    ],
+    "SmokeBomb": [
+      "items.bombs.smokebomb",
+      "items.bombs.bomb",
+      "items.item"
+    ],
+    "Spear": [
+      "items.weapon.melee.spear",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "SpiritBow": [
+      "items.weapon.spiritbow",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "StewedMeat": [
+      "items.food.stewedmeat",
+      "items.food.food",
+      "items.item"
+    ],
+    "StoneOfAggression": [
+      "items.stones.stoneofaggression",
+      "items.stones.runestone",
+      "items.item"
+    ],
+    "StoneOfAugmentation": [
+      "items.stones.stoneofaugmentation",
+      "items.stones.inventorystone",
+      "items.stones.runestone",
+      "items.item"
+    ],
+    "StoneOfBlast": [
+      "items.stones.stoneofblast",
+      "items.stones.runestone",
+      "items.item"
+    ],
+    "StoneOfBlink": [
+      "items.stones.stoneofblink",
+      "items.stones.runestone",
+      "items.item"
+    ],
+    "StoneOfClairvoyance": [
+      "items.stones.stoneofclairvoyance",
+      "items.stones.runestone",
+      "items.item"
+    ],
+    "StoneOfDeepSleep": [
+      "items.stones.stoneofdeepsleep",
+      "items.stones.runestone",
+      "items.item"
+    ],
+    "StoneOfDetectMagic": [
+      "items.stones.stoneofdetectmagic",
+      "items.stones.inventorystone",
+      "items.stones.runestone",
+      "items.item"
+    ],
+    "StoneOfEnchantment": [
+      "items.stones.stoneofenchantment",
+      "items.stones.inventorystone",
+      "items.stones.runestone",
+      "items.item"
+    ],
+    "StoneOfFear": [
+      "items.stones.stoneoffear",
+      "items.stones.runestone",
+      "items.item"
+    ],
+    "StoneOfFlock": [
+      "items.stones.stoneofflock",
+      "items.stones.runestone",
+      "items.item"
+    ],
+    "StoneOfIntuition": [
+      "items.stones.stoneofintuition",
+      "items.stones.inventorystone",
+      "items.stones.runestone",
+      "items.item"
+    ],
+    "StoneOfShock": [
+      "items.stones.stoneofshock",
+      "items.stones.runestone",
+      "items.item"
+    ],
+    "Stylus": [
+      "items.stylus",
+      "items.item"
+    ],
+    "SummonElemental": [
+      "items.spells.summonelemental",
+      "items.spells.spell",
+      "items.item"
+    ],
+    "SupplyRation": [
+      "items.food.supplyration",
+      "items.food.food",
+      "items.item"
+    ],
+    "Sword": [
+      "items.weapon.melee.sword",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "TalismanOfForesight": [
+      "items.artifacts.talismanofforesight",
+      "items.artifacts.artifact",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "TelekineticGrab": [
+      "items.spells.telekineticgrab",
+      "items.spells.targetedspell",
+      "items.spells.spell",
+      "items.item"
+    ],
+    "TengusMask": [
+      "items.tengusmask",
+      "items.item"
+    ],
+    "ThirteenLeafClover": [
+      "items.trinkets.thirteenleafclover",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "ThrowingClub": [
+      "items.weapon.missiles.throwingclub",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "ThrowingHammer": [
+      "items.weapon.missiles.throwinghammer",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "ThrowingKnife": [
+      "items.weapon.missiles.throwingknife",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "ThrowingSpear": [
+      "items.weapon.missiles.throwingspear",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "ThrowingSpike": [
+      "items.weapon.missiles.throwingspike",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "ThrowingStone": [
+      "items.weapon.missiles.throwingstone",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "TimekeepersHourglass": [
+      "items.artifacts.timekeepershourglass",
+      "items.artifacts.artifact",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Tomahawk": [
+      "items.weapon.missiles.tomahawk",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Torch": [
+      "items.torch",
+      "items.item"
+    ],
+    "TornPage": [
+      "items.remains.tornpage",
+      "items.remains.remainsitem",
+      "items.item"
+    ],
+    "TrapMechanism": [
+      "items.trinkets.trapmechanism",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "Trident": [
+      "items.weapon.missiles.trident",
+      "items.weapon.missiles.missileweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "TrinketCatalyst": [
+      "items.trinkets.trinketcatalyst",
+      "items.item"
+    ],
+    "UnstableBrew": [
+      "items.potions.brews.unstablebrew",
+      "items.potions.brews.brew",
+      "items.potions.potion",
+      "items.item"
+    ],
+    "UnstableSpell": [
+      "items.spells.unstablespell",
+      "items.spells.spell",
+      "items.item"
+    ],
+    "UnstableSpellbook": [
+      "items.artifacts.unstablespellbook",
+      "items.artifacts.artifact",
+      "items.kindofmisc",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "VaultBeacon": [
+      "items.quest.vaultbeacon",
+      "items.spells.spell",
+      "items.item"
+    ],
+    "VialOfBlood": [
+      "items.trinkets.vialofblood",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "WandOfBlastWave": [
+      "items.wands.wandofblastwave",
+      "items.wands.damagewand",
+      "items.wands.wand",
+      "items.item"
+    ],
+    "WandOfCorrosion": [
+      "items.wands.wandofcorrosion",
+      "items.wands.wand",
+      "items.item"
+    ],
+    "WandOfCorruption": [
+      "items.wands.wandofcorruption",
+      "items.wands.wand",
+      "items.item"
+    ],
+    "WandOfDisintegration": [
+      "items.wands.wandofdisintegration",
+      "items.wands.damagewand",
+      "items.wands.wand",
+      "items.item"
+    ],
+    "WandOfFireblast": [
+      "items.wands.wandoffireblast",
+      "items.wands.damagewand",
+      "items.wands.wand",
+      "items.item"
+    ],
+    "WandOfFrost": [
+      "items.wands.wandoffrost",
+      "items.wands.damagewand",
+      "items.wands.wand",
+      "items.item"
+    ],
+    "WandOfLightning": [
+      "items.wands.wandoflightning",
+      "items.wands.damagewand",
+      "items.wands.wand",
+      "items.item"
+    ],
+    "WandOfLivingEarth": [
+      "items.wands.wandoflivingearth",
+      "items.wands.damagewand",
+      "items.wands.wand",
+      "items.item"
+    ],
+    "WandOfMagicMissile": [
+      "items.wands.wandofmagicmissile",
+      "items.wands.damagewand",
+      "items.wands.wand",
+      "items.item"
+    ],
+    "WandOfPrismaticLight": [
+      "items.wands.wandofprismaticlight",
+      "items.wands.damagewand",
+      "items.wands.wand",
+      "items.item"
+    ],
+    "WandOfRegrowth": [
+      "items.wands.wandofregrowth",
+      "items.wands.wand",
+      "items.item"
+    ],
+    "WandOfTransfusion": [
+      "items.wands.wandoftransfusion",
+      "items.wands.damagewand",
+      "items.wands.wand",
+      "items.item"
+    ],
+    "WandOfWarding": [
+      "items.wands.wandofwarding",
+      "items.wands.wand",
+      "items.item"
+    ],
+    "WarHammer": [
+      "items.weapon.melee.warhammer",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "WarriorArmor": [
+      "items.armor.warriorarmor",
+      "items.armor.classarmor",
+      "items.armor.armor",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "WarScythe": [
+      "items.weapon.melee.warscythe",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "Waterskin": [
+      "items.waterskin",
+      "items.item"
+    ],
+    "Whip": [
+      "items.weapon.melee.whip",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ],
+    "WildEnergy": [
+      "items.spells.wildenergy",
+      "items.spells.targetedspell",
+      "items.spells.spell",
+      "items.item"
+    ],
+    "WondrousResin": [
+      "items.trinkets.wondrousresin",
+      "items.trinkets.trinket",
+      "items.item"
+    ],
+    "WoollyBomb": [
+      "items.bombs.woollybomb",
+      "items.bombs.bomb",
+      "items.item"
+    ],
+    "WornKey": [
+      "items.keys.wornkey",
+      "items.keys.key",
+      "items.item"
+    ],
+    "WornShortsword": [
+      "items.weapon.melee.wornshortsword",
+      "items.weapon.melee.meleeweapon",
+      "items.weapon.weapon",
+      "items.kindofweapon",
+      "items.equipableitem",
+      "items.item"
+    ]
+  },
+  "messages": {
+    "items.weapon.missiles.darts.tippeddart.uses_left": "这些涂药飞镖再使用_%d/%d_次就会有一个失去药效。",
+    "items.weapon.missiles.darts.tippeddart.unlimited_uses": "_但精良的做工令其经久耐用，不会因为使用过度而损坏。_",
+    "items.weapon.missiles.darts.dart.unlimited_uses": "由于其极简的构造，飞镖可永久使用而不损坏。",
+    "items.weapon.missiles.missileweapon.stats_known": "这组_%1$d阶_的投掷武器能造成_%2$d~%3$d点伤害_。",
+    "items.weapon.missiles.missileweapon.stats_desc": "",
+    "items.weapon.missiles.missileweapon.distance": "远程使用投掷武器更为精准，而近距离使用则反之。",
+    "items.weapon.missiles.missileweapon.uses_left": "这组投掷武器再使用_%d/%d_次就会损坏一件。",
+    "items.weapon.missiles.missileweapon.unlimited_uses": "这组投掷武器品质极高，可以永久使用而不损坏。",
+    "items.weapon.weapon.faster": "这件武器强化了_攻速_。",
+    "items.weapon.weapon.stronger": "这件武器强化了_伤害_。",
+    "items.weapon.weapon.enchanted": "这件武器附有_%s_。",
+    "items.weapon.weapon.enchant_hardened": "它被_硬化_了。",
+    "items.weapon.weapon.hardened_no_enchant": "这件武器已被_硬化_，但目前没有携带附魔。",
+    "items.weapon.weapon.cursed": "你能感觉到这件武器里潜伏着一股充满恶意的魔力。",
+    "items.weapon.weapon.cursed_worn": "由于这件武器被诅咒，你无法将其放下。",
+    "items.artifacts.alchemiststoolkit.cursed": "被诅咒的炼金箱正在阻止你炼金！",
+    "items.artifacts.artifact.curse_known": "你能感觉到在这个神器上潜伏着一股充满恶意的魔力。",
+    "items.weapon.melee.assassinsblade.stats_desc": "这件武器对未察觉你的敌人更有效。",
+    "items.weapon.melee.meleeweapon.stats_known": "这件_%1$d阶_近战武器可以造成_%2$d~%3$d点伤害_。",
+    "items.weapon.melee.meleeweapon.stats_desc": "",
+    "items.weapon.melee.battleaxe.stats_desc": "这是一件比较精准的武器。",
+    "items.weapon.missiles.bolas.stats_desc": "这件武器能使目标残废。",
+    "items.brokenseal.inscribed": "纹章刻有_%s_。",
+    "items.trinkets.chaoticcenser.stats_desc": "在当前等级下，这件饰物会每经_%d_±回合在敌人附近生成一团有害气体。气体只会在敌人存在时生成。饰物的等级越高，稀有而强力的气体生成的可能性越高。",
+    "items.armor.armor.curr_absorb": "这件_%1$d阶_护甲能抵挡_%2$d~%3$d点伤害_。",
+    "items.armor.armor.evasion": "这件护甲强化了_闪避_。",
+    "items.armor.armor.defense": "这件护甲强化了_防御_。",
+    "items.armor.armor.inscribed": "这件护甲刻有_%s_。",
+    "items.armor.armor.glyph_hardened": "它被_硬化_了。",
+    "items.armor.armor.hardened_no_glyph": "这件护甲已被_硬化_，但目前没有携带刻印。",
+    "items.armor.armor.cursed": "你能感觉到这套护甲里潜伏着一股充满恶意的魔力。",
+    "items.armor.armor.cursed_worn": "这套护甲被诅咒了，你无法卸下它。",
+    "items.artifacts.cloakofshadows.cursed": "你不能使用被诅咒的斗篷。",
+    "items.trinkets.crackedspyglass.stats_desc": "在当前等级下，这件饰物会有_%1$s%%_的概率在除Boss层以外的每层额外生成一件隐藏物品。",
+    "items.weapon.melee.crossbow.stats_desc": "这件武器在被装备时会强化飞镖以造成_%1$d~%2$d_点伤害，甚至能将其附魔赋予飞镖。",
+    "items.weapon.melee.cudgel.stats_desc": "这是一件比较精准的武器。",
+    "items.weapon.melee.dagger.stats_desc": "这件武器对未察觉你的敌人更有效。",
+    "items.trinkets.dimensionalsundial.stats_desc": "在当前等级下，这件饰物会在昼间(8:00~20:00)降低_%1$d%%_的敌人生成速率并在夜间(20:00~8:00)提升_%2$d%%_的敌人生成速率。",
+    "items.weapon.melee.dirk.stats_desc": "这件武器对未察觉你的敌人更有效。",
+    "items.artifacts.driedrose.cursed": "你不能使用被诅咒的玫瑰。",
+    "items.artifacts.etherealchains.cursed": "你不能使用被诅咒的锁链。",
+    "items.trinkets.exoticcrystals.stats_desc": "在当前等级下，这件饰物会使_%s%%_的药剂、卷轴转化为其对应的合剂、秘卷。转化不会影响力量药剂，升级卷轴与为解决特殊房间提供帮助而生成的物品。",
+    "items.trinkets.eyeofnewt.stats_desc": "在当前等级下，这件饰物会降低你_%1$s%%_的视距，但也会使你获得对_%2$d_格范围内敌人的灵视感知。",
+    "items.trinkets.ferrettuft.stats_desc": "在当前等级下，这件饰物会提升所有单位 _%1$s%%_的闪避。",
+    "items.weapon.melee.flail.stats_desc": "这是一件不太精准的武器。\n这件武器不能用来伏击。",
+    "items.weapon.missiles.forcecube.stats_desc": "这件武器释放出一阵小范围的能量，冲击邻近的所有单位。",
+    "items.weapon.melee.gauntlet.stats_desc": "这是一件非常快的武器。",
+    "items.weapon.melee.glaive.stats_desc": "这是一件相当慢的武器。\n这件武器有额外的攻击距离。",
+    "items.weapon.melee.gloves.stats_desc": "这是一件非常快的武器。",
+    "items.weapon.melee.greataxe.stats_desc": "这件武器非常沉重。",
+    "items.weapon.melee.greatshield.stats_desc": "这件武器能格挡0~%d点伤害。格挡量随升级而增长。",
+    "items.weapon.melee.handaxe.stats_desc": "这是一件比较精准的武器。",
+    "items.weapon.missiles.heavyboomerang.stats_desc": "这件武器会在被掷出的五回合后旋回至原位置。",
+    "items.artifacts.holytome.cursed": "你不能使用被诅咒的圣典。",
+    "items.weapon.melee.katana.stats_desc": "这件武器可以格挡0~3点伤害。",
+    "items.weapon.missiles.kunai.stats_desc": "这件武器对未察觉你的敌人更有效。",
+    "items.weapon.melee.mace.stats_desc": "这是一件比较精准的武器。",
+    "items.weapon.melee.magesstaff.has_wand": "魔杖目前被灌注了_%s_的力量。",
+    "items.weapon.melee.magesstaff.cursed_wand": "这根魔杖受到了诅咒，导致它的魔法混乱而随机。",
+    "items.artifacts.masterthievesarmband.cursed": "你不能使用被诅咒的袖章。",
+    "items.trinkets.mimictooth.stats_desc": "在当前等级下，这件饰物会使所有类型的宝箱怪的出现频率变为原频率的_%1$s倍_，并使宝箱怪更难以识别，而其掉落的战利品也会更加丰厚。此外，每层地牢还会有_%2$s%%_的概率额外带有一个隐藏的黑檀宝箱怪。",
+    "items.trinkets.mossyclump.stats_desc": "在当前等级下，这件饰物会使_%d%%_的无氛围楼层获得流水或草木氛围。\n\n这件饰物升级所消耗的炼金能量较多。",
+    "items.trinkets.parchmentscrap.stats_desc": "在当前等级下，这件饰物会使附魔与刻印的出现频率变为原频率的_%d倍_，而武器与护甲的诅咒的出现频率变为原频率的_%s倍_。法杖、戒指与神器的诅咒不受影响。\n\n这件饰物升级所消耗的炼金能量较多。",
+    "items.trinkets.petrifiedseed.stats_desc": "在当前等级下，这件饰物会有_%1$s%%_的概率使被践踏的高草掉落符石而非种子，还会使高草掉落物品的概率提升_%2$s%%_。",
+    "items.weapon.melee.quarterstaff.stats_desc": "这件武器可以格挡0~2点伤害。",
+    "items.weapon.melee.rapier.stats_desc": "这件武器可以格挡0~1点伤害。",
+    "items.trinkets.ratskull.stats_desc": "在当前等级下，这件饰物会使稀有敌人的出现频率变为原频率的_%d倍_。然而，头骨对水晶宝箱怪与装甲石像效果减半。",
+    "items.rings.ring.cursed_worn": "由于这个戒指被诅咒，你无力将其除下。",
+    "items.rings.ring.curse_known": "你能感觉到这件戒指里潜伏着一股充满恶意的魔力。",
+    "items.weapon.melee.roundshield.stats_desc": "这件武器能格挡0~%d点伤害。格挡量随升级而增长。",
+    "items.weapon.melee.runicblade.stats_desc": "这件武器从升级中获得更多伤害。",
+    "items.weapon.melee.sai.stats_desc": "这是一件非常快的武器。",
+    "items.trinkets.saltcube.stats_desc": "在当前等级下，这件饰物会增加你_%1$s%%_的饥饿所需时间，但也会降低你_%2$s%%_的生命回复速率，若楼层已被封锁则上述效果无效。",
+    "items.weapon.melee.scimitar.stats_desc": "这是一件比较快的武器。",
+    "items.scrolls.scroll.cursed": "被诅咒的法典抑制了卷轴中法术的启动！也许祛邪卷轴足够强大还能被使用.....",
+    "items.trinkets.shardofoblivion.stats_desc": "在当前等级下，这件饰物会使你每装备或使用一件未鉴定装备就提升20%%敌人掉落战利品的概率，效益上限为_%d_件未鉴定装备。碎片还会阻止你自动鉴定装备，但能用于手动鉴定已就绪的物品。",
+    "items.weapon.missiles.shuriken.stats_desc": "手里剑每经20回合可以不消耗回合地投掷一次。",
+    "items.weapon.melee.sickle.stats_desc": "这是一件不太精准的武器。",
+    "items.artifacts.skeletonkey.cursed": "你不能使用被诅咒的骷髅钥匙。",
+    "items.weapon.melee.spear.stats_desc": "这是一件相当慢的武器。\n这件武器有额外的攻击距离。",
+    "items.stylus.inscribed": "你用刻笔雕刻了盔甲。",
+    "items.stylus.cursed": "奥术刻笔的力量无法作用在被诅咒的护甲上。",
+    "items.trinkets.thirteenleafclover.stats_desc": "在当前等级下，这件饰物会使你有_%1$d%%_的概率造成最大伤害，而有_%2$d%%_的概率造成最小伤害。",
+    "items.weapon.missiles.throwingclub.stats_desc": "这件武器不会卡在敌人身上并可被立即收回。",
+    "items.weapon.missiles.throwinghammer.stats_desc": "这件武器不会卡在敌人身上并可被立即收回。",
+    "items.weapon.missiles.throwingknife.stats_desc": "这件武器对未察觉你的敌人更有效。",
+    "items.artifacts.timekeepershourglass.cursed": "你不能使用被诅咒的沙漏。",
+    "items.weapon.missiles.tomahawk.stats_desc": "这件武器对其目标施加_%1$d~%2$d点流血_。",
+    "items.trinkets.trapmechanism.stats_desc": "在当前等级下，这件饰物会使_%1$d%%_的无氛围楼层获得陷阱或深渊氛围。此外，地牢中_%2$d%%_的隐藏陷阱会变得可见。",
+    "items.artifacts.unstablespellbook.cursed": "被诅咒的魔典锁死了书页，你无法阅读它。",
+    "items.trinkets.vialofblood.stats_desc": "在当前等级下，这件饰物会提升你从治疗药剂、水袋或生命之泉获得的治疗总量_%1$s%%_。但治疗速度也会更为迟滞，每回合最多回复_%2$s点_生命值(此数值会随着英雄等级的提升而提升)。",
+    "items.wands.wandofblastwave.stats_desc": "这根法杖能射出一股能量，在目标位置引发强烈的爆炸。爆炸的力量会造成_%1$d~%2$d点伤害_并强到足以击飞大多数敌人。",
+    "items.wands.wandofblastwave.bmage_desc": "当_战斗法师_以冲击波魔杖近战攻击已经被麻痹的目标时，将消耗目标身上剩余的麻痹回合数造成大量魔法伤害。此效果对每个目标均有短暂的冷却。",
+    "items.wands.wand.cursed": "这根法杖受到了诅咒，导致它的魔法混乱而随机。",
+    "items.wands.wand.resin_one": "这根法杖已经从奥术树脂获得了_1_次升级。",
+    "items.wands.wand.resin_many": "这根法杖已经从奥术树脂获得了_%d_次升级。",
+    "items.wands.wandofcorrosion.stats_desc": "这根法杖能射出一颗会在目标位置爆炸成一团腐蚀酸雾的法球。进入酸雾的任何单位都会持续受到起始为_%d点_的持续递增伤害。",
+    "items.wands.wandofcorrosion.bmage_desc": "当_战斗法师_以酸蚀魔杖近战攻击目标时，有概率使其沾染腐蚀淤泥。",
+    "items.wands.wandofcorruption.stats_desc": "这根法杖会释放腐坏的能量，能削弱敌人并最终将他们扭曲为你的奴仆。敌人能抵抗腐化，但虚弱的敌人明显地更容易被腐化。",
+    "items.wands.wandofcorruption.bmage_desc": "当_战斗法师_以腐化魔杖近战攻击目标时，有概率使其陷入狂乱。",
+    "items.wands.wandofdisintegration.stats_desc": "这根法杖射出的光束能穿透任何障碍物，并将随着法杖等级的提升而射得更远。光束会造成_%1$d~%2$d点伤害_，并且会根据穿透的地形和敌人数量造成额外伤害。",
+    "items.wands.wandofdisintegration.bmage_desc": "当_战斗法师_以解离魔杖作为近战武器时，魔杖会像索敌附魔一样获得额外的攻击距离。",
+    "items.wands.wandoffireblast.stats_desc": "这根法杖在使用时会产生一股强大的焰浪，延伸出一个锥形区域。下一次使用它将消耗_%1$d点充能_并造成_%2$d~%3$d点伤害_。法杖一次消耗的充能数越多，其范围与威力就越大、越强。",
+    "items.wands.wandoffireblast.bmage_desc": "当_战斗法师_以焰浪魔杖近战攻击目标时，有概率吸收所有邻近的火焰并制造出一场爆炸！与敌人相邻的火焰越多，触发该效果的概率越高。",
+    "items.wands.wandoffrost.stats_desc": "这根法杖能向你的敌人射击冰霜能量，造成_%1$d~%2$d点伤害_并冻伤目标，在水中的作用似乎更强。冻伤或冻结的敌人将受到更少该法杖的伤害。",
+    "items.wands.wandoffrost.bmage_desc": "当_战斗法师_以冰霜魔杖近战攻击目标时，有概率将其直接冻结。目标冻伤越严重，被冻结的概率就越高。",
+    "items.wands.wandoflightning.stats_desc": "这根法杖能向任何瞄准的地方射出强大的电弧，造成_%1$d~%2$d点伤害_。这道闪电能在附近多个目标间跳跃，在水里会更强力。要是太接近，同样可能电到你自己，却不会波及到你的同伴。",
+    "items.wands.wandoflightning.bmage_desc": "当_战斗法师_以雷霆魔杖近战攻击目标时，有概率获得10回合起电效果。起电状态下的战斗法师免疫雷电伤害，电弧的连锁范围也更广。",
+    "items.wands.wandoflivingearth.stats_desc": "这根法杖能向敌人发射魔法泥石，造成_%1$d~%2$d点伤害_。泥石随后会回归使用者身边，根据造成的伤害重组成灵壤护甲。灵壤护甲积累到一定程度后，下次使用法杖时会成型为一尊灵壤守卫。",
+    "items.wands.wandoflivingearth.bmage_desc": "当_战斗法师_以灵壤魔杖近战攻击目标时，能将部分近战伤害转化为灵壤护甲。",
+    "items.wands.wandofmagicmissile.stats_desc": "从法杖中发出的魔法飞弹会对单个目标造成_%1$d~%2$d点伤害_，如果被升级则会暂时强化其他法杖。",
+    "items.wands.wandofmagicmissile.bmage_desc": "当_战斗法师_以魔弹魔杖近战攻击目标时，魔杖外的所有的法杖都会恢复一定的充能。",
+    "items.wands.wandofprismaticlight.stats_desc": "这根法杖射出的光线能刺破地牢的黑暗，揭露隐藏的区域和陷阱。光线能致盲敌人并造成_%1$d~%2$d点伤害_。恶魔与亡灵生物会在法杖的强光下被灼烧而受到额外伤害。",
+    "items.wands.wandofprismaticlight.bmage_desc": "当_战斗法师_以棱光魔杖近战攻击目标时，能使目标陷入随魔杖等级提升而延长的残废效果。",
+    "items.wands.wandofregrowth.stats_desc": "在施放时，这根法杖将向一个扇形区域倾洒出再生的能量。这种魔法会让草、根系甚至稀有的植物重获生命，破土而出。下一次使用它将消耗_%1$d点充能_。法杖消耗的充能越多，再生魔法的范围与效力就越大、越强。",
+    "items.wands.wandofregrowth.bmage_desc": "当_战斗法师_以再生魔杖近战攻击目标时，如果一方站在草地上，则战斗法师能获取伤害的一定比例的草药疗养。",
+    "items.wands.wandoftransfusion.stats_desc": "这根法杖对盟友或被魅惑的敌人释放时会消耗你_%1$d点生命_并赋予目标_%2$d点生命或护盾_；对敌人释放时会短暂魅惑敌人并回馈给你_%3$d点护盾_。敌对亡灵生物会受到_%4$d~%5$d点伤害_而不是被魅惑。",
+    "items.wands.wandoftransfusion.bmage_desc": "当_战斗法师_以注魂魔杖近战攻击被魅惑的目标时，能获取一定的护盾且下次释放不消耗生命。",
+    "items.wands.wandofwarding.stats_desc": "这根法杖并不能直接攻击敌人，但可以召唤出哨卫元素与哨卫结晶。你可以在视野中的任何地方召唤哨卫，即使是隔着一堵墙。这根法杖最多能提供_%d点能量_以维持哨卫。",
+    "items.wands.wandofwarding.bmage_desc": "当_战斗法师_以哨卫魔杖近战攻击目标时，有概率为所有哨卫元素和哨卫结晶恢复一定生命值。",
+    "items.weapon.melee.warhammer.stats_desc": "这是一件比较精准的武器。",
+    "items.weapon.melee.warscythe.stats_desc": "这是一件不太精准的武器。",
+    "items.weapon.melee.whip.stats_desc": "这件武器有惊人的攻击距离。",
+    "items.trinkets.wondrousresin.stats_desc": "在当前等级下，这件饰物会有_%1$s%%_的概率迫使诅咒法杖效果变得无害或有益，还会有_%2$s%%_的概率使无诅咒的法杖施放一次额外的无害或有益的诅咒法杖效果。\n\n这件饰物升级所消耗的炼金能量较多。"
+  },
+  "pvp_omissions": [
+    "strength requirements",
+    "unidentified item branches",
+    "Duelist abilities"
+  ],
+  "hashes": {
+    "core/src/main/assets/messages/items/items_zh.properties": "4ac74732c2d08adfde450e22822841235a9736a1e0fbc188118fa944f6371c02",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/AdrenalineDart.java": "2556e4b6f37fc55817f367a40f0338c7adc0c213a0de547d2715b7b87012e0d8",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/TippedDart.java": "4941e39a5b2ca63831c15f4e94dc2063ad811e30d581711b7939246e8c552e73",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/Dart.java": "fe0180d4ce19790481b0fe1332d0aaea0acbfb655b26a07b4fd33392d4295701",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/MissileWeapon.java": "856479885f40d19122089a11c6ca103f1b73fdc9199de2b1ed3e4d3231b6d7d5",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/Weapon.java": "24d34977e9cee42c0f65508e221f7909c9dcaedd4df9390bd0c6e9c1b4099b27",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/KindOfWeapon.java": "c71abbabb2fc4f0297055d82f0e3047b941f792158f22c7903cf58f2345be639",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/EquipableItem.java": "449f823bb1e442f8d01ac6c60d6cd5352f7e3a2150dc9222a6a7336f27c85b65",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/Item.java": "f849cab7f08f3ea9ae2eb8d706445f048d09e691061da108046ff2e45fd77bce",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/AssassinsBlade.java": "22ffaff4b0d98251fdd8ba49fdd0e925e6b687fef01343cb1e7a591ea56639bc",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/MeleeWeapon.java": "5718fc3aef2d308139d639c22b5c6d1b6326aadc7eff61a9d062ed73f5d576f5",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/BattleAxe.java": "6c887ead83893391d419d4f866ca4def27266da8284d91fef5d8995bc9f487e5",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/BlindingDart.java": "57dba7064558b7de5d58da1a6fc3c02d0f9eee713189d19e01c83828a1b957c6",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/Bolas.java": "2bea13257aa6cb80b53b134c03e027feae4ceacfb04b11e0f273714c428927e7",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/ChillingDart.java": "544730349a7c0a7214669762a503e7bdad426ac268775559dfd782d7b0936401",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/CleansingDart.java": "8efdf199c44280d2de6c231060e81215e5f9020e36089ca194fec0872001bd94",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/ClericArmor.java": "4614ab172c39fb4a5f788e064ca8d53232cca72ee956ea47f7832101c4b9ae06",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/ClassArmor.java": "2cff68eba4f9ab85459b7a133f65fae04ed8b5f9319abf73556a9f29e26e7e94",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/Armor.java": "017235fdff9d8073fe3a3c056905f9d9822795b306d68688aa0a8b3ebef0aa4f",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/ClothArmor.java": "6bd5a9b0053b4047f6fb814359264b59dc5b797e459329bfa51d77f617e175ff",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Crossbow.java": "da6a84afe8e48b056000590a090badd151f158bbd89ac9f24c1b7c7b8cd11d49",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Cudgel.java": "24ff9ff9481fdc959009eb6ba9cd82757f0969f150bf89132c2465eca0664905",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Dagger.java": "bae342c90b940c591ad6e313f44ded3d071408a4e1b7ae6c885265b6271dcba2",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Dirk.java": "7322a1c39911de09c8f8d87e8be48f7da628bc98ec576728e68610cbbd11e514",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/DisplacingDart.java": "32dfff38f08c043bf86b7811d9c3c56015dbd5f7a9feea0bb17fe0f1ddb952d5",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/DuelistArmor.java": "98cbaab1b5906763731ca6602aef37817208b4b76e1391c3586a9ae9c34ca946",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/FishingSpear.java": "e65a5c013e7358b22253b03c157c20c86734bf196b276853ce9632d1b5cffec3",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Flail.java": "751b49bdc236e05fac2605bf768e57b5e5d3e289fbdef11a98d828be4dea1203",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/ForceCube.java": "4a43841a155b77de79c25c83934d8f8f810b13e5b742ca886ac930087d212016",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Gauntlet.java": "a5ff922bc2ab6bf87b0e970a2384528c03f67feebce823e3989d750dffb72d86",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Glaive.java": "ae9d40c3a5b6852348186ab73f733a79ac63b79a47978f23ec45592cb94baf1b",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Gloves.java": "6ee8b9f5aeadc9974da74a2bad76113fb6b6b6fe96fdc605771e01a176d28e03",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Greataxe.java": "ea6e05cfc8d2bbbb96c76739b14ca94f871f5c3deb36332e5d4047ff226f392e",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Greatshield.java": "7b3327c901a6927f9e96059fab2b35bc2fef43077800771f2e9401ee938163c8",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Greatsword.java": "81bfb03402ae57ae2c551fcb6f60f54cfde5373c9034ae1180269ed7ed3a7b19",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/HandAxe.java": "f323257fe5e71a8271b1e520c88a3c6b4f0a57c685014b96fe653b999cab6d0c",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/HealingDart.java": "9b5f090ac1ed3eb2b910af257dbf21e17bb0fc8b65f19b285ab7fb9f515932e1",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/HeavyBoomerang.java": "1e176bb17b50b5bd788323577269e7bea2eedfced72894a8cafbeef593ab8d8e",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/HolyDart.java": "e0b8717618089a63e21509e96fbcd7e1995d4089f3518dea8123e5a6206114bd",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/HuntressArmor.java": "736f807a005d84d6c0407fe985164fe70eeae255781c1d45badd0cd5a80cf5df",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/IncendiaryDart.java": "976037649c5c1017e65801f6d36216f01301510a58478ca9a8c93851689a53aa",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/Javelin.java": "7a26fe89ea0392c45de278c1f38b9480bf31725205b0e7313ef4fdcfa5f5764e",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Katana.java": "f9df6fb746029cb80a36cf93019ec6cf8c906af4c6280ab2acda63178e575649",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/Kunai.java": "ad69941b7a38659aef51cfbef3b5b3aeecbdebd8ed91c25e2c33057bdc16ee77",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/LeatherArmor.java": "0eb8559e270d7675db22a38882b7e6087de7d3f43218e70224d52b5744278dd9",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Longsword.java": "44b2142f2dbf27afd49d7e85db6b8db319fec72f05d5e9b868dcf9d9bf43c782",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Mace.java": "a0fc1c2d37a50e874fceb54b0c72cd7ec9397f13e3ec8eb6c61aeded5e13d5cf",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/MageArmor.java": "2a9fb296013b52dad794fc85dc93642240bb76730c5322a3be0a54571cbebaea",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/MagesStaff.java": "c535ecb3ccbd3b8933e519e4e6a2fe4d2d370b7962b826357a44cbd991cb6672",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/MailArmor.java": "be0de4931403656e58b54a16cb0799b323e6f9f368e79dbb501159eb3045664e",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/ParalyticDart.java": "4b4329ab0b998da4cb9cf1c6391fb551895fe120c2e4efd6de792a8733cf59c9",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/quest/Pickaxe.java": "d9ab07c54eee76ea9bb93cd4cf4fcc943518c898736457b540411db4634aadc2",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/PlateArmor.java": "022c8a4c448d9e94bda5560b7c5003ac1e2df3942b980ce432dd8aca67bb7fc2",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/PoisonDart.java": "53986531437e74863d6f619e69c322bc79cb7e9ca46ae74d8c31c71260104cca",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Quarterstaff.java": "93a64a718a31160642a1c47387a9807b6cc1f2fc082e99ef23b18ce26f6f2410",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Rapier.java": "c30623ef07c000779abdf3b4257eec858600e99b28e452d176a3eeb1f8051f24",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/rings/RingOfAccuracy.java": "b7b9dad493a6c0305b14941f799d902bf46e6e799c9799085e35db67bdbb530d",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/rings/Ring.java": "8d1cec88aaf1c57c69a687fa675702771c2363039155e36a2a88f0fab01bafc3",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/KindofMisc.java": "bce90c78637d44bb081695acf8b92754a0194eef362272593c3c62e3e5b8e514",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/rings/RingOfArcana.java": "4a594ae301bbcd212fb8c7ef6c0735f6700523151f74733f643b5850289a7f02",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/rings/RingOfElements.java": "616f181f676b925edc46cb58b0db0b47f7be3e3629e8a0fb2a9385bb9726a64c",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/rings/RingOfEnergy.java": "8358312d50288157ed02891fa92096e28f95752fd700b840f5e71673fcc87237",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/rings/RingOfEvasion.java": "df44ac75c3a99de9bd40186ac8aa4dc9f8668eff7b0cd954d31d9ae117489bab",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/rings/RingOfForce.java": "91822ad1322b25a259dc3f3903c4b7b54eff2b0f0e23dff9a458a080af63cf7d",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/rings/RingOfFuror.java": "efb2ddc31382d5f858dcf5abcc39e570cc895704f635153c3e16cc2c03361a6c",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/rings/RingOfHaste.java": "1d5c913aed7d55a55566bc004ccf26cced06afd25c4a12d5cd475a1436e14309",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/rings/RingOfMight.java": "b57c1a65920dad3291a0b9144962e924c106dec0362328d0674a6328d1c667cc",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/rings/RingOfSharpshooting.java": "79187c39a2a7c5074f96737e9134667f31497e06b9c114da4ef358e75364c660",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/rings/RingOfTenacity.java": "c4df5aae59561794539d9c9dd18889d35229db0715c90d653cf6d627b2e3549c",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/rings/RingOfWealth.java": "0609b135880270c5a1842d160a8595a537f61c4bf2b7be1c513ce42c7219eb8b",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/RogueArmor.java": "d50011f64fdbe72934b5cc1dce3eb8492681bad323b9ec8afa3a16f29082f933",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/RotDart.java": "12669caab76bad8115403d90ba93605255f1d0c97eee911861d829eb8ad8de10",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/RoundShield.java": "64d4f46846b4245735429ce2e6752f51be18d0994a17b18eb41d7843257961a2",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/RunicBlade.java": "54c054f2abdf892b6b301047bf17e5e2d9889ebd497959bf890f5b65802b6b0f",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Sai.java": "78e1310d11ef01353105defe8d0507b0ec3ed1acd03176e4e98d42700dcbc9ac",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/ScaleArmor.java": "c4d963fa25a2125dda09e46b78bf39f97f5cce67af35102608e2315fbeb80dac",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Scimitar.java": "aa3e221e4cb424455d2854c2eb58ad1b348e591d89d1d06333efda373ab79003",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/darts/ShockingDart.java": "21a7931367f487036273675f0bdd709d1aefa9ca89eb2dc8a2b2aebd8d7b2331",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Shortsword.java": "d29a865dead16b2cb005aa94fd87595926fad2cd6ff960bea2ad065cbded1e80",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/Shuriken.java": "8ca821e00f7d6821f6331d93dfaf1807be41c2990bb25b33f5a37707bb712bac",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Sickle.java": "33c4b595be516c46ee6916e1e25806931337936880da176dff6c465bc8c060bb",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Spear.java": "f447124b52abfa7dd50718766fbd4a526f3b64f5bdb8034834f75d4d27cca6df",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/SpiritBow.java": "5f2a8ca845b00ebde9212d9e4908a2db1e2744b11d5ba91342c46126d1d1c390",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Sword.java": "df03e2d724c3113571a30d8cabc58568e5297d39c071fbf8824f9fca9416999c",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/ThrowingClub.java": "987ab3e1e2bea9c327f9508a29e3d8d16b05d25900a0578a47fde4248ab2cd8a",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/ThrowingHammer.java": "a7d592ec671bbbf9eef5b6f6001ed84d43b93d56fc0e49ab9105dc10930c36e6",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/ThrowingKnife.java": "b17f462b51e1bad93c6f18ba52250d5784948537c08ed54a6a3b6a6a450d458b",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/ThrowingSpear.java": "cc30a280b6f364b4be2bc3b796b876e1e489c3f17b6de8f031c69c30f071fd45",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/ThrowingSpike.java": "3ccbc7bca20147cde42435b27d8fcbbd14e01778bc88c803bdec03a155acc4da",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/ThrowingStone.java": "41930d6e5f7dcf70f2179198baf075c69b29d752ea53d3deb3906782074d0e62",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/Tomahawk.java": "55e80e369d462b7c4af567a9c9f37228a455c12be7721f514a08ace140c07139",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/missiles/Trident.java": "433d58878f822ca5f75190642c2c66e65dadbf72f9a423480544a032bdc933f1",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfBlastWave.java": "c347e54e0b46b536a2bf293cba52f2bf08fb5ab6824564f27ffed660e85ea4f3",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/DamageWand.java": "ffbf64344048cec00242e423b77f933ca7b2cc786de11c7c502337c0d5bfc31d",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/Wand.java": "a45841efaa22f836e91f07ed5f1558e3f601c7f4013664ed34e23a4975a05490",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfCorrosion.java": "a0bc494ebb62eb2389d078c6fe63ad49ef6a83b91f95e26c7888d3961134539b",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfCorruption.java": "a0caefe3cf3ac88599a8332a84dae9d2faebf1a12edaaa58b5e0d5003d13660f",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfDisintegration.java": "193d49ad5c3a5a827a0c74de3413a50f2576711361208f0901fda676814d2c15",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfFireblast.java": "ea6326515341c8f171f108014aac16019cba791c4feb96cd6b1ef98a47e7576c",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfFrost.java": "efa81e4db3b8dba3b3d5f26b842dbde87bfd3dc86a10ae7a491d3262f5bc0870",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfLightning.java": "ba454f18cc5a128c4f968419ab346b3ccd14e60d13ebed9ccd6f2ce6cf54e5ab",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfLivingEarth.java": "d7408a8c22c767e96f98133721529ec6d203360527c27d328f69be80ccf715f1",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfMagicMissile.java": "0fe4bd0fd62002dc94d976760c278db5a4856d6499dc891950b37a8695150dfd",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfPrismaticLight.java": "4e931efb1c7ebcb20a07a79933f63e0ebe0ce38d3cd3e8a5fcf48865ad65ec84",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfRegrowth.java": "01e4ffdeb603d37652409390ec7c242b043fb46b4933291835fc124731aaf7e6",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfTransfusion.java": "d2fc960c6440e03eddaefca9b549ca555a62801754e52fc3939d94157a83c555",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/wands/WandOfWarding.java": "a00e3d6044440bbaa549da6e693d575bed200c46b6692acee5965d49393d596c",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/WarHammer.java": "194c26d22b7334de0f1101cb6ecc428312a3739ec7a6449775613226c60fba58",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/WarriorArmor.java": "bebe3c572d1fd90658604bee1c50b83f0528085d8ebb782c49b505a83e257158",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/WarScythe.java": "cd521f5207066e6bd5788ffb5ac93cde9ee04799d22e881db4731b9029a858af",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/Whip.java": "b78b703c3dcaa0fd387fcb37d4b5c1b4c66bcbf15f79e09b9029ce2d76343291",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/melee/WornShortsword.java": "31c3370169ce48acd50ceb2676664d6e88d756b71285dba9a2aa71d7f1b0f31f"
+  }
+}

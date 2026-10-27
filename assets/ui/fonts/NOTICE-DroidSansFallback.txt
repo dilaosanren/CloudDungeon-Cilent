@@ -1,0 +1,12 @@
+Droid Sans Fallback
+
+Digitized data copyright Google Corporation, 2006.
+Manufacturer: Ascender Corporation.
+Designer: Steve Matteson.
+
+The font file is copied unchanged from Shattered Pixel Dungeon 4.0.2,
+desktop/src/main/assets/fonts/droid_sans.ttf.
+Its embedded font metadata specifies the Apache License, Version 2.0:
+https://www.apache.org/licenses/LICENSE-2.0
+
+See LICENSE-DroidSansFallback.txt for the complete license.

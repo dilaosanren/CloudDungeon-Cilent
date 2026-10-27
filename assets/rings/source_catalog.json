@@ -1,0 +1,449 @@
+{
+  "stats": {
+    "ringofaccuracy.stats": "佩戴这枚戒指时，你的精准属性会增加_%s%%_。",
+    "ringofaccuracy.combined_stats": "你已装备的戒指正联结它们的力量，一共增加了你_%s%%_的精准。",
+    "ringofarcana.stats": "佩戴这枚戒指时，你的附魔和刻印效果会提升_%s%%_。",
+    "ringofarcana.combined_stats": "你已装备的戒指正联结它们的力量，一共增强了_%s%%_的附魔与刻印效果。",
+    "ringofelements.stats": "当佩戴这枚戒指时，你会获得_%s%%_的元素抗性。",
+    "ringofelements.combined_stats": "你已装备的戒指正联结它们的力量，一共提供了_%s%%_的元素伤害抗性。",
+    "ringofenergy.stats": "佩戴这枚戒指时，你持有的法杖，神器及英雄护甲充能速度将提高_%s%%_。",
+    "ringofenergy.combined_stats": "你已装备的戒指正联结它们的力量，一共增加了_%s%%_的充能速度。",
+    "ringofevasion.stats": "佩戴这枚戒指时，你的闪避属性会提升_%s%%_。",
+    "ringofevasion.combined_stats": "你已装备的戒指正联结它们的力量，一共增加了_%s%%_的闪避。",
+    "ringofforce.stats": "赤手空拳时，以你目前的力量，佩戴这枚戒指能够造成_%1$d~%2$d伤害_。当装备一件武器时，这枚戒指会为其增加_%3$d_点伤害。",
+    "ringofforce.combined_stats": "你已装备的戒指正联结它们的力量，在不使用武器时一共造成_%1$d~%2$d点伤害_，在使用武器时则可提升_%3$d_点伤害。",
+    "ringoffuror.stats": "佩戴这枚戒指时，你的攻击速度会提升_%s%%_。",
+    "ringoffuror.combined_stats": "你已装备的戒指正联结它们的力量，一共增加了_%s%%_的攻击速度。",
+    "ringofhaste.stats": "佩戴这枚戒指时，你的移动速度会提升_%s%%_。",
+    "ringofhaste.combined_stats": "你已装备的戒指正联结它们的力量，一共增加了_%s%%_的移动速度。",
+    "ringofmight.stats": "佩戴这枚戒指时，你的力量会增加_%1$d_，你的最大生命值会增加_%2$s%%_。",
+    "ringofmight.combined_stats": "你已装备的戒指正联结它们的力量，一共提高了你_%1$d_点力量与_%2$s%%_点最大生命值。",
+    "ringofsharpshooting.stats": "佩戴这枚戒指时，你的投掷武器伤害会获得_%1$d_级的提升，耐久度则会提升_%2$s%%_。",
+    "ringofsharpshooting.combined_stats": "你已装备的戒指正联结它们的力量，一共提高了_%1$d_级投掷武器等级，并且增加了其_%2$s%%_耐久。",
+    "ringoftenacity.stats": "佩戴这枚戒指时，你受到的伤害至多减少_%s%%_。",
+    "ringoftenacity.combined_stats": "你已装备的戒指正联结它们的力量，一共减少了你受到伤害的最多_%s%%_。",
+    "ringofwealth.stats": "佩戴这枚戒指时，你的整体幸运程度会提升_%s%%_。",
+    "ringofwealth.combined_stats": "你已装备的戒指正联结它们的力量，一共增加了你_%s%%_的幸运。"
+  },
+  "pools": {
+    "WEP_T1": {
+      "types": [
+        "WornShortsword",
+        "MagesStaff",
+        "Dagger",
+        "Gloves",
+        "Rapier",
+        "Cudgel"
+      ],
+      "weights": [
+        2.0,
+        0.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "WEP_T2": {
+      "types": [
+        "Shortsword",
+        "HandAxe",
+        "Spear",
+        "Quarterstaff",
+        "Dirk",
+        "Sickle",
+        "Pickaxe"
+      ],
+      "weights": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        0.0
+      ]
+    },
+    "WEP_T3": {
+      "types": [
+        "Sword",
+        "Mace",
+        "Scimitar",
+        "RoundShield",
+        "Sai",
+        "Whip"
+      ],
+      "weights": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "WEP_T4": {
+      "types": [
+        "Longsword",
+        "BattleAxe",
+        "Flail",
+        "RunicBlade",
+        "AssassinsBlade",
+        "Crossbow",
+        "Katana"
+      ],
+      "weights": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "WEP_T5": {
+      "types": [
+        "Greatsword",
+        "WarHammer",
+        "Glaive",
+        "Greataxe",
+        "Greatshield",
+        "Gauntlet",
+        "WarScythe"
+      ],
+      "weights": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "ARMOR": {
+      "types": [
+        "ClothArmor",
+        "LeatherArmor",
+        "MailArmor",
+        "ScaleArmor",
+        "PlateArmor",
+        "WarriorArmor",
+        "MageArmor",
+        "RogueArmor",
+        "HuntressArmor",
+        "DuelistArmor",
+        "ClericArmor"
+      ],
+      "weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "WAND": {
+      "types": [
+        "WandOfMagicMissile",
+        "WandOfLightning",
+        "WandOfDisintegration",
+        "WandOfFireblast",
+        "WandOfCorrosion",
+        "WandOfBlastWave",
+        "WandOfLivingEarth",
+        "WandOfFrost",
+        "WandOfPrismaticLight",
+        "WandOfWarding",
+        "WandOfTransfusion",
+        "WandOfCorruption",
+        "WandOfRegrowth"
+      ],
+      "weights": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0
+      ]
+    },
+    "RING": {
+      "types": [
+        "RingOfAccuracy",
+        "RingOfArcana",
+        "RingOfElements",
+        "RingOfEnergy",
+        "RingOfEvasion",
+        "RingOfForce",
+        "RingOfFuror",
+        "RingOfHaste",
+        "RingOfMight",
+        "RingOfSharpshooting",
+        "RingOfTenacity",
+        "RingOfWealth"
+      ],
+      "weights": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0
+      ]
+    },
+    "ARTIFACT": {
+      "types": [
+        "AlchemistsToolkit",
+        "ChaliceOfBlood",
+        "CloakOfShadows",
+        "DriedRose",
+        "EtherealChains",
+        "HolyTome",
+        "HornOfPlenty",
+        "MasterThievesArmband",
+        "SandalsOfNature",
+        "SkeletonKey",
+        "TalismanOfForesight",
+        "TimekeepersHourglass",
+        "UnstableSpellbook"
+      ],
+      "weights": [
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "POTION": {
+      "types": [
+        "PotionOfStrength",
+        "PotionOfHealing",
+        "PotionOfMindVision",
+        "PotionOfFrost",
+        "PotionOfLiquidFlame",
+        "PotionOfToxicGas",
+        "PotionOfHaste",
+        "PotionOfInvisibility",
+        "PotionOfLevitation",
+        "PotionOfParalyticGas",
+        "PotionOfPurity",
+        "PotionOfExperience"
+      ],
+      "weights": [
+        0.0,
+        6.0,
+        4.0,
+        3.0,
+        3.0,
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0
+      ]
+    },
+    "SCROLL": {
+      "types": [
+        "ScrollOfUpgrade",
+        "ScrollOfIdentify",
+        "ScrollOfRemoveCurse",
+        "ScrollOfMirrorImage",
+        "ScrollOfRecharging",
+        "ScrollOfTeleportation",
+        "ScrollOfLullaby",
+        "ScrollOfMagicMapping",
+        "ScrollOfRage",
+        "ScrollOfRetribution",
+        "ScrollOfTerror",
+        "ScrollOfTransmutation"
+      ],
+      "weights": [
+        0.0,
+        6.0,
+        4.0,
+        3.0,
+        3.0,
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0
+      ]
+    },
+    "STONE": {
+      "types": [
+        "StoneOfEnchantment",
+        "StoneOfIntuition",
+        "StoneOfDetectMagic",
+        "StoneOfFlock",
+        "StoneOfShock",
+        "StoneOfBlink",
+        "StoneOfDeepSleep",
+        "StoneOfClairvoyance",
+        "StoneOfAggression",
+        "StoneOfBlast",
+        "StoneOfFear",
+        "StoneOfAugmentation"
+      ],
+      "weights": [
+        0.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        0.0
+      ]
+    }
+  },
+  "version": "4.0.2",
+  "enchantments": {
+    "weapon": {
+      "common": [
+        "Blazing",
+        "Chilling",
+        "Kinetic",
+        "Shocking",
+        "Venomous"
+      ],
+      "uncommon": [
+        "Blocking",
+        "Blooming",
+        "Eldritch",
+        "Elastic",
+        "Lucky",
+        "Projecting",
+        "Unstable",
+        "Vorpal"
+      ],
+      "rare": [
+        "Corrupting",
+        "Crystal",
+        "Grim",
+        "Vampiric"
+      ]
+    },
+    "armor": {
+      "common": [
+        "Obfuscation",
+        "Swiftness",
+        "Viscosity",
+        "Potential"
+      ],
+      "uncommon": [
+        "Brimstone",
+        "Stone",
+        "Entanglement",
+        "Repulsion",
+        "Camouflage",
+        "Flow"
+      ],
+      "rare": [
+        "Affection",
+        "AntiMagic",
+        "Thorns"
+      ]
+    }
+  },
+  "equipment_tiers": [
+    [
+      0.0,
+      75.0,
+      20.0,
+      4.0,
+      1.0
+    ],
+    [
+      0.0,
+      25.0,
+      50.0,
+      20.0,
+      5.0
+    ],
+    [
+      0.0,
+      0.0,
+      40.0,
+      50.0,
+      10.0
+    ],
+    [
+      0.0,
+      0.0,
+      20.0,
+      40.0,
+      40.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      20.0,
+      80.0
+    ]
+  ],
+  "license": "GPL-3.0-or-later",
+  "hashes": {
+    "items/rings/Ring.java": "8D1CEC88AAF1C57C69A687FA675702771C2363039155E36A2A88F0FAB01BAFC3",
+    "items/rings/RingOfAccuracy.java": "B7B9DAD493A6C0305B14941F799D902BF46E6E799C9799085E35DB67BDBB530D",
+    "items/rings/RingOfArcana.java": "4A594AE301BBCD212FB8C7EF6C0735F6700523151F74733F643B5850289A7F02",
+    "items/rings/RingOfElements.java": "616F181F676B925EDC46CB58B0DB0B47F7BE3E3629E8A0FB2A9385BB9726A64C",
+    "items/rings/RingOfEnergy.java": "8358312D50288157ED02891FA92096E28F95752FD700B840F5E71673FCC87237",
+    "items/rings/RingOfEvasion.java": "DF44AC75C3A99DE9BD40186AC8AA4DC9F8668EFF7B0CD954D31D9AE117489BAB",
+    "items/rings/RingOfForce.java": "91822AD1322B25A259DC3F3903C4B7B54EFF2B0F0E23DFF9A458A080AF63CF7D",
+    "items/rings/RingOfFuror.java": "EFB2DDC31382D5F858DCF5ABCC39E570CC895704F635153C3E16CC2C03361A6C",
+    "items/rings/RingOfHaste.java": "1D5C913AED7D55A55566BC004CCF26CCED06AFD25C4A12D5CD475A1436E14309",
+    "items/rings/RingOfMight.java": "B57C1A65920DAD3291A0B9144962E924C106DEC0362328D0674A6328D1C667CC",
+    "items/rings/RingOfSharpshooting.java": "79187C39A2A7C5074F96737E9134667F31497E06B9C114DA4EF358E75364C660",
+    "items/rings/RingOfTenacity.java": "C4DF5AAE59561794539D9C9DD18889D35229DB0715C90D653CF6D627B2E3549C",
+    "items/rings/RingOfWealth.java": "0609B135880270C5A1842D160A8595A537F61C4BF2B7BE1C513CE42C7219EB8B",
+    "actors/hero/Hero.java": "8F47729126521E886C9A01FF60BF1922A45E5C01E779318BCF5A0B322193BBE4",
+    "actors/Char.java": "8D372E8ECDD2188900479456FFEAFE5090CFF9C79D181A46D8ECBF7D7B8C8139",
+    "actors/buffs/Degrade.java": "BC11ED28067C0F15A1F9CA83A380A0BBD7A7DF0DF93D10B8251AD1B44D89388D",
+    "actors/buffs/EnhancedRings.java": "C81F6C90DCE087A4F8AD71178E501D1D0F2232E7C2B35B260045BE1EDAC290DC",
+    "items/Generator.java": "F57A7737CEF8FE0E598011C420C2012BC05EAFC415CF5D43DC6061F56C901EDC",
+    "items/weapon/Weapon.java": "24D34977E9CEE42C0F65508E221F7909C9DCAEDD4DF9390BD0C6E9C1B4099B27",
+    "items/armor/Armor.java": "017235FDFF9D8073FE3A3C056905F9D9822795B306D68688AA0A8B3EBEF0AA4F",
+    "items/weapon/missiles/MissileWeapon.java": "856479885F40D19122089A11C6CA103F1B73FDC9199DE2B1ED3E4D3231B6D7D5",
+    "items/armor/glyphs/AntiMagic.java": "D22F4145B475C99BB2386E2F5A381A6A0DCF7AECA596C7E871091F650282EDF2"
+  }
+}

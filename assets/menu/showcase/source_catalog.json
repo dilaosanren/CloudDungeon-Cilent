@@ -1,0 +1,48 @@
+{
+  "source": "Shattered Pixel Dungeon 4.0.2",
+  "license": "GPL-3.0-or-later",
+  "rat": {
+    "texture": "res://assets/menu/showcase/rat.png",
+    "frame_width": 16,
+    "frame_height": 15,
+    "idle": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "fps": 2,
+    "attack": [
+      2,
+      3,
+      4,
+      5,
+      0
+    ],
+    "attack_fps": 15
+  },
+  "statue": {
+    "texture": "res://assets/menu/showcase/statue.png",
+    "frame_width": 12,
+    "frame_height": 15,
+    "idle": [0, 0, 0, 0, 0, 1, 1],
+    "fps": 2
+  },
+  "piranha": {
+    "texture": "res://assets/menu/showcase/piranha.png",
+    "frame_width": 12,
+    "frame_height": 16,
+    "idle": [0, 1, 2, 1],
+    "fps": 8,
+    "perspective_raise": 0.2,
+    "render_shadow": false
+  },
+  "hashes": {
+    "assets/sprites/piranha.png": "b72a3c2cd8e7e0aadf3974e729b93e1b42e4c599e87931ebb25b01ae4bf27e03",
+    "java/com/shatteredpixel/shatteredpixeldungeon/sprites/PiranhaSprite.java": "543daa1e04f311ee5a3764776cc3afb862040353067e1c35c409c27b92498b93",
+    "assets/sprites/statue.png": "e9ebbc93295e61193fb25fd3e235a0aadea448c1beb940c392a6ff4ecfb73b10",
+    "java/com/shatteredpixel/shatteredpixeldungeon/sprites/StatueSprite.java": "076e84caaf75c0564fd1610fca1796abfa7258824b40d41ebf3084676ef7610a",
+    "assets/sprites/rat.png": "96eb45389f49db2f4cd74840ec6200cb714acfa061fd3f2a1984f9ebe30c6f8b",
+    "java/com/shatteredpixel/shatteredpixeldungeon/sprites/RatSprite.java": "0621ab75e16cbd96050aeb38ff6081d1deb3b7d85a1443bf19742e41d229c759"
+  }
+}

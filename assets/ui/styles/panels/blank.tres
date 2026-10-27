@@ -1,0 +1,12 @@
+[gd_resource type="StyleBoxTexture" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ui/palettes/claude/chrome.res" id="1_ogmhv"]
+
+[resource]
+resource_name = "BLANK"
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource("1_ogmhv")
+region_rect = Rect2(45, 0, 1, 1)

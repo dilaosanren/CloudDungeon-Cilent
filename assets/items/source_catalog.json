@@ -1,0 +1,9623 @@
+{
+  "version": "SPD 4.0.2",
+  "items": [
+    {
+      "key": "SOMETHING",
+      "id": 0,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        0,
+        0,
+        8,
+        13
+      ],
+      "source_references": [
+        "items/trinkets/TrinketCatalyst.java"
+      ]
+    },
+    {
+      "key": "WEAPON_HOLDER",
+      "id": 1,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        16,
+        0,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/artifacts/DriedRose.java"
+      ]
+    },
+    {
+      "key": "ARMOR_HOLDER",
+      "id": 2,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        32,
+        0,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/artifacts/DriedRose.java"
+      ]
+    },
+    {
+      "key": "MISSILE_HOLDER",
+      "id": 3,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        48,
+        0,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/missiles/MissileWeapon.java"
+      ]
+    },
+    {
+      "key": "WAND_HOLDER",
+      "id": 4,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        64,
+        0,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/wands/Wand.java"
+      ]
+    },
+    {
+      "key": "RING_HOLDER",
+      "id": 5,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        80,
+        0,
+        8,
+        10
+      ],
+      "source_references": [
+        "items/rings/Ring.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_HOLDER",
+      "id": 6,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        96,
+        0,
+        15,
+        15
+      ],
+      "source_references": []
+    },
+    {
+      "key": "TRINKET_HOLDER",
+      "id": 7,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        112,
+        0,
+        16,
+        11
+      ],
+      "source_references": [
+        "items/trinkets/Trinket.java"
+      ]
+    },
+    {
+      "key": "FOOD_HOLDER",
+      "id": 8,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        128,
+        0,
+        15,
+        11
+      ],
+      "source_references": [
+        "items/food/MysteryMeat.java"
+      ]
+    },
+    {
+      "key": "BOMB_HOLDER",
+      "id": 9,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        144,
+        0,
+        10,
+        13
+      ],
+      "source_references": []
+    },
+    {
+      "key": "POTION_HOLDER",
+      "id": 10,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        160,
+        0,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/Potion.java"
+      ]
+    },
+    {
+      "key": "SEED_HOLDER",
+      "id": 11,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        176,
+        0,
+        10,
+        10
+      ],
+      "source_references": []
+    },
+    {
+      "key": "SCROLL_HOLDER",
+      "id": 12,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        192,
+        0,
+        15,
+        14
+      ],
+      "source_references": [
+        "items/scrolls/Scroll.java"
+      ]
+    },
+    {
+      "key": "STONE_HOLDER",
+      "id": 13,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        208,
+        0,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/stones/Runestone.java"
+      ]
+    },
+    {
+      "key": "ELIXIR_HOLDER",
+      "id": 14,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        224,
+        0,
+        12,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "SPELL_HOLDER",
+      "id": 15,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        240,
+        0,
+        8,
+        16
+      ],
+      "source_references": []
+    },
+    {
+      "key": "MOB_HOLDER",
+      "id": 16,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        0,
+        16,
+        15,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "DOCUMENT_HOLDER",
+      "id": 17,
+      "category": "PLACEHOLDERS",
+      "rect": [
+        16,
+        16,
+        10,
+        11
+      ],
+      "source_references": []
+    },
+    {
+      "key": "GOLD",
+      "id": 18,
+      "category": "UNCOLLECTIBLE",
+      "rect": [
+        32,
+        16,
+        15,
+        13
+      ],
+      "source_references": [
+        "items/Gold.java",
+        "items/spells/Alchemize.java"
+      ]
+    },
+    {
+      "key": "ENERGY",
+      "id": 19,
+      "category": "UNCOLLECTIBLE",
+      "rect": [
+        48,
+        16,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/artifacts/AlchemistsToolkit.java",
+        "items/EnergyCrystal.java",
+        "items/spells/Alchemize.java"
+      ]
+    },
+    {
+      "key": "DEWDROP",
+      "id": 21,
+      "category": "UNCOLLECTIBLE",
+      "rect": [
+        80,
+        16,
+        10,
+        9
+      ],
+      "source_references": [
+        "items/Dewdrop.java"
+      ]
+    },
+    {
+      "key": "PETAL",
+      "id": 22,
+      "category": "UNCOLLECTIBLE",
+      "rect": [
+        96,
+        16,
+        8,
+        8
+      ],
+      "source_references": [
+        "items/artifacts/DriedRose.java"
+      ]
+    },
+    {
+      "key": "SANDBAG",
+      "id": 23,
+      "category": "UNCOLLECTIBLE",
+      "rect": [
+        112,
+        16,
+        10,
+        10
+      ],
+      "source_references": [
+        "items/artifacts/TimekeepersHourglass.java"
+      ]
+    },
+    {
+      "key": "SPIRIT_ARROW",
+      "id": 24,
+      "category": "UNCOLLECTIBLE",
+      "rect": [
+        128,
+        16,
+        11,
+        11
+      ],
+      "source_references": [
+        "items/weapon/SpiritBow.java"
+      ]
+    },
+    {
+      "key": "TENGU_BOMB",
+      "id": 26,
+      "category": "UNCOLLECTIBLE",
+      "rect": [
+        160,
+        16,
+        10,
+        10
+      ],
+      "source_references": []
+    },
+    {
+      "key": "TENGU_SHOCKER",
+      "id": 27,
+      "category": "UNCOLLECTIBLE",
+      "rect": [
+        176,
+        16,
+        10,
+        10
+      ],
+      "source_references": []
+    },
+    {
+      "key": "GEO_BOULDER",
+      "id": 28,
+      "category": "UNCOLLECTIBLE",
+      "rect": [
+        192,
+        16,
+        16,
+        15
+      ],
+      "source_references": []
+    },
+    {
+      "key": "BONES",
+      "id": 32,
+      "category": "CONTAINERS",
+      "rect": [
+        0,
+        32,
+        14,
+        11
+      ],
+      "source_references": []
+    },
+    {
+      "key": "REMAINS",
+      "id": 33,
+      "category": "CONTAINERS",
+      "rect": [
+        16,
+        32,
+        14,
+        11
+      ],
+      "source_references": []
+    },
+    {
+      "key": "TOMB",
+      "id": 34,
+      "category": "CONTAINERS",
+      "rect": [
+        32,
+        32,
+        14,
+        15
+      ],
+      "source_references": []
+    },
+    {
+      "key": "GRAVE",
+      "id": 35,
+      "category": "CONTAINERS",
+      "rect": [
+        48,
+        32,
+        14,
+        15
+      ],
+      "source_references": []
+    },
+    {
+      "key": "CHEST",
+      "id": 36,
+      "category": "CONTAINERS",
+      "rect": [
+        64,
+        32,
+        16,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "LOCKED_CHEST",
+      "id": 37,
+      "category": "CONTAINERS",
+      "rect": [
+        80,
+        32,
+        16,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "CRYSTAL_CHEST",
+      "id": 38,
+      "category": "CONTAINERS",
+      "rect": [
+        96,
+        32,
+        16,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EBONY_CHEST",
+      "id": 39,
+      "category": "CONTAINERS",
+      "rect": [
+        112,
+        32,
+        16,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "ANKH",
+      "id": 48,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        0,
+        48,
+        10,
+        16
+      ],
+      "source_references": [
+        "items/Ankh.java"
+      ]
+    },
+    {
+      "key": "STYLUS",
+      "id": 49,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        16,
+        48,
+        12,
+        13
+      ],
+      "source_references": [
+        "items/Stylus.java"
+      ]
+    },
+    {
+      "key": "SEAL",
+      "id": 50,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        32,
+        48,
+        13,
+        13
+      ],
+      "source_references": [
+        "items/armor/Armor.java",
+        "items/BrokenSeal.java"
+      ]
+    },
+    {
+      "key": "TORCH",
+      "id": 51,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        48,
+        48,
+        12,
+        15
+      ],
+      "source_references": [
+        "items/Torch.java"
+      ]
+    },
+    {
+      "key": "BEACON",
+      "id": 52,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        64,
+        48,
+        16,
+        15
+      ],
+      "source_references": []
+    },
+    {
+      "key": "HONEYPOT",
+      "id": 53,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        80,
+        48,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/Honeypot.java"
+      ]
+    },
+    {
+      "key": "SHATTPOT",
+      "id": 54,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        96,
+        48,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/Honeypot.java"
+      ]
+    },
+    {
+      "key": "IRON_KEY",
+      "id": 55,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        112,
+        48,
+        8,
+        14
+      ],
+      "source_references": [
+        "items/keys/IronKey.java"
+      ]
+    },
+    {
+      "key": "GOLDEN_KEY",
+      "id": 56,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        128,
+        48,
+        8,
+        14
+      ],
+      "source_references": [
+        "items/keys/GoldenKey.java"
+      ]
+    },
+    {
+      "key": "CRYSTAL_KEY",
+      "id": 57,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        144,
+        48,
+        8,
+        14
+      ],
+      "source_references": [
+        "items/keys/CrystalKey.java"
+      ]
+    },
+    {
+      "key": "WORN_KEY",
+      "id": 58,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        160,
+        48,
+        8,
+        14
+      ],
+      "source_references": [
+        "items/keys/WornKey.java"
+      ]
+    },
+    {
+      "key": "MASK",
+      "id": 59,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        176,
+        48,
+        11,
+        9
+      ],
+      "source_references": [
+        "items/TengusMask.java"
+      ]
+    },
+    {
+      "key": "CROWN",
+      "id": 60,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        192,
+        48,
+        13,
+        7
+      ],
+      "source_references": [
+        "items/armor/ClassArmor.java",
+        "items/KingsCrown.java"
+      ]
+    },
+    {
+      "key": "AMULET",
+      "id": 61,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        208,
+        48,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/Amulet.java"
+      ]
+    },
+    {
+      "key": "MASTERY",
+      "id": 62,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        224,
+        48,
+        13,
+        16
+      ],
+      "source_references": [
+        "items/journal/DocumentPage.java",
+        "items/journal/Guidebook.java"
+      ]
+    },
+    {
+      "key": "KIT",
+      "id": 63,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        240,
+        48,
+        16,
+        15
+      ],
+      "source_references": []
+    },
+    {
+      "key": "SEAL_SHARD",
+      "id": 64,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        0,
+        64,
+        12,
+        12
+      ],
+      "source_references": [
+        "items/remains/SealShard.java"
+      ]
+    },
+    {
+      "key": "BROKEN_STAFF",
+      "id": 65,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        16,
+        64,
+        14,
+        10
+      ],
+      "source_references": [
+        "items/remains/BrokenStaff.java"
+      ]
+    },
+    {
+      "key": "CLOAK_SCRAP",
+      "id": 66,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        32,
+        64,
+        9,
+        9
+      ],
+      "source_references": [
+        "items/remains/CloakScrap.java"
+      ]
+    },
+    {
+      "key": "BOW_FRAGMENT",
+      "id": 67,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        48,
+        64,
+        12,
+        9
+      ],
+      "source_references": [
+        "items/remains/BowFragment.java"
+      ]
+    },
+    {
+      "key": "BROKEN_HILT",
+      "id": 68,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        64,
+        64,
+        9,
+        9
+      ],
+      "source_references": [
+        "items/remains/BrokenHilt.java"
+      ]
+    },
+    {
+      "key": "TORN_PAGE",
+      "id": 69,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        80,
+        64,
+        11,
+        13
+      ],
+      "source_references": [
+        "items/remains/TornPage.java"
+      ]
+    },
+    {
+      "key": "TRINKET_CATA",
+      "id": 70,
+      "category": "MISC_CONSUMABLE",
+      "rect": [
+        96,
+        64,
+        12,
+        11
+      ],
+      "source_references": [
+        "items/trinkets/TrinketCatalyst.java"
+      ]
+    },
+    {
+      "key": "BOMB",
+      "id": 80,
+      "category": "BOMBS",
+      "rect": [
+        0,
+        80,
+        10,
+        13
+      ],
+      "source_references": [
+        "items/bombs/Bomb.java"
+      ]
+    },
+    {
+      "key": "DBL_BOMB",
+      "id": 81,
+      "category": "BOMBS",
+      "rect": [
+        16,
+        80,
+        14,
+        13
+      ],
+      "source_references": [
+        "items/bombs/Bomb.java"
+      ]
+    },
+    {
+      "key": "FIRE_BOMB",
+      "id": 82,
+      "category": "BOMBS",
+      "rect": [
+        32,
+        80,
+        13,
+        12
+      ],
+      "source_references": [
+        "items/bombs/Firebomb.java"
+      ]
+    },
+    {
+      "key": "FROST_BOMB",
+      "id": 83,
+      "category": "BOMBS",
+      "rect": [
+        48,
+        80,
+        13,
+        12
+      ],
+      "source_references": [
+        "items/bombs/FrostBomb.java"
+      ]
+    },
+    {
+      "key": "REGROWTH_BOMB",
+      "id": 84,
+      "category": "BOMBS",
+      "rect": [
+        64,
+        80,
+        13,
+        12
+      ],
+      "source_references": [
+        "items/bombs/RegrowthBomb.java"
+      ]
+    },
+    {
+      "key": "SMOKE_BOMB",
+      "id": 85,
+      "category": "BOMBS",
+      "rect": [
+        80,
+        80,
+        13,
+        12
+      ],
+      "source_references": [
+        "items/bombs/SmokeBomb.java"
+      ]
+    },
+    {
+      "key": "FLASHBANG",
+      "id": 86,
+      "category": "BOMBS",
+      "rect": [
+        96,
+        80,
+        10,
+        13
+      ],
+      "source_references": [
+        "items/bombs/FlashBangBomb.java"
+      ]
+    },
+    {
+      "key": "HOLY_BOMB",
+      "id": 87,
+      "category": "BOMBS",
+      "rect": [
+        112,
+        80,
+        10,
+        13
+      ],
+      "source_references": [
+        "items/bombs/HolyBomb.java"
+      ]
+    },
+    {
+      "key": "WOOLY_BOMB",
+      "id": 88,
+      "category": "BOMBS",
+      "rect": [
+        128,
+        80,
+        10,
+        13
+      ],
+      "source_references": [
+        "items/bombs/WoollyBomb.java"
+      ]
+    },
+    {
+      "key": "NOISEMAKER",
+      "id": 89,
+      "category": "BOMBS",
+      "rect": [
+        144,
+        80,
+        10,
+        13
+      ],
+      "source_references": [
+        "items/bombs/Noisemaker.java"
+      ]
+    },
+    {
+      "key": "ARCANE_BOMB",
+      "id": 90,
+      "category": "BOMBS",
+      "rect": [
+        160,
+        80,
+        10,
+        13
+      ],
+      "source_references": [
+        "items/bombs/ArcaneBomb.java"
+      ]
+    },
+    {
+      "key": "SHRAPNEL_BOMB",
+      "id": 91,
+      "category": "BOMBS",
+      "rect": [
+        176,
+        80,
+        10,
+        13
+      ],
+      "source_references": [
+        "items/bombs/ShrapnelBomb.java"
+      ]
+    },
+    {
+      "key": "WORN_SHORTSWORD",
+      "id": 96,
+      "category": "WEP_TIER1",
+      "rect": [
+        0,
+        96,
+        13,
+        13
+      ],
+      "source_references": [
+        "items/weapon/melee/WornShortsword.java"
+      ]
+    },
+    {
+      "key": "CUDGEL",
+      "id": 97,
+      "category": "WEP_TIER1",
+      "rect": [
+        16,
+        96,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/melee/Cudgel.java"
+      ]
+    },
+    {
+      "key": "GLOVES",
+      "id": 98,
+      "category": "WEP_TIER1",
+      "rect": [
+        32,
+        96,
+        12,
+        16
+      ],
+      "source_references": [
+        "items/weapon/melee/Gloves.java"
+      ]
+    },
+    {
+      "key": "RAPIER",
+      "id": 99,
+      "category": "WEP_TIER1",
+      "rect": [
+        48,
+        96,
+        13,
+        14
+      ],
+      "source_references": [
+        "items/weapon/melee/Rapier.java"
+      ]
+    },
+    {
+      "key": "DAGGER",
+      "id": 100,
+      "category": "WEP_TIER1",
+      "rect": [
+        64,
+        96,
+        12,
+        13
+      ],
+      "source_references": [
+        "items/weapon/melee/Dagger.java"
+      ]
+    },
+    {
+      "key": "MAGES_STAFF",
+      "id": 101,
+      "category": "WEP_TIER1",
+      "rect": [
+        80,
+        96,
+        15,
+        16
+      ],
+      "source_references": [
+        "items/weapon/melee/MagesStaff.java"
+      ]
+    },
+    {
+      "key": "SHORTSWORD",
+      "id": 104,
+      "category": "WEP_TIER2",
+      "rect": [
+        128,
+        96,
+        13,
+        13
+      ],
+      "source_references": [
+        "items/weapon/melee/Shortsword.java"
+      ]
+    },
+    {
+      "key": "HAND_AXE",
+      "id": 105,
+      "category": "WEP_TIER2",
+      "rect": [
+        144,
+        96,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/weapon/melee/HandAxe.java"
+      ]
+    },
+    {
+      "key": "SPEAR",
+      "id": 106,
+      "category": "WEP_TIER2",
+      "rect": [
+        160,
+        96,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/weapon/melee/Spear.java"
+      ]
+    },
+    {
+      "key": "QUARTERSTAFF",
+      "id": 107,
+      "category": "WEP_TIER2",
+      "rect": [
+        176,
+        96,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/weapon/melee/Quarterstaff.java"
+      ]
+    },
+    {
+      "key": "DIRK",
+      "id": 108,
+      "category": "WEP_TIER2",
+      "rect": [
+        192,
+        96,
+        13,
+        14
+      ],
+      "source_references": [
+        "items/weapon/melee/Dirk.java"
+      ]
+    },
+    {
+      "key": "SICKLE",
+      "id": 109,
+      "category": "WEP_TIER2",
+      "rect": [
+        208,
+        96,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/melee/Sickle.java"
+      ]
+    },
+    {
+      "key": "SWORD",
+      "id": 112,
+      "category": "WEP_TIER3",
+      "rect": [
+        0,
+        112,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/weapon/melee/Sword.java"
+      ]
+    },
+    {
+      "key": "MACE",
+      "id": 113,
+      "category": "WEP_TIER3",
+      "rect": [
+        16,
+        112,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/melee/Mace.java"
+      ]
+    },
+    {
+      "key": "SCIMITAR",
+      "id": 114,
+      "category": "WEP_TIER3",
+      "rect": [
+        32,
+        112,
+        13,
+        16
+      ],
+      "source_references": [
+        "items/weapon/melee/Scimitar.java"
+      ]
+    },
+    {
+      "key": "ROUND_SHIELD",
+      "id": 115,
+      "category": "WEP_TIER3",
+      "rect": [
+        48,
+        112,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/weapon/melee/RoundShield.java"
+      ]
+    },
+    {
+      "key": "SAI",
+      "id": 116,
+      "category": "WEP_TIER3",
+      "rect": [
+        64,
+        112,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/weapon/melee/Sai.java"
+      ]
+    },
+    {
+      "key": "WHIP",
+      "id": 117,
+      "category": "WEP_TIER3",
+      "rect": [
+        80,
+        112,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/weapon/melee/Whip.java"
+      ]
+    },
+    {
+      "key": "LONGSWORD",
+      "id": 120,
+      "category": "WEP_TIER4",
+      "rect": [
+        128,
+        112,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/melee/Longsword.java"
+      ]
+    },
+    {
+      "key": "BATTLE_AXE",
+      "id": 121,
+      "category": "WEP_TIER4",
+      "rect": [
+        144,
+        112,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/weapon/melee/BattleAxe.java"
+      ]
+    },
+    {
+      "key": "FLAIL",
+      "id": 122,
+      "category": "WEP_TIER4",
+      "rect": [
+        160,
+        112,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/weapon/melee/Flail.java"
+      ]
+    },
+    {
+      "key": "RUNIC_BLADE",
+      "id": 123,
+      "category": "WEP_TIER4",
+      "rect": [
+        176,
+        112,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/weapon/melee/RunicBlade.java"
+      ]
+    },
+    {
+      "key": "ASSASSINS_BLADE",
+      "id": 124,
+      "category": "WEP_TIER4",
+      "rect": [
+        192,
+        112,
+        14,
+        15
+      ],
+      "source_references": [
+        "items/weapon/melee/AssassinsBlade.java"
+      ]
+    },
+    {
+      "key": "CROSSBOW",
+      "id": 125,
+      "category": "WEP_TIER4",
+      "rect": [
+        208,
+        112,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/melee/Crossbow.java"
+      ]
+    },
+    {
+      "key": "KATANA",
+      "id": 126,
+      "category": "WEP_TIER4",
+      "rect": [
+        224,
+        112,
+        15,
+        16
+      ],
+      "source_references": [
+        "items/weapon/melee/Katana.java"
+      ]
+    },
+    {
+      "key": "GREATSWORD",
+      "id": 128,
+      "category": "WEP_TIER5",
+      "rect": [
+        0,
+        128,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/weapon/melee/Greatsword.java"
+      ]
+    },
+    {
+      "key": "WAR_HAMMER",
+      "id": 129,
+      "category": "WEP_TIER5",
+      "rect": [
+        16,
+        128,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/weapon/melee/WarHammer.java"
+      ]
+    },
+    {
+      "key": "GLAIVE",
+      "id": 130,
+      "category": "WEP_TIER5",
+      "rect": [
+        32,
+        128,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/weapon/melee/Glaive.java"
+      ]
+    },
+    {
+      "key": "GREATAXE",
+      "id": 131,
+      "category": "WEP_TIER5",
+      "rect": [
+        48,
+        128,
+        12,
+        16
+      ],
+      "source_references": [
+        "items/weapon/melee/Greataxe.java"
+      ]
+    },
+    {
+      "key": "GREATSHIELD",
+      "id": 132,
+      "category": "WEP_TIER5",
+      "rect": [
+        64,
+        128,
+        12,
+        16
+      ],
+      "source_references": [
+        "items/weapon/melee/Greatshield.java"
+      ]
+    },
+    {
+      "key": "GAUNTLETS",
+      "id": 133,
+      "category": "WEP_TIER5",
+      "rect": [
+        80,
+        128,
+        13,
+        15
+      ],
+      "source_references": [
+        "items/weapon/melee/Gauntlet.java"
+      ]
+    },
+    {
+      "key": "WAR_SCYTHE",
+      "id": 134,
+      "category": "WEP_TIER5",
+      "rect": [
+        96,
+        128,
+        14,
+        15
+      ],
+      "source_references": [
+        "items/weapon/melee/WarScythe.java"
+      ]
+    },
+    {
+      "key": "SPIRIT_BOW",
+      "id": 144,
+      "category": "MISSILE_WEP",
+      "rect": [
+        0,
+        144,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/weapon/SpiritBow.java"
+      ]
+    },
+    {
+      "key": "THROWING_SPIKE",
+      "id": 145,
+      "category": "MISSILE_WEP",
+      "rect": [
+        16,
+        144,
+        11,
+        10
+      ],
+      "source_references": [
+        "items/weapon/missiles/ThrowingSpike.java"
+      ]
+    },
+    {
+      "key": "THROWING_KNIFE",
+      "id": 146,
+      "category": "MISSILE_WEP",
+      "rect": [
+        32,
+        144,
+        12,
+        13
+      ],
+      "source_references": [
+        "items/weapon/missiles/ThrowingKnife.java"
+      ]
+    },
+    {
+      "key": "THROWING_STONE",
+      "id": 147,
+      "category": "MISSILE_WEP",
+      "rect": [
+        48,
+        144,
+        12,
+        10
+      ],
+      "source_references": [
+        "items/weapon/missiles/ThrowingStone.java"
+      ]
+    },
+    {
+      "key": "FISHING_SPEAR",
+      "id": 148,
+      "category": "MISSILE_WEP",
+      "rect": [
+        64,
+        144,
+        11,
+        11
+      ],
+      "source_references": [
+        "items/weapon/missiles/FishingSpear.java"
+      ]
+    },
+    {
+      "key": "SHURIKEN",
+      "id": 149,
+      "category": "MISSILE_WEP",
+      "rect": [
+        80,
+        144,
+        12,
+        12
+      ],
+      "source_references": [
+        "items/weapon/missiles/Shuriken.java"
+      ]
+    },
+    {
+      "key": "THROWING_CLUB",
+      "id": 150,
+      "category": "MISSILE_WEP",
+      "rect": [
+        96,
+        144,
+        12,
+        12
+      ],
+      "source_references": [
+        "items/weapon/missiles/ThrowingClub.java"
+      ]
+    },
+    {
+      "key": "THROWING_SPEAR",
+      "id": 151,
+      "category": "MISSILE_WEP",
+      "rect": [
+        112,
+        144,
+        13,
+        13
+      ],
+      "source_references": [
+        "items/weapon/missiles/ThrowingSpear.java"
+      ]
+    },
+    {
+      "key": "BOLAS",
+      "id": 152,
+      "category": "MISSILE_WEP",
+      "rect": [
+        128,
+        144,
+        15,
+        14
+      ],
+      "source_references": [
+        "items/weapon/missiles/Bolas.java"
+      ]
+    },
+    {
+      "key": "KUNAI",
+      "id": 153,
+      "category": "MISSILE_WEP",
+      "rect": [
+        144,
+        144,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/missiles/Kunai.java"
+      ]
+    },
+    {
+      "key": "JAVELIN",
+      "id": 154,
+      "category": "MISSILE_WEP",
+      "rect": [
+        160,
+        144,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/weapon/missiles/Javelin.java"
+      ]
+    },
+    {
+      "key": "TOMAHAWK",
+      "id": 155,
+      "category": "MISSILE_WEP",
+      "rect": [
+        176,
+        144,
+        13,
+        13
+      ],
+      "source_references": [
+        "items/weapon/missiles/Tomahawk.java"
+      ]
+    },
+    {
+      "key": "BOOMERANG",
+      "id": 156,
+      "category": "MISSILE_WEP",
+      "rect": [
+        192,
+        144,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/weapon/missiles/HeavyBoomerang.java"
+      ]
+    },
+    {
+      "key": "TRIDENT",
+      "id": 157,
+      "category": "MISSILE_WEP",
+      "rect": [
+        208,
+        144,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/weapon/missiles/Trident.java"
+      ]
+    },
+    {
+      "key": "THROWING_HAMMER",
+      "id": 158,
+      "category": "MISSILE_WEP",
+      "rect": [
+        224,
+        144,
+        12,
+        12
+      ],
+      "source_references": [
+        "items/weapon/missiles/ThrowingHammer.java"
+      ]
+    },
+    {
+      "key": "FORCE_CUBE",
+      "id": 159,
+      "category": "MISSILE_WEP",
+      "rect": [
+        240,
+        144,
+        11,
+        12
+      ],
+      "source_references": [
+        "items/weapon/missiles/ForceCube.java"
+      ]
+    },
+    {
+      "key": "DARTS",
+      "id": 160,
+      "category": "DARTS",
+      "rect": [
+        0,
+        160,
+        15,
+        15
+      ],
+      "source_references": []
+    },
+    {
+      "key": "DART",
+      "id": 160,
+      "category": "DARTS",
+      "rect": [
+        0,
+        160,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/missiles/darts/Dart.java"
+      ]
+    },
+    {
+      "key": "ROT_DART",
+      "id": 161,
+      "category": "DARTS",
+      "rect": [
+        16,
+        160,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/missiles/darts/RotDart.java"
+      ]
+    },
+    {
+      "key": "INCENDIARY_DART",
+      "id": 162,
+      "category": "DARTS",
+      "rect": [
+        32,
+        160,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/missiles/darts/IncendiaryDart.java"
+      ]
+    },
+    {
+      "key": "ADRENALINE_DART",
+      "id": 163,
+      "category": "DARTS",
+      "rect": [
+        48,
+        160,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/missiles/darts/AdrenalineDart.java"
+      ]
+    },
+    {
+      "key": "HEALING_DART",
+      "id": 164,
+      "category": "DARTS",
+      "rect": [
+        64,
+        160,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/missiles/darts/HealingDart.java"
+      ]
+    },
+    {
+      "key": "CHILLING_DART",
+      "id": 165,
+      "category": "DARTS",
+      "rect": [
+        80,
+        160,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/missiles/darts/ChillingDart.java"
+      ]
+    },
+    {
+      "key": "SHOCKING_DART",
+      "id": 166,
+      "category": "DARTS",
+      "rect": [
+        96,
+        160,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/missiles/darts/ShockingDart.java"
+      ]
+    },
+    {
+      "key": "POISON_DART",
+      "id": 167,
+      "category": "DARTS",
+      "rect": [
+        112,
+        160,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/missiles/darts/PoisonDart.java"
+      ]
+    },
+    {
+      "key": "CLEANSING_DART",
+      "id": 168,
+      "category": "DARTS",
+      "rect": [
+        128,
+        160,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/missiles/darts/CleansingDart.java"
+      ]
+    },
+    {
+      "key": "PARALYTIC_DART",
+      "id": 169,
+      "category": "DARTS",
+      "rect": [
+        144,
+        160,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/missiles/darts/ParalyticDart.java"
+      ]
+    },
+    {
+      "key": "HOLY_DART",
+      "id": 170,
+      "category": "DARTS",
+      "rect": [
+        160,
+        160,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/missiles/darts/HolyDart.java"
+      ]
+    },
+    {
+      "key": "DISPLACING_DART",
+      "id": 171,
+      "category": "DARTS",
+      "rect": [
+        176,
+        160,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/missiles/darts/DisplacingDart.java"
+      ]
+    },
+    {
+      "key": "BLINDING_DART",
+      "id": 172,
+      "category": "DARTS",
+      "rect": [
+        192,
+        160,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/weapon/missiles/darts/BlindingDart.java"
+      ]
+    },
+    {
+      "key": "ARMOR_CLOTH",
+      "id": 176,
+      "category": "ARMOR",
+      "rect": [
+        0,
+        176,
+        15,
+        12
+      ],
+      "source_references": [
+        "items/armor/ClothArmor.java"
+      ]
+    },
+    {
+      "key": "ARMOR_LEATHER",
+      "id": 177,
+      "category": "ARMOR",
+      "rect": [
+        16,
+        176,
+        14,
+        13
+      ],
+      "source_references": [
+        "items/armor/LeatherArmor.java"
+      ]
+    },
+    {
+      "key": "ARMOR_MAIL",
+      "id": 178,
+      "category": "ARMOR",
+      "rect": [
+        32,
+        176,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/armor/MailArmor.java"
+      ]
+    },
+    {
+      "key": "ARMOR_SCALE",
+      "id": 179,
+      "category": "ARMOR",
+      "rect": [
+        48,
+        176,
+        14,
+        11
+      ],
+      "source_references": [
+        "items/armor/ScaleArmor.java"
+      ]
+    },
+    {
+      "key": "ARMOR_PLATE",
+      "id": 180,
+      "category": "ARMOR",
+      "rect": [
+        64,
+        176,
+        12,
+        12
+      ],
+      "source_references": [
+        "items/armor/PlateArmor.java"
+      ]
+    },
+    {
+      "key": "ARMOR_WARRIOR",
+      "id": 181,
+      "category": "ARMOR",
+      "rect": [
+        80,
+        176,
+        12,
+        12
+      ],
+      "source_references": [
+        "items/armor/WarriorArmor.java"
+      ]
+    },
+    {
+      "key": "ARMOR_MAGE",
+      "id": 182,
+      "category": "ARMOR",
+      "rect": [
+        96,
+        176,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/armor/MageArmor.java"
+      ]
+    },
+    {
+      "key": "ARMOR_ROGUE",
+      "id": 183,
+      "category": "ARMOR",
+      "rect": [
+        112,
+        176,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/armor/RogueArmor.java"
+      ]
+    },
+    {
+      "key": "ARMOR_HUNTRESS",
+      "id": 184,
+      "category": "ARMOR",
+      "rect": [
+        128,
+        176,
+        13,
+        15
+      ],
+      "source_references": [
+        "items/armor/HuntressArmor.java"
+      ]
+    },
+    {
+      "key": "ARMOR_DUELIST",
+      "id": 185,
+      "category": "ARMOR",
+      "rect": [
+        144,
+        176,
+        12,
+        13
+      ],
+      "source_references": [
+        "items/armor/DuelistArmor.java"
+      ]
+    },
+    {
+      "key": "ARMOR_CLERIC",
+      "id": 186,
+      "category": "ARMOR",
+      "rect": [
+        160,
+        176,
+        13,
+        14
+      ],
+      "source_references": [
+        "items/armor/ClericArmor.java"
+      ]
+    },
+    {
+      "key": "WAND_MAGIC_MISSILE",
+      "id": 208,
+      "category": "WANDS",
+      "rect": [
+        0,
+        208,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/wands/WandOfMagicMissile.java"
+      ]
+    },
+    {
+      "key": "WAND_FIREBOLT",
+      "id": 209,
+      "category": "WANDS",
+      "rect": [
+        16,
+        208,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/wands/WandOfFireblast.java"
+      ]
+    },
+    {
+      "key": "WAND_FROST",
+      "id": 210,
+      "category": "WANDS",
+      "rect": [
+        32,
+        208,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/wands/WandOfFrost.java"
+      ]
+    },
+    {
+      "key": "WAND_LIGHTNING",
+      "id": 211,
+      "category": "WANDS",
+      "rect": [
+        48,
+        208,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/wands/WandOfLightning.java"
+      ]
+    },
+    {
+      "key": "WAND_DISINTEGRATION",
+      "id": 212,
+      "category": "WANDS",
+      "rect": [
+        64,
+        208,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/wands/WandOfDisintegration.java"
+      ]
+    },
+    {
+      "key": "WAND_PRISMATIC_LIGHT",
+      "id": 213,
+      "category": "WANDS",
+      "rect": [
+        80,
+        208,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/wands/WandOfPrismaticLight.java"
+      ]
+    },
+    {
+      "key": "WAND_CORROSION",
+      "id": 214,
+      "category": "WANDS",
+      "rect": [
+        96,
+        208,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/wands/WandOfCorrosion.java"
+      ]
+    },
+    {
+      "key": "WAND_LIVING_EARTH",
+      "id": 215,
+      "category": "WANDS",
+      "rect": [
+        112,
+        208,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/wands/WandOfLivingEarth.java"
+      ]
+    },
+    {
+      "key": "WAND_BLAST_WAVE",
+      "id": 216,
+      "category": "WANDS",
+      "rect": [
+        128,
+        208,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/wands/WandOfBlastWave.java"
+      ]
+    },
+    {
+      "key": "WAND_CORRUPTION",
+      "id": 217,
+      "category": "WANDS",
+      "rect": [
+        144,
+        208,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/wands/WandOfCorruption.java"
+      ]
+    },
+    {
+      "key": "WAND_WARDING",
+      "id": 218,
+      "category": "WANDS",
+      "rect": [
+        160,
+        208,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/wands/WandOfWarding.java"
+      ]
+    },
+    {
+      "key": "WAND_REGROWTH",
+      "id": 219,
+      "category": "WANDS",
+      "rect": [
+        176,
+        208,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/wands/WandOfRegrowth.java"
+      ]
+    },
+    {
+      "key": "WAND_TRANSFUSION",
+      "id": 220,
+      "category": "WANDS",
+      "rect": [
+        192,
+        208,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/wands/WandOfTransfusion.java"
+      ]
+    },
+    {
+      "key": "RING_GARNET",
+      "id": 224,
+      "category": "RINGS",
+      "rect": [
+        0,
+        224,
+        8,
+        10
+      ],
+      "source_references": [
+        "items/rings/Ring.java"
+      ]
+    },
+    {
+      "key": "RING_RUBY",
+      "id": 225,
+      "category": "RINGS",
+      "rect": [
+        16,
+        224,
+        8,
+        10
+      ],
+      "source_references": [
+        "items/rings/Ring.java"
+      ]
+    },
+    {
+      "key": "RING_TOPAZ",
+      "id": 226,
+      "category": "RINGS",
+      "rect": [
+        32,
+        224,
+        8,
+        10
+      ],
+      "source_references": [
+        "items/rings/Ring.java"
+      ]
+    },
+    {
+      "key": "RING_EMERALD",
+      "id": 227,
+      "category": "RINGS",
+      "rect": [
+        48,
+        224,
+        8,
+        10
+      ],
+      "source_references": [
+        "items/rings/Ring.java"
+      ]
+    },
+    {
+      "key": "RING_ONYX",
+      "id": 228,
+      "category": "RINGS",
+      "rect": [
+        64,
+        224,
+        8,
+        10
+      ],
+      "source_references": [
+        "items/rings/Ring.java"
+      ]
+    },
+    {
+      "key": "RING_OPAL",
+      "id": 229,
+      "category": "RINGS",
+      "rect": [
+        80,
+        224,
+        8,
+        10
+      ],
+      "source_references": [
+        "items/rings/Ring.java"
+      ]
+    },
+    {
+      "key": "RING_TOURMALINE",
+      "id": 230,
+      "category": "RINGS",
+      "rect": [
+        96,
+        224,
+        8,
+        10
+      ],
+      "source_references": [
+        "items/rings/Ring.java"
+      ]
+    },
+    {
+      "key": "RING_SAPPHIRE",
+      "id": 231,
+      "category": "RINGS",
+      "rect": [
+        112,
+        224,
+        8,
+        10
+      ],
+      "source_references": [
+        "items/rings/Ring.java"
+      ]
+    },
+    {
+      "key": "RING_AMETHYST",
+      "id": 232,
+      "category": "RINGS",
+      "rect": [
+        128,
+        224,
+        8,
+        10
+      ],
+      "source_references": [
+        "items/rings/Ring.java"
+      ]
+    },
+    {
+      "key": "RING_QUARTZ",
+      "id": 233,
+      "category": "RINGS",
+      "rect": [
+        144,
+        224,
+        8,
+        10
+      ],
+      "source_references": [
+        "items/rings/Ring.java"
+      ]
+    },
+    {
+      "key": "RING_AGATE",
+      "id": 234,
+      "category": "RINGS",
+      "rect": [
+        160,
+        224,
+        8,
+        10
+      ],
+      "source_references": [
+        "items/rings/Ring.java"
+      ]
+    },
+    {
+      "key": "RING_DIAMOND",
+      "id": 235,
+      "category": "RINGS",
+      "rect": [
+        176,
+        224,
+        8,
+        10
+      ],
+      "source_references": [
+        "items/rings/Ring.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_CLOAK",
+      "id": 240,
+      "category": "ARTIFACTS",
+      "rect": [
+        0,
+        240,
+        9,
+        15
+      ],
+      "source_references": [
+        "items/artifacts/CloakOfShadows.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_ARMBAND",
+      "id": 241,
+      "category": "ARTIFACTS",
+      "rect": [
+        16,
+        240,
+        16,
+        13
+      ],
+      "source_references": [
+        "items/artifacts/MasterThievesArmband.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_CAPE",
+      "id": 242,
+      "category": "ARTIFACTS",
+      "rect": [
+        32,
+        240,
+        16,
+        14
+      ],
+      "source_references": [
+        "items/artifacts/CapeOfThorns.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_TALISMAN",
+      "id": 243,
+      "category": "ARTIFACTS",
+      "rect": [
+        48,
+        240,
+        15,
+        13
+      ],
+      "source_references": [
+        "items/artifacts/TalismanOfForesight.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_HOURGLASS",
+      "id": 244,
+      "category": "ARTIFACTS",
+      "rect": [
+        64,
+        240,
+        13,
+        16
+      ],
+      "source_references": [
+        "items/artifacts/TimekeepersHourglass.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_TOOLKIT",
+      "id": 245,
+      "category": "ARTIFACTS",
+      "rect": [
+        80,
+        240,
+        15,
+        13
+      ],
+      "source_references": [
+        "items/artifacts/AlchemistsToolkit.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_SPELLBOOK",
+      "id": 246,
+      "category": "ARTIFACTS",
+      "rect": [
+        96,
+        240,
+        13,
+        16
+      ],
+      "source_references": [
+        "items/artifacts/UnstableSpellbook.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_BEACON",
+      "id": 247,
+      "category": "ARTIFACTS",
+      "rect": [
+        112,
+        240,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/artifacts/LloydsBeacon.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_CHAINS",
+      "id": 248,
+      "category": "ARTIFACTS",
+      "rect": [
+        128,
+        240,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/artifacts/EtherealChains.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_HORN1",
+      "id": 249,
+      "category": "ARTIFACTS",
+      "rect": [
+        144,
+        240,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/artifacts/HornOfPlenty.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_HORN2",
+      "id": 250,
+      "category": "ARTIFACTS",
+      "rect": [
+        160,
+        240,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/artifacts/HornOfPlenty.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_HORN3",
+      "id": 251,
+      "category": "ARTIFACTS",
+      "rect": [
+        176,
+        240,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/artifacts/HornOfPlenty.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_HORN4",
+      "id": 252,
+      "category": "ARTIFACTS",
+      "rect": [
+        192,
+        240,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/artifacts/HornOfPlenty.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_CHALICE1",
+      "id": 253,
+      "category": "ARTIFACTS",
+      "rect": [
+        208,
+        240,
+        12,
+        15
+      ],
+      "source_references": [
+        "items/artifacts/ChaliceOfBlood.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_CHALICE2",
+      "id": 254,
+      "category": "ARTIFACTS",
+      "rect": [
+        224,
+        240,
+        12,
+        15
+      ],
+      "source_references": [
+        "items/artifacts/ChaliceOfBlood.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_CHALICE3",
+      "id": 255,
+      "category": "ARTIFACTS",
+      "rect": [
+        240,
+        240,
+        12,
+        15
+      ],
+      "source_references": [
+        "items/artifacts/ChaliceOfBlood.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_SANDALS",
+      "id": 256,
+      "category": "ARTIFACTS",
+      "rect": [
+        0,
+        256,
+        16,
+        6
+      ],
+      "source_references": [
+        "items/artifacts/SandalsOfNature.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_SHOES",
+      "id": 257,
+      "category": "ARTIFACTS",
+      "rect": [
+        16,
+        256,
+        16,
+        6
+      ],
+      "source_references": [
+        "items/artifacts/SandalsOfNature.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_BOOTS",
+      "id": 258,
+      "category": "ARTIFACTS",
+      "rect": [
+        32,
+        256,
+        16,
+        9
+      ],
+      "source_references": [
+        "items/artifacts/SandalsOfNature.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_GREAVES",
+      "id": 259,
+      "category": "ARTIFACTS",
+      "rect": [
+        48,
+        256,
+        16,
+        14
+      ],
+      "source_references": [
+        "items/artifacts/SandalsOfNature.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_ROSE1",
+      "id": 260,
+      "category": "ARTIFACTS",
+      "rect": [
+        64,
+        256,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/artifacts/DriedRose.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_ROSE2",
+      "id": 261,
+      "category": "ARTIFACTS",
+      "rect": [
+        80,
+        256,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/artifacts/DriedRose.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_ROSE3",
+      "id": 262,
+      "category": "ARTIFACTS",
+      "rect": [
+        96,
+        256,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/artifacts/DriedRose.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_TOME",
+      "id": 263,
+      "category": "ARTIFACTS",
+      "rect": [
+        112,
+        256,
+        14,
+        16
+      ],
+      "source_references": [
+        "items/artifacts/HolyTome.java"
+      ]
+    },
+    {
+      "key": "ARTIFACT_KEY",
+      "id": 264,
+      "category": "ARTIFACTS",
+      "rect": [
+        128,
+        256,
+        8,
+        16
+      ],
+      "source_references": [
+        "items/artifacts/SkeletonKey.java"
+      ]
+    },
+    {
+      "key": "RAT_SKULL",
+      "id": 272,
+      "category": "TRINKETS",
+      "rect": [
+        0,
+        272,
+        16,
+        11
+      ],
+      "source_references": [
+        "items/trinkets/RatSkull.java"
+      ]
+    },
+    {
+      "key": "PARCHMENT_SCRAP",
+      "id": 273,
+      "category": "TRINKETS",
+      "rect": [
+        16,
+        272,
+        10,
+        14
+      ],
+      "source_references": [
+        "items/trinkets/ParchmentScrap.java"
+      ]
+    },
+    {
+      "key": "PETRIFIED_SEED",
+      "id": 274,
+      "category": "TRINKETS",
+      "rect": [
+        32,
+        272,
+        9,
+        9
+      ],
+      "source_references": [
+        "items/trinkets/PetrifiedSeed.java"
+      ]
+    },
+    {
+      "key": "EXOTIC_CRYSTALS",
+      "id": 275,
+      "category": "TRINKETS",
+      "rect": [
+        48,
+        272,
+        15,
+        13
+      ],
+      "source_references": [
+        "items/trinkets/ExoticCrystals.java"
+      ]
+    },
+    {
+      "key": "MOSSY_CLUMP",
+      "id": 276,
+      "category": "TRINKETS",
+      "rect": [
+        64,
+        272,
+        12,
+        11
+      ],
+      "source_references": [
+        "items/trinkets/MossyClump.java"
+      ]
+    },
+    {
+      "key": "SUNDIAL",
+      "id": 277,
+      "category": "TRINKETS",
+      "rect": [
+        80,
+        272,
+        16,
+        12
+      ],
+      "source_references": [
+        "items/trinkets/DimensionalSundial.java"
+      ]
+    },
+    {
+      "key": "CLOVER",
+      "id": 278,
+      "category": "TRINKETS",
+      "rect": [
+        96,
+        272,
+        11,
+        15
+      ],
+      "source_references": [
+        "items/trinkets/ThirteenLeafClover.java"
+      ]
+    },
+    {
+      "key": "TRAP_MECHANISM",
+      "id": 279,
+      "category": "TRINKETS",
+      "rect": [
+        112,
+        272,
+        13,
+        15
+      ],
+      "source_references": [
+        "items/trinkets/TrapMechanism.java"
+      ]
+    },
+    {
+      "key": "MIMIC_TOOTH",
+      "id": 280,
+      "category": "TRINKETS",
+      "rect": [
+        128,
+        272,
+        8,
+        15
+      ],
+      "source_references": [
+        "items/trinkets/MimicTooth.java"
+      ]
+    },
+    {
+      "key": "WONDROUS_RESIN",
+      "id": 281,
+      "category": "TRINKETS",
+      "rect": [
+        144,
+        272,
+        12,
+        11
+      ],
+      "source_references": [
+        "items/trinkets/WondrousResin.java"
+      ]
+    },
+    {
+      "key": "EYE_OF_NEWT",
+      "id": 282,
+      "category": "TRINKETS",
+      "rect": [
+        160,
+        272,
+        12,
+        12
+      ],
+      "source_references": [
+        "items/trinkets/EyeOfNewt.java"
+      ]
+    },
+    {
+      "key": "SALT_CUBE",
+      "id": 283,
+      "category": "TRINKETS",
+      "rect": [
+        176,
+        272,
+        12,
+        13
+      ],
+      "source_references": [
+        "items/trinkets/SaltCube.java"
+      ]
+    },
+    {
+      "key": "BLOOD_VIAL",
+      "id": 284,
+      "category": "TRINKETS",
+      "rect": [
+        192,
+        272,
+        6,
+        15
+      ],
+      "source_references": [
+        "items/trinkets/VialOfBlood.java"
+      ]
+    },
+    {
+      "key": "OBLIVION_SHARD",
+      "id": 285,
+      "category": "TRINKETS",
+      "rect": [
+        208,
+        272,
+        7,
+        14
+      ],
+      "source_references": [
+        "items/trinkets/ShardOfOblivion.java"
+      ]
+    },
+    {
+      "key": "CHAOTIC_CENSER",
+      "id": 286,
+      "category": "TRINKETS",
+      "rect": [
+        224,
+        272,
+        13,
+        15
+      ],
+      "source_references": [
+        "items/trinkets/ChaoticCenser.java"
+      ]
+    },
+    {
+      "key": "FERRET_TUFT",
+      "id": 287,
+      "category": "TRINKETS",
+      "rect": [
+        240,
+        272,
+        16,
+        15
+      ],
+      "source_references": [
+        "items/trinkets/FerretTuft.java"
+      ]
+    },
+    {
+      "key": "SPYGLASS",
+      "id": 288,
+      "category": "TRINKETS",
+      "rect": [
+        0,
+        288,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/trinkets/CrackedSpyglass.java"
+      ]
+    },
+    {
+      "key": "SCROLL_KAUNAN",
+      "id": 304,
+      "category": "SCROLLS",
+      "rect": [
+        0,
+        304,
+        15,
+        14
+      ],
+      "source_references": [
+        "items/scrolls/Scroll.java"
+      ]
+    },
+    {
+      "key": "SCROLL_SOWILO",
+      "id": 305,
+      "category": "SCROLLS",
+      "rect": [
+        16,
+        304,
+        15,
+        14
+      ],
+      "source_references": [
+        "items/scrolls/Scroll.java"
+      ]
+    },
+    {
+      "key": "SCROLL_LAGUZ",
+      "id": 306,
+      "category": "SCROLLS",
+      "rect": [
+        32,
+        304,
+        15,
+        14
+      ],
+      "source_references": [
+        "items/scrolls/Scroll.java"
+      ]
+    },
+    {
+      "key": "SCROLL_YNGVI",
+      "id": 307,
+      "category": "SCROLLS",
+      "rect": [
+        48,
+        304,
+        15,
+        14
+      ],
+      "source_references": [
+        "items/scrolls/Scroll.java"
+      ]
+    },
+    {
+      "key": "SCROLL_GYFU",
+      "id": 308,
+      "category": "SCROLLS",
+      "rect": [
+        64,
+        304,
+        15,
+        14
+      ],
+      "source_references": [
+        "items/scrolls/Scroll.java"
+      ]
+    },
+    {
+      "key": "SCROLL_RAIDO",
+      "id": 309,
+      "category": "SCROLLS",
+      "rect": [
+        80,
+        304,
+        15,
+        14
+      ],
+      "source_references": [
+        "items/scrolls/Scroll.java"
+      ]
+    },
+    {
+      "key": "SCROLL_ISAZ",
+      "id": 310,
+      "category": "SCROLLS",
+      "rect": [
+        96,
+        304,
+        15,
+        14
+      ],
+      "source_references": [
+        "items/scrolls/Scroll.java"
+      ]
+    },
+    {
+      "key": "SCROLL_MANNAZ",
+      "id": 311,
+      "category": "SCROLLS",
+      "rect": [
+        112,
+        304,
+        15,
+        14
+      ],
+      "source_references": [
+        "items/scrolls/Scroll.java"
+      ]
+    },
+    {
+      "key": "SCROLL_NAUDIZ",
+      "id": 312,
+      "category": "SCROLLS",
+      "rect": [
+        128,
+        304,
+        15,
+        14
+      ],
+      "source_references": [
+        "items/scrolls/Scroll.java"
+      ]
+    },
+    {
+      "key": "SCROLL_BERKANAN",
+      "id": 313,
+      "category": "SCROLLS",
+      "rect": [
+        144,
+        304,
+        15,
+        14
+      ],
+      "source_references": [
+        "items/scrolls/Scroll.java"
+      ]
+    },
+    {
+      "key": "SCROLL_ODAL",
+      "id": 314,
+      "category": "SCROLLS",
+      "rect": [
+        160,
+        304,
+        15,
+        14
+      ],
+      "source_references": [
+        "items/scrolls/Scroll.java"
+      ]
+    },
+    {
+      "key": "SCROLL_TIWAZ",
+      "id": 315,
+      "category": "SCROLLS",
+      "rect": [
+        176,
+        304,
+        15,
+        14
+      ],
+      "source_references": [
+        "items/scrolls/Scroll.java"
+      ]
+    },
+    {
+      "key": "ARCANE_RESIN",
+      "id": 317,
+      "category": "SCROLLS",
+      "rect": [
+        208,
+        304,
+        12,
+        11
+      ],
+      "source_references": [
+        "items/ArcaneResin.java"
+      ]
+    },
+    {
+      "key": "EXOTIC_KAUNAN",
+      "id": 320,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        0,
+        320,
+        15,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_SOWILO",
+      "id": 321,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        16,
+        320,
+        15,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_LAGUZ",
+      "id": 322,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        32,
+        320,
+        15,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_YNGVI",
+      "id": 323,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        48,
+        320,
+        15,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_GYFU",
+      "id": 324,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        64,
+        320,
+        15,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_RAIDO",
+      "id": 325,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        80,
+        320,
+        15,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_ISAZ",
+      "id": 326,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        96,
+        320,
+        15,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_MANNAZ",
+      "id": 327,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        112,
+        320,
+        15,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_NAUDIZ",
+      "id": 328,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        128,
+        320,
+        15,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_BERKANAN",
+      "id": 329,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        144,
+        320,
+        15,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_ODAL",
+      "id": 330,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        160,
+        320,
+        15,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_TIWAZ",
+      "id": 331,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        176,
+        320,
+        15,
+        14
+      ],
+      "source_references": []
+    },
+    {
+      "key": "STONE_AGGRESSION",
+      "id": 336,
+      "category": "STONES",
+      "rect": [
+        0,
+        336,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/stones/StoneOfAggression.java"
+      ]
+    },
+    {
+      "key": "STONE_AUGMENTATION",
+      "id": 337,
+      "category": "STONES",
+      "rect": [
+        16,
+        336,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/stones/StoneOfAugmentation.java"
+      ]
+    },
+    {
+      "key": "STONE_FEAR",
+      "id": 338,
+      "category": "STONES",
+      "rect": [
+        32,
+        336,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/stones/StoneOfFear.java"
+      ]
+    },
+    {
+      "key": "STONE_BLAST",
+      "id": 339,
+      "category": "STONES",
+      "rect": [
+        48,
+        336,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/stones/StoneOfBlast.java"
+      ]
+    },
+    {
+      "key": "STONE_BLINK",
+      "id": 340,
+      "category": "STONES",
+      "rect": [
+        64,
+        336,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/stones/StoneOfBlink.java"
+      ]
+    },
+    {
+      "key": "STONE_CLAIRVOYANCE",
+      "id": 341,
+      "category": "STONES",
+      "rect": [
+        80,
+        336,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/stones/StoneOfClairvoyance.java"
+      ]
+    },
+    {
+      "key": "STONE_SLEEP",
+      "id": 342,
+      "category": "STONES",
+      "rect": [
+        96,
+        336,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/stones/StoneOfDeepSleep.java"
+      ]
+    },
+    {
+      "key": "STONE_DETECT",
+      "id": 343,
+      "category": "STONES",
+      "rect": [
+        112,
+        336,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/stones/StoneOfDetectMagic.java"
+      ]
+    },
+    {
+      "key": "STONE_ENCHANT",
+      "id": 344,
+      "category": "STONES",
+      "rect": [
+        128,
+        336,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/stones/StoneOfEnchantment.java"
+      ]
+    },
+    {
+      "key": "STONE_FLOCK",
+      "id": 345,
+      "category": "STONES",
+      "rect": [
+        144,
+        336,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/stones/StoneOfFlock.java"
+      ]
+    },
+    {
+      "key": "STONE_INTUITION",
+      "id": 346,
+      "category": "STONES",
+      "rect": [
+        160,
+        336,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/stones/StoneOfIntuition.java"
+      ]
+    },
+    {
+      "key": "STONE_SHOCK",
+      "id": 347,
+      "category": "STONES",
+      "rect": [
+        176,
+        336,
+        14,
+        12
+      ],
+      "source_references": [
+        "items/stones/StoneOfShock.java"
+      ]
+    },
+    {
+      "key": "POTION_CRIMSON",
+      "id": 352,
+      "category": "POTIONS",
+      "rect": [
+        0,
+        352,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/Potion.java"
+      ]
+    },
+    {
+      "key": "POTION_AMBER",
+      "id": 353,
+      "category": "POTIONS",
+      "rect": [
+        16,
+        352,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/Potion.java"
+      ]
+    },
+    {
+      "key": "POTION_GOLDEN",
+      "id": 354,
+      "category": "POTIONS",
+      "rect": [
+        32,
+        352,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/Potion.java"
+      ]
+    },
+    {
+      "key": "POTION_JADE",
+      "id": 355,
+      "category": "POTIONS",
+      "rect": [
+        48,
+        352,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/Potion.java"
+      ]
+    },
+    {
+      "key": "POTION_TURQUOISE",
+      "id": 356,
+      "category": "POTIONS",
+      "rect": [
+        64,
+        352,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/Potion.java"
+      ]
+    },
+    {
+      "key": "POTION_AZURE",
+      "id": 357,
+      "category": "POTIONS",
+      "rect": [
+        80,
+        352,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/Potion.java"
+      ]
+    },
+    {
+      "key": "POTION_INDIGO",
+      "id": 358,
+      "category": "POTIONS",
+      "rect": [
+        96,
+        352,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/Potion.java"
+      ]
+    },
+    {
+      "key": "POTION_MAGENTA",
+      "id": 359,
+      "category": "POTIONS",
+      "rect": [
+        112,
+        352,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/Potion.java"
+      ]
+    },
+    {
+      "key": "POTION_BISTRE",
+      "id": 360,
+      "category": "POTIONS",
+      "rect": [
+        128,
+        352,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/Potion.java"
+      ]
+    },
+    {
+      "key": "POTION_CHARCOAL",
+      "id": 361,
+      "category": "POTIONS",
+      "rect": [
+        144,
+        352,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/Potion.java"
+      ]
+    },
+    {
+      "key": "POTION_SILVER",
+      "id": 362,
+      "category": "POTIONS",
+      "rect": [
+        160,
+        352,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/Potion.java"
+      ]
+    },
+    {
+      "key": "POTION_IVORY",
+      "id": 363,
+      "category": "POTIONS",
+      "rect": [
+        176,
+        352,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/Potion.java"
+      ]
+    },
+    {
+      "key": "LIQUID_METAL",
+      "id": 365,
+      "category": "POTIONS",
+      "rect": [
+        208,
+        352,
+        8,
+        15
+      ],
+      "source_references": [
+        "items/LiquidMetal.java"
+      ]
+    },
+    {
+      "key": "EXOTIC_CRIMSON",
+      "id": 368,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        0,
+        368,
+        12,
+        13
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_AMBER",
+      "id": 369,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        16,
+        368,
+        12,
+        13
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_GOLDEN",
+      "id": 370,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        32,
+        368,
+        12,
+        13
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_JADE",
+      "id": 371,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        48,
+        368,
+        12,
+        13
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_TURQUOISE",
+      "id": 372,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        64,
+        368,
+        12,
+        13
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_AZURE",
+      "id": 373,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        80,
+        368,
+        12,
+        13
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_INDIGO",
+      "id": 374,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        96,
+        368,
+        12,
+        13
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_MAGENTA",
+      "id": 375,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        112,
+        368,
+        12,
+        13
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_BISTRE",
+      "id": 376,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        128,
+        368,
+        12,
+        13
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_CHARCOAL",
+      "id": 377,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        144,
+        368,
+        12,
+        13
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_SILVER",
+      "id": 378,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        160,
+        368,
+        12,
+        13
+      ],
+      "source_references": []
+    },
+    {
+      "key": "EXOTIC_IVORY",
+      "id": 379,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        176,
+        368,
+        12,
+        13
+      ],
+      "source_references": []
+    },
+    {
+      "key": "SEED_ROTBERRY",
+      "id": 384,
+      "category": "SEEDS",
+      "rect": [
+        0,
+        384,
+        10,
+        10
+      ],
+      "source_references": []
+    },
+    {
+      "key": "SEED_FIREBLOOM",
+      "id": 385,
+      "category": "SEEDS",
+      "rect": [
+        16,
+        384,
+        10,
+        10
+      ],
+      "source_references": []
+    },
+    {
+      "key": "SEED_SWIFTTHISTLE",
+      "id": 386,
+      "category": "SEEDS",
+      "rect": [
+        32,
+        384,
+        10,
+        10
+      ],
+      "source_references": []
+    },
+    {
+      "key": "SEED_SUNGRASS",
+      "id": 387,
+      "category": "SEEDS",
+      "rect": [
+        48,
+        384,
+        10,
+        10
+      ],
+      "source_references": []
+    },
+    {
+      "key": "SEED_ICECAP",
+      "id": 388,
+      "category": "SEEDS",
+      "rect": [
+        64,
+        384,
+        10,
+        10
+      ],
+      "source_references": []
+    },
+    {
+      "key": "SEED_STORMVINE",
+      "id": 389,
+      "category": "SEEDS",
+      "rect": [
+        80,
+        384,
+        10,
+        10
+      ],
+      "source_references": []
+    },
+    {
+      "key": "SEED_SORROWMOSS",
+      "id": 390,
+      "category": "SEEDS",
+      "rect": [
+        96,
+        384,
+        10,
+        10
+      ],
+      "source_references": []
+    },
+    {
+      "key": "SEED_MAGEROYAL",
+      "id": 391,
+      "category": "SEEDS",
+      "rect": [
+        112,
+        384,
+        10,
+        10
+      ],
+      "source_references": []
+    },
+    {
+      "key": "SEED_EARTHROOT",
+      "id": 392,
+      "category": "SEEDS",
+      "rect": [
+        128,
+        384,
+        10,
+        10
+      ],
+      "source_references": []
+    },
+    {
+      "key": "SEED_STARFLOWER",
+      "id": 393,
+      "category": "SEEDS",
+      "rect": [
+        144,
+        384,
+        10,
+        10
+      ],
+      "source_references": []
+    },
+    {
+      "key": "SEED_FADELEAF",
+      "id": 394,
+      "category": "SEEDS",
+      "rect": [
+        160,
+        384,
+        10,
+        10
+      ],
+      "source_references": []
+    },
+    {
+      "key": "SEED_BLINDWEED",
+      "id": 395,
+      "category": "SEEDS",
+      "rect": [
+        176,
+        384,
+        10,
+        10
+      ],
+      "source_references": []
+    },
+    {
+      "key": "BREW_INFERNAL",
+      "id": 400,
+      "category": "BREWS",
+      "rect": [
+        0,
+        400,
+        11,
+        13
+      ],
+      "source_references": [
+        "items/potions/brews/InfernalBrew.java"
+      ]
+    },
+    {
+      "key": "BREW_BLIZZARD",
+      "id": 401,
+      "category": "BREWS",
+      "rect": [
+        16,
+        400,
+        11,
+        13
+      ],
+      "source_references": [
+        "items/potions/brews/BlizzardBrew.java"
+      ]
+    },
+    {
+      "key": "BREW_SHOCKING",
+      "id": 402,
+      "category": "BREWS",
+      "rect": [
+        32,
+        400,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/brews/ShockingBrew.java"
+      ]
+    },
+    {
+      "key": "BREW_CAUSTIC",
+      "id": 403,
+      "category": "BREWS",
+      "rect": [
+        48,
+        400,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/brews/CausticBrew.java"
+      ]
+    },
+    {
+      "key": "BREW_AQUA",
+      "id": 404,
+      "category": "BREWS",
+      "rect": [
+        64,
+        400,
+        9,
+        11
+      ],
+      "source_references": [
+        "items/potions/brews/AquaBrew.java"
+      ]
+    },
+    {
+      "key": "BREW_UNSTABLE",
+      "id": 405,
+      "category": "BREWS",
+      "rect": [
+        80,
+        400,
+        11,
+        13
+      ],
+      "source_references": [
+        "items/potions/brews/UnstableBrew.java"
+      ]
+    },
+    {
+      "key": "ELIXIR_HONEY",
+      "id": 408,
+      "category": "ELIXIRS",
+      "rect": [
+        128,
+        400,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/elixirs/ElixirOfHoneyedHealing.java"
+      ]
+    },
+    {
+      "key": "ELIXIR_AQUA",
+      "id": 409,
+      "category": "ELIXIRS",
+      "rect": [
+        144,
+        400,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/elixirs/ElixirOfAquaticRejuvenation.java"
+      ]
+    },
+    {
+      "key": "ELIXIR_MIGHT",
+      "id": 410,
+      "category": "ELIXIRS",
+      "rect": [
+        160,
+        400,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/elixirs/ElixirOfMight.java"
+      ]
+    },
+    {
+      "key": "ELIXIR_DRAGON",
+      "id": 411,
+      "category": "ELIXIRS",
+      "rect": [
+        176,
+        400,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/elixirs/ElixirOfDragonsBlood.java"
+      ]
+    },
+    {
+      "key": "ELIXIR_TOXIC",
+      "id": 412,
+      "category": "ELIXIRS",
+      "rect": [
+        192,
+        400,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/elixirs/ElixirOfToxicEssence.java"
+      ]
+    },
+    {
+      "key": "ELIXIR_ICY",
+      "id": 413,
+      "category": "ELIXIRS",
+      "rect": [
+        208,
+        400,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/elixirs/ElixirOfIcyTouch.java"
+      ]
+    },
+    {
+      "key": "ELIXIR_ARCANE",
+      "id": 414,
+      "category": "ELIXIRS",
+      "rect": [
+        224,
+        400,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/elixirs/ElixirOfArcaneArmor.java"
+      ]
+    },
+    {
+      "key": "ELIXIR_FEATHER",
+      "id": 415,
+      "category": "ELIXIRS",
+      "rect": [
+        240,
+        400,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/potions/elixirs/ElixirOfFeatherFall.java"
+      ]
+    },
+    {
+      "key": "WILD_ENERGY",
+      "id": 416,
+      "category": "SPELLS",
+      "rect": [
+        0,
+        416,
+        6,
+        15
+      ],
+      "source_references": [
+        "items/spells/WildEnergy.java"
+      ]
+    },
+    {
+      "key": "PHASE_SHIFT",
+      "id": 417,
+      "category": "SPELLS",
+      "rect": [
+        16,
+        416,
+        12,
+        10
+      ],
+      "source_references": [
+        "items/spells/PhaseShift.java"
+      ]
+    },
+    {
+      "key": "TELE_GRAB",
+      "id": 418,
+      "category": "SPELLS",
+      "rect": [
+        32,
+        416,
+        10,
+        10
+      ],
+      "source_references": [
+        "items/spells/TelekineticGrab.java"
+      ]
+    },
+    {
+      "key": "UNSTABLE_SPELL",
+      "id": 419,
+      "category": "SPELLS",
+      "rect": [
+        48,
+        416,
+        12,
+        13
+      ],
+      "source_references": [
+        "items/spells/UnstableSpell.java"
+      ]
+    },
+    {
+      "key": "CURSE_INFUSE",
+      "id": 420,
+      "category": "SPELLS",
+      "rect": [
+        64,
+        416,
+        10,
+        16
+      ],
+      "source_references": [
+        "items/spells/CurseInfusion.java"
+      ]
+    },
+    {
+      "key": "MAGIC_INFUSE",
+      "id": 421,
+      "category": "SPELLS",
+      "rect": [
+        80,
+        416,
+        10,
+        14
+      ],
+      "source_references": [
+        "items/spells/MagicalInfusion.java"
+      ]
+    },
+    {
+      "key": "ALCHEMIZE",
+      "id": 422,
+      "category": "SPELLS",
+      "rect": [
+        96,
+        416,
+        12,
+        12
+      ],
+      "source_references": [
+        "items/spells/Alchemize.java"
+      ]
+    },
+    {
+      "key": "RECYCLE",
+      "id": 423,
+      "category": "SPELLS",
+      "rect": [
+        112,
+        416,
+        12,
+        13
+      ],
+      "source_references": [
+        "items/spells/Recycle.java"
+      ]
+    },
+    {
+      "key": "RECLAIM_TRAP",
+      "id": 424,
+      "category": "SPELLS",
+      "rect": [
+        128,
+        416,
+        14,
+        11
+      ],
+      "source_references": [
+        "items/spells/ReclaimTrap.java"
+      ]
+    },
+    {
+      "key": "RETURN_BEACON",
+      "id": 425,
+      "category": "SPELLS",
+      "rect": [
+        144,
+        416,
+        8,
+        16
+      ],
+      "source_references": [
+        "items/quest/VaultBeacon.java",
+        "items/spells/BeaconOfReturning.java"
+      ]
+    },
+    {
+      "key": "SUMMON_ELE",
+      "id": 426,
+      "category": "SPELLS",
+      "rect": [
+        160,
+        416,
+        8,
+        16
+      ],
+      "source_references": [
+        "items/spells/SummonElemental.java"
+      ]
+    },
+    {
+      "key": "SUMMON_ELE_FIRE",
+      "id": 427,
+      "category": "SPELLS",
+      "rect": [
+        176,
+        416,
+        8,
+        16
+      ],
+      "source_references": [
+        "items/spells/SummonElemental.java"
+      ]
+    },
+    {
+      "key": "SUMMON_ELE_FROST",
+      "id": 428,
+      "category": "SPELLS",
+      "rect": [
+        192,
+        416,
+        8,
+        16
+      ],
+      "source_references": [
+        "items/spells/SummonElemental.java"
+      ]
+    },
+    {
+      "key": "SUMMON_ELE_SHOCK",
+      "id": 429,
+      "category": "SPELLS",
+      "rect": [
+        208,
+        416,
+        8,
+        16
+      ],
+      "source_references": [
+        "items/spells/SummonElemental.java"
+      ]
+    },
+    {
+      "key": "SUMMON_ELE_CHAOS",
+      "id": 430,
+      "category": "SPELLS",
+      "rect": [
+        224,
+        416,
+        8,
+        16
+      ],
+      "source_references": [
+        "items/spells/SummonElemental.java"
+      ]
+    },
+    {
+      "key": "MEAT",
+      "id": 432,
+      "category": "FOOD",
+      "rect": [
+        0,
+        432,
+        15,
+        11
+      ],
+      "source_references": [
+        "items/food/MysteryMeat.java"
+      ]
+    },
+    {
+      "key": "STEAK",
+      "id": 433,
+      "category": "FOOD",
+      "rect": [
+        16,
+        432,
+        15,
+        11
+      ],
+      "source_references": [
+        "items/food/ChargrilledMeat.java"
+      ]
+    },
+    {
+      "key": "STEWED",
+      "id": 434,
+      "category": "FOOD",
+      "rect": [
+        32,
+        432,
+        15,
+        11
+      ],
+      "source_references": [
+        "items/food/StewedMeat.java"
+      ]
+    },
+    {
+      "key": "OVERPRICED",
+      "id": 435,
+      "category": "FOOD",
+      "rect": [
+        48,
+        432,
+        14,
+        11
+      ],
+      "source_references": [
+        "items/food/SmallRation.java"
+      ]
+    },
+    {
+      "key": "CARPACCIO",
+      "id": 436,
+      "category": "FOOD",
+      "rect": [
+        64,
+        432,
+        15,
+        11
+      ],
+      "source_references": [
+        "items/food/FrozenCarpaccio.java"
+      ]
+    },
+    {
+      "key": "RATION",
+      "id": 437,
+      "category": "FOOD",
+      "rect": [
+        80,
+        432,
+        16,
+        12
+      ],
+      "source_references": [
+        "items/food/Food.java"
+      ]
+    },
+    {
+      "key": "PASTY",
+      "id": 438,
+      "category": "FOOD",
+      "rect": [
+        96,
+        432,
+        16,
+        11
+      ],
+      "source_references": [
+        "items/food/Pasty.java"
+      ]
+    },
+    {
+      "key": "MEAT_PIE",
+      "id": 439,
+      "category": "FOOD",
+      "rect": [
+        112,
+        432,
+        16,
+        12
+      ],
+      "source_references": [
+        "items/food/MeatPie.java"
+      ]
+    },
+    {
+      "key": "BLANDFRUIT",
+      "id": 440,
+      "category": "FOOD",
+      "rect": [
+        128,
+        432,
+        9,
+        12
+      ],
+      "source_references": [
+        "items/food/Blandfruit.java"
+      ]
+    },
+    {
+      "key": "BLAND_CHUNKS",
+      "id": 441,
+      "category": "FOOD",
+      "rect": [
+        144,
+        432,
+        14,
+        6
+      ],
+      "source_references": [
+        "items/food/Blandfruit.java"
+      ]
+    },
+    {
+      "key": "BERRY",
+      "id": 442,
+      "category": "FOOD",
+      "rect": [
+        160,
+        432,
+        9,
+        11
+      ],
+      "source_references": [
+        "items/food/Berry.java"
+      ]
+    },
+    {
+      "key": "PHANTOM_MEAT",
+      "id": 443,
+      "category": "FOOD",
+      "rect": [
+        176,
+        432,
+        15,
+        11
+      ],
+      "source_references": [
+        "items/food/PhantomMeat.java"
+      ]
+    },
+    {
+      "key": "SUPPLY_RATION",
+      "id": 444,
+      "category": "FOOD",
+      "rect": [
+        192,
+        432,
+        16,
+        12
+      ],
+      "source_references": [
+        "items/food/SupplyRation.java"
+      ]
+    },
+    {
+      "key": "STEAMED_FISH",
+      "id": 448,
+      "category": "HOLIDAY_FOOD",
+      "rect": [
+        0,
+        448,
+        16,
+        12
+      ],
+      "source_references": [
+        "items/food/Pasty.java"
+      ]
+    },
+    {
+      "key": "FISH_LEFTOVER",
+      "id": 449,
+      "category": "HOLIDAY_FOOD",
+      "rect": [
+        16,
+        448,
+        16,
+        12
+      ],
+      "source_references": [
+        "items/food/Pasty.java"
+      ]
+    },
+    {
+      "key": "CHOC_AMULET",
+      "id": 450,
+      "category": "HOLIDAY_FOOD",
+      "rect": [
+        32,
+        448,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/food/Pasty.java"
+      ]
+    },
+    {
+      "key": "EASTER_EGG",
+      "id": 451,
+      "category": "HOLIDAY_FOOD",
+      "rect": [
+        48,
+        448,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/food/Pasty.java"
+      ]
+    },
+    {
+      "key": "RAINBOW_POTION",
+      "id": 452,
+      "category": "HOLIDAY_FOOD",
+      "rect": [
+        64,
+        448,
+        12,
+        14
+      ],
+      "source_references": [
+        "items/food/Pasty.java"
+      ]
+    },
+    {
+      "key": "SHATTERED_CAKE",
+      "id": 453,
+      "category": "HOLIDAY_FOOD",
+      "rect": [
+        80,
+        448,
+        14,
+        13
+      ],
+      "source_references": [
+        "items/food/Pasty.java"
+      ]
+    },
+    {
+      "key": "PUMPKIN_PIE",
+      "id": 454,
+      "category": "HOLIDAY_FOOD",
+      "rect": [
+        96,
+        448,
+        16,
+        12
+      ],
+      "source_references": [
+        "items/food/Pasty.java"
+      ]
+    },
+    {
+      "key": "VANILLA_CAKE",
+      "id": 455,
+      "category": "HOLIDAY_FOOD",
+      "rect": [
+        112,
+        448,
+        14,
+        13
+      ],
+      "source_references": [
+        "items/food/Pasty.java"
+      ]
+    },
+    {
+      "key": "CANDY_CANE",
+      "id": 456,
+      "category": "HOLIDAY_FOOD",
+      "rect": [
+        128,
+        448,
+        13,
+        16
+      ],
+      "source_references": [
+        "items/food/Pasty.java"
+      ]
+    },
+    {
+      "key": "SPARKLING_POTION",
+      "id": 457,
+      "category": "HOLIDAY_FOOD",
+      "rect": [
+        144,
+        448,
+        7,
+        16
+      ],
+      "source_references": [
+        "items/food/Pasty.java"
+      ]
+    },
+    {
+      "key": "DUST",
+      "id": 465,
+      "category": "QUEST",
+      "rect": [
+        16,
+        464,
+        12,
+        11
+      ],
+      "source_references": [
+        "items/quest/CorpseDust.java"
+      ]
+    },
+    {
+      "key": "CANDLE",
+      "id": 466,
+      "category": "QUEST",
+      "rect": [
+        32,
+        464,
+        12,
+        12
+      ],
+      "source_references": [
+        "items/quest/CeremonialCandle.java"
+      ]
+    },
+    {
+      "key": "EMBER",
+      "id": 467,
+      "category": "QUEST",
+      "rect": [
+        48,
+        464,
+        12,
+        11
+      ],
+      "source_references": [
+        "items/quest/Embers.java"
+      ]
+    },
+    {
+      "key": "PICKAXE",
+      "id": 468,
+      "category": "QUEST",
+      "rect": [
+        64,
+        464,
+        14,
+        14
+      ],
+      "source_references": [
+        "items/quest/Pickaxe.java"
+      ]
+    },
+    {
+      "key": "ORE",
+      "id": 469,
+      "category": "QUEST",
+      "rect": [
+        80,
+        464,
+        15,
+        15
+      ],
+      "source_references": [
+        "items/quest/DarkGold.java"
+      ]
+    },
+    {
+      "key": "TOKEN",
+      "id": 470,
+      "category": "QUEST",
+      "rect": [
+        96,
+        464,
+        12,
+        12
+      ],
+      "source_references": [
+        "items/quest/DwarfToken.java"
+      ]
+    },
+    {
+      "key": "BLOB",
+      "id": 471,
+      "category": "QUEST",
+      "rect": [
+        112,
+        464,
+        10,
+        9
+      ],
+      "source_references": [
+        "items/quest/GooBlob.java"
+      ]
+    },
+    {
+      "key": "SHARD",
+      "id": 472,
+      "category": "QUEST",
+      "rect": [
+        128,
+        464,
+        8,
+        10
+      ],
+      "source_references": [
+        "items/quest/MetalShard.java"
+      ]
+    },
+    {
+      "key": "ESCAPE",
+      "id": 473,
+      "category": "QUEST",
+      "rect": [
+        144,
+        464,
+        8,
+        16
+      ],
+      "source_references": [
+        "items/quest/EscapeCrystal.java"
+      ]
+    },
+    {
+      "key": "STATUE",
+      "id": 474,
+      "category": "QUEST",
+      "rect": [
+        160,
+        464,
+        10,
+        16
+      ],
+      "source_references": [
+        "items/quest/ImpStatue.java"
+      ]
+    },
+    {
+      "key": "WATERSKIN",
+      "id": 480,
+      "category": "BAGS",
+      "rect": [
+        0,
+        480,
+        16,
+        14
+      ],
+      "source_references": [
+        "items/Waterskin.java"
+      ]
+    },
+    {
+      "key": "BACKPACK",
+      "id": 481,
+      "category": "BAGS",
+      "rect": [
+        16,
+        480,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/LostBackpack.java"
+      ]
+    },
+    {
+      "key": "POUCH",
+      "id": 482,
+      "category": "BAGS",
+      "rect": [
+        32,
+        480,
+        14,
+        15
+      ],
+      "source_references": [
+        "items/bags/VelvetPouch.java"
+      ]
+    },
+    {
+      "key": "HOLDER",
+      "id": 483,
+      "category": "BAGS",
+      "rect": [
+        48,
+        480,
+        16,
+        16
+      ],
+      "source_references": [
+        "items/bags/ScrollHolder.java"
+      ]
+    },
+    {
+      "key": "BANDOLIER",
+      "id": 484,
+      "category": "BAGS",
+      "rect": [
+        64,
+        480,
+        15,
+        16
+      ],
+      "source_references": [
+        "items/bags/PotionBandolier.java"
+      ]
+    },
+    {
+      "key": "HOLSTER",
+      "id": 485,
+      "category": "BAGS",
+      "rect": [
+        80,
+        480,
+        15,
+        16
+      ],
+      "source_references": [
+        "items/bags/MagicalHolster.java"
+      ]
+    },
+    {
+      "key": "VIAL",
+      "id": 486,
+      "category": "BAGS",
+      "rect": [
+        96,
+        480,
+        12,
+        12
+      ],
+      "source_references": []
+    },
+    {
+      "key": "GUIDE_PAGE",
+      "id": 496,
+      "category": "DOCUMENTS",
+      "rect": [
+        0,
+        496,
+        10,
+        11
+      ],
+      "source_references": [
+        "items/journal/GuidePage.java"
+      ]
+    },
+    {
+      "key": "ALCH_PAGE",
+      "id": 497,
+      "category": "DOCUMENTS",
+      "rect": [
+        16,
+        496,
+        10,
+        11
+      ],
+      "source_references": [
+        "items/journal/AlchemyPage.java"
+      ]
+    },
+    {
+      "key": "SEWER_PAGE",
+      "id": 498,
+      "category": "DOCUMENTS",
+      "rect": [
+        32,
+        496,
+        10,
+        11
+      ],
+      "source_references": [
+        "items/journal/RegionLorePage.java"
+      ]
+    },
+    {
+      "key": "PRISON_PAGE",
+      "id": 499,
+      "category": "DOCUMENTS",
+      "rect": [
+        48,
+        496,
+        10,
+        11
+      ],
+      "source_references": [
+        "items/journal/RegionLorePage.java"
+      ]
+    },
+    {
+      "key": "CAVES_PAGE",
+      "id": 500,
+      "category": "DOCUMENTS",
+      "rect": [
+        64,
+        496,
+        10,
+        11
+      ],
+      "source_references": [
+        "items/journal/RegionLorePage.java"
+      ]
+    },
+    {
+      "key": "CITY_PAGE",
+      "id": 501,
+      "category": "DOCUMENTS",
+      "rect": [
+        80,
+        496,
+        10,
+        11
+      ],
+      "source_references": [
+        "items/journal/RegionLorePage.java"
+      ]
+    },
+    {
+      "key": "HALLS_PAGE",
+      "id": 502,
+      "category": "DOCUMENTS",
+      "rect": [
+        96,
+        496,
+        10,
+        11
+      ],
+      "source_references": [
+        "items/journal/RegionLorePage.java"
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "key": "RING_ACCURACY",
+      "id": 0,
+      "category": "RINGS",
+      "rect": [
+        0,
+        0,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/rings/RingOfAccuracy.java"
+      ]
+    },
+    {
+      "key": "RING_ARCANA",
+      "id": 1,
+      "category": "RINGS",
+      "rect": [
+        8,
+        0,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/rings/RingOfArcana.java"
+      ]
+    },
+    {
+      "key": "RING_ELEMENTS",
+      "id": 2,
+      "category": "RINGS",
+      "rect": [
+        16,
+        0,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/rings/RingOfElements.java"
+      ]
+    },
+    {
+      "key": "RING_ENERGY",
+      "id": 3,
+      "category": "RINGS",
+      "rect": [
+        24,
+        0,
+        7,
+        5
+      ],
+      "source_references": [
+        "items/rings/RingOfEnergy.java"
+      ]
+    },
+    {
+      "key": "RING_EVASION",
+      "id": 4,
+      "category": "RINGS",
+      "rect": [
+        32,
+        0,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/rings/RingOfEvasion.java"
+      ]
+    },
+    {
+      "key": "RING_FORCE",
+      "id": 5,
+      "category": "RINGS",
+      "rect": [
+        40,
+        0,
+        5,
+        6
+      ],
+      "source_references": [
+        "items/rings/RingOfForce.java"
+      ]
+    },
+    {
+      "key": "RING_FUROR",
+      "id": 6,
+      "category": "RINGS",
+      "rect": [
+        48,
+        0,
+        7,
+        6
+      ],
+      "source_references": [
+        "items/rings/RingOfFuror.java"
+      ]
+    },
+    {
+      "key": "RING_HASTE",
+      "id": 7,
+      "category": "RINGS",
+      "rect": [
+        56,
+        0,
+        6,
+        6
+      ],
+      "source_references": [
+        "items/rings/RingOfHaste.java"
+      ]
+    },
+    {
+      "key": "RING_MIGHT",
+      "id": 8,
+      "category": "RINGS",
+      "rect": [
+        64,
+        0,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/rings/RingOfMight.java"
+      ]
+    },
+    {
+      "key": "RING_SHARPSHOOT",
+      "id": 9,
+      "category": "RINGS",
+      "rect": [
+        72,
+        0,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/rings/RingOfSharpshooting.java"
+      ]
+    },
+    {
+      "key": "RING_TENACITY",
+      "id": 10,
+      "category": "RINGS",
+      "rect": [
+        80,
+        0,
+        6,
+        6
+      ],
+      "source_references": [
+        "items/rings/RingOfTenacity.java"
+      ]
+    },
+    {
+      "key": "RING_WEALTH",
+      "id": 11,
+      "category": "RINGS",
+      "rect": [
+        88,
+        0,
+        7,
+        6
+      ],
+      "source_references": [
+        "items/rings/RingOfWealth.java"
+      ]
+    },
+    {
+      "key": "SCROLL_UPGRADE",
+      "id": 32,
+      "category": "SCROLLS",
+      "rect": [
+        0,
+        16,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/scrolls/ScrollOfUpgrade.java"
+      ]
+    },
+    {
+      "key": "SCROLL_IDENTIFY",
+      "id": 33,
+      "category": "SCROLLS",
+      "rect": [
+        8,
+        16,
+        4,
+        7
+      ],
+      "source_references": [
+        "items/scrolls/ScrollOfIdentify.java"
+      ]
+    },
+    {
+      "key": "SCROLL_REMCURSE",
+      "id": 34,
+      "category": "SCROLLS",
+      "rect": [
+        16,
+        16,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/scrolls/ScrollOfRemoveCurse.java"
+      ]
+    },
+    {
+      "key": "SCROLL_MIRRORIMG",
+      "id": 35,
+      "category": "SCROLLS",
+      "rect": [
+        24,
+        16,
+        7,
+        5
+      ],
+      "source_references": [
+        "items/scrolls/ScrollOfMirrorImage.java"
+      ]
+    },
+    {
+      "key": "SCROLL_RECHARGE",
+      "id": 36,
+      "category": "SCROLLS",
+      "rect": [
+        32,
+        16,
+        7,
+        5
+      ],
+      "source_references": [
+        "items/scrolls/ScrollOfRecharging.java"
+      ]
+    },
+    {
+      "key": "SCROLL_TELEPORT",
+      "id": 37,
+      "category": "SCROLLS",
+      "rect": [
+        40,
+        16,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/scrolls/ScrollOfTeleportation.java"
+      ]
+    },
+    {
+      "key": "SCROLL_LULLABY",
+      "id": 38,
+      "category": "SCROLLS",
+      "rect": [
+        48,
+        16,
+        7,
+        6
+      ],
+      "source_references": [
+        "items/scrolls/ScrollOfLullaby.java"
+      ]
+    },
+    {
+      "key": "SCROLL_MAGICMAP",
+      "id": 39,
+      "category": "SCROLLS",
+      "rect": [
+        56,
+        16,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/scrolls/ScrollOfMagicMapping.java"
+      ]
+    },
+    {
+      "key": "SCROLL_RAGE",
+      "id": 40,
+      "category": "SCROLLS",
+      "rect": [
+        64,
+        16,
+        6,
+        6
+      ],
+      "source_references": [
+        "items/scrolls/ScrollOfRage.java"
+      ]
+    },
+    {
+      "key": "SCROLL_RETRIB",
+      "id": 41,
+      "category": "SCROLLS",
+      "rect": [
+        72,
+        16,
+        5,
+        6
+      ],
+      "source_references": [
+        "items/scrolls/ScrollOfRetribution.java"
+      ]
+    },
+    {
+      "key": "SCROLL_TERROR",
+      "id": 42,
+      "category": "SCROLLS",
+      "rect": [
+        80,
+        16,
+        5,
+        7
+      ],
+      "source_references": [
+        "items/scrolls/ScrollOfTerror.java"
+      ]
+    },
+    {
+      "key": "SCROLL_TRANSMUTE",
+      "id": 43,
+      "category": "SCROLLS",
+      "rect": [
+        88,
+        16,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/scrolls/ScrollOfTransmutation.java"
+      ]
+    },
+    {
+      "key": "SCROLL_ENCHANT",
+      "id": 48,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        0,
+        24,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/scrolls/exotic/ScrollOfEnchantment.java"
+      ]
+    },
+    {
+      "key": "SCROLL_DIVINATE",
+      "id": 49,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        8,
+        24,
+        7,
+        6
+      ],
+      "source_references": [
+        "items/scrolls/exotic/ScrollOfDivination.java"
+      ]
+    },
+    {
+      "key": "SCROLL_ANTIMAGIC",
+      "id": 50,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        16,
+        24,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/scrolls/exotic/ScrollOfAntiMagic.java"
+      ]
+    },
+    {
+      "key": "SCROLL_PRISIMG",
+      "id": 51,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        24,
+        24,
+        5,
+        7
+      ],
+      "source_references": [
+        "items/scrolls/exotic/ScrollOfPrismaticImage.java"
+      ]
+    },
+    {
+      "key": "SCROLL_MYSTENRG",
+      "id": 52,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        32,
+        24,
+        7,
+        5
+      ],
+      "source_references": [
+        "items/scrolls/exotic/ScrollOfMysticalEnergy.java"
+      ]
+    },
+    {
+      "key": "SCROLL_PASSAGE",
+      "id": 53,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        40,
+        24,
+        5,
+        7
+      ],
+      "source_references": [
+        "items/scrolls/exotic/ScrollOfPassage.java"
+      ]
+    },
+    {
+      "key": "SCROLL_SIREN",
+      "id": 54,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        48,
+        24,
+        7,
+        6
+      ],
+      "source_references": [
+        "items/scrolls/exotic/ScrollOfSirensSong.java"
+      ]
+    },
+    {
+      "key": "SCROLL_FORESIGHT",
+      "id": 55,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        56,
+        24,
+        7,
+        5
+      ],
+      "source_references": [
+        "items/scrolls/exotic/ScrollOfForesight.java"
+      ]
+    },
+    {
+      "key": "SCROLL_CHALLENGE",
+      "id": 56,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        64,
+        24,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/scrolls/exotic/ScrollOfChallenge.java"
+      ]
+    },
+    {
+      "key": "SCROLL_PSIBLAST",
+      "id": 57,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        72,
+        24,
+        5,
+        6
+      ],
+      "source_references": [
+        "items/scrolls/exotic/ScrollOfPsionicBlast.java"
+      ]
+    },
+    {
+      "key": "SCROLL_DREAD",
+      "id": 58,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        80,
+        24,
+        5,
+        7
+      ],
+      "source_references": [
+        "items/scrolls/exotic/ScrollOfDread.java"
+      ]
+    },
+    {
+      "key": "SCROLL_METAMORPH",
+      "id": 59,
+      "category": "EXOTIC_SCROLLS",
+      "rect": [
+        88,
+        24,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/scrolls/exotic/ScrollOfMetamorphosis.java"
+      ]
+    },
+    {
+      "key": "POTION_STRENGTH",
+      "id": 80,
+      "category": "POTIONS",
+      "rect": [
+        0,
+        40,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/potions/PotionOfStrength.java"
+      ]
+    },
+    {
+      "key": "POTION_HEALING",
+      "id": 81,
+      "category": "POTIONS",
+      "rect": [
+        8,
+        40,
+        6,
+        7
+      ],
+      "source_references": [
+        "items/potions/PotionOfHealing.java"
+      ]
+    },
+    {
+      "key": "POTION_MINDVIS",
+      "id": 82,
+      "category": "POTIONS",
+      "rect": [
+        16,
+        40,
+        7,
+        5
+      ],
+      "source_references": [
+        "items/potions/PotionOfMindVision.java"
+      ]
+    },
+    {
+      "key": "POTION_FROST",
+      "id": 83,
+      "category": "POTIONS",
+      "rect": [
+        24,
+        40,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/potions/PotionOfFrost.java"
+      ]
+    },
+    {
+      "key": "POTION_LIQFLAME",
+      "id": 84,
+      "category": "POTIONS",
+      "rect": [
+        32,
+        40,
+        5,
+        7
+      ],
+      "source_references": [
+        "items/potions/PotionOfLiquidFlame.java"
+      ]
+    },
+    {
+      "key": "POTION_TOXICGAS",
+      "id": 85,
+      "category": "POTIONS",
+      "rect": [
+        40,
+        40,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/potions/PotionOfToxicGas.java"
+      ]
+    },
+    {
+      "key": "POTION_HASTE",
+      "id": 86,
+      "category": "POTIONS",
+      "rect": [
+        48,
+        40,
+        6,
+        6
+      ],
+      "source_references": [
+        "items/potions/PotionOfHaste.java"
+      ]
+    },
+    {
+      "key": "POTION_INVIS",
+      "id": 87,
+      "category": "POTIONS",
+      "rect": [
+        56,
+        40,
+        5,
+        7
+      ],
+      "source_references": [
+        "items/potions/PotionOfInvisibility.java"
+      ]
+    },
+    {
+      "key": "POTION_LEVITATE",
+      "id": 88,
+      "category": "POTIONS",
+      "rect": [
+        64,
+        40,
+        6,
+        7
+      ],
+      "source_references": [
+        "items/potions/PotionOfLevitation.java"
+      ]
+    },
+    {
+      "key": "POTION_PARAGAS",
+      "id": 89,
+      "category": "POTIONS",
+      "rect": [
+        72,
+        40,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/potions/PotionOfParalyticGas.java"
+      ]
+    },
+    {
+      "key": "POTION_PURITY",
+      "id": 90,
+      "category": "POTIONS",
+      "rect": [
+        80,
+        40,
+        5,
+        7
+      ],
+      "source_references": [
+        "items/potions/PotionOfPurity.java"
+      ]
+    },
+    {
+      "key": "POTION_EXP",
+      "id": 91,
+      "category": "POTIONS",
+      "rect": [
+        88,
+        40,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/potions/PotionOfExperience.java"
+      ]
+    },
+    {
+      "key": "POTION_MASTERY",
+      "id": 96,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        0,
+        48,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/potions/exotic/PotionOfMastery.java"
+      ]
+    },
+    {
+      "key": "POTION_SHIELDING",
+      "id": 97,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        8,
+        48,
+        6,
+        6
+      ],
+      "source_references": [
+        "items/potions/exotic/PotionOfShielding.java"
+      ]
+    },
+    {
+      "key": "POTION_MAGISIGHT",
+      "id": 98,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        16,
+        48,
+        7,
+        5
+      ],
+      "source_references": [
+        "items/potions/exotic/PotionOfMagicalSight.java"
+      ]
+    },
+    {
+      "key": "POTION_SNAPFREEZ",
+      "id": 99,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        24,
+        48,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/potions/exotic/PotionOfSnapFreeze.java"
+      ]
+    },
+    {
+      "key": "POTION_DRGBREATH",
+      "id": 100,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        32,
+        48,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/potions/exotic/PotionOfDragonsBreath.java"
+      ]
+    },
+    {
+      "key": "POTION_CORROGAS",
+      "id": 101,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        40,
+        48,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/potions/exotic/PotionOfCorrosiveGas.java"
+      ]
+    },
+    {
+      "key": "POTION_STAMINA",
+      "id": 102,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        48,
+        48,
+        6,
+        6
+      ],
+      "source_references": [
+        "items/potions/exotic/PotionOfStamina.java"
+      ]
+    },
+    {
+      "key": "POTION_SHROUDFOG",
+      "id": 103,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        56,
+        48,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/potions/exotic/PotionOfShroudingFog.java"
+      ]
+    },
+    {
+      "key": "POTION_STRMCLOUD",
+      "id": 104,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        64,
+        48,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/potions/exotic/PotionOfStormClouds.java"
+      ]
+    },
+    {
+      "key": "POTION_EARTHARMR",
+      "id": 105,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        72,
+        48,
+        6,
+        6
+      ],
+      "source_references": [
+        "items/potions/exotic/PotionOfEarthenArmor.java"
+      ]
+    },
+    {
+      "key": "POTION_CLEANSE",
+      "id": 106,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        80,
+        48,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/potions/exotic/PotionOfCleansing.java"
+      ]
+    },
+    {
+      "key": "POTION_DIVINE",
+      "id": 107,
+      "category": "EXOTIC_POTIONS",
+      "rect": [
+        88,
+        48,
+        7,
+        7
+      ],
+      "source_references": [
+        "items/potions/exotic/PotionOfDivineInspiration.java"
+      ]
+    }
+  ],
+  "item_slot_rects": [
+    [
+      0,
+      0,
+      8,
+      13
+    ],
+    [
+      16,
+      0,
+      14,
+      14
+    ],
+    [
+      32,
+      0,
+      14,
+      12
+    ],
+    [
+      48,
+      0,
+      15,
+      15
+    ],
+    [
+      64,
+      0,
+      14,
+      14
+    ],
+    [
+      80,
+      0,
+      8,
+      10
+    ],
+    [
+      96,
+      0,
+      15,
+      15
+    ],
+    [
+      112,
+      0,
+      16,
+      11
+    ],
+    [
+      128,
+      0,
+      15,
+      11
+    ],
+    [
+      144,
+      0,
+      10,
+      13
+    ],
+    [
+      160,
+      0,
+      12,
+      14
+    ],
+    [
+      176,
+      0,
+      10,
+      10
+    ],
+    [
+      192,
+      0,
+      15,
+      14
+    ],
+    [
+      208,
+      0,
+      14,
+      12
+    ],
+    [
+      224,
+      0,
+      12,
+      14
+    ],
+    [
+      240,
+      0,
+      8,
+      16
+    ],
+    [
+      0,
+      16,
+      15,
+      14
+    ],
+    [
+      16,
+      16,
+      10,
+      11
+    ],
+    [
+      32,
+      16,
+      15,
+      13
+    ],
+    [
+      48,
+      16,
+      16,
+      16
+    ],
+    [
+      64,
+      16,
+      16,
+      16
+    ],
+    [
+      80,
+      16,
+      10,
+      9
+    ],
+    [
+      96,
+      16,
+      8,
+      8
+    ],
+    [
+      112,
+      16,
+      10,
+      10
+    ],
+    [
+      128,
+      16,
+      11,
+      11
+    ],
+    [
+      144,
+      16,
+      16,
+      16
+    ],
+    [
+      160,
+      16,
+      10,
+      10
+    ],
+    [
+      176,
+      16,
+      10,
+      10
+    ],
+    [
+      192,
+      16,
+      16,
+      15
+    ],
+    [
+      208,
+      16,
+      16,
+      16
+    ],
+    [
+      224,
+      16,
+      16,
+      16
+    ],
+    [
+      240,
+      16,
+      16,
+      16
+    ],
+    [
+      0,
+      32,
+      14,
+      11
+    ],
+    [
+      16,
+      32,
+      14,
+      11
+    ],
+    [
+      32,
+      32,
+      14,
+      15
+    ],
+    [
+      48,
+      32,
+      14,
+      15
+    ],
+    [
+      64,
+      32,
+      16,
+      14
+    ],
+    [
+      80,
+      32,
+      16,
+      14
+    ],
+    [
+      96,
+      32,
+      16,
+      14
+    ],
+    [
+      112,
+      32,
+      16,
+      14
+    ],
+    [
+      128,
+      32,
+      16,
+      16
+    ],
+    [
+      144,
+      32,
+      16,
+      16
+    ],
+    [
+      160,
+      32,
+      16,
+      16
+    ],
+    [
+      176,
+      32,
+      16,
+      16
+    ],
+    [
+      192,
+      32,
+      16,
+      16
+    ],
+    [
+      208,
+      32,
+      16,
+      16
+    ],
+    [
+      224,
+      32,
+      16,
+      16
+    ],
+    [
+      240,
+      32,
+      16,
+      16
+    ],
+    [
+      0,
+      48,
+      10,
+      16
+    ],
+    [
+      16,
+      48,
+      12,
+      13
+    ],
+    [
+      32,
+      48,
+      13,
+      13
+    ],
+    [
+      48,
+      48,
+      12,
+      15
+    ],
+    [
+      64,
+      48,
+      16,
+      15
+    ],
+    [
+      80,
+      48,
+      14,
+      12
+    ],
+    [
+      96,
+      48,
+      14,
+      12
+    ],
+    [
+      112,
+      48,
+      8,
+      14
+    ],
+    [
+      128,
+      48,
+      8,
+      14
+    ],
+    [
+      144,
+      48,
+      8,
+      14
+    ],
+    [
+      160,
+      48,
+      8,
+      14
+    ],
+    [
+      176,
+      48,
+      11,
+      9
+    ],
+    [
+      192,
+      48,
+      13,
+      7
+    ],
+    [
+      208,
+      48,
+      16,
+      16
+    ],
+    [
+      224,
+      48,
+      13,
+      16
+    ],
+    [
+      240,
+      48,
+      16,
+      15
+    ],
+    [
+      0,
+      64,
+      12,
+      12
+    ],
+    [
+      16,
+      64,
+      14,
+      10
+    ],
+    [
+      32,
+      64,
+      9,
+      9
+    ],
+    [
+      48,
+      64,
+      12,
+      9
+    ],
+    [
+      64,
+      64,
+      9,
+      9
+    ],
+    [
+      80,
+      64,
+      11,
+      13
+    ],
+    [
+      96,
+      64,
+      12,
+      11
+    ],
+    [
+      112,
+      64,
+      16,
+      16
+    ],
+    [
+      128,
+      64,
+      16,
+      16
+    ],
+    [
+      144,
+      64,
+      16,
+      16
+    ],
+    [
+      160,
+      64,
+      16,
+      16
+    ],
+    [
+      176,
+      64,
+      16,
+      16
+    ],
+    [
+      192,
+      64,
+      16,
+      16
+    ],
+    [
+      208,
+      64,
+      16,
+      16
+    ],
+    [
+      224,
+      64,
+      16,
+      16
+    ],
+    [
+      240,
+      64,
+      16,
+      16
+    ],
+    [
+      0,
+      80,
+      10,
+      13
+    ],
+    [
+      16,
+      80,
+      14,
+      13
+    ],
+    [
+      32,
+      80,
+      13,
+      12
+    ],
+    [
+      48,
+      80,
+      13,
+      12
+    ],
+    [
+      64,
+      80,
+      13,
+      12
+    ],
+    [
+      80,
+      80,
+      13,
+      12
+    ],
+    [
+      96,
+      80,
+      10,
+      13
+    ],
+    [
+      112,
+      80,
+      10,
+      13
+    ],
+    [
+      128,
+      80,
+      10,
+      13
+    ],
+    [
+      144,
+      80,
+      10,
+      13
+    ],
+    [
+      160,
+      80,
+      10,
+      13
+    ],
+    [
+      176,
+      80,
+      10,
+      13
+    ],
+    [
+      192,
+      80,
+      16,
+      16
+    ],
+    [
+      208,
+      80,
+      16,
+      16
+    ],
+    [
+      224,
+      80,
+      16,
+      16
+    ],
+    [
+      240,
+      80,
+      16,
+      16
+    ],
+    [
+      0,
+      96,
+      13,
+      13
+    ],
+    [
+      16,
+      96,
+      15,
+      15
+    ],
+    [
+      32,
+      96,
+      12,
+      16
+    ],
+    [
+      48,
+      96,
+      13,
+      14
+    ],
+    [
+      64,
+      96,
+      12,
+      13
+    ],
+    [
+      80,
+      96,
+      15,
+      16
+    ],
+    [
+      96,
+      96,
+      16,
+      16
+    ],
+    [
+      112,
+      96,
+      16,
+      16
+    ],
+    [
+      128,
+      96,
+      13,
+      13
+    ],
+    [
+      144,
+      96,
+      12,
+      14
+    ],
+    [
+      160,
+      96,
+      16,
+      16
+    ],
+    [
+      176,
+      96,
+      16,
+      16
+    ],
+    [
+      192,
+      96,
+      13,
+      14
+    ],
+    [
+      208,
+      96,
+      15,
+      15
+    ],
+    [
+      224,
+      96,
+      16,
+      16
+    ],
+    [
+      240,
+      96,
+      16,
+      16
+    ],
+    [
+      0,
+      112,
+      14,
+      14
+    ],
+    [
+      16,
+      112,
+      15,
+      15
+    ],
+    [
+      32,
+      112,
+      13,
+      16
+    ],
+    [
+      48,
+      112,
+      16,
+      16
+    ],
+    [
+      64,
+      112,
+      16,
+      16
+    ],
+    [
+      80,
+      112,
+      14,
+      14
+    ],
+    [
+      96,
+      112,
+      16,
+      16
+    ],
+    [
+      112,
+      112,
+      16,
+      16
+    ],
+    [
+      128,
+      112,
+      15,
+      15
+    ],
+    [
+      144,
+      112,
+      16,
+      16
+    ],
+    [
+      160,
+      112,
+      14,
+      14
+    ],
+    [
+      176,
+      112,
+      14,
+      14
+    ],
+    [
+      192,
+      112,
+      14,
+      15
+    ],
+    [
+      208,
+      112,
+      15,
+      15
+    ],
+    [
+      224,
+      112,
+      15,
+      16
+    ],
+    [
+      240,
+      112,
+      16,
+      16
+    ],
+    [
+      0,
+      128,
+      16,
+      16
+    ],
+    [
+      16,
+      128,
+      16,
+      16
+    ],
+    [
+      32,
+      128,
+      16,
+      16
+    ],
+    [
+      48,
+      128,
+      12,
+      16
+    ],
+    [
+      64,
+      128,
+      12,
+      16
+    ],
+    [
+      80,
+      128,
+      13,
+      15
+    ],
+    [
+      96,
+      128,
+      14,
+      15
+    ],
+    [
+      112,
+      128,
+      16,
+      16
+    ],
+    [
+      128,
+      128,
+      16,
+      16
+    ],
+    [
+      144,
+      128,
+      16,
+      16
+    ],
+    [
+      160,
+      128,
+      16,
+      16
+    ],
+    [
+      176,
+      128,
+      16,
+      16
+    ],
+    [
+      192,
+      128,
+      16,
+      16
+    ],
+    [
+      208,
+      128,
+      16,
+      16
+    ],
+    [
+      224,
+      128,
+      16,
+      16
+    ],
+    [
+      240,
+      128,
+      16,
+      16
+    ],
+    [
+      0,
+      144,
+      16,
+      16
+    ],
+    [
+      16,
+      144,
+      11,
+      10
+    ],
+    [
+      32,
+      144,
+      12,
+      13
+    ],
+    [
+      48,
+      144,
+      12,
+      10
+    ],
+    [
+      64,
+      144,
+      11,
+      11
+    ],
+    [
+      80,
+      144,
+      12,
+      12
+    ],
+    [
+      96,
+      144,
+      12,
+      12
+    ],
+    [
+      112,
+      144,
+      13,
+      13
+    ],
+    [
+      128,
+      144,
+      15,
+      14
+    ],
+    [
+      144,
+      144,
+      15,
+      15
+    ],
+    [
+      160,
+      144,
+      16,
+      16
+    ],
+    [
+      176,
+      144,
+      13,
+      13
+    ],
+    [
+      192,
+      144,
+      14,
+      14
+    ],
+    [
+      208,
+      144,
+      16,
+      16
+    ],
+    [
+      224,
+      144,
+      12,
+      12
+    ],
+    [
+      240,
+      144,
+      11,
+      12
+    ],
+    [
+      0,
+      160,
+      15,
+      15
+    ],
+    [
+      16,
+      160,
+      15,
+      15
+    ],
+    [
+      32,
+      160,
+      15,
+      15
+    ],
+    [
+      48,
+      160,
+      15,
+      15
+    ],
+    [
+      64,
+      160,
+      15,
+      15
+    ],
+    [
+      80,
+      160,
+      15,
+      15
+    ],
+    [
+      96,
+      160,
+      15,
+      15
+    ],
+    [
+      112,
+      160,
+      15,
+      15
+    ],
+    [
+      128,
+      160,
+      15,
+      15
+    ],
+    [
+      144,
+      160,
+      15,
+      15
+    ],
+    [
+      160,
+      160,
+      15,
+      15
+    ],
+    [
+      176,
+      160,
+      15,
+      15
+    ],
+    [
+      192,
+      160,
+      15,
+      15
+    ],
+    [
+      208,
+      160,
+      15,
+      15
+    ],
+    [
+      224,
+      160,
+      15,
+      15
+    ],
+    [
+      240,
+      160,
+      15,
+      15
+    ],
+    [
+      0,
+      176,
+      15,
+      12
+    ],
+    [
+      16,
+      176,
+      14,
+      13
+    ],
+    [
+      32,
+      176,
+      14,
+      12
+    ],
+    [
+      48,
+      176,
+      14,
+      11
+    ],
+    [
+      64,
+      176,
+      12,
+      12
+    ],
+    [
+      80,
+      176,
+      12,
+      12
+    ],
+    [
+      96,
+      176,
+      15,
+      15
+    ],
+    [
+      112,
+      176,
+      14,
+      12
+    ],
+    [
+      128,
+      176,
+      13,
+      15
+    ],
+    [
+      144,
+      176,
+      12,
+      13
+    ],
+    [
+      160,
+      176,
+      13,
+      14
+    ],
+    [
+      176,
+      176,
+      16,
+      16
+    ],
+    [
+      192,
+      176,
+      16,
+      16
+    ],
+    [
+      208,
+      176,
+      16,
+      16
+    ],
+    [
+      224,
+      176,
+      16,
+      16
+    ],
+    [
+      240,
+      176,
+      16,
+      16
+    ],
+    [
+      0,
+      192,
+      16,
+      16
+    ],
+    [
+      16,
+      192,
+      16,
+      16
+    ],
+    [
+      32,
+      192,
+      16,
+      16
+    ],
+    [
+      48,
+      192,
+      16,
+      16
+    ],
+    [
+      64,
+      192,
+      16,
+      16
+    ],
+    [
+      80,
+      192,
+      16,
+      16
+    ],
+    [
+      96,
+      192,
+      16,
+      16
+    ],
+    [
+      112,
+      192,
+      16,
+      16
+    ],
+    [
+      128,
+      192,
+      16,
+      16
+    ],
+    [
+      144,
+      192,
+      16,
+      16
+    ],
+    [
+      160,
+      192,
+      16,
+      16
+    ],
+    [
+      176,
+      192,
+      16,
+      16
+    ],
+    [
+      192,
+      192,
+      16,
+      16
+    ],
+    [
+      208,
+      192,
+      16,
+      16
+    ],
+    [
+      224,
+      192,
+      16,
+      16
+    ],
+    [
+      240,
+      192,
+      16,
+      16
+    ],
+    [
+      0,
+      208,
+      14,
+      14
+    ],
+    [
+      16,
+      208,
+      14,
+      14
+    ],
+    [
+      32,
+      208,
+      14,
+      14
+    ],
+    [
+      48,
+      208,
+      14,
+      14
+    ],
+    [
+      64,
+      208,
+      14,
+      14
+    ],
+    [
+      80,
+      208,
+      14,
+      14
+    ],
+    [
+      96,
+      208,
+      14,
+      14
+    ],
+    [
+      112,
+      208,
+      14,
+      14
+    ],
+    [
+      128,
+      208,
+      14,
+      14
+    ],
+    [
+      144,
+      208,
+      14,
+      14
+    ],
+    [
+      160,
+      208,
+      14,
+      14
+    ],
+    [
+      176,
+      208,
+      14,
+      14
+    ],
+    [
+      192,
+      208,
+      14,
+      14
+    ],
+    [
+      208,
+      208,
+      14,
+      14
+    ],
+    [
+      224,
+      208,
+      14,
+      14
+    ],
+    [
+      240,
+      208,
+      14,
+      14
+    ],
+    [
+      0,
+      224,
+      8,
+      10
+    ],
+    [
+      16,
+      224,
+      8,
+      10
+    ],
+    [
+      32,
+      224,
+      8,
+      10
+    ],
+    [
+      48,
+      224,
+      8,
+      10
+    ],
+    [
+      64,
+      224,
+      8,
+      10
+    ],
+    [
+      80,
+      224,
+      8,
+      10
+    ],
+    [
+      96,
+      224,
+      8,
+      10
+    ],
+    [
+      112,
+      224,
+      8,
+      10
+    ],
+    [
+      128,
+      224,
+      8,
+      10
+    ],
+    [
+      144,
+      224,
+      8,
+      10
+    ],
+    [
+      160,
+      224,
+      8,
+      10
+    ],
+    [
+      176,
+      224,
+      8,
+      10
+    ],
+    [
+      192,
+      224,
+      8,
+      10
+    ],
+    [
+      208,
+      224,
+      8,
+      10
+    ],
+    [
+      224,
+      224,
+      8,
+      10
+    ],
+    [
+      240,
+      224,
+      8,
+      10
+    ],
+    [
+      0,
+      240,
+      9,
+      15
+    ],
+    [
+      16,
+      240,
+      16,
+      13
+    ],
+    [
+      32,
+      240,
+      16,
+      14
+    ],
+    [
+      48,
+      240,
+      15,
+      13
+    ],
+    [
+      64,
+      240,
+      13,
+      16
+    ],
+    [
+      80,
+      240,
+      15,
+      13
+    ],
+    [
+      96,
+      240,
+      13,
+      16
+    ],
+    [
+      112,
+      240,
+      16,
+      16
+    ],
+    [
+      128,
+      240,
+      16,
+      16
+    ],
+    [
+      144,
+      240,
+      15,
+      15
+    ],
+    [
+      160,
+      240,
+      15,
+      15
+    ],
+    [
+      176,
+      240,
+      15,
+      15
+    ],
+    [
+      192,
+      240,
+      15,
+      15
+    ],
+    [
+      208,
+      240,
+      12,
+      15
+    ],
+    [
+      224,
+      240,
+      12,
+      15
+    ],
+    [
+      240,
+      240,
+      12,
+      15
+    ],
+    [
+      0,
+      256,
+      16,
+      6
+    ],
+    [
+      16,
+      256,
+      16,
+      6
+    ],
+    [
+      32,
+      256,
+      16,
+      9
+    ],
+    [
+      48,
+      256,
+      16,
+      14
+    ],
+    [
+      64,
+      256,
+      14,
+      14
+    ],
+    [
+      80,
+      256,
+      14,
+      14
+    ],
+    [
+      96,
+      256,
+      14,
+      14
+    ],
+    [
+      112,
+      256,
+      14,
+      16
+    ],
+    [
+      128,
+      256,
+      8,
+      16
+    ],
+    [
+      144,
+      256,
+      16,
+      16
+    ],
+    [
+      160,
+      256,
+      16,
+      16
+    ],
+    [
+      176,
+      256,
+      16,
+      16
+    ],
+    [
+      192,
+      256,
+      16,
+      16
+    ],
+    [
+      208,
+      256,
+      16,
+      16
+    ],
+    [
+      224,
+      256,
+      16,
+      16
+    ],
+    [
+      240,
+      256,
+      16,
+      16
+    ],
+    [
+      0,
+      272,
+      16,
+      11
+    ],
+    [
+      16,
+      272,
+      10,
+      14
+    ],
+    [
+      32,
+      272,
+      9,
+      9
+    ],
+    [
+      48,
+      272,
+      15,
+      13
+    ],
+    [
+      64,
+      272,
+      12,
+      11
+    ],
+    [
+      80,
+      272,
+      16,
+      12
+    ],
+    [
+      96,
+      272,
+      11,
+      15
+    ],
+    [
+      112,
+      272,
+      13,
+      15
+    ],
+    [
+      128,
+      272,
+      8,
+      15
+    ],
+    [
+      144,
+      272,
+      12,
+      11
+    ],
+    [
+      160,
+      272,
+      12,
+      12
+    ],
+    [
+      176,
+      272,
+      12,
+      13
+    ],
+    [
+      192,
+      272,
+      6,
+      15
+    ],
+    [
+      208,
+      272,
+      7,
+      14
+    ],
+    [
+      224,
+      272,
+      13,
+      15
+    ],
+    [
+      240,
+      272,
+      16,
+      15
+    ],
+    [
+      0,
+      288,
+      15,
+      15
+    ],
+    [
+      16,
+      288,
+      16,
+      16
+    ],
+    [
+      32,
+      288,
+      16,
+      16
+    ],
+    [
+      48,
+      288,
+      16,
+      16
+    ],
+    [
+      64,
+      288,
+      16,
+      16
+    ],
+    [
+      80,
+      288,
+      16,
+      16
+    ],
+    [
+      96,
+      288,
+      16,
+      16
+    ],
+    [
+      112,
+      288,
+      16,
+      16
+    ],
+    [
+      128,
+      288,
+      16,
+      16
+    ],
+    [
+      144,
+      288,
+      16,
+      16
+    ],
+    [
+      160,
+      288,
+      16,
+      16
+    ],
+    [
+      176,
+      288,
+      16,
+      16
+    ],
+    [
+      192,
+      288,
+      16,
+      16
+    ],
+    [
+      208,
+      288,
+      16,
+      16
+    ],
+    [
+      224,
+      288,
+      16,
+      16
+    ],
+    [
+      240,
+      288,
+      16,
+      16
+    ],
+    [
+      0,
+      304,
+      15,
+      14
+    ],
+    [
+      16,
+      304,
+      15,
+      14
+    ],
+    [
+      32,
+      304,
+      15,
+      14
+    ],
+    [
+      48,
+      304,
+      15,
+      14
+    ],
+    [
+      64,
+      304,
+      15,
+      14
+    ],
+    [
+      80,
+      304,
+      15,
+      14
+    ],
+    [
+      96,
+      304,
+      15,
+      14
+    ],
+    [
+      112,
+      304,
+      15,
+      14
+    ],
+    [
+      128,
+      304,
+      15,
+      14
+    ],
+    [
+      144,
+      304,
+      15,
+      14
+    ],
+    [
+      160,
+      304,
+      15,
+      14
+    ],
+    [
+      176,
+      304,
+      15,
+      14
+    ],
+    [
+      192,
+      304,
+      15,
+      14
+    ],
+    [
+      208,
+      304,
+      12,
+      11
+    ],
+    [
+      224,
+      304,
+      15,
+      14
+    ],
+    [
+      240,
+      304,
+      15,
+      14
+    ],
+    [
+      0,
+      320,
+      15,
+      14
+    ],
+    [
+      16,
+      320,
+      15,
+      14
+    ],
+    [
+      32,
+      320,
+      15,
+      14
+    ],
+    [
+      48,
+      320,
+      15,
+      14
+    ],
+    [
+      64,
+      320,
+      15,
+      14
+    ],
+    [
+      80,
+      320,
+      15,
+      14
+    ],
+    [
+      96,
+      320,
+      15,
+      14
+    ],
+    [
+      112,
+      320,
+      15,
+      14
+    ],
+    [
+      128,
+      320,
+      15,
+      14
+    ],
+    [
+      144,
+      320,
+      15,
+      14
+    ],
+    [
+      160,
+      320,
+      15,
+      14
+    ],
+    [
+      176,
+      320,
+      15,
+      14
+    ],
+    [
+      192,
+      320,
+      15,
+      14
+    ],
+    [
+      208,
+      320,
+      15,
+      14
+    ],
+    [
+      224,
+      320,
+      15,
+      14
+    ],
+    [
+      240,
+      320,
+      15,
+      14
+    ],
+    [
+      0,
+      336,
+      14,
+      12
+    ],
+    [
+      16,
+      336,
+      14,
+      12
+    ],
+    [
+      32,
+      336,
+      14,
+      12
+    ],
+    [
+      48,
+      336,
+      14,
+      12
+    ],
+    [
+      64,
+      336,
+      14,
+      12
+    ],
+    [
+      80,
+      336,
+      14,
+      12
+    ],
+    [
+      96,
+      336,
+      14,
+      12
+    ],
+    [
+      112,
+      336,
+      14,
+      12
+    ],
+    [
+      128,
+      336,
+      14,
+      12
+    ],
+    [
+      144,
+      336,
+      14,
+      12
+    ],
+    [
+      160,
+      336,
+      14,
+      12
+    ],
+    [
+      176,
+      336,
+      14,
+      12
+    ],
+    [
+      192,
+      336,
+      14,
+      12
+    ],
+    [
+      208,
+      336,
+      14,
+      12
+    ],
+    [
+      224,
+      336,
+      14,
+      12
+    ],
+    [
+      240,
+      336,
+      14,
+      12
+    ],
+    [
+      0,
+      352,
+      12,
+      14
+    ],
+    [
+      16,
+      352,
+      12,
+      14
+    ],
+    [
+      32,
+      352,
+      12,
+      14
+    ],
+    [
+      48,
+      352,
+      12,
+      14
+    ],
+    [
+      64,
+      352,
+      12,
+      14
+    ],
+    [
+      80,
+      352,
+      12,
+      14
+    ],
+    [
+      96,
+      352,
+      12,
+      14
+    ],
+    [
+      112,
+      352,
+      12,
+      14
+    ],
+    [
+      128,
+      352,
+      12,
+      14
+    ],
+    [
+      144,
+      352,
+      12,
+      14
+    ],
+    [
+      160,
+      352,
+      12,
+      14
+    ],
+    [
+      176,
+      352,
+      12,
+      14
+    ],
+    [
+      192,
+      352,
+      12,
+      14
+    ],
+    [
+      208,
+      352,
+      8,
+      15
+    ],
+    [
+      224,
+      352,
+      12,
+      14
+    ],
+    [
+      240,
+      352,
+      12,
+      14
+    ],
+    [
+      0,
+      368,
+      12,
+      13
+    ],
+    [
+      16,
+      368,
+      12,
+      13
+    ],
+    [
+      32,
+      368,
+      12,
+      13
+    ],
+    [
+      48,
+      368,
+      12,
+      13
+    ],
+    [
+      64,
+      368,
+      12,
+      13
+    ],
+    [
+      80,
+      368,
+      12,
+      13
+    ],
+    [
+      96,
+      368,
+      12,
+      13
+    ],
+    [
+      112,
+      368,
+      12,
+      13
+    ],
+    [
+      128,
+      368,
+      12,
+      13
+    ],
+    [
+      144,
+      368,
+      12,
+      13
+    ],
+    [
+      160,
+      368,
+      12,
+      13
+    ],
+    [
+      176,
+      368,
+      12,
+      13
+    ],
+    [
+      192,
+      368,
+      12,
+      13
+    ],
+    [
+      208,
+      368,
+      12,
+      13
+    ],
+    [
+      224,
+      368,
+      12,
+      13
+    ],
+    [
+      240,
+      368,
+      12,
+      13
+    ],
+    [
+      0,
+      384,
+      10,
+      10
+    ],
+    [
+      16,
+      384,
+      10,
+      10
+    ],
+    [
+      32,
+      384,
+      10,
+      10
+    ],
+    [
+      48,
+      384,
+      10,
+      10
+    ],
+    [
+      64,
+      384,
+      10,
+      10
+    ],
+    [
+      80,
+      384,
+      10,
+      10
+    ],
+    [
+      96,
+      384,
+      10,
+      10
+    ],
+    [
+      112,
+      384,
+      10,
+      10
+    ],
+    [
+      128,
+      384,
+      10,
+      10
+    ],
+    [
+      144,
+      384,
+      10,
+      10
+    ],
+    [
+      160,
+      384,
+      10,
+      10
+    ],
+    [
+      176,
+      384,
+      10,
+      10
+    ],
+    [
+      192,
+      384,
+      10,
+      10
+    ],
+    [
+      208,
+      384,
+      10,
+      10
+    ],
+    [
+      224,
+      384,
+      10,
+      10
+    ],
+    [
+      240,
+      384,
+      10,
+      10
+    ],
+    [
+      0,
+      400,
+      11,
+      13
+    ],
+    [
+      16,
+      400,
+      11,
+      13
+    ],
+    [
+      32,
+      400,
+      12,
+      14
+    ],
+    [
+      48,
+      400,
+      12,
+      14
+    ],
+    [
+      64,
+      400,
+      9,
+      11
+    ],
+    [
+      80,
+      400,
+      11,
+      13
+    ],
+    [
+      96,
+      400,
+      12,
+      14
+    ],
+    [
+      112,
+      400,
+      12,
+      14
+    ],
+    [
+      128,
+      400,
+      12,
+      14
+    ],
+    [
+      144,
+      400,
+      12,
+      14
+    ],
+    [
+      160,
+      400,
+      12,
+      14
+    ],
+    [
+      176,
+      400,
+      12,
+      14
+    ],
+    [
+      192,
+      400,
+      12,
+      14
+    ],
+    [
+      208,
+      400,
+      12,
+      14
+    ],
+    [
+      224,
+      400,
+      12,
+      14
+    ],
+    [
+      240,
+      400,
+      12,
+      14
+    ],
+    [
+      0,
+      416,
+      6,
+      15
+    ],
+    [
+      16,
+      416,
+      12,
+      10
+    ],
+    [
+      32,
+      416,
+      10,
+      10
+    ],
+    [
+      48,
+      416,
+      12,
+      13
+    ],
+    [
+      64,
+      416,
+      10,
+      16
+    ],
+    [
+      80,
+      416,
+      10,
+      14
+    ],
+    [
+      96,
+      416,
+      12,
+      12
+    ],
+    [
+      112,
+      416,
+      12,
+      13
+    ],
+    [
+      128,
+      416,
+      14,
+      11
+    ],
+    [
+      144,
+      416,
+      8,
+      16
+    ],
+    [
+      160,
+      416,
+      8,
+      16
+    ],
+    [
+      176,
+      416,
+      8,
+      16
+    ],
+    [
+      192,
+      416,
+      8,
+      16
+    ],
+    [
+      208,
+      416,
+      8,
+      16
+    ],
+    [
+      224,
+      416,
+      8,
+      16
+    ],
+    [
+      240,
+      416,
+      16,
+      16
+    ],
+    [
+      0,
+      432,
+      15,
+      11
+    ],
+    [
+      16,
+      432,
+      15,
+      11
+    ],
+    [
+      32,
+      432,
+      15,
+      11
+    ],
+    [
+      48,
+      432,
+      14,
+      11
+    ],
+    [
+      64,
+      432,
+      15,
+      11
+    ],
+    [
+      80,
+      432,
+      16,
+      12
+    ],
+    [
+      96,
+      432,
+      16,
+      11
+    ],
+    [
+      112,
+      432,
+      16,
+      12
+    ],
+    [
+      128,
+      432,
+      9,
+      12
+    ],
+    [
+      144,
+      432,
+      14,
+      6
+    ],
+    [
+      160,
+      432,
+      9,
+      11
+    ],
+    [
+      176,
+      432,
+      15,
+      11
+    ],
+    [
+      192,
+      432,
+      16,
+      12
+    ],
+    [
+      208,
+      432,
+      16,
+      16
+    ],
+    [
+      224,
+      432,
+      16,
+      16
+    ],
+    [
+      240,
+      432,
+      16,
+      16
+    ],
+    [
+      0,
+      448,
+      16,
+      12
+    ],
+    [
+      16,
+      448,
+      16,
+      12
+    ],
+    [
+      32,
+      448,
+      16,
+      16
+    ],
+    [
+      48,
+      448,
+      12,
+      14
+    ],
+    [
+      64,
+      448,
+      12,
+      14
+    ],
+    [
+      80,
+      448,
+      14,
+      13
+    ],
+    [
+      96,
+      448,
+      16,
+      12
+    ],
+    [
+      112,
+      448,
+      14,
+      13
+    ],
+    [
+      128,
+      448,
+      13,
+      16
+    ],
+    [
+      144,
+      448,
+      7,
+      16
+    ],
+    [
+      160,
+      448,
+      16,
+      16
+    ],
+    [
+      176,
+      448,
+      16,
+      16
+    ],
+    [
+      192,
+      448,
+      16,
+      16
+    ],
+    [
+      208,
+      448,
+      16,
+      16
+    ],
+    [
+      224,
+      448,
+      16,
+      16
+    ],
+    [
+      240,
+      448,
+      16,
+      16
+    ],
+    [
+      0,
+      464,
+      16,
+      16
+    ],
+    [
+      16,
+      464,
+      12,
+      11
+    ],
+    [
+      32,
+      464,
+      12,
+      12
+    ],
+    [
+      48,
+      464,
+      12,
+      11
+    ],
+    [
+      64,
+      464,
+      14,
+      14
+    ],
+    [
+      80,
+      464,
+      15,
+      15
+    ],
+    [
+      96,
+      464,
+      12,
+      12
+    ],
+    [
+      112,
+      464,
+      10,
+      9
+    ],
+    [
+      128,
+      464,
+      8,
+      10
+    ],
+    [
+      144,
+      464,
+      8,
+      16
+    ],
+    [
+      160,
+      464,
+      10,
+      16
+    ],
+    [
+      176,
+      464,
+      16,
+      16
+    ],
+    [
+      192,
+      464,
+      16,
+      16
+    ],
+    [
+      208,
+      464,
+      16,
+      16
+    ],
+    [
+      224,
+      464,
+      16,
+      16
+    ],
+    [
+      240,
+      464,
+      16,
+      16
+    ],
+    [
+      0,
+      480,
+      16,
+      14
+    ],
+    [
+      16,
+      480,
+      16,
+      16
+    ],
+    [
+      32,
+      480,
+      14,
+      15
+    ],
+    [
+      48,
+      480,
+      16,
+      16
+    ],
+    [
+      64,
+      480,
+      15,
+      16
+    ],
+    [
+      80,
+      480,
+      15,
+      16
+    ],
+    [
+      96,
+      480,
+      12,
+      12
+    ],
+    [
+      112,
+      480,
+      16,
+      16
+    ],
+    [
+      128,
+      480,
+      16,
+      16
+    ],
+    [
+      144,
+      480,
+      16,
+      16
+    ],
+    [
+      160,
+      480,
+      16,
+      16
+    ],
+    [
+      176,
+      480,
+      16,
+      16
+    ],
+    [
+      192,
+      480,
+      16,
+      16
+    ],
+    [
+      208,
+      480,
+      16,
+      16
+    ],
+    [
+      224,
+      480,
+      16,
+      16
+    ],
+    [
+      240,
+      480,
+      16,
+      16
+    ],
+    [
+      0,
+      496,
+      10,
+      11
+    ],
+    [
+      16,
+      496,
+      10,
+      11
+    ],
+    [
+      32,
+      496,
+      10,
+      11
+    ],
+    [
+      48,
+      496,
+      10,
+      11
+    ],
+    [
+      64,
+      496,
+      10,
+      11
+    ],
+    [
+      80,
+      496,
+      10,
+      11
+    ],
+    [
+      96,
+      496,
+      10,
+      11
+    ],
+    [
+      112,
+      496,
+      16,
+      16
+    ],
+    [
+      128,
+      496,
+      16,
+      16
+    ],
+    [
+      144,
+      496,
+      16,
+      16
+    ],
+    [
+      160,
+      496,
+      16,
+      16
+    ],
+    [
+      176,
+      496,
+      16,
+      16
+    ],
+    [
+      192,
+      496,
+      16,
+      16
+    ],
+    [
+      208,
+      496,
+      16,
+      16
+    ],
+    [
+      224,
+      496,
+      16,
+      16
+    ],
+    [
+      240,
+      496,
+      16,
+      16
+    ]
+  ],
+  "icon_slot_rects": [
+    [
+      0,
+      0,
+      7,
+      7
+    ],
+    [
+      8,
+      0,
+      7,
+      7
+    ],
+    [
+      16,
+      0,
+      7,
+      7
+    ],
+    [
+      24,
+      0,
+      7,
+      5
+    ],
+    [
+      32,
+      0,
+      7,
+      7
+    ],
+    [
+      40,
+      0,
+      5,
+      6
+    ],
+    [
+      48,
+      0,
+      7,
+      6
+    ],
+    [
+      56,
+      0,
+      6,
+      6
+    ],
+    [
+      64,
+      0,
+      7,
+      7
+    ],
+    [
+      72,
+      0,
+      7,
+      7
+    ],
+    [
+      80,
+      0,
+      6,
+      6
+    ],
+    [
+      88,
+      0,
+      7,
+      6
+    ],
+    [
+      96,
+      0,
+      8,
+      8
+    ],
+    [
+      104,
+      0,
+      8,
+      8
+    ],
+    [
+      112,
+      0,
+      8,
+      8
+    ],
+    [
+      120,
+      0,
+      8,
+      8
+    ],
+    [
+      0,
+      8,
+      8,
+      8
+    ],
+    [
+      8,
+      8,
+      8,
+      8
+    ],
+    [
+      16,
+      8,
+      8,
+      8
+    ],
+    [
+      24,
+      8,
+      8,
+      8
+    ],
+    [
+      32,
+      8,
+      8,
+      8
+    ],
+    [
+      40,
+      8,
+      8,
+      8
+    ],
+    [
+      48,
+      8,
+      8,
+      8
+    ],
+    [
+      56,
+      8,
+      8,
+      8
+    ],
+    [
+      64,
+      8,
+      8,
+      8
+    ],
+    [
+      72,
+      8,
+      8,
+      8
+    ],
+    [
+      80,
+      8,
+      8,
+      8
+    ],
+    [
+      88,
+      8,
+      8,
+      8
+    ],
+    [
+      96,
+      8,
+      8,
+      8
+    ],
+    [
+      104,
+      8,
+      8,
+      8
+    ],
+    [
+      112,
+      8,
+      8,
+      8
+    ],
+    [
+      120,
+      8,
+      8,
+      8
+    ],
+    [
+      0,
+      16,
+      7,
+      7
+    ],
+    [
+      8,
+      16,
+      4,
+      7
+    ],
+    [
+      16,
+      16,
+      7,
+      7
+    ],
+    [
+      24,
+      16,
+      7,
+      5
+    ],
+    [
+      32,
+      16,
+      7,
+      5
+    ],
+    [
+      40,
+      16,
+      7,
+      7
+    ],
+    [
+      48,
+      16,
+      7,
+      6
+    ],
+    [
+      56,
+      16,
+      7,
+      7
+    ],
+    [
+      64,
+      16,
+      6,
+      6
+    ],
+    [
+      72,
+      16,
+      5,
+      6
+    ],
+    [
+      80,
+      16,
+      5,
+      7
+    ],
+    [
+      88,
+      16,
+      7,
+      7
+    ],
+    [
+      96,
+      16,
+      8,
+      8
+    ],
+    [
+      104,
+      16,
+      8,
+      8
+    ],
+    [
+      112,
+      16,
+      8,
+      8
+    ],
+    [
+      120,
+      16,
+      8,
+      8
+    ],
+    [
+      0,
+      24,
+      7,
+      7
+    ],
+    [
+      8,
+      24,
+      7,
+      6
+    ],
+    [
+      16,
+      24,
+      7,
+      7
+    ],
+    [
+      24,
+      24,
+      5,
+      7
+    ],
+    [
+      32,
+      24,
+      7,
+      5
+    ],
+    [
+      40,
+      24,
+      5,
+      7
+    ],
+    [
+      48,
+      24,
+      7,
+      6
+    ],
+    [
+      56,
+      24,
+      7,
+      5
+    ],
+    [
+      64,
+      24,
+      7,
+      7
+    ],
+    [
+      72,
+      24,
+      5,
+      6
+    ],
+    [
+      80,
+      24,
+      5,
+      7
+    ],
+    [
+      88,
+      24,
+      7,
+      7
+    ],
+    [
+      96,
+      24,
+      8,
+      8
+    ],
+    [
+      104,
+      24,
+      8,
+      8
+    ],
+    [
+      112,
+      24,
+      8,
+      8
+    ],
+    [
+      120,
+      24,
+      8,
+      8
+    ],
+    [
+      0,
+      32,
+      8,
+      8
+    ],
+    [
+      8,
+      32,
+      8,
+      8
+    ],
+    [
+      16,
+      32,
+      8,
+      8
+    ],
+    [
+      24,
+      32,
+      8,
+      8
+    ],
+    [
+      32,
+      32,
+      8,
+      8
+    ],
+    [
+      40,
+      32,
+      8,
+      8
+    ],
+    [
+      48,
+      32,
+      8,
+      8
+    ],
+    [
+      56,
+      32,
+      8,
+      8
+    ],
+    [
+      64,
+      32,
+      8,
+      8
+    ],
+    [
+      72,
+      32,
+      8,
+      8
+    ],
+    [
+      80,
+      32,
+      8,
+      8
+    ],
+    [
+      88,
+      32,
+      8,
+      8
+    ],
+    [
+      96,
+      32,
+      8,
+      8
+    ],
+    [
+      104,
+      32,
+      8,
+      8
+    ],
+    [
+      112,
+      32,
+      8,
+      8
+    ],
+    [
+      120,
+      32,
+      8,
+      8
+    ],
+    [
+      0,
+      40,
+      7,
+      7
+    ],
+    [
+      8,
+      40,
+      6,
+      7
+    ],
+    [
+      16,
+      40,
+      7,
+      5
+    ],
+    [
+      24,
+      40,
+      7,
+      7
+    ],
+    [
+      32,
+      40,
+      5,
+      7
+    ],
+    [
+      40,
+      40,
+      7,
+      7
+    ],
+    [
+      48,
+      40,
+      6,
+      6
+    ],
+    [
+      56,
+      40,
+      5,
+      7
+    ],
+    [
+      64,
+      40,
+      6,
+      7
+    ],
+    [
+      72,
+      40,
+      7,
+      7
+    ],
+    [
+      80,
+      40,
+      5,
+      7
+    ],
+    [
+      88,
+      40,
+      7,
+      7
+    ],
+    [
+      96,
+      40,
+      8,
+      8
+    ],
+    [
+      104,
+      40,
+      8,
+      8
+    ],
+    [
+      112,
+      40,
+      8,
+      8
+    ],
+    [
+      120,
+      40,
+      8,
+      8
+    ],
+    [
+      0,
+      48,
+      7,
+      7
+    ],
+    [
+      8,
+      48,
+      6,
+      6
+    ],
+    [
+      16,
+      48,
+      7,
+      5
+    ],
+    [
+      24,
+      48,
+      7,
+      7
+    ],
+    [
+      32,
+      48,
+      7,
+      7
+    ],
+    [
+      40,
+      48,
+      7,
+      7
+    ],
+    [
+      48,
+      48,
+      6,
+      6
+    ],
+    [
+      56,
+      48,
+      7,
+      7
+    ],
+    [
+      64,
+      48,
+      7,
+      7
+    ],
+    [
+      72,
+      48,
+      6,
+      6
+    ],
+    [
+      80,
+      48,
+      7,
+      7
+    ],
+    [
+      88,
+      48,
+      7,
+      7
+    ],
+    [
+      96,
+      48,
+      8,
+      8
+    ],
+    [
+      104,
+      48,
+      8,
+      8
+    ],
+    [
+      112,
+      48,
+      8,
+      8
+    ],
+    [
+      120,
+      48,
+      8,
+      8
+    ],
+    [
+      0,
+      56,
+      8,
+      8
+    ],
+    [
+      8,
+      56,
+      8,
+      8
+    ],
+    [
+      16,
+      56,
+      8,
+      8
+    ],
+    [
+      24,
+      56,
+      8,
+      8
+    ],
+    [
+      32,
+      56,
+      8,
+      8
+    ],
+    [
+      40,
+      56,
+      8,
+      8
+    ],
+    [
+      48,
+      56,
+      8,
+      8
+    ],
+    [
+      56,
+      56,
+      8,
+      8
+    ],
+    [
+      64,
+      56,
+      8,
+      8
+    ],
+    [
+      72,
+      56,
+      8,
+      8
+    ],
+    [
+      80,
+      56,
+      8,
+      8
+    ],
+    [
+      88,
+      56,
+      8,
+      8
+    ],
+    [
+      96,
+      56,
+      8,
+      8
+    ],
+    [
+      104,
+      56,
+      8,
+      8
+    ],
+    [
+      112,
+      56,
+      8,
+      8
+    ],
+    [
+      120,
+      56,
+      8,
+      8
+    ]
+  ],
+  "source_sha256": "0a84adb6561b6ede7ec8e74787d4c4f9cfac029448111a1e8a206734cb2cf755"
+}

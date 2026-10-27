@@ -1,0 +1,193 @@
+{
+  "pvp_snap_freeze": {
+    "frost_duration": 5,
+    "water_frost_duration": 10,
+    "roots_duration": 5,
+    "value": 100
+  },
+  "pvp_prices": {
+    "PotionOfSnapFreeze": 100,
+    "PotionOfDragonsBreath": 80
+  },
+  "pvp_earthen_armor": {
+    "interval": 3,
+    "fixed_block": 8
+  },
+  "pvp_restorative": {
+    "PotionOfStamina": {
+      "movement_multiplier": 1.5,
+      "value": 60,
+      "duration": 20
+    },
+    "PotionOfShielding": {
+      "value": 50,
+      "shield": 20
+    }
+  },
+  "version": "4.0.2",
+  "hashes": {
+    "effects/spell_icons.png": "51B811E3F1C50260FD0D827A3BE690BEADE8AA593F4A65540F1898B45EFA525D",
+    "sounds/drink.mp3": "549E349901C33BCB6B1AC230E4B30EDCFD09D031EABF9DEB265A4962CABA167A",
+    "sounds/shatter.mp3": "5F31C3CCE5594224E32AB4E1AC295C3B4001E9F19D245EFB501626D52CEF0174",
+    "sounds/meld.mp3": "FE0B67FAC963FC68D82C3D3D1133C1BE1F006C783CFB5360803FAAD1AC8B7A32",
+    "sounds/miss.mp3": "1214EB78900FC5246429A137ADD7E489BC673363D4F3F77685AE3221ED25855B",
+    "sounds/levelup.mp3": "F6F2100DB8350812B44A6D1339811E7D66CA8FBDAD5298E29B671CC5DDD3F3F4",
+    "items/potions/Potion.java": "2DB6BABC02D0140451779BA9A8BA99FEE5C5EFE78A33EB3C0C9FF7C672DED719",
+    "items/potions/PotionOfExperience.java": "EA0D400D2FA2BC31E22E42DF5234D5A4E223A13D3AE78C0044993A20596E416E",
+    "items/potions/PotionOfFrost.java": "BCEBB89F4E075E383303FCA0278177A66E627A24CE2D23840983139931C8C546",
+    "items/potions/PotionOfHaste.java": "4E3693D82AF33625227463630D5822FACF91B3F30BE9C85BA28A2B90C978590F",
+    "items/potions/PotionOfHealing.java": "98AAF39E1964398314588B5D8864FB0CDFEEF4630C843F61ADDF85D714DC9448",
+    "items/potions/PotionOfInvisibility.java": "C933E3094C29CC097FA3A979F2A86B71A4CA091DBCDFFDFA84007DD7C82207D7",
+    "items/potions/PotionOfLevitation.java": "0F702CCC50E3055E639F83F719E308C0EB9C1B4CECB36CAC59658A98F6E9ACE4",
+    "items/potions/PotionOfLiquidFlame.java": "456C4EE996AF89836821B3960AFFB84EFB05BBD3AE1E0E1D6B9E124487D6EF78",
+    "items/potions/PotionOfMindVision.java": "915D24872FA3FC366DD0C28990C00825860A670B23023B23FBA1DF3A8393C09E",
+    "items/potions/PotionOfParalyticGas.java": "8FECCDEE3066EBEA5AC1ACEE6F08B9195805E2EFFD2A8BD361A4805A4FFE574B",
+    "items/potions/PotionOfPurity.java": "E12296BC816267C23D90755F632AB5C7F21F9E8B94FB75A3D1AE40882814587C",
+    "items/potions/PotionOfStrength.java": "779AF956E3E5B8333B7C1D784F5837B023E03F9A8D7514721D6CF1A150A989DD",
+    "items/potions/PotionOfToxicGas.java": "6369406FBC0A1E1DDCB64D80E3A3DB209D2E50CBF5DCB8A5AE20F5FC7DB3B415",
+    "actors/buffs/Healing.java": "19C941E8BB77B0D96103D66D5B611B40A189562B33352C29694E60CB71203729",
+    "actors/buffs/Haste.java": "8F11B118B7DD6DD031F208E254D010013341F10A9AB61099B9CFE349A5A4E89C",
+    "actors/buffs/Invisibility.java": "EB02EAA9FCBE7CFB405911B32DEC6F24F4AF1A0C934E11C613707E0A4FB42551",
+    "actors/buffs/Levitation.java": "EAEDA5EE4DB98F6B5E05F89F080929B793B9746657639C732D8266BCEAB462A4",
+    "actors/buffs/MindVision.java": "3B7ED75B895D848D53946BC1C95E64D6445FA7C25F6A16CC03706364FED9DA14",
+    "actors/buffs/BlobImmunity.java": "B8CA4664E3683183350C4B7925C8856DC0F7C63C2ECDBDB372792E05174BBF79",
+    "actors/buffs/Frost.java": "D64B4ED868A3A4393E7A8BDF5AC011156E112DA6D2587BFEFB5B96E8329A7052",
+    "effects/Splash.java": "AD727321B9EF373E13C4B1E9B3AE0482AD6B77E43C1CCBF31AB4454EB48994D8",
+    "effects/Speck.java": "22B043CEE2F37B6F30BDD30C6B569FC60D958B669C96E866AC9333E4584E1B0A",
+    "effects/SpellSprite.java": "5600DFC618596FADD5918B7FB6789E199CFD35BFB561FFB18B0EE0C9731C73C6",
+    "effects/Flare.java": "9100B68A8CD08CED874350F2E3D9FCB0F535098D701A4F4FF7CB5FCAFF4B7BE2",
+    "effects/IceBlock.java": "1A2AE5DA96B36C25CE074C7CE16B80BE048083D3507C471D603CEB98DBD8C6B2",
+    "sprites/MissileSprite.java": "0FA96365D0B4DB429386923B43050F29F73F571E865534B57BFCAA3B76C35164",
+    "sprites/CharSprite.java": "03628EEE74C48BA9070CA0E2756BB2905216630BAC1DF3CAA089A3A6178508C5",
+    "effects/particles/SnowParticle.java": "89F6A86CF23584D5FAE22C6AAD6EB8073684E4E45C9DB646A6A2E89DB76E4AB2",
+    "items/potions/exotic/PotionOfSnapFreeze.java": "4C92509C3CDA7CCD042DDE7C635AE7A5E7B5335DA03FC4B2E2A79C1C44242EE5",
+    "items/potions/exotic/ExoticPotion.java": "977C6F9E32B3FA7920A47F3181757EF6F2BFC0A877BA80D56065BA5A2773AFFE",
+    "actors/blobs/Freezing.java": "AAC64F18BED462BEC7F2B882E27739F8677687E494055335ABABA52521CC0218",
+    "actors/buffs/Roots.java": "5AA0D069B7ADA980B38F53A1A08DECFCC0A5572EC0CB8D1A0E099C3EEC8EBA5D",
+    "items/potions/exotic/PotionOfStamina.java": "36156626AA8B78599F5328DF6E795E436BB58F8C0566DA92863783B501334175",
+    "items/potions/exotic/PotionOfShielding.java": "9C0A977744ED81431A85596431106CF6BAB3B89FD6A2077AD66E74335D5F8C65",
+    "actors/buffs/Stamina.java": "DAFC08719705ADAF6829DA868609F8E02AA33234C7AA01354FEC68CD876E542D",
+    "actors/buffs/Barrier.java": "4005F69130398078977243D12FA6EA1F0B094A5AC10D62C04A7BABDC5DEE0E3C",
+    "actors/buffs/ShieldBuff.java": "99292DFBC253A24B8E1941429155ECA8482B281ED716835F2FD535E36A3DFD83",
+    "actors/Char.java": "8D372E8ECDD2188900479456FFEAFE5090CFF9C79D181A46D8ECBF7D7B8C8139",
+    "items/potions/exotic/PotionOfShroudingFog.java": "054EE5FE23627EEBF22D8363732E418191C38B7E32B11EE074D543CAAD53F5DD",
+    "actors/blobs/SmokeScreen.java": "E0DDEE5416EF8C0D1796BE35F0B1D6D1D71655ECE5E4CAC0899959C346818D12",
+    "actors/blobs/Blob.java": "10F3DD43C38BBFA93D5799CC5AF5B8FD6F40BE39EB73548A0B77C1D3737F63D1",
+    "levels/Level.java": "5FCD2A4DB06A66C54CF159F27149D501A45EFC0EBEA4103827BC6B962B34BC98",
+    "items/potions/exotic/PotionOfStormClouds.java": "84B1459C60F2F7A252A4D70616BD6A44542653406105465A4AED41C2B1D023E2",
+    "items/potions/exotic/PotionOfDragonsBreath.java": "590A4333B4364770E68F7340EBC2813CA33180D1C16049A100F99043E5EEF857",
+    "actors/blobs/StormCloud.java": "C8C2A34DCDA76C21D763016FBBBF0FEEBCCE141BF9AC8DBB6C257563A8EB980C",
+    "actors/blobs/Fire.java": "0747CF36078868E2D5B7C23DAD71A1ACC34EF03039854D9E4C9E7B4E46E402C8",
+    "actors/buffs/Burning.java": "37D5A6C198F37BD97AA8E18D7D79898C796F441FB2382B0476A8A59681BE266F",
+    "actors/buffs/Cripple.java": "E87B0322F1BBC1880D558FB1F0EF2FF6E9CD6B26A55140E64C5E5635E52C9131",
+    "mechanics/ConeAOE.java": "E5DA93DDB3C656E19CD8BAEE2D2E5366F40F9217546BC351E4734C7338CE29E6",
+    "mechanics/Ballistica.java": "3CCE12645F1BF662481887DF0FCA19F0D68130741FF58A66557995BA3A359427",
+    "effects/MagicMissile.java": "46FECEC6B2B3D74C966BE5133EA03BF9048A048829B4C872F4CCA410FD991015",
+    "effects/particles/FlameParticle.java": "7E2B6560173969E7D09CD7AC2817BD6DFD080ED4A94275ED7AC35881B17B8A90",
+    "items/potions/exotic/PotionOfEarthenArmor.java": "6887B8A899CDBA19727EA5B36BEA6738E31CB5A23575951109CB4F1A2DD6BEA6",
+    "items/potions/exotic/PotionOfCleansing.java": "8E0CE0C76D2576A19B3BE15DFDF0564C2A93AF249D67E3AF0C63E0FABFD63AA8",
+    "actors/buffs/Barkskin.java": "6012E23482529D7AE17A3DED077D376C437B79807314093B90E56AB1E383851F",
+    "actors/buffs/AllyBuff.java": "C2E1FB5EE50682C9AADA64CDCCDAA076843FFE768EE309B429816238A9530E27",
+    "actors/buffs/LostInventory.java": "4AE404C9C946578A8A9F90786B48FD4B721FAA52CC1ED6844247C8EC6F7C9AC6"
+  },
+  "profiles": {
+    "PotionOfExperience": {},
+    "PotionOfFrost": {
+      "blob": "Freezing",
+      "amount": 10
+    },
+    "PotionOfHaste": {
+      "buff": "Haste",
+      "duration": 20.0
+    },
+    "PotionOfHealing": {},
+    "PotionOfInvisibility": {
+      "buff": "Invisibility",
+      "duration": 20.0
+    },
+    "PotionOfLevitation": {
+      "buff": "Levitation",
+      "duration": 20.0,
+      "blob": "ConfusionGas",
+      "amount": 1000
+    },
+    "PotionOfLiquidFlame": {
+      "blob": "Fire",
+      "amount": 2
+    },
+    "PotionOfMindVision": {
+      "buff": "MindVision",
+      "duration": 20.0
+    },
+    "PotionOfParalyticGas": {
+      "blob": "ParalyticGas",
+      "amount": 1000
+    },
+    "PotionOfPurity": {
+      "buff": "BlobImmunity",
+      "duration": 20.0
+    },
+    "PotionOfStrength": {},
+    "PotionOfToxicGas": {
+      "blob": "ToxicGas",
+      "amount": 1000
+    },
+    "PotionOfSnapFreeze": {
+      "instant": true,
+      "radius": 1,
+      "frost_duration": 10,
+      "water_frost_duration": 30,
+      "roots_duration": 10,
+      "value": 50
+    },
+    "PotionOfStamina": {
+      "buff": "Stamina",
+      "duration": 100,
+      "movement_multiplier": 1.5,
+      "value": 60
+    },
+    "PotionOfShielding": {
+      "buff": "Barrier",
+      "shield_formula": "int(0.6 * max_hp + 10)",
+      "value": 50
+    },
+    "PotionOfShroudingFog": {
+      "blob": "SmokeScreen",
+      "neighbor_volume": 180,
+      "total_volume": 1620,
+      "radius": 1,
+      "solid_share_to_center": true,
+      "value": 60
+    },
+    "PotionOfStormClouds": {
+      "blob": "StormCloud",
+      "neighbor_volume": 120,
+      "total_volume": 1080,
+      "radius": 1,
+      "solid_share_to_center": true,
+      "value": 60
+    },
+    "PotionOfDragonsBreath": {
+      "range": 6,
+      "cone_degrees": 60,
+      "fire_volume": 5,
+      "burning_duration": 8,
+      "cripple_duration": 5,
+      "value": 50
+    },
+    "PotionOfEarthenArmor": {
+      "buff": "Barkskin",
+      "level_formula": "2 + hero_level / 3",
+      "interval": 50,
+      "random_block": true,
+      "value": 60
+    },
+    "PotionOfCleansing": {
+      "buff": "Cleanse",
+      "duration": 5,
+      "thrown_affects_target": true,
+      "value": 60
+    }
+  },
+  "license": "GPL-3.0-or-later"
+}

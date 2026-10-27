@@ -1,0 +1,147 @@
+{
+  "version": "SPD 4.0.2",
+  "frame_width": 12,
+  "frame_height": 15,
+  "columns": 21,
+  "armor_rows": 7,
+  "heroes": [
+    {
+      "key": "warrior",
+      "name": "战士",
+      "texture": "res://assets/heroes/source/warrior.png",
+      "sha256": "a8825d5f67bff1464f2bdffcf41590a39b087e21a113d811191d08a0323f71d3"
+    },
+    {
+      "key": "mage",
+      "name": "法师",
+      "texture": "res://assets/heroes/source/mage.png",
+      "sha256": "ad7c6d58c08c6f0e3e3b0b3de71acecd86f7ffe7144fa920173cfe0f69ef7057"
+    },
+    {
+      "key": "rogue",
+      "name": "盗贼",
+      "texture": "res://assets/heroes/source/rogue.png",
+      "sha256": "84f66ab86adc47ee06440aa08931dadeca9325b127e30c559ca363b11acaf7aa"
+    },
+    {
+      "key": "huntress",
+      "name": "女猎手",
+      "texture": "res://assets/heroes/source/huntress.png",
+      "sha256": "a16280078ef2e8fc71e6b040e54af16e0a4a691f9c2bd783988e64af850fabb7"
+    },
+    {
+      "key": "duelist",
+      "name": "决斗家",
+      "texture": "res://assets/heroes/source/duelist.png",
+      "sha256": "99b1737b8835870a470b9f34d8caf954a54694840b246cd4cedc4a72ed30f21d"
+    },
+    {
+      "key": "cleric",
+      "name": "牧师",
+      "texture": "res://assets/heroes/source/cleric.png",
+      "sha256": "7575344523e6b57645f2b741576d5dcf6d832849b9a8d405fdf2d96db50e337c"
+    }
+  ],
+  "animations": {
+    "idle": {
+      "fps": 1,
+      "loop": true,
+      "frames": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "run": {
+      "fps": 20,
+      "loop": true,
+      "frames": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "die": {
+      "fps": 20,
+      "loop": false,
+      "frames": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        11
+      ]
+    },
+    "attack": {
+      "fps": 15,
+      "loop": false,
+      "frames": [
+        13,
+        14,
+        15,
+        0
+      ]
+    },
+    "operate": {
+      "fps": 8,
+      "loop": false,
+      "frames": [
+        16,
+        17,
+        16,
+        17
+      ]
+    },
+    "fly": {
+      "fps": 1,
+      "loop": true,
+      "frames": [
+        18
+      ]
+    },
+    "read": {
+      "fps": 20,
+      "loop": false,
+      "frames": [
+        19,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        19
+      ]
+    },
+    "zap": {
+      "fps": 15,
+      "loop": false,
+      "frames": [
+        13,
+        14,
+        15,
+        0
+      ],
+      "alias_of": "attack"
+    }
+  },
+  "source_files": [
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/sprites/HeroSprite.java",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/sprites/CharSprite.java",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/hero/HeroClass.java",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/hero/Hero.java",
+    "SPD-classes/src/main/java/com/watabou/noosa/TextureFilm.java"
+  ],
+  "hero_sprite_sha256": "326083a1fb4881809ebfc5f3ea5643b04d2e4d5b4235a5307cc92254666bb0d2"
+}

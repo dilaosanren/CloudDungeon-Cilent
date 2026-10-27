@@ -1,0 +1,370 @@
+{
+  "upstream": "Shattered Pixel Dungeon 4.0.2",
+  "source": "core/src/main/assets/interfaces",
+  "chrome_source_sha256": "e6b1d30508c1bb273d2e03612843892ac9450713de9be217b5000a3694adfa25",
+  "raw": [
+    {
+      "name": "ARCS1",
+      "file": "arcs1.png",
+      "sha256": "3de841290872405fdfcb70b9b3a998af0e582c2169a0fb3ea215cd1d33dbe01d"
+    },
+    {
+      "name": "ARCS2",
+      "file": "arcs2.png",
+      "sha256": "994415d9c67a5cc1a0b4319109b1f17bc3a71df6c8ad4622e8895a2465a59f8e"
+    },
+    {
+      "name": "BADGES",
+      "file": "badges.png",
+      "sha256": "f83721c75a37d8d8e788e00e81845d3019f6644be71cde25d9b7f32273201df3"
+    },
+    {
+      "name": "BANNERS",
+      "file": "banners.png",
+      "sha256": "e78742506245cf96170f3c1405a87b00aa966679a26c90d3f35dfe661d3b13d7"
+    },
+    {
+      "name": "BOSS_HP",
+      "file": "boss_hp.png",
+      "sha256": "e49dbbaf068a7bb211e5559b37255a9fc6021db9321345915feb4f7b62f1ede6"
+    },
+    {
+      "name": "BUFFS",
+      "file": "buffs.png",
+      "sha256": "11d49af66f384d24ec1fc0fec100b9ba9a12cb599f1bd1c6476ba87dfbdfd875"
+    },
+    {
+      "name": "CHANGE_ICONS",
+      "file": "change_icons.png",
+      "sha256": "dda7555be99d521dd6d084762c3c293994b0025cc00eeac263809a21bd7d0231"
+    },
+    {
+      "name": "CHROME",
+      "file": "chrome.png",
+      "sha256": "e439b6a6539d61e5a1f3fc61f0c0f7642be6e5f5fcccdd9ee111830f57f38cf1"
+    },
+    {
+      "name": "HERO_ICONS",
+      "file": "hero_icons.png",
+      "sha256": "8af678fbb03726683c9e6695f6c1c58d231bd4dcc569e23c465410245a1aed19"
+    },
+    {
+      "name": "ICONS",
+      "file": "icons.png",
+      "sha256": "592ba061fde6ebba4c6c912604f4e2846c956a473d6e89b53ffc05339e0f49d8"
+    },
+    {
+      "name": "LARGE_BUFFS",
+      "file": "large_buffs.png",
+      "sha256": "5dd1947598f59b2bb818c4cc358342529094e876c294095888892b5835ae7cdc"
+    },
+    {
+      "name": "LOCKED_BADGE",
+      "file": "locked_badge.png",
+      "sha256": "48bc29673dce30ab4a9410b3d61905dc032082f417ab03e95213f9aff6653b47"
+    },
+    {
+      "name": "MENU_BUTTON",
+      "file": "menu_button.png",
+      "sha256": "78784368b05f9fddfa629ecabf904c0b5ad484ec554c84d2d4f0b1254ed57d47"
+    },
+    {
+      "name": "MENU_PANE",
+      "file": "menu_pane.png",
+      "sha256": "a7ddb1a71b098a9091488c1b3d70c56dbdfb2fe016e16d11985d3b78724d8a78"
+    },
+    {
+      "name": "RADIAL_MENU",
+      "file": "radial_menu.png",
+      "sha256": "a8dec64df33b0c6035887cc128f4faef194c9ce48604a1d014fdf2f7f1d06868"
+    },
+    {
+      "name": "SHADOW",
+      "file": "shadow.png",
+      "sha256": "e89b2b0d6db86147d859ebc91b66e03045b69dd0285de4d1596632d5a6eca9d9"
+    },
+    {
+      "name": "STATUS_PANE",
+      "file": "status_pane.png",
+      "sha256": "c81d605c5f663a3bb587e9288d1e28e30c5f9e17f0dc5e651cdf044131cf31bd"
+    },
+    {
+      "name": "SURFACE",
+      "file": "surface.png",
+      "sha256": "ded7f25689d4fcf861086bbf8d33147fdfe9e09935c3951a28dd3ceafb88b3a9"
+    },
+    {
+      "name": "TALENT_BUTTON",
+      "file": "talent_button.png",
+      "sha256": "e9ec3eaa68524988b51aaa72bba60453b83dbb556adcd3b9dfc4e1b60ea160c7"
+    },
+    {
+      "name": "TALENT_ICONS",
+      "file": "talent_icons.png",
+      "sha256": "37c3566b33a0f72eec2d1de54601860c406a40c36fe1f9239629bf74cc362884"
+    },
+    {
+      "name": "TOOLBAR",
+      "file": "toolbar.png",
+      "sha256": "e84714c9e78b6e2c2ef102d859be34bb629069412f007f240488308918a5ea4c"
+    }
+  ],
+  "chrome": [
+    {
+      "name": "TOAST",
+      "file": "chrome.png",
+      "rect": [
+        20,
+        0,
+        9,
+        9
+      ],
+      "margins": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "TOAST_TR",
+      "file": "chrome.png",
+      "rect": [
+        20,
+        9,
+        9,
+        9
+      ],
+      "margins": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "TOAST_TR_HEAVY",
+      "file": "chrome.png",
+      "rect": [
+        29,
+        9,
+        9,
+        9
+      ],
+      "margins": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "TOAST_WHITE",
+      "file": "chrome.png",
+      "rect": [
+        29,
+        0,
+        9,
+        9
+      ],
+      "margins": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "WINDOW",
+      "file": "chrome.png",
+      "rect": [
+        0,
+        0,
+        20,
+        20
+      ],
+      "margins": [
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "WINDOW_SILVER",
+      "file": "chrome.png",
+      "rect": [
+        86,
+        0,
+        22,
+        22
+      ],
+      "margins": [
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "RED_BUTTON",
+      "file": "chrome.png",
+      "rect": [
+        38,
+        0,
+        6,
+        6
+      ],
+      "margins": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "GREY_BUTTON",
+      "file": "chrome.png",
+      "rect": [
+        38,
+        6,
+        6,
+        6
+      ],
+      "margins": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "GREY_BUTTON_TR",
+      "file": "chrome.png",
+      "rect": [
+        20,
+        9,
+        9,
+        9
+      ],
+      "margins": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "TAG",
+      "file": "chrome.png",
+      "rect": [
+        22,
+        18,
+        16,
+        14
+      ],
+      "margins": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "GEM",
+      "file": "chrome.png",
+      "rect": [
+        0,
+        32,
+        32,
+        32
+      ],
+      "margins": [
+        13,
+        13,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "SCROLL",
+      "file": "chrome.png",
+      "rect": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "margins": [
+        5,
+        11,
+        5,
+        11
+      ]
+    },
+    {
+      "name": "TAB_SET",
+      "file": "chrome.png",
+      "rect": [
+        64,
+        0,
+        20,
+        20
+      ],
+      "margins": [
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "name": "TAB_SELECTED",
+      "file": "chrome.png",
+      "rect": [
+        65,
+        22,
+        8,
+        13
+      ],
+      "margins": [
+        3,
+        7,
+        3,
+        5
+      ]
+    },
+    {
+      "name": "TAB_UNSELECTED",
+      "file": "chrome.png",
+      "rect": [
+        75,
+        22,
+        8,
+        13
+      ],
+      "margins": [
+        3,
+        7,
+        3,
+        5
+      ]
+    },
+    {
+      "name": "BLANK",
+      "file": "chrome.png",
+      "rect": [
+        45,
+        0,
+        1,
+        1
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

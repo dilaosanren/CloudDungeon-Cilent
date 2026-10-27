@@ -1,0 +1,800 @@
+{
+  "source": "Shattered Pixel Dungeon 4.0.2",
+  "items": [
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "当把这颗符石丢向一个盟友或敌人时，附近所有敌人都会在短时间内优先攻击该单位。\n\n敌意符石无法直接以boss为目标，但可对其随从正常发挥效果。",
+      "title": "敌意符石",
+      "description": "当把这颗符石丢向一个盟友或敌人时，附近所有敌人都会在短时间内优先攻击该单位。\n\n敌意符石无法直接以boss为目标，但可对其随从正常发挥效果。",
+      "type_id": "StoneOfAggression",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfAggression.java",
+        "action_labels": {}
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_AGGRESSION",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true
+    },
+    {
+      "extra_actions": [
+        "USE"
+      ],
+      "default_action": "USE",
+      "unknown_description": "这颗符石内的强力魔法可以用于强化装备的一种属性，代价是会减弱另一种属性。\n\n用于武器可以强化伤害或者速度。投掷武器的耐久度也会随着速度的增减而增减。\n\n用于护甲可以强化防御或者闪避。",
+      "title": "强化符石",
+      "description": "这颗符石内的强力魔法可以用于强化装备的一种属性，代价是会减弱另一种属性。\n\n用于武器可以强化伤害或者速度。投掷武器的耐久度也会随着速度的增减而增减。\n\n用于护甲可以强化防御或者闪避。",
+      "type_id": "StoneOfAugmentation",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfAugmentation.java",
+        "action_labels": {
+          "USE": "使用"
+        }
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_AUGMENTATION",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这颗符石被扔出后会在目的地立即爆炸。和炸弹一样，爆炸会对范围内的所有东西造成伤害。",
+      "title": "震爆符石",
+      "description": "投掷后在落点立即爆炸，对范围内生物造成_固定15点基础伤害_，不受楼层和伤害随机浮动影响。护甲、护盾及其他防护照常生效；爆炸仍会破坏范围内的可燃地形与物品堆。",
+      "type_id": "StoneOfBlast",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfBlast.java",
+        "action_labels": {}
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_BLAST",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这颗符石被扔出后会把使用者传送到目的地。",
+      "title": "闪现符石",
+      "description": "这颗符石被扔出后会把使用者传送到目的地。",
+      "type_id": "StoneOfBlink",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfBlink.java",
+        "action_labels": {}
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_BLINK",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这颗符石被扔出后会瞬间搜索以目的地为中心的巨大范围内的所有地格。该搜索能力甚至不受墙壁的阻隔。",
+      "title": "明示符石",
+      "description": "这颗符石被扔出后会瞬间搜索以目的地为中心的巨大范围内的所有地格。该搜索能力甚至不受墙壁的阻隔。",
+      "type_id": "StoneOfClairvoyance",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfClairvoyance.java",
+        "action_labels": {}
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_CLAIRVOYANCE",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "当把这颗符石掷向一个敌人时，被命中的敌人会陷入魔法睡眠。陷入魔法睡眠的敌人会永远沉睡下去，除非受到外界打扰。",
+      "title": "沉睡符石",
+      "description": "当把这颗符石掷向一个敌人时，被命中的敌人会陷入魔法睡眠。陷入魔法睡眠的敌人会永远沉睡下去，除非受到外界打扰。\n\n沿用原版，仅对怪物和召唤物生效，无法令玩家英雄入睡。",
+      "type_id": "StoneOfDeepSleep",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfDeepSleep.java",
+        "action_labels": {}
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_SLEEP",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true
+    },
+    {
+      "extra_actions": [
+        "USE"
+      ],
+      "default_action": "USE",
+      "unknown_description": "这颗符石能够侦测物品上的魔咒。对一件未鉴定物品使用此符石，可探测其是否附有诅咒，以及是否具有附魔或升级。",
+      "title": "探魔符石",
+      "description": "这颗符石能够侦测物品上的魔咒。对一件未鉴定物品使用此符石，可探测其是否附有诅咒，以及是否具有附魔或升级。\n\n本 PvP 的物品均已鉴定；可选择装备查看魔力检测结果，不会改变物品。",
+      "type_id": "StoneOfDetectMagic",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfDetectMagic.java",
+        "action_labels": {
+          "USE": "使用"
+        }
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_DETECT",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true
+    },
+    {
+      "extra_actions": [
+        "USE"
+      ],
+      "default_action": "USE",
+      "unknown_description": "这颗符石拥有施加附魔的能力。和升级卷轴不同，它不会直接加强一个道具的能力，但能给武器或者护甲施加附魔，使其拥有新的特性。",
+      "title": "附魔符石",
+      "description": "这颗符石拥有施加附魔的能力。和升级卷轴不同，它不会直接加强一个道具的能力，但能给武器或者护甲施加附魔，使其拥有新的特性。",
+      "type_id": "StoneOfEnchantment",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfEnchantment.java",
+        "action_labels": {
+          "USE": "使用"
+        }
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_ENCHANT",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true,
+      "unique": true
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "当把这颗符石掷向一个盟友或敌人时，被命中的角色会陷入深深的恐惧中，无法克制地逃离。攻击会刺激其从恐惧中更快恢复。",
+      "title": "恐惧符石",
+      "description": "当把这颗符石掷向一个盟友或敌人时，被命中的角色会陷入深深的恐惧中，无法克制地逃离。攻击会刺激其从恐惧中更快恢复。",
+      "type_id": "StoneOfFear",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfFear.java",
+        "action_labels": {}
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_FEAR",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这颗符石被扔出后会在目的地召唤一群魔法绵羊。",
+      "title": "羊群符石",
+      "description": "这颗符石被扔出后会在目的地召唤一群魔法绵羊。",
+      "type_id": "StoneOfFlock",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfFlock.java",
+        "action_labels": {}
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_FLOCK",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true
+    },
+    {
+      "extra_actions": [
+        "USE"
+      ],
+      "default_action": "USE",
+      "unknown_description": "这块符石含有的魔法就像一个弱化版的鉴定卷轴。和鉴定卷轴那种直接识别物品的魔法不一样，它会加强你的直觉，让你通过猜测来试图鉴定一种药水、卷轴或者戒指的种类。",
+      "title": "感知符石",
+      "description": "这块符石含有的魔法就像一个弱化版的鉴定卷轴。和鉴定卷轴那种直接识别物品的魔法不一样，它会加强你的直觉，让你通过猜测来试图鉴定一种药水、卷轴或者戒指的种类。\n\n本 PvP 的所有物品均已鉴定。保留使用动作与特效，不进行猜测鉴定；每颗可使用两次。",
+      "type_id": "StoneOfIntuition",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfIntuition.java",
+        "action_labels": {
+          "USE": "使用"
+        }
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_INTUITION",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true
+    },
+    {
+      "extra_actions": [],
+      "default_action": "THROW",
+      "unknown_description": "这颗符石被扔出后会爆出一阵电能量，短暂麻痹范围内所有目标并根据电到的目标数量恢复使用者的法杖充能。",
+      "title": "电击符石",
+      "description": "这颗符石被扔出后会爆出一阵电能量，短暂麻痹范围内所有目标并根据电到的目标数量恢复使用者的法杖充能。",
+      "type_id": "StoneOfShock",
+      "stackable": true,
+      "metadata": {
+        "tier": 1,
+        "source": "items/stones/StoneOfShock.java",
+        "action_labels": {}
+      },
+      "category": "stone",
+      "icon": "",
+      "visual": "STONE_SHOCK",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "腐莓之种",
+      "description": "把这粒种子丢到你想长出一株植物的地方。\n\n未成熟的腐莓丛结出的莓果尝起来更像是甜蜜的死亡。经过成年累月的生长，这株腐莓丛终会成熟为另一棵腐莓核心。被踩踏后，这株未成熟的腐莓会释放少量毒气。",
+      "type_id": "SEED_ROTBERRY",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_ROTBERRY",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true,
+      "metadata": {},
+      "unique": true
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "烈焰花之种",
+      "description": "把这粒种子丢到你想长出一株植物的地方。\n\n烈焰花被任何物品触碰到时，都会化为一团火焰。",
+      "type_id": "SEED_FIREBLOOM",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_FIREBLOOM",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true,
+      "metadata": {}
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "速行蓟之种",
+      "description": "把这粒种子丢到你想长出一株植物的地方。\n\n被踩踏后，速行蓟会加速周围的时间流动，让踩踏者可以瞬间行动数次",
+      "type_id": "SEED_SWIFTTHISTLE",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_SWIFTTHISTLE",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true,
+      "metadata": {}
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "阳春草之种",
+      "description": "把这粒种子丢到你想长出一株植物的地方。\n\n阳春草因其汁液缓慢但显著的疗伤效果而家喻户晓。",
+      "type_id": "SEED_SUNGRASS",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_SUNGRASS",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true,
+      "metadata": {}
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "冰冠花之种",
+      "description": "把这粒种子丢到你想长出一株植物的地方。\n\n冰冠花在被接触到时会喷射出一团能冻结周遭的花粉。冻结效果会在潮湿环境中大幅增强。",
+      "type_id": "SEED_ICECAP",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_ICECAP",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true,
+      "metadata": {}
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "风暴藤之种",
+      "description": "把这粒种子丢到你想长出一株植物的地方。\n\n引力似乎并不能正常地作用在风暴藤上，它蓝色的藤蔓能够\"挂\"在空中。任何被风暴藤缠到的生物也被这种奇怪的引力影响，并失去方向感。",
+      "type_id": "SEED_STORMVINE",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_STORMVINE",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true,
+      "metadata": {}
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "断肠苔之种",
+      "description": "把这粒种子丢到你想长出一株植物的地方。\n\n断肠苔（实为花卉而非苔藓）是一种花瓣利如刀片，表面覆有致命毒液的植物。",
+      "type_id": "SEED_SORROWMOSS",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_SORROWMOSS",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true,
+      "metadata": {}
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "魔皇草之种",
+      "description": "把这粒种子丢到你想长出一株植物的地方。\n\n魔皇草的带刺花朵含有一种化学物质，因其强大的中和性质而闻名。任何踏入这株植物的东西将会被净化掉许多负面效果。",
+      "type_id": "SEED_MAGEROYAL",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_MAGEROYAL",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true,
+      "metadata": {}
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "地缚根之种",
+      "description": "把这粒种子丢到你想长出一株植物的地方。\n\n碰到地缚根后，它的根系会在踩踏者周边形成某种无法移动的天然护甲。",
+      "type_id": "SEED_EARTHROOT",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_EARTHROOT",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true,
+      "metadata": {}
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "星陨花之种",
+      "description": "把这粒种子丢到你想长出一株植物的地方。\n\n星陨花较为罕见，据说其能够为任何接触它的人赋予神圣之力。",
+      "type_id": "SEED_STARFLOWER",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_STARFLOWER",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true,
+      "metadata": {}
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "消逝草之种",
+      "description": "把这粒种子丢到你想长出一株植物的地方。\n\n任何触碰到消逝草的生物都会被传送到当前层的一个随机地点。",
+      "type_id": "SEED_FADELEAF",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_FADELEAF",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true,
+      "metadata": {}
+    },
+    {
+      "extra_actions": [
+        "PLANT"
+      ],
+      "title": "致盲草之种",
+      "description": "把这粒种子丢到你想长出一株植物的地方。\n\n在被碰到后，致盲草会瞬间枯萎并释放一道强光。这道光足以刺伤受害者双眼，使其暂时失明。",
+      "type_id": "SEED_BLINDWEED",
+      "stackable": true,
+      "category": "seed",
+      "default_action": "THROW",
+      "visual": "SEED_BLINDWEED",
+      "targeting_actions": [
+        "THROW"
+      ],
+      "identified": true,
+      "metadata": {}
+    }
+  ],
+  "gear": {
+    "weapon": {
+      "blazing": {
+        "name": "烈焰",
+        "description": "这个附魔会使火焰从武器中喷薄而出，能够点燃敌人并对正在燃烧的敌人造成额外伤害。",
+        "glow": {
+          "color": "#ff4400",
+          "period": 1
+        }
+      },
+      "chilling": {
+        "name": "寒霜",
+        "description": "受该附魔成功影响的敌人会被冻伤，导致移动和攻击速度降低。",
+        "glow": {
+          "color": "#00ffff",
+          "period": 1
+        }
+      },
+      "shocking": {
+        "name": "电击",
+        "description": "电弧在这个武器上不断地闪烁震荡，能够对邻近所有敌人造成额外伤害。",
+        "glow": {
+          "color": "#ffffff",
+          "period": 0.5
+        }
+      },
+      "venomous": {
+        "name": "猛毒",
+        "description": "猛毒附魔的武器可以施加延迟却致命的中毒效果，其每次触发都会使毒性更猛烈。",
+        "glow": {
+          "color": "#4400aa",
+          "period": 1
+        }
+      },
+      "blocking": {
+        "name": "招架",
+        "description": "招架附魔的武器在攻击后有几率短暂为你提供保护。",
+        "glow": {
+          "color": "#0000ff",
+          "period": 1
+        }
+      },
+      "blooming": {
+        "name": "繁茂",
+        "description": "繁茂武器具有催生植物的魔力，在攻击目标时能使目标或周围的植被发芽生长。",
+        "glow": {
+          "color": "#008800",
+          "period": 1
+        }
+      },
+      "elastic": {
+        "name": "弹性",
+        "description": "弹性武器在攻击时有几率把敌人击退较短的距离。",
+        "glow": {
+          "color": "#ff00ff",
+          "period": 1
+        }
+      },
+      "projecting": {
+        "name": "索敌",
+        "description": "这个附魔会使近战武器获得额外的攻击距离。远程武器则能够在瞄准附近目标时穿透墙壁。",
+        "glow": {
+          "color": "#8844cc",
+          "period": 1
+        }
+      },
+      "vorpal": {
+        "name": "锋锐",
+        "description": "锋锐附魔的武器极其致命，其干净利落的攻击有概率对可流血的敌人施加流血效果而非造成直接伤害。",
+        "glow": {
+          "color": "#aa6666",
+          "period": 1
+        }
+      },
+      "crystal": {
+        "name": "魔晶",
+        "description": "魔晶附魔会造成额外魔法伤害。近战武器命中5次后碎裂，未命中不消耗，也不会自行修复；投掷武器不使用额外的魔晶耐久。",
+        "glow": {
+          "color": "#0088ff",
+          "period": 1
+        }
+      },
+      "grim": {
+        "name": "死神",
+        "description": "这个强力的附魔拥有瞬间斩杀敌人的力量。敌人越弱，附魔的触发几率越大。",
+        "glow": {
+          "color": "#000000",
+          "period": 1
+        }
+      },
+      "vampiric": {
+        "name": "血饮",
+        "description": "这个强力的附魔能在攻击敌人时吸取其生命能量并恢复使用者的生命。当使用者生命较少时效果更强。",
+        "glow": {
+          "color": "#660022",
+          "period": 1
+        }
+      }
+    },
+    "armor": {
+      "swiftness": {
+        "name": "迅捷",
+        "description": "这个刻印会在近范围内没有敌人时提高使用者的移动速度。",
+        "glow": {
+          "color": "#ffff00",
+          "period": 1
+        }
+      },
+      "viscosity": {
+        "name": "粘稠",
+        "description": "这个刻印可以储存对使用者造成的伤害，让使用者缓慢受伤而不是一下子受到重击。",
+        "glow": {
+          "color": "#8844cc",
+          "period": 1
+        }
+      },
+      "potential": {
+        "name": "电势",
+        "description": "这个刻印在被击中时会积蓄能量，在生效时为使用者的法杖充能。",
+        "glow": {
+          "color": "#ffffff",
+          "period": 0.6
+        }
+      },
+      "brimstone": {
+        "name": "狱火",
+        "description": "这个刻印会保护穿戴者和其所有物免受火焰的伤害及其他影响。",
+        "glow": {
+          "color": "#ff4400",
+          "period": 1
+        }
+      },
+      "stone": {
+        "name": "磐岩",
+        "description": "这个刻印使用沉重的魔法石包裹了整个铠甲让使用者无法闪避，但会根据原有的闪避能力吸收伤害。",
+        "glow": {
+          "color": "#222222",
+          "period": 1
+        }
+      },
+      "entanglement": {
+        "name": "缠绕",
+        "description": "这个刻印会在使用者周围生出能吸收伤害的地根护甲。这种地根护甲会在使用者移动后散落失效。",
+        "glow": {
+          "color": "#663300",
+          "period": 1
+        }
+      },
+      "repulsion": {
+        "name": "反斥",
+        "description": "这个刻印会将敌人攻击的冲击力反弹回去，使攻击者飞至远处。",
+        "glow": {
+          "color": "#ffffff",
+          "period": 1
+        }
+      },
+      "camouflage": {
+        "name": "迷彩",
+        "description": "这个刻印能让使用者与高草融为一体，得到短暂的隐形效果。",
+        "glow": {
+          "color": "#448822",
+          "period": 1
+        }
+      },
+      "flow": {
+        "name": "涌流",
+        "description": "这个刻印能操控使用者周身的水流，让使用者在水中移动时速度大大加快。",
+        "glow": {
+          "color": "#0000ff",
+          "period": 1
+        }
+      },
+      "affection": {
+        "name": "魅惑",
+        "description": "这个强力的刻印能够操控攻击者的心智，暂时地魅惑他们。",
+        "glow": {
+          "color": "#ff4488",
+          "period": 1
+        }
+      },
+      "antimagic": {
+        "name": "敌法",
+        "description": "这个强力的刻印能使护甲在防御物理伤害的同时抵御魔法伤害。这种魔法防御不受护甲等阶影响。",
+        "glow": {
+          "color": "#88eeff",
+          "period": 1
+        }
+      },
+      "thorns": {
+        "name": "荆棘",
+        "description": "这个强力的刻印会伤害那些攻击穿戴者的敌人，使它们缓慢流血。",
+        "glow": {
+          "color": "#660022",
+          "period": 1
+        }
+      }
+    }
+  },
+  "pools": {
+    "weapon": [
+      [
+        "blazing",
+        "chilling",
+        "shocking",
+        "venomous"
+      ],
+      [
+        "blocking",
+        "blooming",
+        "elastic",
+        "projecting",
+        "vorpal"
+      ],
+      [
+        "crystal",
+        "grim",
+        "vampiric"
+      ]
+    ],
+    "armor": [
+      [
+        "swiftness",
+        "viscosity",
+        "potential"
+      ],
+      [
+        "brimstone",
+        "stone",
+        "entanglement",
+        "repulsion",
+        "camouflage",
+        "flow"
+      ],
+      [
+        "affection",
+        "antimagic",
+        "thorns"
+      ]
+    ]
+  },
+  "weights": [
+    50,
+    40,
+    10
+  ],
+  "hashes": {
+    "core/src/main/assets/messages/items/items_zh.properties": "4ac74732c2d08adfde450e22822841235a9736a1e0fbc188118fa944f6371c02",
+    "core/src/main/assets/messages/plants/plants_zh.properties": "b7c0a8a32993d4fcc9134329765a51dd40ec8992d6514f743764598ca0c7af5e",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfAggression.java": "c1543b9f80acaae0ede1af337394ad0935846eec7c140e4acc6ca244b3534fab",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfAugmentation.java": "51572a737b36ebc968874c7c9a77065466a680c9a71192287906c9be2035aed4",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfBlast.java": "1e87792ca539c55a1c671e1ffe5d421139658a405d96a2b1bc3c79af8e41c4ac",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfBlink.java": "dd8ff573f72a699dbc114628ecea7084b784030b158df73dfc8589f0e8ed88da",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfClairvoyance.java": "86ca3c4574b258d07b9994f6ea3925410c0a60b4e35ca915f4c718efa2b3bd86",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfDeepSleep.java": "cd43f7a6d86d4031ba049dcbacbd875fc79aa3c4434fbc4648247acacf07c1a5",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfDetectMagic.java": "e57b059256ba30bc7d53cd9c4e9a14863d77c8e5a5005024fa4ea042a738c90a",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfEnchantment.java": "e3184251d1b1288c9163b7474389393afa9040ac3129bd425435cc0421da2d9e",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfFear.java": "82e3e8a0e6fba3982822c3e87dad0b4b09b5ce1ec50f45bf633c02b6962f15b5",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfFlock.java": "8ae0cf19e3dc02428dc9a75653d67724d62856a29355cc34ab7583bce1c4ee26",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfIntuition.java": "2dfff45760af1951221048ea1598e206bd0e6b8ab1376e9c4e8604e1c11494fb",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/stones/StoneOfShock.java": "f7a29f7254b56d14e0494fa3738ee68d35262f72b4639bf1aa0156a414e26818",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/plants/Rotberry.java": "c1e47fad49bfd8b6b48433b8b58c678e5a7c805293aaa296527aacf45cd0d7d7",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/plants/Firebloom.java": "79fbaf02becd5dc5b1b53bfe914bb1f901ed34a8bf3342614ecee98f970f1884",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/plants/Swiftthistle.java": "174f38d3159b3e03d84f2d1c3fcd1aabcac8cdc43bedc2d6dc24b5d580b38c7d",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/plants/Sungrass.java": "68727c771d7705fbcbf7bd6781d4375c6ae490d8bc88603a68a35f7283b00eab",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/plants/Icecap.java": "497f0ef15f9e5bfaa81800372e57c070ed4faff9820c7d01a14c2ec526d12663",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/plants/Stormvine.java": "52f1742354e1ad2614f8410fd20a782c8a788de1ae2083b2b09641fdc38495a1",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/plants/Sorrowmoss.java": "40153623fd3332103a47422d7023875e07e043a3e3d7923fc62c869fd96ffd54",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/plants/Mageroyal.java": "da803654823df72818fd85ce1bc1f6def634ae6093e69572cbf5c66a14100623",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/plants/Earthroot.java": "20e3cfbd273e921a7b1a3bb19158d9c379191d85bd067a181f72bafd8264887b",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/plants/Starflower.java": "05fc1ca57f60b7a0388bf82a025836cdb7f50c27a22be30e042bbcb379cb4c1b",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/plants/Fadeleaf.java": "8f13def41cc5bc478f74e871041b13e682ebd895cedc0b3908153979dcacc018",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/plants/Blindweed.java": "e2aa7378bce125ca1640e921c0031b8057b59e61d2e735e210eb1ce70a3b70d7",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/Weapon.java": "24d34977e9cee42c0f65508e221f7909c9dcaedd4df9390bd0c6e9c1b4099b27",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Blazing.java": "34418480dbd016c8745189ec1ad539453be3e665b1d5c87a8e61b5d4d6a08075",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Chilling.java": "53609ba0a4e6a2645c404dfae3ef3e6eb50881cc00b500d653606c84e2182ed0",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Shocking.java": "f120eccd4f3c12bb33ba280a6087a0f0e9d54816a570a9666eb11ff4ce3adec8",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Venomous.java": "bd380a3ca6d96ea918750de1d51e6a2969958665612451f93648c0ab08ccb348",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Blocking.java": "4d3835cd9fcf1a80ca0d12b002ee1c0c850729f24f15f2d113b3f7a64ccbba8a",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Blooming.java": "1944bbb175110f2f25158d3dc79d42269ae35d7aa58f0783a4e2f4436f9ceaaf",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Elastic.java": "f44c7957df48ec699d621f4a3fa9786205eb5ae03c494c29a24366385075220b",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Projecting.java": "ad5cc76372e29154c82e1d1199e45e63cc6af5f425be4e2e5e356e6e369e4de6",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Vorpal.java": "888b19ec3c41c63618e605cddc910d36d973da0a0438eb2f6846e0d64cbe4ac1",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Crystal.java": "52844a511a3998c97757b0077d8119b8c674d038ef0288227a8f7d9310386e6c",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Grim.java": "b5d6b67fdc601f1ea872f3e578baaaedb3adc8145b07cf9c2d99b5a09a5a387f",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/weapon/enchantments/Vampiric.java": "a140117a5c27bfbad470bdd2ec48a779245948ff93a2e11c8a95124fdef14b2a",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/Armor.java": "017235fdff9d8073fe3a3c056905f9d9822795b306d68688aa0a8b3ebef0aa4f",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Swiftness.java": "c06760c19c68dc739b5a60674665e9a0fe66d112b992c37dacf3ea5cd2a0a0ad",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Viscosity.java": "8d664a6b1ab6f546e7afe3e0ab763ffb6713bb5874a320ffceca147b061dd4a1",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Potential.java": "4fc766e080d06addb1a28a8d71294d296a891b872da5259f5ef12fb52226354c",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Brimstone.java": "1bc08b0a40fe75c331d392282b23b66e87f8342e17a49a3655b0676f7117a66a",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Stone.java": "7a06e42130ab82587deff2dc80bc19e487dd09b14e5ce0fc1bc5927a11959159",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Entanglement.java": "2602f0d4b3f5ef180fe03358f08ff2752647b8bbdbfa7e569f5084c7d51df59f",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Repulsion.java": "693a8928e729fc4ea39e793664b52479de8f7e156883d39683fd9612aa10f615",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Camouflage.java": "591a3f2657629c8c6c7a826879430b6001aaa9b33818f8eac3b17ac93d51f2a0",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Flow.java": "c1e110c0960108059c0aa3e87f94bee4df43dadfd54e8ecff1f6f5e1d581555e",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Affection.java": "f084cc97130012e8b06edf3406237acccc8eeafd0eba0c316220072f246e1f86",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/AntiMagic.java": "d22f4145b475c99bb2386e2f5a381a6a0dcf7aeca596c7e871091f650282edf2",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/armor/glyphs/Thorns.java": "18d776fd8ceadf3490bb5c089758796aa92d909791564de11d74ae882565fd7e",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/sprites/ItemSprite.java": "2141e73ec11072eb06677e1fdc5e05f4f7e0c9a47bb0c6bd8d5b0c09a7cfb567",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/plants/Plant.java": "e9876090a0f1883d4032ea614f6bedab5bca49487a32f48f2ecb9f4384f284e7",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/tiles/TerrainFeaturesTilemap.java": "dde4238112e6d7afe9997003c28918242e0abe1b012bd909c02d18824325d8bd",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/stones/Runestone.java": "6e58582a25e2eaab4720376b48bc695bb5b7a79b4e30d6e8f179d7cc6b1cd061",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/stones/InventoryStone.java": "f5a55302efca97beeaf6a75dd40ee46b3dafd4035cbaefe3ca71c87d0f37fab0",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/mobs/npcs/Sheep.java": "ed7c77f99ff9edf07f23939b50fa280b2124f48781b00e8d5c478d3d775792b1",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/sprites/SheepSprite.java": "6c90361f82405ff757c0cbda024a5509a0b3eedfde45f0daad10949367ff9b09",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/effects/CheckedCell.java": "2b93ceac383c6b9501accf1da655b1a48562cc992f649f5eecb43753aacd501f",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/effects/Enchanting.java": "4cadb52b85cf1d8c8b2463ba1938ac44857a6968bf7f2bb1d884e52a467fc897",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/effects/particles/LeafParticle.java": "8f49f108f8447717efc3268b36e4e0015e8859c2c1bda71d57de4acd0e7ac808",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/effects/particles/EarthParticle.java": "40d4dbbc164b79d2fcedfb7ffb077ffffcf5e7741ada324697c183499c57fcf1",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/effects/particles/ShaftParticle.java": "fba9aa827af65589f40dba93a2b0c32b532bce377236c9d2b99fad3f4834a42b",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/effects/particles/BlastParticle.java": "4c4555bc87a3b065bcff6ff77172793adab2dc14ea1b41f3701442776d45a742",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/items/bombs/Bomb.java": "e19cac37f9401db0efd26107090de0076a31e3a14b1efbe11ee5673c9d9669ca",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/actors/mobs/DelayedRockFall.java": "5943b8cd8bc8b41d8a080be9658a420e183ac1d4cdda43ee73fb7d76d1424952",
+    "core/src/main/java/com/shatteredpixel/shatteredpixeldungeon/effects/Speck.java": "22b043cee2f37b6f30bdd30c6b569fc60d958b669c96e866ac9333e4584e1b0a",
+    "core/src/main/assets/sprites/sheep.png": "2024a59cdc088d9c3407d9f2197d1fa2aae6cef7bb36dca5ba5b8c29e9a6a5f8",
+    "core/src/main/assets/sounds/plant.mp3": "66da1050fd6ad83e280abf7b9d04aa2c58b89a9912e29dfdfc9706531bf9dc29",
+    "core/src/main/assets/sounds/sheep.mp3": "dde4fdf657301602d297dcb2394ec43790b9c37bb4409fc59435d435a1ce76fa",
+    "core/src/main/assets/sounds/puff.mp3": "2905535d892d1e7c8d89701ea77f78e2eb3144e869c9ab5fe48f82f8cac82e40",
+    "core/src/main/assets/sounds/blast.mp3": "b468515b20b0e499e89fb7027a69beb786e62eae47ffe79f94744dcf9861a510",
+    "core/src/main/assets/sounds/rocks.mp3": "f0e2fa9b3e45222def75e7d0a6538177a8e85cfe364ab4900bba82145f816165"
+  }
+}

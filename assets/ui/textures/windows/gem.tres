@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ui/palettes/claude/chrome.res" id="1_5afrv"]
+
+[resource]
+resource_name = "GEM"
+atlas = ExtResource("1_5afrv")
+region = Rect2(0, 32, 32, 32)
+filter_clip = true

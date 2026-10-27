@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ui/palettes/claude/chrome.res" id="1_ks4rn"]
+
+[resource]
+resource_name = "TAB_SELECTED"
+atlas = ExtResource("1_ks4rn")
+region = Rect2(65, 22, 8, 13)
+filter_clip = true

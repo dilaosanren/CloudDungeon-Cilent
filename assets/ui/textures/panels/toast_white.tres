@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/ui/palettes/claude/chrome.res" id="1_satbk"]
+
+[resource]
+resource_name = "TOAST_WHITE"
+atlas = ExtResource("1_satbk")
+region = Rect2(29, 0, 9, 9)
+filter_clip = true

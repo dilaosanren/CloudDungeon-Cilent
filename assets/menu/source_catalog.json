@@ -1,0 +1,209 @@
+{
+  "version": "SPD 4.0.2",
+  "sheets": {
+    "arch": {
+      "texture": "res://assets/menu/source/archs.png",
+      "frame_width": 333,
+      "frame_height": 100,
+      "weights": [
+        5,
+        5,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sha256": "f77bea3051d65dec13756bc3f3aae4a9021194b2a0e18de7f7721c856e4c5360"
+    },
+    "cluster": {
+      "texture": "res://assets/menu/source/back_clusters.png",
+      "frame_width": 450,
+      "frame_height": 250,
+      "weights": [
+        2,
+        2
+      ],
+      "sha256": "83409d093db387b3a86d8a94c16e8e910e966142b743e720e0d0777c0c74e3b2"
+    },
+    "mid": {
+      "texture": "res://assets/menu/source/mid_mixed.png",
+      "frame_width": 273,
+      "frame_height": 242,
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sha256": "c9f236d23d3ab20587f9a3197a60918f62b83ce6f4a68d38c592f7cb7a8536bb"
+    },
+    "small": {
+      "texture": "res://assets/menu/source/front_small.png",
+      "frame_width": 112,
+      "frame_height": 116,
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "sha256": "2c71ccde97c8594ab1156b34c0abfad8e70daec4e8c78053695ec9559c123293"
+    }
+  },
+  "icons": {
+    "ENTER": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "RANKINGS": [
+      34,
+      0,
+      17,
+      16
+    ],
+    "GOLD": [
+      17,
+      0,
+      17,
+      16
+    ],
+    "CHANGES": [
+      85,
+      0,
+      15,
+      15
+    ],
+    "PREFS": [
+      102,
+      0,
+      14,
+      14
+    ],
+    "SHPX": [
+      119,
+      0,
+      16,
+      16
+    ],
+    "DISPLAY_PORT": [
+      16,
+      16,
+      12,
+      16
+    ],
+    "DISPLAY_LAND": [
+      32,
+      16,
+      16,
+      12
+    ],
+    "AUDIO": [
+      64,
+      16,
+      14,
+      14
+    ],
+    "CHECKED": [
+      64,
+      32,
+      12,
+      12
+    ],
+    "UNCHECKED": [
+      48,
+      32,
+      12,
+      12
+    ],
+    "JOURNAL": [
+      136,
+      0,
+      17,
+      15
+    ],
+    "BADGES": [
+      51,
+      0,
+      16,
+      16
+    ],
+    "CATALOG": [
+      80,
+      48,
+      13,
+      16
+    ],
+    "WARNING": [
+      32,
+      32,
+      14,
+      14
+    ],
+    "BUSY": [
+      8,
+      80,
+      8,
+      8
+    ],
+    "EXIT": [
+      0,
+      16,
+      15,
+      11
+    ]
+  },
+  "source_sha256": {
+    "sounds/gold.mp3": "81b1c39e1932a00d2fdb09a14661f1c1996d42ab078882c7a48f5cd626ef8203",
+    "ui/TitleBackground.java": "d403a54dc8e75bf04db0baf423ebd66d2687a4a99160629f29d10e3d9f8337f6",
+    "ui/StyledButton.java": "58b9db833d786a25e85bacc4492e31094fe21b8dc771a12ae5a363b5a01451da",
+    "ui/Icons.java": "42f93c2f8b627b4cd69094e4c385dbc8292b3054a09b068f59096a34ecea09e5",
+    "scenes/TitleScene.java": "8c9c219fc74fb9fed0bbd9d2d6fb5e09c6269e6b4e94c2b6d3425886090769c7",
+    "scenes/JournalScene.java": "49e5fa923fbef15ce065a739f2ddeeb738ad0c3ecc4aa07f40f546a548a29b92",
+    "windows/WndJournal.java": "e37af37e7e6b6533a203220d67fb57e2626507af43b2fe2349717d024cd67c07",
+    "windows/IconTitle.java": "f9abfda62f277ce6290ab45fa8f12fa29aa70c168a702c4cffeee71a75db96eb",
+    "ui/ExitButton.java": "dbdaa8e24de00d762646d41b20267a56f5a414248cacf06c26dfdc51b10b3dcb",
+    "windows/WndSettings.java": "d2583bcd1affc186039725410ae0091a56315f7c0df77368911c4c1b3918602b",
+    "ui/CheckBox.java": "36a5633a45e907ef29a29a8b926daa169b0477d957f6aebd794b272bb1d96c3f",
+    "ui/OptionSlider.java": "9d6b46d7d5cc367c773c9096c3bb0b243ee37d3897093768228adb9ecd2a8388",
+    "SPDSettings.java": "6833fd057d989628d849c9461f3be3c1640c4b1ef3d100f07d6fc7f4cf6d3b5d",
+    "tiles/GridTileMap.java": "8eacd6ef9305905c7823624265b4b13b60561697bd71fde22b2ac42700496767"
+  }
+}
