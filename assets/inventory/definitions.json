@@ -4240,7 +4240,7 @@
       "default_action": "READ",
       "unknown_description": "这张羊皮纸上写满了难以破译的魔法符文。大声念出来会发生什么？",
       "title": "探地卷轴",
-      "description": "阅读这张卷轴时，一副明晰的景象会刻入你的记忆中，告知你整个楼层的精确布局并揭开所有隐藏的秘密。不过道具位置和生物分布依旧是未知状态。",
+      "description": "阅读后，本局持续显示地图上所有地面升级卷轴的位置。升级卷轴被拾取或销毁后，标记会消失。",
       "type_id": "ScrollOfMagicMapping",
       "stackable": true,
       "metadata": {

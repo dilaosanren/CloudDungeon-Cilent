@@ -41,6 +41,7 @@ func _ready() -> void:
 	add_child(_details)
 	queue_redraw()
 	_sound = AudioStreamPlayer.new()
+	_sound.bus = &"SFX"
 	_sound.stream = preload("res://assets/inventory/click.mp3")
 	_sound.volume_db = -3.1
 	_sound.pitch_scale = 1.2

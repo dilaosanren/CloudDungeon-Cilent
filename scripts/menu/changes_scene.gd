@@ -57,6 +57,7 @@ func _ready() -> void:
 	_scroll.add_child(_content)
 	_content.resized.connect(_queue_layout)
 	_click = AudioStreamPlayer.new()
+	_click.bus = &"SFX"
 	_click.stream = preload("res://assets/inventory/click.mp3")
 	add_child(_click)
 	_build_entries()

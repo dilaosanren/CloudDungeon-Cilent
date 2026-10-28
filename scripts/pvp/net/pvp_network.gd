@@ -6,6 +6,7 @@ signal connection_changed(text: String)
 signal command_finished(result: Dictionary)
 signal server_status_changed
 signal map_submission_result(request_id: int, result: Dictionary)
+signal news_summary_received(result: Dictionary)
 const DEFAULT_PORT := 24567
 const History = preload("res://scripts/menu/battle_history.gd")
 const DEFAULT_TRANSPORT := "enet"
@@ -78,6 +79,12 @@ func request_map_submissions(request: Dictionary) -> int:
 func request_battle_history(index: int = 0) -> int:
 	return request_map_submissions({"op":"battle_history", "index":index})
 
+func request_news(revision: String = "") -> int:
+	return request_map_submissions({"op":"news", "revision":revision})
+
+func request_news_summary() -> int:
+	return request_map_submissions({"op":"news_watch"})
+
 @rpc("any_peer", "call_remote", "reliable", 2)
 func _map_submission_request(protocol: int, version: String, request_id: int, request: Dictionary) -> void:
 	pass # Protocol declaration only; this client never handles server requests.
@@ -86,6 +93,10 @@ func _map_submission_request(protocol: int, version: String, request_id: int, re
 func _map_submission_reply(request_id: int, result: Dictionary) -> void:
 	if server_mode: return
 	_last_server_message = Time.get_ticks_msec()
+	if result.get("op") == "news_summary":
+		news_summary_received.emit(result)
+		return
+	if request_id == 0: return
 	map_submission_result.emit(request_id,result)
 
 ## Promote the existing menu connection to a match seat; never reconnect here.

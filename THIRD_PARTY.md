@@ -1,5 +1,9 @@
 # Shattered Pixel Dungeon resources and rendering rules
 
+The background tracks `assets/audio/theme.ogg` and `assets/audio/game.ogg`
+were supplied by the project owner as `Theme.ogg` and `Game.ogg` in the workspace
+on 2026-10-28. They are separate from the upstream sound effects described here.
+
 The PNG files in `assets/environment/` are copied unchanged from the supplied
 Shattered Pixel Dungeon 4.0.2 source tree (`core/src/main/assets/environment/`).
 The rendering rules in `scripts/dungeon_map.gd` and terrain IDs in

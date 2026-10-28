@@ -32,6 +32,7 @@ func _ready() -> void:
 	close_button.tooltip_text = L10n.text("取消瞄准（Esc）")
 	add_child(close_button)
 	_sound = AudioStreamPlayer.new()
+	_sound.bus = &"SFX"
 	_sound.stream = preload("res://assets/inventory/click.mp3")
 	add_child(_sound)
 	close_button.button_down.connect(func():

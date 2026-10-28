@@ -86,6 +86,7 @@ func sound(name: String, pitch: float = 1.0) -> void:
 	var path := "res://assets/wands/source/%s.mp3" % name
 	if not ResourceLoader.exists(path): return
 	var player := AudioStreamPlayer.new()
+	player.bus = &"SFX"
 	player.stream = load(path)
 	player.pitch_scale = pitch
 	player.volume_db = 0

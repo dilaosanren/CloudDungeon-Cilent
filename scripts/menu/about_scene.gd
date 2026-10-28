@@ -3,6 +3,7 @@ extends Control
 
 const L10n = preload("res://scripts/menu/game_locale.gd")
 const CreditBlock = preload("res://scripts/menu/about_credit_block.gd")
+const PROJECT_SOURCE_URL := "https://github.com/dilaosanren/CloudDungeon-Cilent"
 const ZH := {
 	"shpx": {"title":"破碎的像素地牢", "body":"开发者：_Evan Debenham_\n基于 Pixel Dungeon 的开源代码"},
 	"aleks": {"title":"主视觉与地牢美术："},
@@ -65,6 +66,7 @@ func _ready() -> void:
 	_content.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	_scroll.add_child(_content)
 	_click = AudioStreamPlayer.new()
+	_click.bus = &"SFX"
 	_click.stream = preload("res://assets/inventory/click.mp3")
 	add_child(_click)
 	_back_button = Button.new()
@@ -99,7 +101,8 @@ func _build_credits() -> void:
 	var version := str(ProjectSettings.get_setting("application/config/version", ""))
 	var game_name := str(ProjectSettings.get_setting("application/config/name", "Cloud Dungeon"))
 	_add_block("project", {"large":true, "color":"d97757", "title":game_name + "  v" + version,
-		"body": "双人回合制 PvP 地牢 · Godot\n基于破碎的像素地牢 4.0.2\n以下为原版作者与贡献者鸣谢。" if not L10n.is_english() else "Turn-based PvP dungeon · Godot\nBased on Shattered Pixel Dungeon 4.0.2\nOriginal game credits follow."})
+		"body": "双人回合制 PvP 地牢 · Godot\n基于破碎的像素地牢 4.0.2\n以下为原版作者与贡献者鸣谢。\n\n项目开源地址：" if not L10n.is_english() else "Turn-based PvP dungeon · Godot\nBased on Shattered Pixel Dungeon 4.0.2\nOriginal game credits follow.\n\nProject source:",
+		"link_text":PROJECT_SOURCE_URL,"link_url":PROJECT_SOURCE_URL})
 	for original in _catalog.blocks:
 		var data: Dictionary = original.duplicate(true)
 		if not L10n.is_english():

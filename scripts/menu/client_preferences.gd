@@ -12,6 +12,7 @@ const DEFAULTS := {
 	"brightness": 0,
 	"visual_grid": 0,
 	"sfx_volume": 10,
+	"music_volume": 5,
 	"sfx_enabled": true,
 	"language": "zh",
 	"player_name": "",
@@ -63,7 +64,7 @@ func set_value(key: StringName, selected: Variant) -> void:
 	if _values[name] == next: return
 	_values[name] = next
 	if name == "fullscreen": _apply_window()
-	if name in ["sfx_volume", "sfx_enabled"]: _apply_audio()
+	if name in ["sfx_volume", "sfx_enabled", "music_volume"]: _apply_audio()
 	if name == "language": L10n.set_language(str(next))
 	changed.emit(key)
 	var config := ConfigFile.new()
@@ -75,7 +76,7 @@ func _validated(key: String, selected: Variant) -> Variant:
 	match key:
 		"brightness": return clampi(int(selected), -1, 1)
 		"visual_grid": return clampi(int(selected), -1, 2)
-		"sfx_volume": return clampi(int(selected), 0, 10)
+		"sfx_volume", "music_volume": return clampi(int(selected), 0, 10)
 		"language": return "en" if str(selected) == "en" else "zh"
 		"player_name": return str(selected).left(16)
 		_: return bool(selected)
@@ -89,8 +90,10 @@ func _apply_window() -> void:
 		window.mode = Window.MODE_WINDOWED
 
 func _apply_audio() -> void:
-	# Existing project audio consists entirely of SFX routed to Master.
-	# SPD's Sample volume curve is value * value / 100, not a linear slider.
-	var volume := float(_values.sfx_volume)
-	AudioServer.set_bus_volume_db(0, linear_to_db(maxf(0.000001, volume * volume / 100.0)))
-	AudioServer.set_bus_mute(0, not bool(_values.sfx_enabled) or volume == 0)
+	# Keep the original quadratic volume curve, with independent bus controls.
+	for spec in [["SFX", "sfx_volume"], ["Music", "music_volume"]]:
+		var index := AudioServer.get_bus_index(spec[0])
+		if index < 0: continue
+		var volume := float(_values[spec[1]])
+		AudioServer.set_bus_volume_db(index, linear_to_db(maxf(0.000001, volume * volume / 100.0)))
+		AudioServer.set_bus_mute(index, volume == 0 or spec[0] == "SFX" and not bool(_values.sfx_enabled))

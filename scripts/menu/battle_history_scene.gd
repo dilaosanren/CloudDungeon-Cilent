@@ -67,6 +67,7 @@ func _ready() -> void:
 	_note = _label(_canvas, L10n.text("记录保存在本机"), 6, Color("aaaaaa"))
 	_note.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	_click = AudioStreamPlayer.new()
+	_click.bus = &"SFX"
 	_click.stream = preload("res://assets/inventory/click.mp3")
 	add_child(_click)
 	_records = History.records()

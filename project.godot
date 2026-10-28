@@ -11,20 +11,26 @@ config_version=5
 [application]
 
 config/name="Cloud Dungeon"
-config/version="0.0.8"
+config/version="0.0.9"
 run/main_scene="res://scenes/startup.tscn"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 run/flush_stdout_on_print=true
 run/max_fps=60
-boot_splash/show_image=false
 boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/show_image=false
 config/icon="res://icon.svg"
+
+[audio]
+
+buses/default_bus_layout="res://assets/audio/default_bus_layout.tres"
 
 [autoload]
 
 ClientPrefs="*res://scripts/menu/client_preferences.gd"
+Music="*res://scripts/menu/background_music.gd"
 BattleEntry="*res://scripts/menu/battle_entry.gd"
 PvpNet="*res://scripts/pvp/net/pvp_network.gd"
+News="*res://scripts/menu/news_client.gd"
 
 [display]
 

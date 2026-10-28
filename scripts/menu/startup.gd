@@ -58,6 +58,7 @@ func _begin_loading() -> void:
 	retry_button.hide()
 	warrior.play(&"run")
 	_settle_frames = 0
+	Music.prepare()
 	PvpNet.monitor_server()
 	if BattleEntry.failed: BattleEntry.retry()
 	elif not "--no-battle-prewarm" in OS.get_cmdline_user_args(): BattleEntry.prepare()

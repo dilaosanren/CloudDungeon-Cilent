@@ -10,6 +10,7 @@ const SETTINGS_WINDOW_PATH := "res://scripts/menu/settings_window.gd"
 const DonationWindow = preload("res://scripts/menu/donation_window.gd")
 const ENTRIES := [
 	["battle", "对战", "ENTER"],
+	["news", "新闻", "NEWS"],
 	["history", "对战记录", "RANKINGS"],
 	["donate", "捐献", "GOLD"],
 	["changes", "改动", "CHANGES"],
@@ -22,6 +23,7 @@ const BUTTON_HEIGHT := 20.0
 # Other entries can be connected as their features are completed.
 @export var destinations: Dictionary[String, String] = {
 	"battle": "res://scenes/pvp/client.tscn",
+	"news": "res://scenes/news.tscn",
 	"history": "res://scenes/battle_history.tscn",
 	"changes": "res://scenes/changes.tscn",
 	"journal": "res://scenes/journal.tscn",
@@ -39,6 +41,7 @@ var _settings_open := false
 var _entering_battle := false
 var _startup_loading := false
 var startup_ready := false
+var _news_age := 0.0
 
 func _ready() -> void:
 	_startup_loading = has_meta("startup")
@@ -76,14 +79,17 @@ func _ready() -> void:
 	UiAssets.apply_text_outline(_version_label)
 	interface.add_child(_version_label)
 	PvpNet.server_status_changed.connect(_refresh_server_status)
+	News.changed.connect(_refresh_news)
 	if not _startup_loading: PvpNet.monitor_server()
 	_refresh_server_status()
 	get_viewport().size_changed.connect(_layout)
 	_layout()
 	startup_ready = true
+	if not _startup_loading: Music.play_theme()
 
 func activate_startup() -> void:
 	_startup_loading = false
+	Music.play_theme()
 	process_mode = Node.PROCESS_MODE_INHERIT
 	PvpNet.monitor_server()
 	_refresh_server_status()
@@ -129,6 +135,24 @@ func _refresh_buttons() -> void:
 	buttons.journal.caption_view.auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
 	buttons.journal.caption_view.text = L10n.text("日志")
 	buttons.journal.tooltip_text = L10n.text("日志")
+	_refresh_news()
+
+func _refresh_news() -> void:
+	if not buttons.has("news"): return
+	var count := News.unread_count()
+	buttons.news.caption_view.auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
+	buttons.news.caption_view.text = L10n.text("新闻") + ("(%d)" % mini(9,count) if count > 0 else "")
+	buttons.news.tooltip_text = L10n.text("新闻")
+	if count == 0:
+		_news_age = 0
+		buttons.news.caption_view.add_theme_color_override("font_color",Color.WHITE)
+	buttons.news._layout_content()
+
+func _process(delta: float) -> void:
+	if _startup_loading or not buttons.has("news") or buttons.news.disabled or News.unread_count() == 0: return
+	_news_age += delta
+	# TitleScene.NewsButton: white <-> SHPX green, sin(time * 5).
+	buttons.news.caption_view.add_theme_color_override("font_color",Color.WHITE.lerp(Color("33bb33"),0.5+sin(_news_age*5)/2))
 
 func _notification(what: int) -> void:
 	if what == NOTIFICATION_TRANSLATION_CHANGED: _refresh_server_status()
@@ -203,7 +227,7 @@ func _layout() -> void:
 	var top_region := maxf(title_size.y - 6, dimensions.y * 0.45)
 	var status_height := _server_status.get_minimum_size().y
 	var footer_height := maxf(44, status_height + 8)
-	# Four rows, with enough room for the status and version footer.
+	# Eight buttons in four rows, with the existing font sizes and safe margins.
 	var gap := maxf(2, floorf((dimensions.y - top_region - 4 * BUTTON_HEIGHT - footer_height) / (6 if landscape else 8)))
 	top_region = minf(top_region, dimensions.y - footer_height - 4 * (BUTTON_HEIGHT + gap))
 	title_slot.size = title_size
@@ -212,8 +236,9 @@ func _layout() -> void:
 	var area_width := minf(234 if landscape else 133, dimensions.x - 8)
 	var left := floorf((dimensions.x - area_width) / 2)
 	var top := floorf(top_region + gap)
-	_place(buttons.battle, Rect2(left, top, area_width, BUTTON_HEIGHT))
 	var half := floorf(area_width / 2 - 1)
+	_place(buttons.battle, Rect2(left, top, half, BUTTON_HEIGHT))
+	_place(buttons.news, Rect2(left + half + 2, top, area_width - half - 2, BUTTON_HEIGHT))
 	_place(buttons.history, Rect2(left, top + BUTTON_HEIGHT + gap, half, BUTTON_HEIGHT))
 	_place(buttons.donate, Rect2(left + half + 2, top + BUTTON_HEIGHT + gap, area_width - half - 2, BUTTON_HEIGHT))
 	_place(buttons.changes, Rect2(left, top + 2 * (BUTTON_HEIGHT + gap), half, BUTTON_HEIGHT))

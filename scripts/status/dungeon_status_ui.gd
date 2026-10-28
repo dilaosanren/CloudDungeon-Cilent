@@ -68,6 +68,7 @@ func _ready() -> void:
 	avatar.material = _avatar_material
 	pane.add_child(avatar)
 	_click = AudioStreamPlayer.new()
+	_click.bus = &"SFX"
 	_click.stream = preload("res://assets/inventory/click.mp3")
 	add_child(_click)
 	var portrait_hit := _hit("HeroHit", Rect2(0, 0, 30, 29), _on_hero)

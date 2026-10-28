@@ -337,6 +337,7 @@ func _play_footstep(at: Vector2i) -> void:
 	_footsteps.erase(at)
 	if sound_name.is_empty() or not is_visible_in_tree() or DisplayServer.get_name() == "headless": return
 	var player := AudioStreamPlayer.new()
+	player.bus = &"SFX"
 	player.stream = FOOTSTEPS[sound_name]
 	# Hero.move's pitch variation is cosmetic and never advances the rules RNG.
 	player.pitch_scale = randf_range(0.8, 1.25) if sound_name == "water" else randf_range(0.96, 1.05)

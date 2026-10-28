@@ -3,6 +3,12 @@
 `pixel_font.ttf` is the unchanged Shattered Pixel Dungeon font for Latin text and
 numbers. See the project's `THIRD_PARTY.md` and `LICENSE-SPD.txt`.
 
+The shared UI renders Latin/numerals from this same font using a 96px MSDF
+atlas with a 32px distance range. This avoids enlarging tiny raster glyphs when
+menus or the device viewport scale, including fractional zoom. UI point sizes
+and the 4px outline setting are unchanged. Native-sized rich text and combat
+floating text retain their separate raster paths; bitmap counters are unchanged.
+
 `droid_sans.ttf` is the unchanged Droid Sans Fallback font used by the supplied
 Shattered Pixel Dungeon 4.0.2 desktop build:
 

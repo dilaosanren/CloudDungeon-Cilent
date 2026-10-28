@@ -1,6 +1,8 @@
 # Local journal demonstrations using real ScrollWorld rules and SPD effects.
 extends "res://scripts/menu/potion_sandbox.gd"
 const StatueSprite = preload("res://scripts/menu/equipment_statue_sprite.gd")
+const UpgradeSense = preload("res://scripts/scrolls/upgrade_scroll_sense.gd")
+const UpgradeMarkers = preload("res://scripts/scrolls/upgrade_scroll_markers.gd")
 
 class PreviewWorld extends MeleeWorld:
 	var disarm_inventory: DungeonInventory
@@ -77,6 +79,8 @@ var zaps_completed := 0
 var mirror_attacks := 0
 var drop_count := 0
 var teleport_cells: Array[int] = []
+var upgrade_ground: Dictionary = {}
+var upgrade_markers: UpgradeMarkers
 
 func _make_world() -> PotionWorld:
 	return PreviewWorld.new()
@@ -94,6 +98,21 @@ func _reset_scene(next_mode: String) -> void:
 	dropped_weapon = null
 	super._reset_scene(next_mode)
 	rules = world as PreviewWorld
+	if upgrade_markers == null:
+		upgrade_markers = UpgradeMarkers.new()
+		map.add_child(upgrade_markers)
+	upgrade_markers.clear()
+	upgrade_ground.clear()
+	map.auto_refresh_visibility = false
+	map.set_fog_enabled(item.type_id == "ScrollOfMagicMapping")
+	if item.type_id == "ScrollOfMagicMapping":
+		# Two scrolls beyond the explored side of the small demonstration map.
+		for at in [Vector2i(4, 1), Vector2i(4, 3)]:
+			upgrade_ground[rules.level.cell_id(at)] = [InventoryCatalog.create("ScrollOfUpgrade")]
+		for cell in map.visibility_state.visible.size():
+			map.visibility_state.visible[cell] = int(cell % GRID_SIZE.x < 2)
+		map.visibility_state.visited = map.visibility_state.visible.duplicate()
+		map.visibility_state.changed.emit()
 	# Vary only the local preview seed, allowing repeated teleports to differ.
 	rules.rng.randomize()
 	rat.max_hp = 1000000
@@ -125,7 +144,7 @@ func _reset_scene(next_mode: String) -> void:
 		rules.disarm_inventory = target_inventory
 		rules.disarm_target = rat
 		target_inventory.dropped.connect(_weapon_dropped)
-	rat_sprite.visible = item.type_id not in ["ScrollOfTeleportation", "ScrollOfTransmutation", "ScrollOfUpgrade"]
+	rat_sprite.visible = item.type_id not in ["ScrollOfTeleportation", "ScrollOfTransmutation", "ScrollOfUpgrade", "ScrollOfMagicMapping"]
 	if item.type_id in ["ScrollOfTransmutation", "ScrollOfUpgrade", "ScrollOfRecharging"]: _show_selected()
 
 func _start_cycle() -> void:
@@ -162,6 +181,7 @@ func _execute(step: Dictionary) -> void:
 			hero_sprite.face_cell(rat_sprite.cell)
 			hero_sprite.play_action(&"read")
 			rules.apply_scroll(item, warrior, selected_item)
+			if item.type_id == "ScrollOfMagicMapping": _sync_upgrade_markers()
 			if item.type_id not in ["ScrollOfLullaby", "ScrollOfRetribution"]: effects.sound("read")
 			if item.type_id == "ScrollOfTransmutation": selected_item = owned_inventory.equipment.weapon
 			if item.type_id in ["ScrollOfUpgrade", "ScrollOfRecharging"]: _show_selected()
@@ -178,6 +198,9 @@ func _execute(step: Dictionary) -> void:
 			rules.events.clear()
 			rules.environment.events.clear()
 		"zap": _zap()
+
+func _sync_upgrade_markers() -> void:
+	upgrade_markers.sync(UpgradeSense.cells_for(warrior, upgrade_ground), vision, -Vector2i.ONE)
 
 func _show_selected() -> void:
 	var view := effects as LocalScrollEffects

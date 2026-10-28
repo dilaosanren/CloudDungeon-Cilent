@@ -7,7 +7,7 @@ const EXCLUDED := [
 	"PotionOfStrength", "PotionOfExperience", "ScrollOfIdentify", "ScrollOfRemoveCurse",
 	"StoneOfAggression", "StoneOfDetectMagic", "StoneOfIntuition", "ScrollOfRage",
 	"StoneOfDeepSleep", "StoneOfFear",
-	"ScrollOfMagicMapping", "StoneOfClairvoyance",
+	"StoneOfClairvoyance",
 ]
 
 static func allowed(type_id: String) -> bool:

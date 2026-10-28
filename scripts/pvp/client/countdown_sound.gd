@@ -4,6 +4,7 @@ const CLICK: AudioStream = preload("res://assets/inventory/click.mp3")
 var seconds := -1
 
 func _ready() -> void:
+	bus = &"SFX"
 	stream = CLICK
 	volume_db = 0.0
 
@@ -18,5 +19,5 @@ func set_seconds(value: int) -> void:
 		stop()
 		return
 	pitch_scale = 1.5 if seconds % 2 == 0 else 0.9
-	# The Master SFX bus applies the existing volume/mute preferences.
+	# The SFX bus applies the existing volume/mute preferences.
 	if DisplayServer.get_name() != "headless": play()

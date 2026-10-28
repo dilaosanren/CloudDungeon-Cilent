@@ -9,7 +9,6 @@ static var _theme: Theme
 static var _pixel_font: FontFile
 static var _mixed_font: FontFile
 static var _ui_font: FontVariation
-static var _scaled_fonts: Dictionary = {}
 static var _native_ui_font: FontVariation
 const UI_FONT = preload("res://assets/ui/themes/ui_font.tres")
 # Twice the previous size 2 stroke; the font's SDF range also accommodates it.
@@ -21,34 +20,29 @@ static func get_font() -> Font:
 	if _ui_font == null:
 		# Separate from combat text's native raster settings and glyph checks.
 		_mixed_font = get_pixel_font().duplicate()
-		# Binary pixel edges avoid gray fringes; retain the raster density needed
-		# by 2x menus so narrow strokes and spaces are not lost at small sizes.
-		_mixed_font.antialiasing = TextServer.FONT_ANTIALIASING_NONE
-		_mixed_font.oversampling = 2.0
+		# Use the same outlines at every UI/device scale, rather than stretching
+		# a small glyph bitmap. This changes rendering only, never point sizes.
+		_mixed_font.multichannel_signed_distance_field = true
+		_mixed_font.msdf_size = 96
+		_mixed_font.msdf_pixel_range = 32
+		_mixed_font.antialiasing = TextServer.FONT_ANTIALIASING_GRAY
 		_mixed_font.fallbacks = [UI_FONT]
 		_ui_font = FontVariation.new()
 		_ui_font.base_font = _mixed_font
 	return _ui_font
 
-## PixelScene.renderTextBlock rasterizes at the final UI/device pixel size.
-## Control.scale is not included in FontFile's fixed oversampling factor.
-static func get_font_at_scale(scale: float) -> Font:
-	var density := clampi(ceili(scale), 2, 8)
-	if density == 2: return get_font()
-	if not _scaled_fonts.has(density):
-		get_font()
-		var raster: FontFile = _mixed_font.duplicate()
-		raster.oversampling = float(density)
-		var font := FontVariation.new()
-		font.base_font = raster
-		_scaled_fonts[density] = font
-	return _scaled_fonts[density]
+## Distance fields stay sharp at fractional UI zoom and device pixel ratios.
+static func get_font_at_scale(_scale: float) -> Font:
+	return get_font()
 
 ## Used when a text control already draws one font pixel per device pixel.
 static func get_native_ui_font() -> Font:
 	if _native_ui_font == null:
 		get_font()
 		var raster: FontFile = _mixed_font.duplicate()
+		# These controls already rasterize at their physical screen size.
+		raster.multichannel_signed_distance_field = false
+		raster.antialiasing = TextServer.FONT_ANTIALIASING_NONE
 		raster.oversampling = 1.0
 		# Native-sized text needs a native-sized CJK outline as well. An MSDF
 		# fallback uses its atlas-distance scale and makes this border too thin.

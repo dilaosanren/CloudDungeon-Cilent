@@ -38,6 +38,7 @@ func _ready() -> void:
 	_canvas.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
 	add_child(_canvas)
 	_click = AudioStreamPlayer.new()
+	_click.bus = &"SFX"
 	_click.stream = preload("res://assets/inventory/click.mp3")
 	add_child(_click)
 	_heading_icon = _icon(_canvas,"JOURNAL")

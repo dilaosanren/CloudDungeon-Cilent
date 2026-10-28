@@ -77,6 +77,7 @@ func _ready() -> void:
 		tab.pressed.connect(func(): _click.play(); _select_tab(i))
 		_tabs.append(tab)
 	_click = AudioStreamPlayer.new()
+	_click.bus = &"SFX"
 	_click.stream = preload("res://assets/inventory/click.mp3")
 	add_child(_click)
 	ClientPrefs.save_finished.connect(_saved)
@@ -96,9 +97,10 @@ func _build_display(page: Control) -> void:
 	_label(page, "亮度与网格设置在地牢中生效。", Rect2(0, top + 69, 142, 20), 7, Color("bbbbbb"))
 
 func _build_audio(page: Control) -> void:
-	_slider(page, "音效音量", "0", "10", Rect2(0, 0, 142, 29), &"sfx_volume", 0, 10)
-	_checkbox(page, "关闭音效", Rect2(0, 34, 142, 20), &"sfx_enabled", true)
-	_label(page, "包括脚步、攻击、物品和界面音效。", Rect2(0, 62, 142, 30), 7, Color("bbbbbb"))
+	_slider(page, "音乐音量", "0", "10", Rect2(0, 0, 142, 29), &"music_volume", 0, 10)
+	_slider(page, "音效音量", "0", "10", Rect2(0, 34, 142, 29), &"sfx_volume", 0, 10)
+	_checkbox(page, "关闭音效", Rect2(0, 68, 142, 20), &"sfx_enabled", true)
+	_label(page, "音乐调至0可静音，音效单独控制。", Rect2(0, 92, 142, 24), 7, Color("bbbbbb"))
 
 func _build_language(page: Control) -> void:
 	_label(page, "选择界面语言", Rect2(0, 0, 142, 18), 9, Color("ffff44"))

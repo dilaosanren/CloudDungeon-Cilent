@@ -87,7 +87,7 @@ func _catalog(screen: Control) -> void:
 	_expect(catalog._groups.size()==11,"Equipment, potions, separate exotic potions, enchantments and glyphs are listed")
 	_expect(Rect2(Vector2.ZERO,screen._pages[Journal.EQUIPMENT_TAB].size).encloses(catalog.get_rect()),"The equipment catalog fits below its page heading")
 	_expect(catalog.position.y>=screen._page_headings[Journal.EQUIPMENT_TAB].get_rect().end.y,"Catalog does not overlap its page heading")
-	var expected_counts := [31,5,15,10,10,8,12,6,10,12,12]
+	var expected_counts := [31,5,15,10,10,9,12,6,10,12,12]
 	var categories := ["weapon","armor","missile","wand","potion","scroll","seed","stone","exotic_potion","enchantment","glyph"]
 	var titles := ["近战武器","护甲","投掷武器","法杖","药剂","卷轴","种子","符石","合剂","武器附魔","护甲刻印"]
 	_expect(preload("res://scripts/pvp/item_availability.gd").filter_types(PotionWorld.TYPES).size()==20,"Journal grouping preserves all twenty available potions")
@@ -112,7 +112,7 @@ func _catalog(screen: Control) -> void:
 		elif categories[index]=="exotic_potion":
 			expected = ["PotionOfSnapFreeze","PotionOfStamina","PotionOfShielding","PotionOfShroudingFog","PotionOfStormClouds","PotionOfDragonsBreath","PotionOfEarthenArmor","PotionOfCleansing","PotionOfCorrosiveGas","PotionOfMagicalSight"]
 		elif categories[index]=="scroll":
-			expected = ["ScrollOfLullaby","ScrollOfMirrorImage","ScrollOfRecharging","ScrollOfRetribution","ScrollOfTeleportation","ScrollOfTerror","ScrollOfTransmutation","ScrollOfUpgrade"]
+			expected = ["ScrollOfLullaby","ScrollOfMagicMapping","ScrollOfMirrorImage","ScrollOfRecharging","ScrollOfRetribution","ScrollOfTeleportation","ScrollOfTerror","ScrollOfTransmutation","ScrollOfUpgrade"]
 		elif categories[index]=="enchantment":
 			expected = ["Enchantment_blazing","Enchantment_chilling","Enchantment_shocking","Enchantment_venomous","Enchantment_blocking","Enchantment_blooming","Enchantment_elastic","Enchantment_projecting","Enchantment_vorpal","Enchantment_crystal","Enchantment_grim","Enchantment_vampiric"]
 		elif categories[index]=="glyph":

@@ -44,6 +44,7 @@ func _ready() -> void:
 	UiAssets.apply_text_outline(caption_view)
 	add_child(caption_view)
 	_click = AudioStreamPlayer.new()
+	_click.bus = &"SFX"
 	_click.stream = preload("res://assets/inventory/click.mp3")
 	add_child(_click)
 	button_down.connect(func(): _click.play())

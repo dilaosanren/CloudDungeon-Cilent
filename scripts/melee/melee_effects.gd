@@ -42,4 +42,5 @@ func sound(name: String, pitch: float = 1.0) -> void:
 	if not ResourceLoader.exists(path): super.sound(name, pitch); return
 	if not sound_enabled or not is_inside_tree() or DisplayServer.get_name() == "headless": return
 	var player := AudioStreamPlayer.new(); player.stream = load(path); player.pitch_scale = pitch
+	player.bus = &"SFX"
 	add_child(player); player.finished.connect(player.queue_free); player.play()

@@ -200,6 +200,7 @@ func _build_toolbar() -> void:
 func play_pickup_sound(dew: bool = false) -> void:
 	if not is_inside_tree() or DisplayServer.get_name() == "headless": return
 	var player := AudioStreamPlayer.new()
+	player.bus = &"SFX"
 	player.stream = load("res://assets/inventory/dewdrop.mp3" if dew else "res://assets/inventory/item.mp3")
 	add_child(player)
 	player.finished.connect(player.queue_free)

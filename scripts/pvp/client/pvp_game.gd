@@ -17,6 +17,7 @@ const TickSound = preload("res://scripts/pvp/client/countdown_sound.gd")
 const PressHighlight = preload("res://scripts/pvp/client/cell_press_highlight.gd")
 const ArenaWarning = preload("res://scripts/pvp/client/arena_warning.gd")
 const ArenaRockfall = preload("res://scripts/pvp/client/arena_rockfall.gd")
+const UpgradeScrollMarkers = preload("res://scripts/scrolls/upgrade_scroll_markers.gd")
 const TurnIndicator = preload("res://scripts/status/turn_indicator.gd")
 const BattleActions = preload("res://scripts/pvp/client/battle_actions.gd")
 const HERO_NAMES := ["战士", "法师", "盗贼", "女猎手", "决斗家", "牧师"]
@@ -71,6 +72,7 @@ var dungeon: DungeonMap
 var _press_highlight: PressHighlight
 var _arena_warning: ArenaWarning
 var _arena_rockfall: ArenaRockfall
+var _upgrade_scroll_markers: UpgradeScrollMarkers
 var map_gestures: MapGestures
 var visual := PvpVisualWorld.new()
 var effects: NatureEffects
@@ -93,9 +95,13 @@ var _push_events: Dictionary = {} # Actor id -> events held until a push or pre-
 var _finish_pending := false
 var _finish_reason := ""
 const FINISH_STALL_SECONDS := 2.0
+const FINISH_MAX_WAIT_SECONDS := 8.0
+const FINISH_SLOW_ANIMATION_LIMIT := 30.0
 var _terminal_state: Dictionary = {}
 var _finish_stall := 0.0
 var _finish_progress: Array = []
+var _finish_elapsed := 0.0
+var _finish_budget := FINISH_MAX_WAIT_SECONDS
 var current: Dictionary = {}
 var _offers_key := ""
 var _inventory_key := ""
@@ -133,6 +139,7 @@ func _ready() -> void:
 		_layout()
 		_prewarm_finished = true
 		return
+	Music.play_theme()
 	PvpNet.state_received.connect(_state)
 	PvpNet.notice.connect(_notice)
 	PvpNet.connection_changed.connect(_connection)
@@ -187,6 +194,8 @@ func _build(staged: bool = false) -> void:
 	dungeon.add_child(_arena_warning)
 	_arena_rockfall = ArenaRockfall.new()
 	dungeon.add_child(_arena_rockfall)
+	_upgrade_scroll_markers = UpgradeScrollMarkers.new()
+	dungeon.add_child(_upgrade_scroll_markers)
 	var canvas := CanvasLayer.new()
 	canvas.layer = 30
 	add_child(canvas)
@@ -602,6 +611,8 @@ func _state(state_value: Dictionary) -> void:
 	if state_value.get("phase", -1) == PvpProtocol.Phase.FINISHED and _terminal_state.is_empty():
 		_terminal_state = state_value.duplicate(true)
 		_finish_stall = 0.0
+		_finish_elapsed = 0.0
+		_finish_budget = FINISH_MAX_WAIT_SECONDS
 		_finish_progress.clear()
 		if effects != null: effects.finish_actions = true
 	if _finish_pending: return
@@ -720,6 +731,7 @@ func _throw_arrived() -> void:
 func _apply_state(state_value: Dictionary, flights_played: bool = false) -> void:
 	current = state_value
 	if state_value.get("waiting", false):
+		Music.play_theme()
 		_close_draft_item_preview()
 		if state_value.get("private_room", false):
 			room_code_label.text = L10n.text("房间号：%s") % str(state_value.room_code)
@@ -732,6 +744,7 @@ func _apply_state(state_value: Dictionary, flights_played: bool = false) -> void
 			lobby_status.text = L10n.text("已连接，等待第二位玩家加入…")
 		return
 	var phase: int = state_value.phase
+	if phase in [PvpProtocol.Phase.MAP_PREVIEW, PvpProtocol.Phase.DRAFT, PvpProtocol.Phase.BATTLE, PvpProtocol.Phase.FINISHED]: Music.play_game()
 	_notify_match_found(state_value)
 	if phase != PvpProtocol.Phase.DRAFT: _close_draft_item_preview()
 	if phase not in [PvpProtocol.Phase.BATTLE,PvpProtocol.Phase.FINISHED]: _arena_rockfall.clear()
@@ -958,6 +971,7 @@ func _battle_state(value: Dictionary, flights_played: bool = false) -> void:
 			actor.sprite.play_action(&"die")
 	# Register flights before applying their already-resolved ground snapshot.
 	_sync_ground(value.ground)
+	_upgrade_scroll_markers.sync(value.get("upgrade_scroll_cells", []), dungeon.visibility_state)
 	_refresh_examine_actor()
 	if not value.log.is_empty(): report.text = L10n.render_for_match(str(value.log[-1]), value)
 
@@ -1610,7 +1624,13 @@ func _watch_preview() -> void:
 		print("PVP_PREVIEW_SYNC_REQUEST room=%s stale_ms=%d" % [match_id, stale])
 
 func _watch_finish(delta: float) -> void:
+	if _terminal_state.is_empty() and not _ending and not _returning and current.get("phase",-1)==PvpProtocol.Phase.BATTLE:
+		var cached: Dictionary = PvpNet.latest
+		if cached.get("phase",-1)==PvpProtocol.Phase.FINISHED and cached.get("match_id", "")==current.get("match_id", "") and cached.get("seat",-1)==current.get("seat",-2):
+			print("PVP_FINISH_RECOVER_CACHE room=",current.match_id)
+			_state(cached)
 	if _terminal_state.is_empty() or _ending or _returning: return
+	_finish_elapsed += minf(delta,0.25)
 	# Track finite presentation only: idle loops and ambient particles must
 	# never hide a stalled action. Slow actions still reset this every frame.
 	var progress: Array = [_event_sequence, _impact_flights, _push_events.size()]
@@ -1625,6 +1645,14 @@ func _watch_finish(delta: float) -> void:
 		var body: AnimatedSprite2D = sprite.get("body")
 		if body != null and body.sprite_frames != null and body.is_playing() and not body.sprite_frames.get_animation_loop(body.animation):
 			progress.append([body.animation, body.frame, body.frame_progress])
+			# Legitimately slowed one-shot animations can take longer than the
+			# normal deadline. Base the allowance on their finite playback length.
+			var speed := absf(body.get_playing_speed())
+			var fps := body.sprite_frames.get_animation_speed(body.animation)
+			if speed > 0 and fps > 0 and is_finite(speed):
+				var duration := 0.0
+				for index in body.sprite_frames.get_frame_count(body.animation): duration += body.sprite_frames.get_frame_duration(body.animation,index)
+				_finish_budget = maxf(_finish_budget,minf(FINISH_SLOW_ANIMATION_LIMIT,duration/fps/speed+FINISH_STALL_SECONDS))
 		if sprite.get("_fading_out") == true: progress.append(sprite.modulate.a)
 	if effects != null:
 		for key in ["missiles", "beams", "flights", "spells", "flares", "teleports", "transmutations"]:
@@ -1632,6 +1660,11 @@ func _watch_finish(delta: float) -> void:
 		if effects._flash_age < 1: progress.append(effects._flash_age)
 	for emitter in _arena_rockfall.emitters: progress.append([emitter.left, emitter.clock])
 	for particle in _arena_rockfall.particles: progress.append(particle.age)
+	# Changing effect ages are not proof that a completion callback will ever
+	# arrive. This independent budget cannot be reset by a stuck effect loop.
+	if _finish_elapsed >= _finish_budget:
+		_recover_finish("deadline")
+		return
 	if progress != _finish_progress:
 		_finish_progress = progress
 		_finish_stall = 0.0
@@ -1641,15 +1674,17 @@ func _watch_finish(delta: float) -> void:
 	if _finish_stall < FINISH_STALL_SECONDS: return
 	_recover_finish()
 
-func _recover_finish() -> void:
+func _recover_finish(cause: String = "stalled") -> void:
+	if _terminal_state.is_empty() or _ending: return
 	var result := _terminal_state
-	print("PVP_FINISH_RECOVERED match=", result.get("match_id", ""))
+	print("PVP_FINISH_RECOVERED match=%s cause=%s elapsed=%.3f" % [result.get("match_id", ""),cause,_finish_elapsed])
 	_state_queue.clear()
 	_impact_state.clear()
 	_impact_cells.clear()
 	_impact_flights = 0
 	_push_events.clear()
 	_push_eligible.clear()
+	if effects != null: effects.clear()
 	# Reconcile the final HP/positions without replaying old attacks or flights.
 	_event_sequence = int(result.get("event_sequence", _event_sequence))
 	_apply_state(result, true)
@@ -1697,6 +1732,8 @@ func _end(text: String) -> void:
 	_terminal_state = {}
 	_finish_progress.clear()
 	_finish_stall = 0.0
+	_finish_elapsed = 0.0
+	_finish_budget = FINISH_MAX_WAIT_SECONDS
 	reconnect_overlay.hide()
 	arena_preview.hide()
 	draft_map_preview.hide()
@@ -1706,6 +1743,7 @@ func _end(text: String) -> void:
 	map_gestures.reset()
 	_arena_warning.clear()
 	_arena_rockfall.clear()
+	_upgrade_scroll_markers.clear()
 	battle_start_banner.cancel()
 	_examining = false
 	examine_window.close()
@@ -1753,6 +1791,7 @@ func _return_menu() -> void:
 	get_tree().change_scene_to_file("res://scenes/main_menu.tscn")
 
 func _exit_tree() -> void:
+	if not has_meta("prewarm"): Music.play_theme()
 	if _owns_go_back: get_tree().quit_on_go_back = _previous_quit_on_back
 	if _battle_tick != null: _battle_tick.reset()
 	print("PVP_CLIENT_SCENE_EXIT")

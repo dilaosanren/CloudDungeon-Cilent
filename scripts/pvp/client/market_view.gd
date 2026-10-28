@@ -66,6 +66,7 @@ func _ready() -> void:
 	_intro = IntroView.new()
 	intro_layer.add_child(_intro)
 	_gold_sound = AudioStreamPlayer.new()
+	_gold_sound.bus = &"SFX"
 	_gold_sound.stream = GOLD_SOUND
 	_gold_sound.max_polyphony = 4
 	_gold_sound.volume_db = -8

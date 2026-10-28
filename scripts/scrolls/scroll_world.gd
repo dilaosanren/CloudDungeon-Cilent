@@ -54,16 +54,7 @@ func apply_scroll(item: InventoryItem, hero: WandActor, selected: InventoryItem 
 				_emit("scroll_specks", a.cell, {"actor": a, "kind": "note", "interval": 0.3, "count": 5, "center": true})
 			_emit("sound", hero.cell, {"sound": "lullaby"})
 		"ScrollOfMagicMapping":
-			for c in mapped.size():
-				if not discoverable[c]: continue
-				mapped[c] = 1
-				var tile: int = environment.terrain[c]
-				if tile == T.SECRET_DOOR or tile == T.SECRET_TRAP:
-					environment.set_terrain(c, T.DOOR if tile == T.SECRET_DOOR else T.TRAP)
-					if visible[c]:
-						_emit("scroll_specks", c, {"kind": "discover", "interval": 0.1, "count": 4, "center": false})
-						_emit("sound", c, {"sound": "secret"})
-			_emit("mapping", hero.cell)
+			hero.data.upgrade_scroll_sense = true
 			_emit("spell", hero.cell, {"actor": hero, "index": 1, "color": Color.WHITE})
 		"ScrollOfMirrorImage": spawn_images(hero, 2)
 		"ScrollOfRage":
